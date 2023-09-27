@@ -2,7 +2,7 @@
 user-guide-title: Modelador mixto
 breadcrumb-title: Modelador mixto
 user-guide-description: Aprenda a utilizar el modelador mixto.
-source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
+source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 25%
@@ -46,6 +46,13 @@ ht-degree: 25%
 
 + [Casos de uso](use-cases.md)
 
++ Versiones {#releases}
+   + [Última versión](releases/latest.md)
+   + [Versiones de 2023](releases/2023.md)
+   + [Proceso de lanzamiento](releases/releases.md)
+
++ [Glosario](glossary.md)
+
 
 <!-- Admin integration with AEP not part of first release
 
@@ -55,12 +62,3 @@ ht-degree: 25%
   + [Audits](administration/audits.md)
   
 -->
-
-
-+ Versiones {#releases}
-   + [Última versión](releases/latest.md)
-   + [Versiones de 2023](releases/2023.md)
-   + [Proceso de lanzamiento](releases/releases.md)
-
-+ [Glosario](glossary.md)
-
