@@ -1,7 +1,7 @@
 ---
 description: Explica la estrategia de lanzamiento continuo de funcionalidades para el Modelador de mezcla de Adobe
 title: Versiones del Modelador de mezcla de Adobe
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Versiones del Modelador de mezcla de Adobe
 
 Las versiones del Modelador de mezcla de Adobe funcionan con un modelo de entrega continua que permite un enfoque escalable y gradual de la implementación de funcionalidades.
-
 
 <!--
 ## Release strategy
