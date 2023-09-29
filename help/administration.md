@@ -1,10 +1,10 @@
 ---
-title: Comparar planes
-description: Aprenda a comparar planes en el Modelador de mezcla de Adobe.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: Administración
+description: Aprenda a administrar Adobe Mix Modeler.
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,11 @@ Para que Adobe Mix Modeler funcione correctamente, debe establecer los permisos 
 
 En la interfaz de usuario de Adobe Experience Cloud,
 
-1. Seleccionar **[!UICONTROL Permissions]** desde el carril izquierdo debajo **[!UICONTROL ADMINISTRATION]**.
+1. Seleccionar **[!UICONTROL Permissions]** desde el carril izquierdo, debajo de **[!UICONTROL ADMINISTRATION]**.
 
 1. Seleccionar ![Persona](assets/icons/User.svg) **[!UICONTROL Roles]** en el panel izquierdo.
 
-1. Seleccione una función existente o cree una función con **[!UICONTROL Create role]**. Si seleccionó una función existente, seleccione ![Editar](assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar los permisos de la función. Consulte [Administrar funciones](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información.
+1. Seleccione una función existente o cree una función con **[!UICONTROL Create role]**. Si selecciona una función existente, seleccione ![Editar](assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar los permisos de la función. Consulte [Administrar funciones](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información.
 
 1. Asegúrese de seleccionar los siguientes permisos para la función:
 
