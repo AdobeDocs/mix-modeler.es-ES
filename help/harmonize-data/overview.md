@@ -2,9 +2,9 @@
 title: Armonizar datos
 description: Aprenda a armonizar los datos en el Modelador de mezcla de Adobe.
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 Los datos del Modelador de mezcla de Adobe son de diferente naturaleza según el origen de los datos. Los datos pueden ser:
 
-* datos agregados, por ejemplo, recopilados a partir de fuentes de datos de jardines amurallados,
+* datos agregados, por ejemplo, recopilados a partir de fuentes de datos de walled garden o datos de publicidad sin conexión recopilados (como el gasto) al ejecutar una campaña de cartelera, un evento o una campaña de publicidad física,
 * datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics, o a través del SDK web o móvil de Adobe Experience Platform o la API de red perimetral, o datos introducidos mediante conectores de origen.
 
 El servicio de armonización del Modelador de mezcla de Adobe asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos es el origen de los planes y modelos del Modelador de mezcla de Adobe.

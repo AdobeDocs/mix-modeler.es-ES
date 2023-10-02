@@ -1,7 +1,7 @@
 ---
 title: Administración
 description: Aprenda a administrar Adobe Mix Modeler.
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -35,9 +35,15 @@ En la interfaz de usuario de Adobe Experience Cloud,
 
    * **[!UICONTROL Data Ingestion]**: asegúrese de seleccionar **[!UICONTROL View Sources]** y **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    Los permisos configurados para la función deben tener el siguiente aspecto:
 
    ![Permisos](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    Seleccionar **[!UICONTROL Save]** para guardar los permisos.
 
