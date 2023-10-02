@@ -1,10 +1,10 @@
 ---
 title: Ingesta de datos
-description: Aprenda a ingerir datos en el Modelador de mezcla de Adobe.
+description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Puede utilizar cualquier tipo de mecanismo, compatible con Adobe Experience Plat
 
 ## Directrices
 
-Para introducir datos en Adobe Experience Platform para utilizarlos con el Modelador de mezcla de Adobe, siga estas directrices:
+Para introducir datos en Adobe Experience Platform para utilizarlos con Mix Modeler, siga estas directrices:
 
 * No debe haber ninguna superposición en los datos incrementales que se añaden a los conjuntos de datos.
 * Todos los datos de un solo origen deben tener la misma granularidad.
@@ -38,7 +38,7 @@ Para introducir datos en Adobe Experience Platform para utilizarlos con el Model
 
 ## Ejemplos
 
-A continuación, encontrará algunos ejemplos de datos que normalmente se utilizan en el Modelador de mezcla de Adobe, aparte de datos de eventos de experiencia más estándar.
+A continuación, se muestran algunos ejemplos de datos que normalmente se utilizan en Mix Modeler, aparte de los datos de eventos de experiencia más estándar.
 
 +++ Datos del esfuerzo de marketing agregado
 
@@ -80,7 +80,8 @@ A continuación, encontrará algunos ejemplos de datos que normalmente se utiliz
 
 +++
 
-Para trabajar con datos en el Modelador de mezcla de Adobe, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Adobe Experience Platform. La interfaz de Adobe Mix Modeler proporciona fácil acceso a la interfaz de usuario de Esquemas de Experience Platform y Conjuntos de datos.
+Para trabajar con datos en Mix Modeler, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Adobe Experience Platform. La interfaz de Mix Modeler proporciona fácil acceso a la interfaz de usuario de esquemas y conjuntos de datos.
+
 
 >[!MORELIKETHIS]
 >

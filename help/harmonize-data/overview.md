@@ -1,10 +1,10 @@
 ---
 title: Armonizar datos
-description: Aprenda a armonizar los datos en el Modelador de mezcla de Adobe.
+description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '798'
 ht-degree: 16%
 
 ---
@@ -12,16 +12,16 @@ ht-degree: 16%
 
 # Armonizar datos
 
-Los datos del Modelador de mezcla de Adobe son de diferente naturaleza según el origen de los datos. Los datos pueden ser:
+Los datos de Mix Modeler son de diferente naturaleza según la fuente de los datos. Los datos pueden ser:
 
 * datos agregados, por ejemplo, recopilados a partir de fuentes de datos de walled garden o datos de publicidad sin conexión recopilados (como el gasto) al ejecutar una campaña de cartelera, un evento o una campaña de publicidad física,
 * datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics, o a través del SDK web o móvil de Adobe Experience Platform o la API de red perimetral, o datos introducidos mediante conectores de origen.
 
-El servicio de armonización del Modelador de mezcla de Adobe asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos es el origen de los planes y modelos del Modelador de mezcla de Adobe.
+El servicio de armonización de Mix Modeler asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos es el origen de los planes y modelos de Mix Modeler.
 
 ## Ejemplo de datos armonizados
 
-Imagine que tiene los siguientes conjuntos de datos disponibles para el Modelador de mezcla de Adobe.
+Imagine que tiene los siguientes conjuntos de datos disponibles para el Mix Modeler.
 
 **Conjunto de datos 1**
 
@@ -114,7 +114,7 @@ Para crear un conjunto de datos armonizado, como en el [ejemplo](#an-example-of-
 
 ## Ver datos armonizados
 
-Para ver los datos armonizados, en la interfaz del Modelador de mezcla de Adobe:
+Para ver los datos armonizados, en la interfaz de Mix Modeler:
 
 1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** desde el carril izquierdo.
 

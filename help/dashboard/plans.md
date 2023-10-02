@@ -1,10 +1,10 @@
 ---
 title: Resumen de planes
-description: Aprenda a utilizar la información general de los planes en el Modelador de mezcla de Adobe.
+description: Aprenda a utilizar la información general de planes en Mix Modeler.
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alfa]{type=Informative}
 
 
-La pestaña Planes de la Información general del Modelador de mezcla de Adobe muestra los widgets de [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] y [!UICONTROL KPI].
+La pestaña Planes en Información general del Mix Modeler muestra los widgets de [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] y [!UICONTROL KPI].
 
 Los datos mostrados para los widgets están determinados por:
 

@@ -1,10 +1,10 @@
 ---
 title: Panel de información general armonizado
-description: Aprenda a utilizar el tablero de información general de datos armonizado en el Modelador de mezcla de Adobe.
+description: Aprenda a utilizar el tablero de información general de datos armonizado en Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Resumen de datos armonizados
 
-La pestaña Datos armonizados de la Información general del Modelador de combinación de Adobes proporciona información sobre los datos armonizados que ha configurado para utilizarse como parte de los datos introducidos y la configuración de datos armonizados.
+La pestaña Datos armonizados de Información general del Mix Modeler proporciona perspectivas de los datos armonizados que ha configurado para utilizarse como parte de los datos introducidos y de la configuración de datos armonizados.
 
 La descripción general muestra cuatro widgets de la tarjeta de estado de KPI (fila superior) y otros seis widgets configurables.
 

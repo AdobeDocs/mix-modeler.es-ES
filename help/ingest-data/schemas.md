@@ -1,10 +1,10 @@
 ---
 title: Esquemas
-description: Aprenda a administrar los esquemas necesarios para la ingesta de datos en el Modelador de mezcla de Adobe.
+description: Aprenda a administrar los esquemas necesarios para introducir datos en Mix Modeler.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # Esquemas
 
-Para administrar esquemas compatibles con los datos que desea introducir en Adobe Experience Platform y utilizar en el Modelador de mezcla de Adobe:
+Para administrar esquemas compatibles con los datos que desea introducir en Adobe Experience Platform y utilizar en Mix Modeler:
 
-1. Vaya a la interfaz del Modelador de mezcla de Adobe.
+1. Vaya a la interfaz del Mix Modeler.
 
 1. Seleccionar ![Esquemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Consulte la [Resumen de IU de esquemas](https://experienceleague.adobe.com/docs/
 
 ## Datos agregados o resumidos
 
-Se recomienda encarecidamente utilizar la clase Métricas de resumen de XDM como base del esquema subyacente a cualquier dato agregado o de resumen que desee introducir en Experience Platform y utilizarlo en el Modelador de mezcla de Adobe.
+Se recomienda encarecidamente utilizar la clase Métricas de resumen de XDM como base del esquema subyacente a cualquier dato agregado o de resumen que desee introducir en Experience Platform y utilizar en Mix Modeler.
 
 Utilice la clase Métricas de resumen de XDM para:
 

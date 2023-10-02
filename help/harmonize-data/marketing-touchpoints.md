@@ -1,10 +1,10 @@
 ---
 title: Puntos de contacto de marketing
-description: Aprenda a crear puntos de contacto de marketing para utilizarlos en la armonización de los datos en el Modelador de mezcla de Adobe.
+description: Aprenda a crear puntos de contacto de marketing para utilizarlos en la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Puede definir puntos de contacto de marketing para ayudarle en el análisis de a
 
 ## Administrar puntos de contacto de marketing
 
-Para ver una tabla de los puntos de contacto de marketing disponibles en la interfaz del Modelador de mezcla de Adobe:
+Para ver una tabla de los puntos de contacto de marketing disponibles en la interfaz de Mix Modeler:
 
 1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
 
@@ -38,7 +38,7 @@ Las columnas de la tabla especifican detalles sobre el punto de contacto de mark
 
 ## Añadir un punto de contacto de marketing
 
-Para añadir un punto de contacto de marketing, en ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Interfaz en el Modelador de mezcla de Adobe:
+Para añadir un punto de contacto de marketing, en ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interfaz en el Mix Modeler:
 
 1. Seleccionar ![Añadir](../assets/icons/AddCircle.svg) Añadir punto de contacto de marketing.
 

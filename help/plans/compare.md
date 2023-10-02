@@ -1,18 +1,18 @@
 ---
 title: Comparar planes
-description: Aprenda a comparar planes en el Modelador de mezcla de Adobe.
+description: Aprenda a comparar planes en Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
 
 # Comparar planes
 
-Para comparar planes en la interfaz Planes del Modelador de Mezclas de Adobe:
+Para comparar planes en la interfaz de planes de Mix Modeler:
 
 * Seleccionar ![Comparar](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. En Comparar planes, seleccione un plan para cada **[!UICONTROL _Seleccionar plan_]**.
 

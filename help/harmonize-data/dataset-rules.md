@@ -1,10 +1,10 @@
 ---
 title: Reglas de conjuntos de datos
-description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en el Modelador de mezcla de Adobe.
+description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Reglas de conjuntos de datos
 
-Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con campos de los datos introducidos en el Modelador de mezcla de Adobe.
+Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con campos de los datos introducidos en Mix Modeler.
 
 * Para los datos agregados que ha introducido en Adobe Experience Platform, asigne uno o más de los campos de conjunto de datos disponibles a los campos armonizados correspondientes.
 * Para los datos de evento, puede asignar individualmente uno o más campos armonizados a campos del conjunto de datos, directamente o mediante condiciones.
@@ -20,7 +20,7 @@ Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con 
 
 ## Administrar reglas y asignaciones de conjuntos de datos
 
-Para ver una tabla de las asignaciones de conjuntos de datos disponibles, en la interfaz del Modelador de mezcla de Adobe:
+Para ver una tabla de las asignaciones de conjuntos de datos disponibles, en la interfaz del Mix Modeler:
 
 1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
 
@@ -32,7 +32,7 @@ Las columnas de la tabla especifican detalles sobre las asignaciones de conjunto
 | ---------------------- | ----------|
 | Conjunto de datos | Nombre del conjunto de datos. |
 | Fuente | El origen del conjunto de datos, que puede ser Adobe Analytics, Eventos de experiencia, Resumen (acumulado) o Eventos de experiencia del consumidor. |
-| Esquema | Esquema al que se ajusta el conjunto de datos. Puede seleccionar rápidamente el nombre del esquema para abrirlo en una nueva pestaña del editor de esquemas en el Modelador de mezcla de Adobes: Esquemas. |
+| Esquema | Esquema al que se ajusta el conjunto de datos. Puede seleccionar rápidamente el nombre del esquema para abrirlo en una nueva pestaña del editor de esquemas en Mix Modeler: Esquemas. |
 | Granularidad | La granularidad de los datos del conjunto de datos. Los valores posibles son Diario, Semanal, Mensual o Anual. |
 | Inicio de semana | Especifica qué día de la semana se considera el inicio de una nueva semana para el conjunto de datos específico. |
 | Última modificación | Datos y hora de la última modificación de la asignación del conjunto de datos. |
@@ -41,7 +41,7 @@ Las columnas de la tabla especifican detalles sobre las asignaciones de conjunto
 
 ### Creación de una asignación de conjunto de datos
 
-Para crear una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaz en el Modelador de mezcla de Adobe, seleccione **[!UICONTROL Create Dataset Mapping]**.
+Para crear una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaz en Mix Modeler, seleccione **[!UICONTROL Create Dataset Mapping]**.
 
 En el **[!UICONTROL Create]** pantalla,
 
@@ -107,7 +107,7 @@ Cuando termine, seleccione **[!UICONTROL Save]** para guardar la asignación, o 
 
 ### Edición de una asignación de conjunto de datos
 
-Para editar una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interfaz en el Modelador de mezcla de Adobe:
+Para editar una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaz en el Mix Modeler:
 
 1. Seleccionar ![Más](../assets/icons/More.svg) en el **[!UICONTROL Dataset]** para la asignación de conjuntos de datos que desea editar.
 1. En el menú contextual, seleccione ![Editar](../assets/icons/Edit.svg) **[!UICONTROL Edit]** para empezar a editar la asignación del conjunto de datos. Consulte [Creación de una asignación de conjunto de datos](#create-a-dataset-mapping) para obtener más información.
@@ -115,7 +115,7 @@ Para editar una asignación de conjunto de datos, en la variable ![DataSearch](.
 
 ### Eliminar una asignación de conjunto de datos
 
-Para eliminar una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interfaz en el Modelador de mezcla de Adobe:
+Para eliminar una asignación de conjunto de datos, en la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaz en el Mix Modeler:
 
 1. Seleccionar ![Más](../assets/icons/More.svg) en el **[!UICONTROL Dataset]** para la asignación de conjuntos de datos que desea eliminar.
 1. En el menú contextual, seleccione ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar la asignación del conjunto de datos.

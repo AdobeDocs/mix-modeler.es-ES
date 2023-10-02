@@ -1,10 +1,10 @@
 ---
 title: Edición de un plan
-description: Aprenda a editar un plan en el Modelador de mezcla de Adobe.
+description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Edición de un plan
 
-Para editar un plan, en ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interfaz en el Modelador de mezcla de Adobe, seleccione su plan por su nombre.
+Para editar un plan, en ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interfaz en Mix Modeler, seleccione su plan por su nombre.
 
 Entrada [!UICONTROL Plan insights], se crean las perspectivas del plan, mostrando el [!UICONTROL Model], el [!UICONTROL Data range], y [!UICONTROL Total budget] en el que se basa el plan.
 

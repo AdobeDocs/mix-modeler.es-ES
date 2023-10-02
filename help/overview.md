@@ -1,19 +1,20 @@
 ---
-title: Información general del Modelador de mezcla de Adobe
-description: Aprenda a medir campañas y optimizar la planificación de forma integral en todos los canales con el Modelador de mezcla de Adobe.
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Introducción al Mix Modeler
+description: Aprenda a medir campañas y optimizar la planificación de forma integral en todos los canales con Mix Modeler.
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
 
-# Guía del modelador de mezcla de Adobe
+# Guía del modelador AdobeMix
 
 ![Titular](assets/mix-modeler-banner.png)
 
-Esta guía de documentación técnica proporciona instrucciones para **Modelador de mezcla de Adobe**. Adobe Mix Modeler es una aplicación de Adobe Experience Cloud que mide campañas y optimiza la planificación de forma integral en todos los canales: de pago, ganados y propios. El Modelador de mezcla de Adobe se basa en Adobe Experience Platform y funciona con Adobe Sensei.
+Esta guía de documentación técnica proporciona instrucciones para **Modelador de mezcla de Adobe**. Mix Modeler es una aplicación de Adobe Experience Cloud que mide campañas y optimiza la planificación de forma integral en todos los canales: de pago, ganados y propios. Mix Modeler se basa en Adobe Experience Platform y funciona con Adobe Sensei.
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ Esta guía de documentación técnica proporciona instrucciones para **Modelador
 
 ## Introducción
 
-* Qué es [Modelador de mezcla de Adobe](get-started/about.md)?
+* Qué es [Mezclar modelador](get-started/about.md)?
 
 * ¿Qué es un típico [flujo de trabajo de aplicación](get-started/workflow.md)?
 

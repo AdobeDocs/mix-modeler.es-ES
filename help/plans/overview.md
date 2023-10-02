@@ -1,10 +1,10 @@
 ---
 title: Planes
-description: Obtenga información sobre cómo ver, seleccionar y actuar en planes en el Modelador de mezcla de Adobe.
+description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # Planes
 
-Los planes del Modelador de mezcla de Adobe le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
+Los planes de Mix Modeler le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
 
 
 ## Ver planes
 
-Para ver una tabla de sus planes actuales, en la interfaz del Modelador de mezcla de Adobes:
+Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
 
 1. Seleccionar ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** desde el carril izquierdo.
 

@@ -1,10 +1,10 @@
 ---
 title: Campos armonizados
-description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en el Modelador de mezcla de Adobe.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en Mix Modeler.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ Los campos armonizados permiten definir los campos que desea utilizar como parte
 
 ## Campos de armonización global
 
-Los campos de armonización global disponibles por defecto en el Modelador de mezcla de Adobe son:
+Los campos de armonización global predeterminados disponibles en Mix Modeler son los siguientes:
 
 
 | Nombre del campo | Nombre para mostrar | Categoría | Tipo de datos | Comentario |
@@ -53,7 +53,7 @@ Puede añadir, editar o eliminar sus propios campos armonizados sobre estos camp
 
 ## Administrar campos armonizados
 
-Para ver una tabla de los campos armonizados disponibles, en la interfaz del Modelador de mezcla de Adobe:
+Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix Modeler:
 
 1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
 
@@ -81,7 +81,7 @@ Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mod
 
 ### Añadir un campo armonizado
 
-Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaz en el Modelador de mezcla de Adobe:
+Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
 1. Seleccionar ![Añadir](../assets/icons/AddCircle.svg)Agregue el campo.
 
@@ -107,7 +107,7 @@ Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.
 
 Solo puede editar los campos armonizados que haya creado anteriormente. No se puede editar un campo armonizado global.
 
-Para editar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaz en el Modelador de mezcla de Adobe:
+Para editar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
 1. Seleccione el campo armonizado que desea editar. Por ejemplo, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Para editar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.s
 
 Solo puede eliminar los campos armonizados que haya creado anteriormente. No se puede eliminar un campo armonizado global.
 
-Para eliminar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaz en el Modelador de mezcla de Adobe:
+Para eliminar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
 1. Seleccione el campo armonizado que desee eliminar, por ejemplo **[!UICONTROL Region]**.
 

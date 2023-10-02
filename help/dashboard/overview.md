@@ -1,10 +1,10 @@
 ---
 title: Información general
-description: Aprenda a obtener una descripción general de los datos y planes armonizados en el Modelador de mezcla de Adobe.
+description: Aprenda a obtener una descripción general de sus datos y planes armonizados en Mix Modeler.
 feature: Dashboard, Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 1%
 # Panel de información general
 
 
-El tablero de información general en el Modelador de mezcla de Adobe le permite ver una descripción general de sus datos armonizados y sus planes a través de varios widgets configurables.
+El panel de información general en Mix Modeler le permite ver una descripción general de los datos armonizados y sus planes a través de varios widgets configurables.
 
-Para acceder a la descripción general, seleccione ![Inicio](../assets/icons/Home.svg) **[!UICONTROL Overview]** desde el carril izquierdo en la interfaz del Modelador de mezcla de Adobes.
+Para acceder a la descripción general, seleccione ![Inicio](../assets/icons/Home.svg) **[!UICONTROL Overview]** desde el carril izquierdo de la interfaz del Mix Modeler.
 
 Aquí puede obtener más información sobre lo siguiente:
 
