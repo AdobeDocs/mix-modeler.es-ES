@@ -2,13 +2,13 @@
 title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # Reglas de conjuntos de datos
 
@@ -61,7 +61,7 @@ En el **[!UICONTROL Create]** pantalla,
 
       ![Crear reglas de conjuntos de datos](../assets/dataset-create-summary.png)
 
-1. Cuando haya seleccionado un tipo de evento de conjunto de datos, en el cuadro sombreado situado debajo de **[!UICONTROL Map to harmonized fields]**:
+1. Cuando haya seleccionado un tipo de evento de conjunto de datos (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), en el cuadro sombreado situado debajo **[!UICONTROL Map to harmonized fields]**:
 
    1. Seleccione un campo armonizado de **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ Para sincronizar datos entre los datos armonizados y los conjuntos de datos de r
 1. Seleccionar **[!UICONTROL Sync]** para iniciar la sincronización basada en las reglas del conjunto de datos definidas entre los datos armonizados y los datos de conjuntos de datos. Para cancelar la sincronización, seleccione **[!UICONTROL Cancel]**.
 
    ![Sincronizar datos](../assets/sync-data.png)
-

@@ -2,13 +2,13 @@
 title: Campos armonizados
 description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 10%
 
 ---
-
 
 # Campos armonizados
 
@@ -126,5 +126,3 @@ Para eliminar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck
 1. Seleccione el campo armonizado que desee eliminar, por ejemplo **[!UICONTROL Region]**.
 
 1. Seleccionar ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** desde el **[!UICONTROL Edit harmonization values]** panel izquierdo.
-
-

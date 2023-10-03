@@ -2,33 +2,33 @@
 title: Ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 14%
 
 ---
-
 
 # Ingesta de datos
 
 El Mix Modeler trabaja con datos de nivel de evento, datos de esfuerzo de marketing acumulados de varios jardines amurallados y datos acumulados o resumidos de cualquier otra fuente, como publicidad sin conexión, factores internos o factores externos.
 
-Los clientes pueden utilizar cualquier tipo de datos que se incorporen a Adobe Experience Platform como conjuntos de datos y que se basen en esquemas que utilicen el ExperienceEvent de XDM o las métricas de resumen de XDM como clase base.
+Los clientes pueden utilizar cualquier tipo de datos que se incorporen en Experience Platform como conjuntos de datos y que se basen en esquemas que utilicen las métricas de resumen de XDM ExperienceEvent o XDM como clase base.
 
 Por ejemplo:
 
 * datos recopilados mediante el conector de origen de Adobe Analytics y transformados en conjuntos de datos que se ajustan a la versión predeterminada o personalizada del esquema de Adobe Analytics o, alternativamente,
-* datos recopilados mediante el SDK web de Adobe Experience Platform, el SDK móvil o la API del servidor de red perimetral para recopilar interacciones de clientes en la web, dispositivos móviles o cualquier otro tipo de dispositivo,
+* datos recopilados mediante el SDK web de Experience Platform, el SDK móvil o la API del servidor de red perimetral para recopilar interacciones de clientes en la web, dispositivos móviles o cualquier otro tipo de dispositivo,
 * datos agregados de jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión,
 * datos acumulados o resumidos que no sean de marketing y que contengan factores internos o externos que sean útiles para la creación de modelos.
 
-Puede utilizar cualquier tipo de mecanismo, compatible con Adobe Experience Platform, para introducir el nivel de evento de experiencia, los datos de esfuerzo de marketing acumulados y los datos de otras fuentes. Como los SDK de Adobe Experience Platform, las API, los conectores de origen y la transmisión y la ingesta por lotes.
+Puede utilizar cualquier tipo de mecanismo, admitido por Experience Platform, para introducir datos de esfuerzo de marketing acumulado, nivel de evento de experiencia y datos de otras fuentes. Como los SDK de Experience Platform, las API, los conectores de origen y la transmisión y la ingesta por lotes.
 
 
 ## Directrices
 
-Para introducir datos en Adobe Experience Platform para utilizarlos con Mix Modeler, siga estas directrices:
+Para introducir datos en Experience Platform para su uso con Mix Modeler, siga estas directrices:
 
 * No debe haber ninguna superposición en los datos incrementales que se añaden a los conjuntos de datos.
 * Todos los datos de un solo origen deben tener la misma granularidad.
@@ -38,7 +38,7 @@ Para introducir datos en Adobe Experience Platform para utilizarlos con Mix Mode
 
 ## Ejemplos
 
-A continuación, se muestran algunos ejemplos de datos que normalmente se utilizan en Mix Modeler, aparte de los datos de eventos de experiencia más estándar.
+A continuación, se muestran algunos ejemplos de datos que generalmente se utilizan en Mix Modeler aparte de los datos de evento de experiencia más estándar.
 
 +++ Datos del esfuerzo de marketing agregado
 
@@ -80,7 +80,7 @@ A continuación, se muestran algunos ejemplos de datos que normalmente se utiliz
 
 +++
 
-Para trabajar con datos en Mix Modeler, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Adobe Experience Platform. La interfaz de Mix Modeler proporciona fácil acceso a la interfaz de usuario de esquemas y conjuntos de datos.
+Para trabajar con datos en Mix Modeler, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Experience Platform. La interfaz de Mix Modeler proporciona fácil acceso a la interfaz de usuario de esquemas y conjuntos de datos.
 
 
 >[!MORELIKETHIS]

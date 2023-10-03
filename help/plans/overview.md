@@ -2,13 +2,13 @@
 title: Planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # Planes
 
@@ -69,7 +69,8 @@ Para comparar planes:
 Para suprimir planes:
 
 1. Seleccione uno o más planes de la tabla.
-1. Seleccionar ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** de la barra de acciones. Tu plan se elimina inmediatamente.
+1. Seleccionar ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** de la barra de acciones.
 
-
-
+   >[!WARNING]
+   >
+   >   Los planes seleccionados se eliminan inmediatamente.

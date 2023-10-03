@@ -2,17 +2,17 @@
 title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para introducir datos en Mix Modeler.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
 
-
 # Esquemas
 
-Para administrar esquemas compatibles con los datos que desea introducir en Adobe Experience Platform y utilizar en Mix Modeler:
+Para administrar esquemas compatibles con los datos que desea introducir en Experience Platform y utilizar en Mix Modeler:
 
 1. Vaya a la interfaz del Mix Modeler.
 
@@ -40,7 +40,7 @@ Un esquema con la variable **[!DNL XDM Summary Metrics]** la clase base puede se
 
 ![Esquema de factores externos](../assets/external-factors-schema.png)
 
-Este esquema sencillo se puede utilizar para introducir conjuntos de datos que contengan datos para:
+Este esquema simple se puede utilizar para introducir conjuntos de datos que contengan datos para, por ejemplo:
 
 - Datos del índice del competidor
 

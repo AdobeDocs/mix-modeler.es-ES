@@ -1,18 +1,19 @@
 ---
 title: Introducción al Mix Modeler
 description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
+short-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 4f47838707da2059788123f4b5abb5509e692413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 5%
+source-wordcount: '270'
+ht-degree: 8%
 
 ---
 
 # Introducción al Mix Modeler
 
-Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
+Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide de forma incremental tanto en puntos de contacto de marketing como en niveles agregados, a la vez que garantiza resultados totalmente coherentes.
 
 Mix Modeler proporciona el impacto incremental de todas las actividades de marketing en los resultados empresariales y de campaña a través de una aplicación de medición integral (de extremo a extremo) para el marketing digital y sin conexión.
 
