@@ -5,10 +5,10 @@ product: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/mix-modeler.es-ES
-hide: true
+index: true
 feature-set: Mix Modeler
 role: User, Admin
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: a9f4cd8a28551ed10c7c374d0269b014bf2ef82e
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 80%
