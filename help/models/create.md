@@ -2,13 +2,13 @@
 title: Creación de un modelo
 description: Obtenga información sobre cómo crear un modelo en Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # Creación de un modelo
 
@@ -127,9 +127,9 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       1. Seleccione el **[!UICONTROL Rule type]**.
 
-      1. Distribuya porcentajes para cada uno de los canales enumerados en **[!UICONTROL Name]**, usando el **[!UICONTROL Contribution proportion]** columna. Asegúrese de que la distribución total de los porcentajes suma el 100 %.
+      1. Especifique los porcentajes de contribución para cualquiera de los canales enumerados en **[!UICONTROL Name]**, usando el **[!UICONTROL Contribution proportion]** columna.
 
-      1. Puede agregar para cada canal un **[!UICONTROL Level of confidence]** porcentaje.
+      1. Si procede, puede agregar para cada canal un **[!UICONTROL Level of confidence]** porcentaje.
 
       1. Cuando sea necesario, utilice **[!UICONTROL Clear all]** para borrar todos los valores de entrada del **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]** columnas.
 
@@ -146,4 +146,3 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
    Seleccionar **[!UICONTROL Back]** para volver al paso anterior.
 
    Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
-
