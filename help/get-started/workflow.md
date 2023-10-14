@@ -3,16 +3,21 @@ title: flujo de trabajo del Mix Modeler
 description: Comprender el flujo de trabajo típico de Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
 
 # flujo de trabajo del Mix Modeler
 
-Un flujo de trabajo típico de Mix Modeler tiene este aspecto:
+Consulte este vídeo para ver una introducción al flujo de trabajo del usuario en Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+
+
+Desde un punto de vista funcional, un flujo de trabajo típico en Mix Modeler consta de las siguientes actividades:
 
 ![Texto alternativo](../assets/ApplicationWorkflow.svg)
 
