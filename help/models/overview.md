@@ -2,13 +2,13 @@
 title: Modelos
 description: Aprenda a configurar y utilizar modelos en Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
-
 
 # Modelos
 
@@ -16,7 +16,26 @@ La funcionalidad de modelo de Mix Modeler le permite configurar, entrenar y punt
 
 Los modelos se basan en los datos armonizados que crea como parte del flujo de trabajo de la solicitud de Mix Modeler.
 
-Para crear un modelo, utilice el flujo de configuración del modelo guiado paso a paso de Mix Modeler, disponible al seleccionar **[!UICONTROL Guide me]**. Consulte [Creación de un modelo](create.md) para obtener más información.
+Un modelo en Mix Modeler es un modelo de aprendizaje automático empleado para medir y/o predecir un resultado específico basado en las inversiones de un experto en marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Mix Modeler le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
+
+Un modelo requiere:
+
+* una conversión,
+* uno o más puntos de contacto de marketing (canales) compuestos de datos de nivel de resumen, datos de punto de contacto de marketing (datos de evento) o ambos,
+* una ventana retrospectiva configurable para
+* una ventana de formación configurable.
+
+Un modelo puede incluir de forma opcional:
+
+* factores externos,
+* factores internos,
+* los denominados &quot;precedentes&quot; (distribución de probabilidad que representa el conocimiento o la incertidumbre de los datos antes o antes de observarlos), que indexan las conversiones anteriores por canal,
+* porcentaje de gasto, que utiliza el porcentaje de gasto relativo como proxy cuando los datos de marketing son escasos.
+
+
+## Creación de un modelo
+
+Para crear un modelo, utilice el flujo de configuración del modelo guiado paso a paso del Mix Modeler disponible al seleccionar **[!UICONTROL Guide me]**. Consulte [Creación de un modelo](create.md) para obtener más información.
 
 ## Administrar modelos
 
@@ -74,5 +93,3 @@ Para ver las perspectivas de un modelo, en la interfaz del Mix Modeler:
 1. Seleccione el nombre de un modelo con una **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** desde el **[!UICONTROL Models]** tabla.
 
 1. En el menú contextual, seleccione **[!UICONTROL Model Insights]**. Se le redirigirá a [Datos del modelo](insights.md).
-
-

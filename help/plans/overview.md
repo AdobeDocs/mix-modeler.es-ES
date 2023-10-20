@@ -3,10 +3,10 @@ title: Planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,22 @@ ht-degree: 2%
 
 Los planes de Mix Modeler le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
 
+Un plan describe las inversiones discrecionales (por ejemplo, presupuestos) que una empresa tiene la intención de gastar en proyectos relacionados con el marketing a lo largo de un periodo de tiempo determinado en servicio de un KPI común (por ejemplo, pedidos, ingresos). Los planes pueden incluir gastos de canales como publicidad de pago, contenido web patrocinado, eventos.
 
-## Ver planes
+Un plan requiere:
+
+- un modelo,
+- un intervalo de datos,
+- un presupuesto.
+
+Un plan puede incluir de forma opcional:
+
+- una ventana de reconocimiento configurada,
+- varias fechas de vuelo, cada una con un presupuesto objetivo,
+- restricciones de presupuesto mínimas y máximas por canal y fecha de vuelo.
+
+
+## Administrar planes
 
 Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
 
@@ -40,6 +54,14 @@ Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
 
 1. Uso ![Buscar](../assets/icons/Search.svg) para buscar y filtrar la tabla de uno o más planes específicos.
 
+## Creación de un plan
+
+Para crear un plan, utilice el asistente de creación de planes de Mix Modeler. Consulte [Creación de un plan](create.md) para obtener más información.
+
+
+## Edición de un plan
+
+Para editar un plan, seleccione su nombre en la tabla. Consulte [Edición de un plan](edit.md) para obtener más información.
 
 ## Selección y acción de planes
 
