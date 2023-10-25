@@ -3,16 +3,16 @@ title: Ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
 
 # Ingesta de datos
 
-El Mix Modeler trabaja con datos de nivel de evento, datos de esfuerzo de marketing acumulados de varios jardines amurallados y datos acumulados o resumidos de cualquier otra fuente, como publicidad sin conexión, factores internos o factores externos.
+El Mix Modeler trabaja con datos de nivel de evento, agrega un resumen de datos de esfuerzo de marketing de varios jardines amurallados y agrega o resume datos de cualquier otra fuente, como publicidad sin conexión, factores internos o factores externos.
 
 Los clientes pueden utilizar cualquier tipo de datos que se incorporen en Experience Platform como conjuntos de datos y que se basen en esquemas que utilicen las métricas de resumen de XDM ExperienceEvent o XDM como clase base.
 
@@ -20,7 +20,7 @@ Por ejemplo:
 
 * datos recopilados mediante el conector de origen de Adobe Analytics y transformados en conjuntos de datos que se ajustan a la versión predeterminada o personalizada del esquema de Adobe Analytics o, alternativamente,
 * datos recopilados mediante el SDK web de Experience Platform, el SDK móvil o la API del servidor de red perimetral para recopilar interacciones de clientes en la web, dispositivos móviles o cualquier otro tipo de dispositivo,
-* datos agregados de jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión,
+* datos agregados o resumidos de los jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión,
 * datos acumulados o resumidos que no sean de marketing y que contengan factores internos o externos que sean útiles para la creación de modelos.
 
 Puede utilizar cualquier tipo de mecanismo, admitido por Experience Platform, para introducir datos de esfuerzo de marketing acumulado, nivel de evento de experiencia y datos de otras fuentes. Como los SDK de Experience Platform, las API, los conectores de origen y la transmisión y la ingesta por lotes.
