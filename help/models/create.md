@@ -3,7 +3,7 @@ title: Creación de un modelo
 description: Obtenga información sobre cómo crear un modelo en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Creación de un modelo
 
-Para crear un modelo, en la ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** interfaz en Mix Modeler, seleccione **[!UICONTROL Guide me]**.
+Para crear un modelo, en la ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** interfaz en Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
 
 Para crear sus modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelo guiado paso a paso.
 
@@ -24,7 +24,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
    1. Seleccionar **[!UICONTROL Next]** para continuar con el paso siguiente. Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
-1. En el **[!UICONTROL Configure]** paso:
+1. En el **[!UICONTROL Configured]** paso:
 
    1. En el **[!UICONTROL Conversion goal]** dentro del contenedor:
 
@@ -48,7 +48,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para añadir un contenedor de punto de contacto de marketing, seleccione ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Para quitar un contenedor de punto de contacto de marketing, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg) y seleccione **[!UICONTROL Remove container]** en el menú contextual.
+      * Para quitar un contenedor de punto de contacto de marketing, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg)y seleccione **[!UICONTROL Remove container]** en el menú contextual.
 
         ![Modelo: puntos de contacto de marketing-step](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para añadir un contenedor de población de datos apto, seleccione ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Para eliminar un contenedor de población de datos apto, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg) y seleccione **[!UICONTROL Remove container]** en el menú contextual.
+      * Para eliminar un contenedor de población de datos apto, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg)y seleccione **[!UICONTROL Remove container]** en el menú contextual.
 
         ![Modelo: Población de datos elegible](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para añadir un contenedor de conjunto de datos de factores externos adicional, seleccione ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Para quitar un contenedor de conjunto de datos de factores externos, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg) y seleccione **[!UICONTROL Remove container]** en el menú contextual.
+      * Para quitar un contenedor de conjunto de datos de factores externos, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg)y seleccione **[!UICONTROL Remove container]** en el menú contextual.
 
         ![Modelo: conjunto de datos de factores externos](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para agregar un contenedor de conjunto de datos de factores internos adicional, seleccione ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Para quitar un contenedor de conjunto de datos de factores internos adicional, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg) y **[!UICONTROL Remove container]** en el menú contextual.
+      * Para quitar un contenedor de conjunto de datos de factores internos adicional, dentro del contenedor, seleccione ![Más](../assets/icons/More.svg), y **[!UICONTROL Remove container]** en el menú contextual.
 
         ![Modelo: conjunto de datos de factores internos](../assets/model-internal-factors-dataset-step.png)
 

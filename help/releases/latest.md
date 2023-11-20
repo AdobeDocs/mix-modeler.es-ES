@@ -4,28 +4,30 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '190'
+ht-degree: 10%
 
 ---
 
 # Notas de la versión del Mix Modeler actual
 
-**Última actualización**: 4 de octubre de 2023.
+**Última actualización**: 16 de noviembre de 2023.
 
-Estas notas de la versión abarcan la versión inicial de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
+Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
 
 
 ## Funciones nuevas o actualizadas
 
 | Función | Descripción | Disponibilidad general |
 |---|---|---|
-| **Ingesta de datos resumida** | [Ingesta de datos resumidos](../ingest-data/overview.md) (por ejemplo, datos de gasto en jardinería cerrada, horarios de vuelos de TV) utilizando la nueva clase de resumen en Experience Platform. | 4 de octubre de 2023 |
-| **Medir el impacto incremental de las inversiones de marketing** | [Comprender](../dashboard/overview.md) el ROI incremental y el impacto del marketing en los objetivos empresariales o de campaña táctica. | 4 de octubre de 2023 |
-| **Aprendizaje de transferencia de atribución multitáctil (MTA) y modelado de mezcla de marketing (MMM)** | Tome decisiones más seguras a través de la unificación de MMM y MTA [modelos](../models/overview.md) mediante aprendizaje mediante transferencia. | 4 de octubre de 2023 |
-| **Planificación del escenario de inversión de marketing** | Desarrollar varios presupuestos [planes](../plans/overview.md) y comparar su impacto para tomar decisiones óptimas para su negocio. | 4 de octubre de 2023 |
+| **Botones Descargar CSV** | Los botones Descargar CSV ya están disponibles como parte de [Perspectivas del plan](../plans/edit.md) y [Datos del modelo](../models/insights.md#model-insights). | 16 de noviembre de 2023 |
+| **Columna CPA en la tabla de desglose de rangos de datos** | Se añade la columna CPA a [Desglose del intervalo de datos](../plans/edit.md) en Perspectivas de plan. | 16 de noviembre de 2023 |
+| **Visualización del ROI del canal de pago previsto** | [ROI de canal pagado previsto](../plans/edit.md) La visualización de se agrega a Perspectivas del plan. | 16 de noviembre de 2023 |
+| **IU de información general de modelos actualizada** | [Información general de modelos](../models/overview.md) La IU de se actualiza en línea con la IU general de los planes de. | 16 de noviembre de 2023 |
+| **Volver a puntuar un modelo** | Se ha añadido la capacidad de déclencheur [recalificación de nuevos datos mediante un modelo existente](../models/overview.md#re-score). | 16 de noviembre de 2023 |
+| **Visualización de contribución actualizada** | El [Contribución por fecha y visualización de medios base](../models/insights.md#model-insights) se actualiza a un gráfico apilado ordenado. | 16 de noviembre de 2023 |
 
 {style="table-layout:auto"}
 
@@ -33,4 +35,4 @@ Estas notas de la versión abarcan la versión inicial de Mix Modeler. Las versi
 >[!MORELIKETHIS]
 >
 >* [Introducción al Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Documentación del Experience League del Mix Modeler](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Documentación del Experience League del Mix Modeler](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=es)
