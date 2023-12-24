@@ -3,10 +3,10 @@ title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para introducir datos en Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -46,20 +46,20 @@ Este esquema simple se puede utilizar para introducir conjuntos de datos que con
 
   | timestamp | date_type | factor | valor |
   |---|---|---|--:|
-  | 28T00-11-2020:00:00,000Z | semana | competitor_index | 289.8 |
-  | 05T00-12-2020:00:00,000Z | semana | competitor_index | 291.2 |
-  | 12T00-12-2020:00:00,000Z | semana | competitor_index | 280.07 |
+  | 28T00-11-2020:00:00,000Z | semana | competitor_index | 289,8 |
+  | 05T00-12-2020:00:00,000Z | semana | competitor_index | 291,2 |
+  | 12T00-12-2020:00:00,000Z | semana | competitor_index | 280,07 |
   | ... | ... | ... | ... |
 
 - Datos de festivos públicos
 
   | timestamp | date_type | factor | valor |
   |---|---|---|--:|
-  | 28T00-11-2020:00:00,000Z | semana | all_holiday_flag | 0.0 |
-  | 05T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0.0 |
-  | 12T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0.0 |
-  | 19-12-2020:00:00,000Z | semana | all_holiday_flag | 0.0 |
-  | 26-12-2020:00:00,000Z | semana | all_holiday_flag | 1.0 |
+  | 28T00-11-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
+  | 05T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
+  | 12T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
+  | 19-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
+  | 26-12-2020:00:00,000Z | semana | all_holiday_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
@@ -68,3 +68,18 @@ Consulte a continuación un ejemplo más completo de una **[!DNL LumaPaidMarketi
 ![Esquema de resumen](../assets/summary-schema.png)
 
 Dada la naturaleza asíncrona de la ingesta de perfiles, al recopilar datos acumulados o de resumen de fuentes externas, se recomienda utilizar el grupo de campos Detalles de auditoría del sistema de fuentes externas como parte de un esquema. Este grupo de campos define un conjunto de propiedades de auditoría para orígenes externos.
+
+
+## Tipos de datos admitidos
+
+Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), son compatibles:
+
+- Cadena
+- Entero
+- Doble
+- Booleano
+- Largo
+- Corto
+- Byte
+- Fecha
+- Fecha-hora
