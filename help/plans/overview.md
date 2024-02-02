@@ -3,10 +3,10 @@ title: Planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
    | Presupuesto | Presupuesto total de un plan. |
    | Retorno previsto | El rendimiento previsto de un plan |
    | ROI previsto | El ROI previsto de un plan. |
-   | Estado | El estado de un plan. |
+   | Estado | El estado de un plan: <p><span style="color:red">●</span> Error, <p><span style="color:blue">●</span> Procesando, o <p><span style="color:green">●</span> Completado. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ Para duplicar un plan:
 1. Seleccione un solo plan de la tabla.
 1. Seleccionar ![Copiar](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** de la barra de acciones. Un plan nuevo, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)]**, se añade en la parte superior de la tabla.
 
+Alternativamente:
+
+1. Seleccionar ![Más](../assets/icons/More.svg) para un plan en la tabla.
+1. Seleccionar **[!UICONTROL Duplicate]** en el menú contextual. Un plan nuevo, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)]**, se añade en la parte superior de la tabla.
+
 ### Comparar planes
 
 Para comparar planes:
@@ -92,6 +97,11 @@ Para suprimir planes:
 
 1. Seleccione uno o más planes de la tabla.
 1. Seleccionar ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** de la barra de acciones.
+
+Alternativamente:
+
+1. Seleccionar ![Más](../assets/icons/More.svg) para un plan en la tabla.
+1. Seleccionar **[!UICONTROL Delete]** en el menú contextual. Un plan nuevo, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)]**, se añade en la parte superior de la tabla.
 
    >[!WARNING]
    >

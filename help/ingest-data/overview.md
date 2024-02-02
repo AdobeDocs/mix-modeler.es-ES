@@ -3,10 +3,10 @@ title: Ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 14%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -42,13 +42,13 @@ A continuación, se muestran algunos ejemplos de datos que generalmente se utili
 
 +++ Datos del esfuerzo de marketing agregado
 
-| Geo | Fecha | Tipo de fecha | Canal | Campaign | Haga clic | Obtenido | Participación | Impresión | Open | Propio | Enviados |
+| Geo | Fecha | Tipo de fecha | Canal | Campaign | Haga clic | Obtenido | Participación | Impresión | Open | Propio | Enviado |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 2021-10-31 | día | CORREO ELECTRÓNICO | | 12752 | | | | | | 1132945 |
-| AMER | 2021-10-31 | día | FB | | 148844 | | | | | | |
-| AMER | 2021-10-31 | día | YT | | | | 2314452 | | | | |
-| JPN | 2021-10-21 | día | CORREO ELECTRÓNICO | | 21089 | | | | | | 3283626 |
-| JPN | 2021-10-21 | día | SOCIAL | | | | 621 | | | | |
+| AMER | 31-10-2021 | día | CORREO ELECTRÓNICO | | 12752 | | | | | | 1132945 |
+| AMER | 31-10-2021 | día | FB | | 148844 | | | | | | |
+| AMER | 31-10-2021 | día | YT | | | | 2314452 | | | | |
+| JPN | 21-10-2021 | día | CORREO ELECTRÓNICO | | 21089 | | | | | | 3283626 |
+| JPN | 21-10-2021 | día | SOCIAL | | | | 621 | | | | |
 
 {style="table-layout:auto"}
 
@@ -58,10 +58,10 @@ A continuación, se muestran algunos ejemplos de datos que generalmente se utili
 
 | Geo | Fecha | Tipo de fecha | Producto | Unidades vendidas | Ingresos |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | día | Economía creadora | 603 | 36537.68 |
-| EMEA | 2021-09-13 | día | Metaverso | 55 | 21704.37 |
-| JPN | 2022-05-30 | día | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | día | Document Cloud | 642 | 100509.07 |
+| EMEA | 13-09-2021 | día | Economía creadora | 603 | 36537,68 |
+| EMEA | 13-09-2021 | día | Metaverso | 55 | 21704,37 |
+| JPN | 30-05-2022 | día | Pro Imaging | 487 | 64469,60 |
+| JPN | 30-05-2022 | día | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ A continuación, se muestran algunos ejemplos de datos que generalmente se utili
 
 | Datos | Tipo de fecha | Factor | Valor |
 |---|:---:|:---:|:---|
-| 2020-08-02 | semana | SPX | 3325.866 |
-| 2020-08-09 | semana | SPX | 3364.158 |
-| 2020-08-16 | semana | SPX | 3385.858 |
-| 2020-08-23 | semana | SPX | 3497.965 |
+| 02-08-2020 | semana | SPX | 3325,866 |
+| 09-08-2020 | semana | SPX | 3364,158 |
+| 16-08-2020 | semana | SPX | 3385,858 |
+| 23-08-2020 | semana | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Para trabajar con datos en Mix Modeler, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Experience Platform. La interfaz de Mix Modeler proporciona fácil acceso a la interfaz de usuario de esquemas y conjuntos de datos.
+Para trabajar con datos en Mix Modeler, necesita datos recopilados en conjuntos de datos y modelados según esquemas en Experience Platform. La interfaz de Mix Modeler proporciona fácil acceso a la IU de Esquemas de Experience Platform y Conjuntos de datos.
 
 
 >[!MORELIKETHIS]

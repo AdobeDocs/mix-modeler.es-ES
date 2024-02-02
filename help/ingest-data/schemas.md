@@ -3,7 +3,7 @@ title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para introducir datos en Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Para administrar esquemas compatibles con los datos que desea introducir en Expe
 
 1. Vaya a la interfaz del Mix Modeler.
 
-1. Seleccionar ![Esquemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo **[!UICONTROL DATA MANAGEMENT]**.
+1. Seleccionar ![Esquemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo **[!UICONTROL SETUP]**.
 
 Consulte la [Resumen de IU de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
 

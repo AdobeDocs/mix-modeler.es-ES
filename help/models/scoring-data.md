@@ -2,13 +2,13 @@
 title: Datos de puntuación
 description: Descubra cómo se mantienen los datos de puntuación de un modelo en Mix Modeler.
 feature: Models
-source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 5%
 
 ---
-
 
 # Datos de puntuación
 
@@ -40,3 +40,4 @@ El esquema incluye un grupo de campos con un objeto que contiene detalles sobre 
 | **touchpointName** | Cadena | Nombre del punto de contacto que se creó durante el paso de configuración de la definición del punto de contacto. Actualmente, el punto de contacto se define en el canal de medios. |
 | **touchpointStartDate** | Fecha | Fecha de inicio de la ventana de punto de contacto. |
 
+Consulte [Esquemas](../ingest-data/schemas.md) para obtener más información.

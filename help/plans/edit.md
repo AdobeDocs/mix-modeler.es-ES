@@ -3,9 +3,9 @@ title: Edición de un plan
 description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 1. Seleccionar **[!UICONTROL Close]** para volver a la interfaz de Planes.
 
+1. Seleccionar **[!UICONTROL X]** o **[!UICONTROL  %]** sobre cómo **[!UICONTROL View ROI]**.
+
 1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Para ver el desglose Intervalo de fecha por categoría de canales, seleccione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, o **[!UICONTROL Non-paid channels]** desde el **[!UICONTROL View]** selección.
 
 1. Para editar el plan, seleccione **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
          1. Modifique la **[!UICONTROL Date range]** para uno o más de los intervalos de fechas del plan, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](../assets/icons/Calendar.svg).
 
-         1. Modifique la **[!UICONTROL Budget]** uno o más de los intervalos de fechas del plan.
+         1. Modifique la **[!UICONTROL Budget]** para uno o más de los intervalos de fechas del plan.
 
          Para añadir intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
