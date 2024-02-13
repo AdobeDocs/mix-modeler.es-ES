@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ La pestaña Información del modelo muestra los widgets de:
 
 * Resumen de rendimiento de marketing.
 
+* Curvas de respuesta marginales.
+
 ![Modelo: perspectivas del modelo](../assets/model-model-insights.png)
 
 Puede situarse sobre elementos de gráfico individuales en cada widget para mostrar una ventana emergente con más detalles.
 
 Para descargar un archivo CSV que contenga los datos del widget, seleccione ![Descargar](../assets/icons/Download.svg).
+
+Para descargar datos de perspectivas de modelo completos en formato Microsoft® Excel, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
