@@ -4,7 +4,7 @@ description: Aprenda a medir campañas y a optimizar la planificación de forma 
 short-description: Aprenda a medir campañas y a optimizar la planificación de forma integral en todos los canales con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: 1e5bfe6901332f5545e6bdeea46da96d475b3ce1
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
