@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para crear una regla de conjunto de datos, en la variable ![DataSearch](../asset
 
 En el **[!UICONTROL Create]** pantalla,
 
-1. Entrada **[!UICONTROL Dataset details]**, seleccione un conjunto de datos de **[!UICONTROL Select dataset]** para comenzar la configuración. En la lista, los conjuntos de datos se clasifican en **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** y **[!UICONTROL Summary]**.
+1. Entrada **[!UICONTROL Dataset details]**, seleccione un conjunto de datos de **[!UICONTROL Select dataset]** para comenzar la configuración. En la lista, los conjuntos de datos se clasifican en **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** y, **[!UICONTROL Summary]**.
 
 1. Seleccione un día para la **[!UICONTROL Start of the week]**.
 
@@ -54,11 +54,13 @@ En el **[!UICONTROL Create]** pantalla,
 
 1. Cuando haya seleccionado un conjunto de datos de **[!UICONTROL Summary]** categoría:
 
+   1. Para definir si los datos del conjunto de datos deben agregarse o si deben reemplazar los datos existentes, seleccione **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
+
    1. Asigne cada uno de los **[!UICONTROL Available dataset fields]** a correspondiente **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Si no desea asignar un campo de conjunto de datos a un campo armonizado, seleccione explícitamente **[!UICONTROL -- None --]**.
 
    1. Si necesita un nuevo campo armonizado, no disponible en la lista, seleccione **[!UICONTROL Create New]** para crear un nuevo campo armonizado. Verá el cuadro de diálogo como se describe en [Añadir un nuevo campo armonizado](fields.md#add-a-harmonized-field) para permitirle añadir rápidamente un nuevo campo armonizado.
 
-   1. Cuando finalice la asignación de todos los campos de la regla, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla.  Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración de la regla.
+   1. Cuando finalice la asignación de todos los campos de la regla, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración de la regla.
 
       ![Crear reglas de conjuntos de datos](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ En el **[!UICONTROL Create]** pantalla,
 
 1. Seleccionar ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionales.
 
-Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla.  Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración de la regla.
+Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccionar **[!UICONTROL Cancel]** para cancelar la configuración de la regla.
 
 
 ### Editar una regla de conjunto de datos
@@ -130,7 +132,7 @@ Para sincronizar datos entre los datos armonizados y los conjuntos de datos de r
 
 1. Desde el **[!UICONTROL Sync data for dataset rules]** , seleccione una de las siguientes opciones **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, o **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. Seleccionar **[!UICONTROL Sync]** para iniciar la sincronización basada en las reglas del conjunto de datos definidas entre los datos armonizados y los datos de conjuntos de datos. Para cancelar la sincronización, seleccione **[!UICONTROL Cancel]**.
+1. Para iniciar la sincronización en función de las reglas del conjunto de datos definidas entre los datos armonizados y los datos de conjuntos de datos, seleccione **[!UICONTROL Sync]**. Para cancelar la sincronización, seleccione **[!UICONTROL Cancel]**.
 
    ![Sincronizar datos](../assets/sync-data.png)
 

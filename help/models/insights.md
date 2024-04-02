@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ La pestaña Información general histórica muestra los widgets de:
 
 La pestaña Información del modelo muestra los widgets de:
 
-* Contribución por fecha y medios base. El gráfico apilado está ordenado: canales base en la parte inferior, canales de no gasto en el medio y canales de gasto en la parte superior.
+* Contribución por fecha y medios base. El gráfico apilado está ordenado: canales base en la parte inferior, canales de no gasto en el centro y canales de gasto en la parte superior.
 
 * Contribución por canal.
 
@@ -62,18 +62,29 @@ Para descargar un archivo CSV que contenga los datos del widget, seleccione ![De
 Para descargar datos de perspectivas de modelo completos en formato Microsoft® Excel, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## Calidad de modelo
 
-La pestaña Calidad del modelo muestra widgets para medir:
+![Evaluación de la calidad del modelo](/help/assets/model-quality-assessment.png)
+La pestaña de calidad del modelo muestra un
 
-* R2 (R cuadrado), que indica cómo se ajustan los datos al modelo de regresión (la bondad de ajuste).
+* [!UICONTROL Model Assessment] , que puede desglosar según las conversiones reales frente a las previstas o residuales.
 
-* MAPE (Error de porcentaje absoluto medio), que es uno de los KPI más utilizados para medir la precisión de la previsión y expresa el error de la previsión como un porcentaje del valor real.
+  Para desglosar la visualización, seleccione **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** desde el **[!UICONTROL Breakdown]** lista.
 
-* RMSE (Error Cuadrado Medio Raíz): que muestra el &quot;error&quot; promedio, ponderado según el cuadrado del error.
+* [!UICONTROL Model fitting metrics] , mostrando las siguientes columnas para cada métrica de conversión:
 
-![Calidad de modelo](../assets/model-quality.png)
+   * Conversión real
 
-Para descargar un archivo CSV que contenga los datos del widget, seleccione ![Más](../assets/icons/More.svg) en el widget y en el menú contextual, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * Conversión modelada
+
+   * Conversión residual (diferencia entre conversión real y modelada)
+
+   * Valores de puntuación de calidad del modelo:
+
+      * R2 (R cuadrado), que indica cómo se ajustan los datos al modelo de regresión (la bondad de ajuste).
+
+      * MAPE (Error de porcentaje absoluto medio), que es uno de los KPI más utilizados para medir la precisión de la previsión y expresa el error de la previsión como un porcentaje del valor real.
+
+      * RMSE (Error Cuadrado Medio Raíz): que muestra el &quot;error&quot; promedio, ponderado según el cuadrado del error.
+
+  Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](../assets/icons/Download.svg).
