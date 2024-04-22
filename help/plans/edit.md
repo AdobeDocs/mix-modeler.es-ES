@@ -3,9 +3,9 @@ title: Edición de un plan
 description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
+source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 1. Seleccionar **[!UICONTROL X]** o **[!UICONTROL  %]** sobre cómo **[!UICONTROL View ROI]**.
 
-1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para datos detallados en formato CSV, o ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
 
 1. Para ver el desglose Intervalo de fecha por categoría de canales, seleccione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, o **[!UICONTROL Non-paid channels]** desde el **[!UICONTROL View]** selección.
 
