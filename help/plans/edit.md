@@ -3,9 +3,9 @@ title: Edición de un plan
 description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 1. Seleccionar **[!UICONTROL X]** o **[!UICONTROL  %]** sobre cómo **[!UICONTROL View ROI]**.
 
-1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para datos detallados en formato CSV, o ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
+1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual:
+
+   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para obtener datos detallados en formato CSV, o
+   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
+
+   Los datos detallados son datos granulares tecleados por semana. Los datos de resumen son datos introducidos por el intervalo de fechas proporcionado por el modelo.
 
 1. Para ver el desglose Intervalo de fecha por categoría de canales, seleccione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, o **[!UICONTROL Non-paid channels]** desde el **[!UICONTROL View]** selección.
 
