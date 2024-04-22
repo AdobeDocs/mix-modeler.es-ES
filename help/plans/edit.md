@@ -3,9 +3,9 @@ title: Edición de un plan
 description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual:
 
-   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para obtener datos detallados en formato CSV, o
+   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para obtener datos detallados en formato CSV.
    - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
 
    Los datos detallados son datos granulares tecleados por semana. Los datos de resumen son datos introducidos por el intervalo de fechas proporcionado por el modelo.
