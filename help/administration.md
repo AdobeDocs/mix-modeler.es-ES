@@ -2,13 +2,13 @@
 title: Administración
 description: Aprenda a administrar Mix Modeler.
 feature: Administration
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
+source-git-commit: 51a4bc6557422a281fa03d49877cb378d14314e2
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '184'
+ht-degree: 2%
 
 ---
-
 
 # Administración
 
@@ -16,36 +16,42 @@ Utilice el [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/adm
 
 Para que Mix Modeler funcione correctamente, debe establecer los permisos correctos.
 
-En la interfaz de usuario de Adobe Experience Cloud,
+En la IU de Adobe Experience Cloud:
 
 1. Seleccionar **[!UICONTROL Permissions]** desde el carril izquierdo, debajo de **[!UICONTROL ADMINISTRATION]**.
 
 1. Seleccionar ![Persona](assets/icons/User.svg) **[!UICONTROL Roles]** en el panel izquierdo.
 
-1. Seleccione una función existente o cree una función con **[!UICONTROL Create role]**. Si selecciona una función existente, seleccione ![Editar](assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar los permisos de la función. Consulte [Administrar funciones](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información.
+1. Seleccione una función existente o cree una función con **[!UICONTROL Create role]** (por ejemplo, **Mix Modeler**). Si selecciona una función existente, seleccione ![Editar](assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar los permisos de la función. Consulte [Administrar funciones](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información.
 
-1. Asegúrese de seleccionar los siguientes permisos para la función:
+1. Asegúrese de haber seleccionado una o más zonas protegidas para la función.
 
-   * **[!UICONTROL Sandboxes]**: seleccione al menos una zona protegida.
+1. Añada el **Adobe Mix Modeler** a la lista de recursos del rol.
 
-   * **[!UICONTROL Data Management]**: asegúrese de seleccionar las opciones **[!UICONTROL View Datasets]** y **[!UICONTROL Manage Datasets]**.
+1. Asegúrese de seleccionar la **[!UICONTROL Adobe Mix Modeler]** permisos para la función que está configurando. Puede seleccionar una o varias de las siguientes funciones:
 
-   * **[!UICONTROL Data Modeling]**: asegúrese de seleccionar las opciones **[!UICONTROL Manage Schemas]** y **[!UICONTROL View Schemas]**.
+   - **[!UICONTROL View Adobe Mix Modeler Harmonized Data]**
+   - **[!UICONTROL Manage Adobe Mix Modeler Harmonized Data]**
+   - **[!UICONTROL View Adobe Mix Modeler Models Configuration]**
+   - **[!UICONTROL Manage Adobe Mix Modeler Models Configuration]**
+   - **[!UICONTROL View Adobe Mix Modeler Plans Configuration]**
+   - **[!UICONTROL Manage Adobe Mix Modeler Plans Configuration]**
 
-   * **[!UICONTROL Destinations]**: asegúrese de seleccionar **[!UICONTROL Manage and Activate Dataset Destination]**, **[!UICONTROL Destination Authoring]**, **[!UICONTROL Activate Destinations]** y **[!UICONTROL View Destinations]**.
+     ![MIX MODELER RBAC](assets/mix-modeler-rbac.png)
 
-   * **[!UICONTROL Data Ingestion]**: asegúrese de seleccionar **[!UICONTROL View Sources]** y **[!UICONTROL Manage Sources]**.
+
+1. Asegúrese de seleccionar permisos adicionales para la función. Por ejemplo, para ver o administrar conjuntos de datos y esquemas, seleccionaría:
+
+   - **[!UICONTROL Data Management]**: seleccione las opciones relevantes: **[!UICONTROL View Datasets]** o **[!UICONTROL Manage Datasets]**.
+
+   - **[!UICONTROL Data Modeling]**: seleccione las opciones relevantes: **[!UICONTROL Manage Schemas]** o **[!UICONTROL View Schemas]**.
 
    <!--
     * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
     -->
 
-   Los permisos configurados para la función deben tener el siguiente aspecto:
-
-   ![Permisos](assets/permissions.png)
-
    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    Seleccionar **[!UICONTROL Save]** para guardar los permisos.
 
-1. Entrada **[!UICONTROL Details]** dentro **[!UICONTROL Role]**, añada el adecuado **[!UICONTROL Users]** y/o **[!UICONTROL User groups]** para proporcionar a los usuarios acceso a Mix Modeler.
+1. Entrada **[!UICONTROL Details]** dentro **[!UICONTROL Role]**, añada el adecuado **[!UICONTROL Users]** o **[!UICONTROL User groups]** para proporcionar a los usuarios acceso a Mix Modeler.
