@@ -2,8 +2,7 @@
 title: Auditoría
 description: Obtenga información sobre cómo auditar al Mix Modeler.
 feature: Administration
-exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: b8435c46276be9d0755049a502ba029b0983cb72
+source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
