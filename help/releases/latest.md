@@ -4,18 +4,25 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 8%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
 # Notas de la versión del Mix Modeler actual
 
-**Última actualización**: 1 de abril de 2024.
+**Última actualización**: 29 de mayo de 2024.
 
 Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
+
+## Mayo de 2024
+
+| Función | Descripción | Disponibilidad general |
+|---|---|---|
+| **Preferencias de combinación de datos** [!BADGE beta] | [Preferencias de combinación de datos](../harmonize-data/dataset-rules.md#data-merge-preferences) ayuda a resolver conflictos cuando se combinan datos de fuentes de datos resumidas y de evento. | 29 de mayo de 2024 |
+| **Control de acceso de nivel de campo** | Al definir reglas de conjuntos de datos, la variable Experience Platform [control de acceso basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) se aplica en un [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | 29 de mayo de 2024 |
 
 
 ## Abril de 2024
@@ -42,4 +49,4 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 >[!MORELIKETHIS]
 >
 >* [Introducción al Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Documentación del Experience League del Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Documentación del Experience League del Mix Modeler](https://experienceleague.adobe.com/es/docs/mix-modeler)
