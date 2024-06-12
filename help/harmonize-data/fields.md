@@ -3,9 +3,9 @@ title: Campos armonizados
 description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 8%
 
 ---
@@ -35,10 +35,10 @@ Los campos de armonización global predeterminados disponibles en Mix Modeler so
 | conjunto de datos | Conjunto de datos | Dimensión | Cadena |           |
 | date_type | Tipo de fecha | Dimensión | Cadena | día, semana |
 | correos electrónicos enviados | Correos electrónicos enviados | Métrica | Número |           |
-| event_date | Fecha | Dimensión | DateTime |           |
+| event_date | Fecha | Dimensión | Fecha y hora |           |
 | demanda_bruta | Demanda bruta | Métrica | Moneda |           |
 | impresiones | Impresiones | Métrica | Número |           |
-| last_updated_date | Fecha de última actualización | Dimensión | DateTime |           |
+| last_updated_date | Fecha de última actualización | Dimensión | Fecha y hora |           |
 | linkvisit | Visitas de vínculo | Métrica | Número |           |
 | mediatype | Tipo de medio | Dimensión | Cadena |           |
 | net_sales | Ventas netas | Métrica | Moneda |           |
@@ -66,7 +66,7 @@ Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix
    | Nombre de campo | El nombre del campo armonizado. |
    | Nombre para mostrar | El nombre para mostrar del campo armonizado. Este nombre para mostrar se utiliza al definir reglas de conjuntos de datos, puntos de contacto de marketing y definiciones de conversión. |
    | Categoría | Especifica si un campo de datos armonizado es una [!UICONTROL Dimension], a [!UICONTROL Metric] o [!UICONTROL Derived]. Una categoría derivada es un campo armonizado que utiliza una definición de fórmula basada en métricas. |
-   | Tipo de datos | Especifica el tipo de datos ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | Tipo de datos | Especifica el tipo de datos ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Fecha de creación | Fecha y hora de creación del campo armonizado. |
    | Propietario | Indica si un campo armonizado es predeterminado ([!UICONTROL Global]), o se ha definido por usted ([!UICONTROL Client]). |
    | Fecha de la última modificación | Datos y hora de la última modificación del campo armonizado. |
@@ -93,7 +93,7 @@ Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.
 
    1. Seleccione una **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** o **[!UICONTROL DateTime]**, cuando la categoría seleccionada sea Dimension.
+      - **[!UICONTROL String]** o **[!UICONTROL Date time]**, cuando la categoría seleccionada sea Dimension.
       - **[!UICONTROL Number]** o **[!UICONTROL Currency]** cuando la categoría seleccionada es Métrica o Derivada.
 
    1. Seleccionar **[!UICONTROL Submit]** para añadir el campo armonizado. Seleccionar **[!UICONTROL Close]** para cerrar el cuadro de diálogo sin añadir el campo armonizado.

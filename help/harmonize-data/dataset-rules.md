@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Para garantizar predicciones de modelos precisas, puede definir las preferencias
 
    ![Preferencias de combinación de datos](../assets/data-merge-preferences.png)
 
-   * Seleccione una **[!UICONTROL Default metric preference]**. La preferencia de métrica predeterminada seleccionada se aplica cuando, durante la armonización, varias fuentes de datos actualizan un campo de métrica para un canal determinado. La preferencia se aplica en el nivel de zona protegida, a menos que se anule para las preferencias específicas basadas en métricas.
+   * Seleccione una **[!UICONTROL Default metric preference]**. La preferencia de métrica predeterminada seleccionada se aplica cuando, durante la armonización, varias fuentes de datos actualizan un campo de métrica para un canal determinado. La preferencia se aplica en el nivel de zona protegida, a menos que se anule para las preferencias específicas basadas en métricas. Puede seleccionar entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** y **[!UICONTROL Sum of summmary and event data]**.
 
    * Para agregar preferencias basadas en métricas específicas:
 
@@ -181,13 +181,11 @@ Para garantizar predicciones de modelos precisas, puede definir las preferencias
 
 1. Seleccionar **[!UICONTROL Save]** para guardar las preferencias de combinación de datos. Se inicia una resincronización de los datos. <br/>Seleccionar **[!UICONTROL Cancel]** para cancelar.
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## Control de acceso de nivel de campo
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+Experience Platform Al configurar reglas de conjuntos de datos para conjuntos de datos armonizados, el [control de acceso basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) se aplica en el nivel de campo. Un campo está restringido cuando se adjunta una etiqueta a un campo de esquema y se habilita una directiva activa que deniega el acceso a ese campo. Como resultado:
 
--->
+* no ve los campos de esquema que están restringidos al crear una regla de conjunto de datos,
+* no puede ver ni editar la asignación de uno o varios campos de esquema que están restringidos. Cuando edita o ve una regla del conjunto de datos que contiene estos campos restringidos, verá la siguiente pantalla.
+  ![Acción no permitida](../assets/action-not-permitted.png)

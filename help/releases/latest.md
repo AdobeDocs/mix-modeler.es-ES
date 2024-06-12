@@ -4,9 +4,9 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 10%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 10%
 
 Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
 
+## Junio de 2024
+
+| Función | Descripción | Disponibilidad general |
+|---|---|---|
+| **Control de acceso de nivel de campo** | Al definir reglas de conjuntos de datos, la variable Experience Platform [control de acceso basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) se aplica en un [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 de junio de 2024 |
+| P **puntos de contacto de conocimiento previo** | Solo los puntos de contacto de marketing especificados en la variable [!UICONTROL Configure] , están disponibles para su selección en la [[!UICONTROL Prior Knowledge]](../models/create.md) sección. | 12 de junio de 2024 |
+
+{style="table-layout:auto"}
+
 ## Mayo de 2024
 
 | Función | Descripción | Disponibilidad general |
@@ -25,9 +34,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## Abril de 2024
