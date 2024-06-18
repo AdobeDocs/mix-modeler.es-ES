@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
+source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 10%
+source-wordcount: '308'
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,10 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 | Función | Descripción | Disponibilidad general |
 |---|---|---|
+| **Visualizaciones de MTA** | Model Insights se actualiza con información completa [Visualizaciones de MTA](../models/insights.md#attribution). | 18 de junio de 2024 |
+| **Métricas de CPA** | Las métricas de CPA (coste por acción) están disponibles en [Comparar planes](../plans/compare.md). | 18 de junio de 2024 |
 | **Control de acceso de nivel de campo** | Al definir reglas de conjuntos de datos, la variable Experience Platform [control de acceso basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) se aplica en un [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 de junio de 2024 |
-| P **puntos de contacto de conocimiento previo** | Solo los puntos de contacto de marketing especificados en la variable [!UICONTROL Configure] , están disponibles para su selección en la [[!UICONTROL Prior Knowledge]](../models/create.md) sección. | 12 de junio de 2024 |
+| **Puntos de contacto de conocimientos previos** | Solo los puntos de contacto de marketing especificados en la variable [!UICONTROL Configure] , están disponibles para su selección en la [[!UICONTROL Prior Knowledge]](../models/create.md) sección. | 12 de junio de 2024 |
 
 {style="table-layout:auto"}
 

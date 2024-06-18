@@ -4,10 +4,10 @@ description: Obtenga información general sobre la funcionalidad y las capacidad
 short-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: 59869553c4a5856e897aded441520dd8938eb8c1
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 8%
+source-wordcount: '757'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Consulte este vídeo para obtener una descripción general rápida de las funcio
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
-Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide de forma incremental tanto en puntos de contacto de marketing como en niveles agregados, a la vez que garantiza resultados totalmente coherentes.
+Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
 
 Mix Modeler proporciona el impacto incremental de todas las actividades de marketing en los resultados empresariales y de campaña a través de una aplicación de medición integral (de extremo a extremo) para el marketing digital y sin conexión.
 
@@ -45,7 +45,7 @@ Mix Modeler ofrece las siguientes funciones:
 | Capacidad | Descripción |
 |---|---|
 | **Medir el rendimiento incremental** | Comprenda el retorno de la inversión incremental y el impacto del marketing en los objetivos empresariales o de campaña táctica. |
-| **Unificar resultados en MMM y MTA** | Tome decisiones más seguras a través de la unificación de los modelos MMM y MTA a través del aprendizaje por transferencia. |
+| **Unificar resultados en MMM y MTA** | Tome decisiones más seguras a través de la unificación de los modelos de modelado de combinación de marketing (MMM) y atribución multitáctil (MTA) mediante el aprendizaje de transferencia. |
 | **Asignación óptima de presupuestos** | Identificar la asignación óptima del presupuesto en función del gasto de marketing y el impacto en los objetivos. |
 | **Crear y comparar escenarios de presupuesto** | Desarrolle varios planes de presupuesto y compare su impacto para tomar decisiones óptimas para su negocio. |
 
@@ -54,3 +54,45 @@ Mix Modeler ofrece las siguientes funciones:
 >[!MORELIKETHIS]
 >
 >[Comprender el flujo de trabajo del Mix Modeler](workflow.md)
+
+
+### Modelado de combinación de marketing (MMM)
+
+El modelado de combinación de marketing en Mix Modeler es un análisis de aprendizaje automático compatible con la privacidad que se utiliza para medir el impacto incremental de varias tácticas de marketing y factores empresariales en las métricas de conversión. Ayuda a las empresas y a los especialistas en marketing a comprender
+
+* la eficacia de sus estrategias de marketing,
+* los efectos de los factores comerciales en el comportamiento de los clientes, y
+* qué genera el retorno de la inversión y las conversiones.
+
+Este análisis completo permite a las empresas asignar los presupuestos de marketing de forma estratégica entre diversas líneas de negocio, regiones, canales y campañas, a la vez que proporciona perspectivas predictivas sobre el impacto comercial de eventos futuros.
+
+Las funciones de modelado de combinaciones de marketing de Mix Modeler son fundamentales para resolver los siguientes casos de uso:
+
+* Informes ejecutivos: Permita que los ejecutivos comprendan el verdadero impacto incremental del marketing, tanto en su conjunto como por canal, región, SKU, etc.
+* Planificación estratégica: informar estrategias de marketing a largo plazo y establecer objetivos y puntos de referencia realistas para futuras campañas.
+* Medición completa: análisis holístico de la interacción de los distintos factores empresariales y de marketing, que contribuyen a las ventas y al rendimiento general
+* Análisis de escenarios: Permita que las empresas simulen diferentes escenarios y estrategias de marketing y predigan sus resultados
+
+
+### Atribución multitáctil (MTA)
+
+La atribución multitáctil en Mix Modeler es un análisis opcional de aprendizaje automático que puede aprovechar para atribuir créditos a puntos de contacto de nivel de evento que conducen a eventos de conversión. Los especialistas en marketing utilizan esta atribución para ayudar a cuantificar el impacto de cada punto de contacto de marketing individual en los recorridos de los clientes a los que se puede realizar un seguimiento. Estos puntos de contacto de la campaña de marketing digital suelen ser clics en anuncios de visualización, envíos de correo electrónico, aperturas de correo electrónico y clics en búsquedas de pago. La atribución de múltiples contactos no puede medir la mayoría de los puntos de contacto sin conexión, como anuncios impresos, carteleras o anuncios de TV y factores empresariales. Estos puntos de contacto solo tienen datos de nivel de resumen que no se pueden vincular a los recorridos del cliente.
+
+La atribución multitáctil de Mix Modeler admite dos categorías de puntuaciones:
+
+* Puntuaciones algorítmicas, que incluyen puntuaciones incrementales e influenciadas:
+   * La puntuación influenciada es la fracción de la conversión de la que es responsable cada punto de contacto de marketing.
+   * La puntuación incremental es la cantidad de impacto marginal causado directamente por un punto de contacto de marketing. Esta puntuación elimina la línea de base (la porción de conversión alcanzada sin actividades de marketing) de la puntuación influenciada.
+
+* Puntuaciones basadas en reglas, que incluyen Primer contacto, Último contacto, Lineal, Forma de U y Deterioro de tiempo.
+
+Puede utilizar la capacidad de atribución multitáctil de Mix Modeler en los siguientes casos de uso:
+
+* Asignación de presupuesto de campaña: informa las decisiones de asignación de presupuesto en los canales de marketing.
+* Optimización de campañas: dentro de cada canal, es necesario comprender qué campañas, creativos y palabras clave funcionan mejor para qué SKU o geos. Esta comprensión le permite ver cada canal para que el equipo de marketing pueda optimizar sus tácticas.
+* Atribución a nivel de evento de canal completo: Comprenda el impacto del marketing en todo el recorrido del cliente. Por ejemplo, registro gratuito en la cuenta para la conversión de pago y más allá.
+* Evaluaciones de los asociados: Evaluar la eficacia de los organismos y los asociados, sobre la base de los resultados de atribución.
+
+Consulte [Datos del modelo: Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución de varios contactos en Mix Modeler.
+
+
