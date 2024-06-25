@@ -3,10 +3,10 @@ title: Auditorías
 description: Obtenga información sobre cómo acceder a las auditorías desde Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -22,21 +22,30 @@ Para inspeccionar el registro de auditoría, en la interfaz del Mix Modeler:
 
    | Categoría | Acción | Estado |
    |---|---|---|
-   | Regla de conjunto de datos de Mix Modeler | Crear | Permitir o denegado |
-   | Regla de conjunto de datos de Mix Modeler | Actualización | Permitir o denegado |
-   | Regla de conjunto de datos de Mix Modeler | Eliminar | Permitir o denegado |
-   | Campo de Mix Modeler | Crear | Permitir o denegado |
-   | Campo de Mix Modeler | Actualización | Permitir o denegado |
-   | Campo de Mix Modeler | Eliminar | Permitir o denegado |
-   | Mix Modeler Marketing Touchpoint | Crear | Permitir o denegado |
-   | Mix Modeler Marketing Touchpoint | Actualización | Permitir o denegado |
-   | Mix Modeler Marketing Touchpoint | Eliminar | Permitir o denegado |
-   | Conversión de Mix Modeler | Crear | Permitir o denegado |
-   | Conversión de Mix Modeler | Actualización | Permitir o denegado |
-   | Conversión de Mix Modeler | Eliminar | Permitir o denegado |
-   | Modelo de Mix Modeler | Crear | Permitir o denegado |
-   | Modelo de Mix Modeler | Actualización | Permitir o denegado |
-   | Modelo de Mix Modeler | Eliminar | Permitir o denegado |
+   | Regla de conjunto de datos de Mix Modeler | Crear | Permitir o denegar |
+   | Regla de conjunto de datos de Mix Modeler | Actualización | Permitir o denegar |
+   | Regla de conjunto de datos de Mix Modeler | Eliminar | Permitir o denegar |
+   | Campo de Mix Modeler | Crear | Permitir o denegar |
+   | Campo de Mix Modeler | Actualización | Permitir o denegar |
+   | Campo de Mix Modeler | Eliminar | Permitir o denegar |
+   | Mix Modeler Marketing Touchpoint | Crear | Permitir o denegar |
+   | Mix Modeler Marketing Touchpoint | Actualización | Permitir o denegar |
+   | Mix Modeler Marketing Touchpoint | Eliminar | Permitir o denegar |
+   | Conversión de Mix Modeler | Crear | Permitir o denegar |
+   | Conversión de Mix Modeler | Actualización | Permitir o denegar |
+   | Conversión de Mix Modeler | Eliminar | Permitir o denegar |
+   | Modelo de Mix Modeler | Crear | Permitir o denegar |
+   | Modelo de Mix Modeler | Actualización | Permitir o denegar |
+   | Modelo de Mix Modeler | Eliminar | Permitir o denegar |
+   | Modelo de Mix Modeler | Volver a puntuar | Permitir o denegar |
+   | Modelo de Mix Modeler | Clonar | Permitir o denegar |
+   | Modelo de Mix Modeler | Entrenar/volver a entrenar | Permitir o denegar |
+   | Modelo de Mix Modeler | Descargar o guardar metadatos | Permitir o denegar |
+   | Plan del Mix Modeler | Crear | Permitir o denegar |
+   | Plan del Mix Modeler | Actualización | Permitir o denegar |
+   | Plan del Mix Modeler | Cambiar modelo asociado | Permitir o denegar |
+   | Armonización de datos de Mix Modeler | Sincronización de déclencheur | Permitir o denegar |
+
 
 1. Seleccione una entrada en el registro de actividad para abrir un panel y obtener más información.
 
