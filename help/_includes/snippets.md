@@ -1,7 +1,7 @@
 ---
-source-git-commit: 923f9065d323f41c4a66c8779f97dad119eb38d7
+source-git-commit: 182f3cf46fd4871f7b27d311af1673457677d361
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1811'
 ht-degree: 6%
 
 ---
@@ -3410,7 +3410,7 @@ ht-degree: 6%
 
 ## Usuario {#user}
 
-![Usuario](/help/assets/icons/User.svg)
+<img src="./assets/icons/../../../assets/icons/User.svg">
 
 ## UserActivity {#useractivity}
 
