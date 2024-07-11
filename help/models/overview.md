@@ -3,7 +3,7 @@ title: Modelos
 description: Aprenda a configurar y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Para crear un modelo, utilice el flujo de configuración del modelo guiado paso 
 
 Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
 
-1. Seleccionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
+1. Seleccionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
 
 1. Verá una tabla de los modelos actuales.
 
@@ -58,14 +58,14 @@ Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
 
    {style="table-layout:auto"}
 
-1. Para cambiar las columnas mostradas en la lista, seleccione ![Configuración de columna](../assets/icons/ColumnSetting.svg) y activar las columnas ![Marque](../assets/icons/Checkmark.svg) o apagada.
+1. Para cambiar las columnas mostradas en la lista, seleccione ![Configuración de columna](/help/assets//icons/ColumnSetting.svg) y activar las columnas ![Marque](/help/assets//icons/Checkmark.svg) o apagada.
 
 
 ### Ver detalles de un modelo
 
 Para ver más detalles de un modelo:
 
-1. Seleccionar ![Información](../assets/icons/Info.svg) para que un modelo muestre una ventana emergente con detalles.
+1. Seleccionar ![Información](/help/assets//icons/Info.svg) para que un modelo muestre una ventana emergente con detalles.
 
 
 
@@ -73,7 +73,7 @@ Para ver más detalles de un modelo:
 
 Para ver las perspectivas de un modelo, en la interfaz del Mix Modeler:
 
-1. Seleccionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
+1. Seleccionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
 
 1. Seleccione el nombre de un modelo con una **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** desde el **[!UICONTROL Models]** tabla. Información del modelo solo está disponible en modelos formados correctamente.
 
@@ -85,7 +85,7 @@ Para ver las perspectivas de un modelo, en la interfaz del Mix Modeler:
 
 Para volver a puntuar un modelo, en la interfaz de Mix Modeler:
 
-1. Seleccionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
+1. Seleccionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** desde el carril izquierdo.
 
 1. Seleccione el nombre de un modelo con una **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** desde el **[!UICONTROL Models]** tabla. Volver a puntuar solo está disponible en modelos formados correctamente.
 

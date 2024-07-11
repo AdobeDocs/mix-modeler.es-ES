@@ -3,7 +3,7 @@ title: Armonizar datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 Los datos de Mix Modeler son de diferente naturaleza según la fuente de los datos. Los datos pueden ser:
 
 * datos agregados o resumidos, por ejemplo, recopilados a partir de fuentes de datos de walled garden o datos de publicidad sin conexión recopilados (como el gasto) al ejecutar una campaña de cartelera, un evento o una campaña de publicidad física,
-* datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics o a través del SDK web o móvil de Experience Platform o la API de red perimetral, o datos introducidos mediante conectores de origen.
+* datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics o a través de la web de Experience Platform, el SDK móvil o la API de Edge Network, o datos introducidos mediante conectores de origen.
 
 El servicio de armonización de Mix Modeler asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos, combinada con datos de factores internos y externos, es la fuente de los modelos de Mix Modeler. El servicio utiliza la granularidad más alta en los diferentes conjuntos de datos. Por ejemplo, si un conjunto de datos tiene una granularidad mensual y los demás conjuntos de datos tienen granularidad semanal y diaria, el servicio de armonización crea una vista de datos con granularidad mensual.
 
@@ -116,17 +116,17 @@ Para crear un conjunto de datos armonizado, como en el [ejemplo](#an-example-of-
 
 Para ver los datos armonizados, en la interfaz de Mix Modeler:
 
-1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** desde el carril izquierdo.
+1. Seleccionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** desde el carril izquierdo.
 
 1. Seleccionar **[!UICONTROL Harmonized Data]** desde la barra superior. Se muestra un resumen de los datos armonizados en función de los campos, las reglas del conjunto de datos, los puntos de contacto de marketing y las conversiones que haya definido.
 
-   1. Para redefinir el periodo en el que se basa el resumen de datos armonizados, introduzca un intervalo de fechas para **[!UICONTROL Date range]** o use ![Calendario](../assets/icons/Calendar.svg) para seleccionar un rango de datos.
+   1. Para redefinir el periodo en el que se basa el resumen de datos armonizados, introduzca un intervalo de fechas para **[!UICONTROL Date range]** o use ![Calendario](/help/assets//icons/Calendar.svg) para seleccionar un rango de datos.
 
-   1. Para modificar las columnas de campo armonizadas mostradas para la tabla de datos armonizados, utilice ![Configuración](../assets/icons/Setting.svg) para abrir **[!UICONTROL Column settings]** diálogo.
+   1. Para modificar las columnas de campo armonizadas mostradas para la tabla de datos armonizados, utilice ![Configuración](/help/assets//icons/Setting.svg) para abrir **[!UICONTROL Column settings]** diálogo.
 
-      1. Seleccionar ![SelectBox](../assets/icons/SelectBox.svg) una o más columnas de **[!UICONTROL AVAILABLE COLUMNS]** y utilice ![cheurón derecho](../assets/icons/ChevronRight.svg) para agregar estas columnas a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Seleccionar ![SelectBox](/help/assets//icons/SelectBox.svg) una o más columnas de **[!UICONTROL AVAILABLE COLUMNS]** y utilice ![cheurón derecho](/help/assets//icons/ChevronRight.svg) para agregar estas columnas a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Seleccionar ![SelectBox](../assets/icons/SelectBox.svg) una o más columnas de **[!UICONTROL SELECTED COLUMNS]** y utilice ![Corchete izquierdo](../assets/icons/ChevronLeft.svg) para quitar las columnas seleccionadas y devolver estas columnas a **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Seleccionar ![SelectBox](/help/assets//icons/SelectBox.svg) una o más columnas de **[!UICONTROL SELECTED COLUMNS]** y utilice ![Corchete izquierdo](/help/assets//icons/ChevronLeft.svg) para quitar las columnas seleccionadas y devolver estas columnas a **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Seleccionar una columna de **[!UICONTROL DEFAULT SORT]** y alternar entre **[!UICONTROL Ascending]** o **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Para ver los datos armonizados, en la interfaz de Mix Modeler:
 
    1. Seleccionar **[!UICONTROL Submit]** para enviar los cambios de configuración de columna. Seleccionar **[!UICONTROL Close]** para cancelar los cambios realizados.
 
-1. Si hay más páginas disponibles, utilice ![Flecha izquierda](../assets/icons/ChevronLeft.svg) o ![Flecha derecha](../assets/icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para desplazarse entre páginas.
+1. Si hay más páginas disponibles, utilice ![Flecha izquierda](/help/assets//icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets//icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para desplazarse entre páginas.

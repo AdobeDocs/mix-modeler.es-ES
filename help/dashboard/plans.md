@@ -3,7 +3,7 @@ title: Resumen de planes
 description: Aprenda a utilizar la información general de planes en Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -23,6 +23,6 @@ Los datos mostrados para los widgets están determinados por:
 
 * El plan. Seleccionar un plan de **[!UICONTROL Plan name]** uso del **[!UICONTROL _Seleccionar una opción..._]**.
 
-* El período de fecha especificado. Para cambiar el periodo de fecha, introduzca una fecha de inicio y una de finalización manualmente o seleccione un periodo de fecha con ![Calendario](../assets/icons/Calendar.svg).
+* El período de fecha especificado. Para cambiar el periodo de fecha, introduzca una fecha de inicio y una de finalización manualmente o seleccione un periodo de fecha con ![Calendario](/help/assets//icons/Calendar.svg).
 
 

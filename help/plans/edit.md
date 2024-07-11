@@ -3,7 +3,7 @@ title: Edición de un plan
 description: Obtenga información sobre cómo editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Edición de un plan
 
-Para editar un plan, en ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** interfaz en Mix Modeler, seleccione su plan por su nombre.
+Para editar un plan, en ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** interfaz en Mix Modeler, seleccione su plan por su nombre.
 
 Entrada [!UICONTROL Plan insights], se crean las perspectivas del plan, mostrando el [!UICONTROL Model], el [!UICONTROL Data range], y [!UICONTROL Total budget] en el que se basa el plan.
 
@@ -29,16 +29,16 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
    - Meta de conversión
    - Gasto
 
-![Visión General de un Plan](../assets/overview-plan.png)
+![Visión General de un Plan](/help/assets//overview-plan.png)
 
 1. Seleccionar **[!UICONTROL Close]** para volver a la interfaz de Planes.
 
 1. Seleccionar **[!UICONTROL X]** o **[!UICONTROL  %]** sobre cómo **[!UICONTROL View ROI]**.
 
-1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual:
+1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual:
 
-   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para obtener datos detallados en formato CSV.
-   - Seleccionar ![Descargar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
+   - Seleccionar ![Descargar](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** para obtener datos detallados en formato CSV.
+   - Seleccionar ![Descargar](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** para datos de resumen en formato CSV.
 
    Los datos detallados son datos granulares tecleados por semana. Los datos de resumen son datos introducidos por el intervalo de fechas proporcionado por el modelo.
 
@@ -46,13 +46,13 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 1. Para editar el plan, seleccione **[!UICONTROL Edit plan]**:
 
-   1. En el **[!UICONTROL Spend selection]** , para cada intervalo de fechas del presupuesto, utilice el ![cheurón](../assets/icons/ChevronRight.svg) para abrir la vista de distribución de canal de ese intervalo de datos.
+   1. En el **[!UICONTROL Spend selection]** , para cada intervalo de fechas del presupuesto, utilice el ![cheurón](/help/assets//icons/ChevronRight.svg) para abrir la vista de distribución de canal de ese intervalo de datos.
 
    1. Para modificar los presupuestos de cada canal, modifique los valores de **[!UICONTROL Min]** y **[!UICONTROL Max]** o utilice los controles deslizantes.
 
    1. Para alternar entre la entrada de moneda o porcentaje, seleccione **[!UICONTROL $]** o **[!UICONTROL %]** para **[!UICONTROL View spend by]**.
 
-      ![Selección de gasto](../assets/spend-selection.png)
+      ![Selección de gasto](/help/assets//spend-selection.png)
 
    1. Para editar los detalles del plan, seleccione **[!UICONTROL Edit details]**:
 
@@ -60,13 +60,13 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
       1. En el **[!UICONTROL Budget]** sección:
 
-         1. Modifique la **[!UICONTROL Date range]** para uno o más de los intervalos de fechas del plan, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](../assets/icons/Calendar.svg).
+         1. Modifique la **[!UICONTROL Date range]** para uno o más de los intervalos de fechas del plan, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets//icons/Calendar.svg).
 
          1. Modifique la **[!UICONTROL Budget]** para uno o más de los intervalos de fechas del plan.
 
-         Para añadir intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+         Para añadir intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
-         Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](../assets/icons/Close.svg).
+         Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](/help/assets//icons/Close.svg).
 
          Para definir un presupuesto máximo:
 
@@ -75,7 +75,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
       1. Seleccionar **[!UICONTROL Next]** para volver a la **[!UICONTROL Spend]** sección. Seleccionar **[!UICONTROL Cancel]** para volver a la descripción general de sus planes.
 
-         ![Detalles del plan](../assets/plan-details.png)
+         ![Detalles del plan](/help/assets//plan-details.png)
 
 
 1. Cuando termine de editar el plan, seleccione **[!UICONTROL Edit]**.

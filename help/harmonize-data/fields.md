@@ -3,7 +3,7 @@ title: Campos armonizados
 description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Los campos de armonización global predeterminados disponibles en Mix Modeler so
 | campaña | Campaign | Dimensión | Cadena |           |
 | canal | Canal | Dimensión | Cadena |           |
 | channel_id | ID de canal | Dimensión | Cadena |           |
-| channel_type_at_source | Tipo De Canal En Origen | Dimensión | Cadena |           |
+| channel_type_at_source | Tipo De Canal En Source | Dimensión | Cadena |           |
 | canal | Canal | Dimensión | Cadena |           |
 | clics | Clics | Métrica | Número |           |
 | conversiontype | Tipo de conversión | Dimensión | Cadena |           |
@@ -43,7 +43,7 @@ Los campos de armonización global predeterminados disponibles en Mix Modeler so
 | mediatype | Tipo de medio | Dimensión | Cadena |           |
 | net_sales | Ventas netas | Métrica | Moneda |           |
 | pedidos | Pedidos | Métrica | Número |           |
-| sourcetype | Tipo de origen | Dimensión | Cadena |           |
+| sourcetype | Tipo de Source | Dimensión | Cadena |           |
 | gastar | Gasto | Métrica | Moneda |           |
 | fuente de tráfico | Traffic Source | Dimensión | Cadena |           |
 
@@ -55,9 +55,9 @@ Puede añadir, editar o eliminar sus propios campos armonizados sobre estos camp
 
 Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix Modeler:
 
-1. Seleccionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
+1. Seleccionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
 
-1. Seleccionar **[!UICONTROL Fields]** desde la barra superior. Verá una tabla de los campos armonizados. Si hay más páginas disponibles, utilice ![Flecha izquierda](../assets/icons/ChevronLeft.svg) o ![Flecha derecha](../assets/icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para desplazarse entre las páginas de la tabla.
+1. Seleccionar **[!UICONTROL Fields]** desde la barra superior. Verá una tabla de los campos armonizados. Si hay más páginas disponibles, utilice ![Flecha izquierda](/help/assets//icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets//icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para desplazarse entre las páginas de la tabla.
 
    Las columnas de la tabla especifican detalles sobre los campos armonizados
 
@@ -74,14 +74,14 @@ Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix
 
    {style="table-layout:auto"}
 
-1. Para buscar un campo armonizado específico, utilice ![Buscar](../assets/icons/Search.svg) **[!UICONTROL *Buscar campo armonizado *]**.
+1. Para buscar un campo armonizado específico, utilice ![Buscar](/help/assets//icons/Search.svg) **[!UICONTROL *Buscar campo armonizado *]**.
 
 
 ### Añadir un campo armonizado
 
-Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
+Para añadir un campo armonizado, en la ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
-1. Seleccionar ![Añadir](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Seleccionar ![Añadir](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. En el **[!UICONTROL Create]** diálogo:
 
@@ -98,14 +98,14 @@ Para añadir un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.
 
    1. Seleccionar **[!UICONTROL Submit]** para añadir el campo armonizado. Seleccionar **[!UICONTROL Close]** para cerrar el cuadro de diálogo sin añadir el campo armonizado.
 
-      ![Creación de un campo](../assets/create-field.png)
+      ![Creación de un campo](/help/assets//create-field.png)
 
 
 ### Editar un campo armonizado
 
 Solo puede editar campos armonizados creados anteriormente (el propietario es el cliente). No se puede editar un campo armonizado global.
 
-Para editar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
+Para editar un campo armonizado, en la ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
 1. Seleccione el campo armonizado que desea editar. Por ejemplo, **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Para editar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.s
 
 1. Seleccionar **[!UICONTROL Submit]** para aplicar los cambios en el campo armonizado.
 
-   ![Editar un campo](../assets/edit-field.png)
+   ![Editar un campo](/help/assets//edit-field.png)
 
 ### Eliminar un campo armonizado
 
 Solo puede eliminar los campos armonizados que haya creado anteriormente (el propietario es el cliente). No se puede eliminar un campo armonizado global.
 
-Para eliminar un campo armonizado, en la ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
+Para eliminar un campo armonizado, en la ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** en el Mix Modeler:
 
 1. Seleccione el campo armonizado que desee eliminar, por ejemplo **[!UICONTROL Region]**.
 
-1. Seleccionar ![Eliminar](../assets/icons/Delete.svg) **[!UICONTROL Delete]** desde el **[!UICONTROL Edit harmonization values]** panel izquierdo.
+1. Seleccionar ![Eliminar](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** desde el **[!UICONTROL Edit harmonization values]** panel izquierdo.
 
    >[!WARNING]
    >
