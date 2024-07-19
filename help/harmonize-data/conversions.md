@@ -20,9 +20,9 @@ Las conversiones de marketing se definen para el análisis de atribución.
 
 Para ver una tabla de las conversiones disponibles, en la interfaz del Mix Modeler:
 
-1. Seleccionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
+1. Seleccione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
-1. Seleccionar **[!UICONTROL Conversions]** desde la barra superior. Verá una tabla de conversiones.
+1. Seleccione **[!UICONTROL Conversions]** de la barra superior. Verá una tabla de conversiones.
 
 Las columnas de la tabla especifican detalles sobre la conversión:
 
@@ -39,21 +39,21 @@ Las columnas de la tabla especifican detalles sobre la conversión:
 
 ## Añadir una conversión
 
-Para añadir una conversión, en ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interfaz en el Mix Modeler:
+Para agregar una conversión, en la interfaz de ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** del Mix Modeler:
 
-1. Seleccionar ![Añadir](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. Seleccione ![Agregar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. En el **[!UICONTROL Create conversion]** diálogo:
+1. En el diálogo **[!UICONTROL Create conversion]**:
 
-   1. Introduzca un nombre para **[!UICONTROL Conversion]**, por ejemplo `Store Conversions`.
+   1. Escriba un nombre para **[!UICONTROL Conversion]**, por ejemplo `Store Conversions`.
 
-   1. Defina el **[!UICONTROL Conversion category]**.
+   1. Defina **[!UICONTROL Conversion category]**.
 
       1. Seleccione un valor de **[!UICONTROL *Seleccionar armonizar...*]**, por ejemplo `Conversion types`.
 
-      1. Seleccione un valor para el operador ![cheurón](/help/assets//icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
+      1. Seleccione un valor para el operador ![Chevron](/help/assets//icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
 
-      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o introduzca un valor, por ejemplo **[!UICONTROL Store]**.
+      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o escriba un valor, por ejemplo **[!UICONTROL Store]**.
 
    1. Seleccione un campo armonizado de **[!UICONTROL Conversion metric for analysis]**, por ejemplo **[!UICONTROL Orders]**.
 
@@ -70,14 +70,14 @@ Para añadir una conversión, en ![DataSearch](/help/assets//icons/DataCheck.svg
 
 Para ver una conversión:
 
-1. Seleccionar ![Más](/help/assets//icons/More.svg) al pasar el ratón por encima de un nombre de conversión en la tabla.
+1. Seleccione ![Más](/help/assets//icons/More.svg) al pasar el ratón sobre un nombre de conversión de la tabla.
 
-1. Seleccionar ![Ver](/help/assets//icons/ViewDetail.svg) **Ver**. Un cuadro de diálogo muestra los detalles de la conversión. Consulte [Añadir una conversión](#add-a-conversion) para obtener más información. Seleccionar **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
+1. Seleccionar ![Vista](/help/assets//icons/ViewDetail.svg) **Vista**. Un cuadro de diálogo muestra los detalles de la conversión. Consulte [Agregar una conversión](#add-a-conversion) para obtener más información. Seleccione **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
 
 
 ## Eliminar una conversión
 
 Para eliminar una conversión:
 
-1. Seleccionar ![Eliminar](/help/assets//icons/Delete.svg) **Eliminar** al pasar el ratón por encima de un nombre de conversión en la tabla.
-1. En el **[!UICONTROL Delete conversion]** cuadro de diálogo de confirmación seleccionar **[!UICONTROL Delete]** para eliminar la conversión de forma permanente.
+1. Seleccione ![Delete](/help/assets//icons/Delete.svg) **Delete** al pasar el ratón por encima de un nombre de conversión en la tabla.
+1. En el cuadro de diálogo de confirmación **[!UICONTROL Delete conversion]**, seleccione **[!UICONTROL Delete]** para eliminar permanentemente la conversión.

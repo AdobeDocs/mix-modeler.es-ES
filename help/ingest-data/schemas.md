@@ -16,9 +16,9 @@ Para administrar esquemas compatibles con los datos que desea introducir en Expe
 
 1. Vaya a la interfaz del Mix Modeler.
 
-1. Seleccionar ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo **[!UICONTROL SETUP]**.
+1. Seleccione ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [Resumen de IU de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
+Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
 
 ## Datos agregados o resumidos
 
@@ -36,7 +36,7 @@ Utilice la clase Métricas de resumen de XDM para:
 >
 >La definición del esquema debe contener al menos un campo numérico (con tipo entero, doble, booleano u otro tipo numérico) para admitir las métricas necesarias para los datos introducidos.
 
-Un esquema con la variable **[!DNL XDM Summary Metrics]** la clase base puede ser simple, como se muestra en la **[!DNL ExternalFactorSummarySchema]** más abajo.
+Un esquema que use la clase base **[!DNL XDM Summary Metrics]** puede ser sencillo, como se muestra en el **[!DNL ExternalFactorSummarySchema]** siguiente.
 
 ![Esquema de factores externos](/help/assets//external-factors-schema.png)
 
@@ -46,24 +46,24 @@ Este esquema simple se puede utilizar para introducir conjuntos de datos que con
 
   | timestamp | date_type | factor | valor |
   |---|---|---|--:|
-  | 28T00-11-2020:00:00,000Z | semana | competitor_index | 289,8 |
-  | 05T00-12-2020:00:00,000Z | semana | competitor_index | 291,2 |
-  | 12T00-12-2020:00:00,000Z | semana | competitor_index | 280,07 |
+  | 2020-11-28T00:00:00.000Z | semana | competitor_index | 289,8 |
+  | 2020-12-05T00:00:00.000Z | semana | competitor_index | 291,2 |
+  | 2020-12-12T00:00:00.000Z | semana | competitor_index | 280,07 |
   | ... | ... | ... | ... |
 
 - Datos de festivos públicos
 
   | timestamp | date_type | factor | valor |
   |---|---|---|--:|
-  | 28T00-11-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
-  | 05T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
-  | 12T00-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
-  | 19-12-2020:00:00,000Z | semana | all_holiday_flag | 0,0 |
-  | 26-12-2020:00:00,000Z | semana | all_holiday_flag | 1,0 |
+  | 2020-11-28T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
+  | 2020-12-05T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
+  | 2020-12-12T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
+  | 2020-12-19T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
+  | 2020-12-26T00:00:00.000Z | semana | all_holiday_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
-Consulte a continuación un ejemplo más completo de una **[!DNL LumaPaidMarketingSchema]** uso del **[!DNL XDM Summary Metrics]** como clase base. El esquema utiliza grupos de campos dedicados (anotados con colores) para las métricas (**[!DNL AMMMetrics]**), dimensiones (**[!DNL AMMDimensions]**) y otra información específica del cliente (**[!DNL CustomerSpecific]**).
+Vea a continuación un ejemplo más completo de un(a) **[!DNL LumaPaidMarketingSchema]** que usa el(la) **[!DNL XDM Summary Metrics]** como clase base. El esquema utiliza grupos de campos dedicados (anotados con colores) para métricas (**[!DNL AMMMetrics]**), dimensiones (**[!DNL AMMDimensions]**) y otra información específica del cliente (**[!DNL CustomerSpecific]**).
 
 ![Esquema de resumen](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ Dada la naturaleza asíncrona de la ingesta de perfiles, al recopilar datos acum
 
 ## Tipos de datos admitidos
 
-Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), son compatibles:
+Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Cadena
 - Entero

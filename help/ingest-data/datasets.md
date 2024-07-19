@@ -16,9 +16,9 @@ Para administrar conjuntos de datos que contengan los datos que desea introducir
 
 1. Vaya a la interfaz del Mix Modeler.
 
-1. Seleccionar ![Datos](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, debajo **[!UICONTROL SETUP]**.
+1. Seleccione ![Datos](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [Guía de IU de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obtener más información.
+Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obtener más información.
 
 >[!MORELIKETHIS]
 >

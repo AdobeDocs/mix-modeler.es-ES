@@ -20,9 +20,9 @@ Puede definir puntos de contacto de marketing para ayudarle en el análisis de a
 
 Para ver una tabla de los puntos de contacto de marketing disponibles en la interfaz de Mix Modeler:
 
-1. Seleccionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** desde el carril izquierdo.
+1. Seleccione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
-1. Seleccionar **[!UICONTROL Marketing touchpoint]** desde la barra superior. Verá una tabla de los puntos de contacto de marketing. Si hay más páginas disponibles, utilice ![Flecha izquierda](/help/assets//icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets//icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para desplazarse entre las páginas de la tabla.
+1. Seleccione **[!UICONTROL Marketing touchpoint]** de la barra superior. Verá una tabla de los puntos de contacto de marketing. Si hay más páginas disponibles, usa ![Flecha izquierda](/help/assets//icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets//icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para moverte entre las páginas de la tabla.
 
 Las columnas de la tabla especifican detalles sobre el punto de contacto de marketing:
 
@@ -39,21 +39,21 @@ Las columnas de la tabla especifican detalles sobre el punto de contacto de mark
 
 ## Añadir un punto de contacto de marketing
 
-Para añadir un punto de contacto de marketing, en ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interfaz en el Mix Modeler:
+Para agregar un punto de contacto de marketing, en la interfaz de ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** del Mix Modeler:
 
-1. Seleccionar ![Añadir](/help/assets//icons/AddCircle.svg) Añadir punto de contacto de marketing.
+1. Seleccione ![Agregar](/help/assets//icons/AddCircle.svg) Agregar punto de contacto de marketing.
 
-1. En el **[!UICONTROL Marketing touchpoint]** diálogo.
+1. En el diálogo **[!UICONTROL Marketing touchpoint]**.
 
-   1. Introduzca un nombre para **[!UICONTROL Touchpoint Name]**, por ejemplo `Luma Touchpoint`.
+   1. Escriba un nombre para **[!UICONTROL Touchpoint Name]**, por ejemplo `Luma Touchpoint`.
 
-   1. Defina un **[!UICONTROL Touchpoint rule]**.
+   1. Definir un **[!UICONTROL Touchpoint rule]**.
 
       1. Seleccione un valor de **[!UICONTROL *Seleccionar armonizado *]**, por ejemplo **[!UICONTROL Brand]**.
 
-      1. Seleccione un valor para el operador ![cheurón](/help/assets//icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
+      1. Seleccione un valor para el operador ![Chevron](/help/assets//icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
 
-      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o introduzca un valor, por ejemplo **[!DNL Luma]**.
+      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o escriba un valor, por ejemplo **[!DNL Luma]**.
 
    1. Seleccione un campo armonizado de **[!UICONTROL Touchpoint volume]**, por ejemplo **[!UICONTROL Impressions]**.
 
@@ -61,7 +61,7 @@ Para añadir un punto de contacto de marketing, en ![DataSearch](/help/assets//i
 
       ![Punto de contacto de marketing](/help/assets//create-touchpoint.png)
 
-   1. Para crear el punto de contacto de marketing, seleccione **[!UICONTROL Create]**. Para cancelar la creación de un punto de contacto de marketing, seleccione **[!UICONTROL Cancel]** .
+   1. Para crear el punto de contacto de marketing, seleccione **[!UICONTROL Create]**. Para cancelar la creación de un punto de contacto de marketing, seleccione **[!UICONTROL Cancel]**
 
 1. Cuando se crea, el punto de contacto se añade a la tabla de puntos de contacto de marketing.
 
@@ -70,15 +70,15 @@ Para añadir un punto de contacto de marketing, en ![DataSearch](/help/assets//i
 
 Para ver un punto de contacto de marketing:
 
-1. Seleccionar ![Más](/help/assets//icons/More.svg) al pasar el ratón por encima de un nombre de punto de contacto de marketing en la tabla.
+1. Seleccione ![Más](/help/assets//icons/More.svg) al pasar el ratón sobre un nombre de punto de contacto de marketing de la tabla.
 
-1. Seleccionar ![Ver](/help/assets//icons/ViewDetail.svg) **Ver**. Un cuadro de diálogo muestra detalles del punto de contacto de marketing. Consulte [Añadir un punto de contacto de marketing](#add-a-marketing-touchpoint) para obtener más información. Seleccionar **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
+1. Seleccionar ![Vista](/help/assets//icons/ViewDetail.svg) **Vista**. Un cuadro de diálogo muestra detalles del punto de contacto de marketing. Consulte [Agregar un punto de contacto de marketing](#add-a-marketing-touchpoint) para obtener más información. Seleccione **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
 
 
 ## Eliminación de un punto de contacto de marketing
 
 Para eliminar un punto de contacto de marketing:
 
-1. Seleccionar ![Eliminar](/help/assets//icons/Delete.svg) **Eliminar** al pasar el ratón por encima de un nombre de punto de contacto de marketing en la tabla.
-1. En el **[!UICONTROL Delete touchpoint]** cuadro de diálogo de confirmación seleccionar **[!UICONTROL Delete]** para eliminar permanentemente el punto de contacto de marketing.
+1. Seleccione ![Delete](/help/assets//icons/Delete.svg) **Delete** al pasar el ratón por encima del nombre de un punto de contacto de marketing en la tabla.
+1. En el cuadro de diálogo de confirmación de **[!UICONTROL Delete touchpoint]**, seleccione **[!UICONTROL Delete]** para eliminar permanentemente el punto de contacto de marketing.
 

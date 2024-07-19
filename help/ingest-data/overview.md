@@ -19,7 +19,7 @@ Los clientes pueden utilizar cualquier tipo de datos que se incorporen en Experi
 Por ejemplo:
 
 * datos recopilados mediante el conector de origen de Adobe Analytics y transformados en conjuntos de datos que se ajustan a la versión predeterminada o personalizada del esquema de Adobe Analytics o, alternativamente,
-* datos recopilados mediante el SDK web de Experience Platform, el SDK móvil o la API del servidor de red perimetral para recopilar interacciones de clientes en la web, dispositivos móviles o cualquier otro tipo de dispositivo,
+* datos recopilados mediante el SDK web de Experience Platform, el SDK móvil o la API de Edge Network Server para recopilar interacciones de clientes en la web, dispositivos móviles o cualquier otro tipo de dispositivo,
 * datos agregados o resumidos de los jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión,
 * datos acumulados o resumidos que no sean de marketing y que contengan factores internos o externos que sean útiles para la creación de modelos.
 

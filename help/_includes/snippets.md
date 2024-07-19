@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ## ThreeDMaterial {#threedmaterial}
 
-![Material 3D](/help/assets/icons/3DMaterial.svg)
+![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
 ## ABC {#abc}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## Pantalla de AEM {#aemscreen}
 
-![Pantalla de AEM](/help/assets/icons/AEMScreen.svg)
+![pantallaAEM](/help/assets/icons/AEMScreen.svg)
 
 ## Acción {#action}
 
@@ -38,19 +38,19 @@ ht-degree: 6%
 
 ## Add {#add}
 
-![Añadir](/help/assets/icons/Add.svg)
+![Agregar](/help/assets/icons/Add.svg)
 
 ## AddCircle {#addcircle}
 
-![AddCircle](/help/assets/icons/AddCircle.svg)
+![AgregarCírculo](/help/assets/icons/AddCircle.svg)
 
 ## AddTo {#addto}
 
-![AddTo](/help/assets/icons/AddTo.svg)
+![Agregar a](/help/assets/icons/AddTo.svg)
 
 ## AddToSelection {#addtoselection}
 
-![AddToSelection](/help/assets/icons/AddToSelection.svg)
+![AgregarASelección](/help/assets/icons/AddToSelection.svg)
 
 ## AdobeLogo {#adobelogo}
 
@@ -70,11 +70,11 @@ ht-degree: 6%
 
 ## AlertCheck {#alertcheck}
 
-![AlertCheck](/help/assets/icons/AlertCheck.svg)
+![ComprobaciónDeAlerta](/help/assets/icons/AlertCheck.svg)
 
 ## AlertCircle {#alertcircle}
 
-![AlertCircle](/help/assets/icons/AlertCircle.svg)
+![CírculoDeAlerta](/help/assets/icons/AlertCircle.svg)
 
 ## AlertCircleFilled {#alertcirclefilled}
 
@@ -86,11 +86,11 @@ ht-degree: 6%
 
 ## Alias {#alias}
 
-![Alias](/help/assets/icons/Alias.svg)
+![Alia](/help/assets/icons/Alias.svg)
 
 ## AlignBottom {#alignbottom}
 
-![AlignBottom](/help/assets/icons/AlignBottom.svg)
+![AlinearAbajo](/help/assets/icons/AlignBottom.svg)
 
 ## AlinearCentro {#aligncenter}
 
@@ -98,23 +98,23 @@ ht-degree: 6%
 
 ## AlinearIzquierda {#alignleft}
 
-![AlinearIzquierda](/help/assets/icons/AlignLeft.svg)
+![AlinearALaIzquierda](/help/assets/icons/AlignLeft.svg)
 
 ## AlignMiddle {#alignmiddle}
 
-![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
+![AlinearAlMedio](/help/assets/icons/AlignMiddle.svg)
 
 ## AlinearDerecha {#alignright}
 
-![AlinearDerecha](/help/assets/icons/AlignRight.svg)
+![AlinearA la derecha](/help/assets/icons/AlignRight.svg)
 
 ## AlignTop {#aligntop}
 
-![AlignTop](/help/assets/icons/AlignTop.svg)
+![AlinearArriba](/help/assets/icons/AlignTop.svg)
 
 ## Parque de atracciones {#amusementpark}
 
-![Parque de atracciones](/help/assets/icons/Amusementpark.svg)
+![Parque de diversiones](/help/assets/icons/Amusementpark.svg)
 
 ## Anclaje {#anchor}
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 ## AnchorSelect {#anchorselect}
 
-![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
+![SelecciónAnclaje](/help/assets/icons/AnchorSelect.svg)
 
 ## Anotar {#annotate}
 
@@ -146,19 +146,19 @@ ht-degree: 6%
 
 ## AppRefresh {#apprefresh}
 
-![AppRefresh](/help/assets/icons/AppRefresh.svg)
+![ActualizarAplicación](/help/assets/icons/AppRefresh.svg)
 
 ## AppleFile {#applefile}
 
-![AppleFile](/help/assets/icons/AppleFile.svg)
+![ArchivoApple](/help/assets/icons/AppleFile.svg)
 
 ## ApplicationDelivery {#applicationdelivery}
 
-![ApplicationDelivery](/help/assets/icons/ApplicationDelivery.svg)
+![EntregaAplicación](/help/assets/icons/ApplicationDelivery.svg)
 
 ## ApproveReject {#approvereject}
 
-![ApproveReject](/help/assets/icons/ApproveReject.svg)
+![AprobarRechazar](/help/assets/icons/ApproveReject.svg)
 
 ## Archivar {#archive}
 
@@ -170,11 +170,11 @@ ht-degree: 6%
 
 ## FlechaAbajo {#arrowdown}
 
-![FlechaAbajo](/help/assets/icons/ArrowDown.svg)
+![Flecha abajo](/help/assets/icons/ArrowDown.svg)
 
 ## FlechaIzq {#arrowleft}
 
-![FlechaIzq](/help/assets/icons/ArrowLeft.svg)
+![FlechaIzquierda](/help/assets/icons/ArrowLeft.svg)
 
 ## FlechaDerecha {#arrowright}
 
@@ -182,7 +182,7 @@ ht-degree: 6%
 
 ## FlechaArriba {#arrowup}
 
-![FlechaArriba](/help/assets/icons/ArrowUp.svg)
+![Flecha arriba](/help/assets/icons/ArrowUp.svg)
 
 ## FlechaArribaDerecha {#arrowupright}
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 ## AssetCheck {#assetcheck}
 
-![AssetCheck](/help/assets/icons/AssetCheck.svg)
+![Comprobación de recursos](/help/assets/icons/AssetCheck.svg)
 
 ## Recursos agregados {#assetsadded}
 
@@ -210,11 +210,11 @@ ht-degree: 6%
 
 ## AssetsDownloaded {#assetsdownloaded}
 
-![AssetsDownloaded](/help/assets/icons/AssetsDownloaded.svg)
+![Recursos descargados](/help/assets/icons/AssetsDownloaded.svg)
 
 ## AssetsExpired {#assetsexpired}
 
-![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
+![Recursos caducados](/help/assets/icons/AssetsExpired.svg)
 
 ## AssetsLinkedPublished {#assetslinkedpublished}
 
@@ -226,7 +226,7 @@ ht-degree: 6%
 
 ## AssetsPublished {#assetspublished}
 
-![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
+![Activos publicados](/help/assets/icons/AssetsPublished.svg)
 
 ## Asterisco {#asterisk}
 
@@ -234,7 +234,7 @@ ht-degree: 6%
 
 ## En {#at}
 
-![En](/help/assets/icons/At.svg)
+![A Las](/help/assets/icons/At.svg)
 
 ## Adjuntar {#attach}
 
@@ -254,7 +254,7 @@ ht-degree: 6%
 
 ## Segmento automatizado {#automatedsegment}
 
-![Segmento automatizado](/help/assets/icons/AutomatedSegment.svg)
+![SegmentoAutomatizado](/help/assets/icons/AutomatedSegment.svg)
 
 ## Atrás {#back}
 
@@ -270,11 +270,11 @@ ht-degree: 6%
 
 ## Vaso {#beaker}
 
-![Vaso](/help/assets/icons/Beaker.svg)
+![Vaso de precipitados](/help/assets/icons/Beaker.svg)
 
 ## BeakerCheck {#beakercheck}
 
-![BeakerCheck](/help/assets/icons/BeakerCheck.svg)
+![ComprobaciónDelVasoDeExpansión](/help/assets/icons/BeakerCheck.svg)
 
 ## BeakerShare {#beakershare}
 
@@ -286,7 +286,7 @@ ht-degree: 6%
 
 ## BidRule {#bidrule}
 
-![BidRule](/help/assets/icons/BidRule.svg)
+![ReglaOferta](/help/assets/icons/BidRule.svg)
 
 ## BidRuleAdd {#bidruleadd}
 
@@ -294,7 +294,7 @@ ht-degree: 6%
 
 ## Soplador {#blower}
 
-![Soplador](/help/assets/icons/Blower.svg)
+![Ventilador](/help/assets/icons/Blower.svg)
 
 ## Blur {#blur}
 
@@ -334,7 +334,7 @@ ht-degree: 6%
 
 ## Box {#box}
 
-![Box](/help/assets/icons/Box.svg)
+![Cuadro](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -346,7 +346,7 @@ ht-degree: 6%
 
 ## BoxImport {#boximport}
 
-![BoxImport](/help/assets/icons/BoxImport.svg)
+![ImportaciónBox](/help/assets/icons/BoxImport.svg)
 
 ## Corchete {#bracket}
 
@@ -370,11 +370,11 @@ ht-degree: 6%
 
 ## BranchCircle {#branchcircle}
 
-![BranchCircle](/help/assets/icons/BranchCircle.svg)
+![CírculoRama](/help/assets/icons/BranchCircle.svg)
 
 ## BreadcrumbNavigation {#breadcrumbnavigation}
 
-![BreadcrumbNavigation](/help/assets/icons/BreadcrumbNavigation.svg)
+![Navegación por ruta de exploración](/help/assets/icons/BreadcrumbNavigation.svg)
 
 ## Desglose {#breakdown}
 
@@ -402,11 +402,11 @@ ht-degree: 6%
 
 ## Edificio {#building}
 
-![Edificio](/help/assets/icons/Building.svg)
+![Generando](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
-![BulkEditUser](/help/assets/icons/BulkEditUser.svg)
+![UsuarioEdiciónMasiva](/help/assets/icons/BulkEditUser.svg)
 
 ## Botón {#button}
 
@@ -414,7 +414,7 @@ ht-degree: 6%
 
 ## CCLibrary {#cclibrary}
 
-![CCLibrary](/help/assets/icons/CCLibrary.svg)
+![biblioteca CCL](/help/assets/icons/CCLibrary.svg)
 
 ## Calculadora {#calculator}
 
@@ -426,19 +426,19 @@ ht-degree: 6%
 
 ## CalendarAdd {#calendaradd}
 
-![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
+![AgregarCalendario](/help/assets/icons/CalendarAdd.svg)
 
 ## CalendarioBloqueado {#calendarlocked}
 
-![CalendarioBloqueado](/help/assets/icons/CalendarLocked.svg)
+![Calendario bloqueado](/help/assets/icons/CalendarLocked.svg)
 
 ## CalendarioDesbloqueado {#calendarunlocked}
 
-![CalendarioDesbloqueado](/help/assets/icons/CalendarUnlocked.svg)
+![Calendario desbloqueado](/help/assets/icons/CalendarUnlocked.svg)
 
 ## CallCenter {#callcenter}
 
-![CallCenter](/help/assets/icons/CallCenter.svg)
+![Centro de llamadas](/help/assets/icons/CallCenter.svg)
 
 ## Cámara {#camera}
 
@@ -446,11 +446,11 @@ ht-degree: 6%
 
 ## CameraFlip {#cameraflip}
 
-![CameraFlip](/help/assets/icons/CameraFlip.svg)
+![VoltearCámara](/help/assets/icons/CameraFlip.svg)
 
 ## CameraRefresh {#camerarefresh}
 
-![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
+![ActualizarCámara](/help/assets/icons/CameraRefresh.svg)
 
 ## Campaign {#campaign}
 
@@ -478,7 +478,7 @@ ht-degree: 6%
 
 ## Mayúscula {#capital}
 
-![Mayúscula](/help/assets/icons/Capital.svg)
+![Capital](/help/assets/icons/Capital.svg)
 
 ## Captcha {#captcha}
 
@@ -502,7 +502,7 @@ ht-degree: 6%
 
 ## ChatAdd {#chatadd}
 
-![ChatAdd](/help/assets/icons/ChatAdd.svg)
+![Agregar chat](/help/assets/icons/ChatAdd.svg)
 
 ## CheckPause {#checkpause}
 
@@ -518,11 +518,11 @@ ht-degree: 6%
 
 ## ContornoDeCírculoDeVerificación {#checkmarkcircleoutline}
 
-![ContornoDeCírculoDeVerificación](/help/assets/icons/CheckmarkCircleOutline.svg)
+![ContornoDeCírculoDeComprobación](/help/assets/icons/CheckmarkCircleOutline.svg)
 
 ## cheurónDobleIzquierda {#chevrondoubleleft}
 
-![cheurónDobleIzquierda](/help/assets/icons/ChevronDoubleLeft.svg)
+![ChevronDoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
 ## ChevronDoubleRight {#chevrondoubleright}
 
@@ -530,11 +530,11 @@ ht-degree: 6%
 
 ## cheurónAbajo {#chevrondown}
 
-![cheurónAbajo](/help/assets/icons/ChevronDown.svg)
+![ChevronDown](/help/assets/icons/ChevronDown.svg)
 
 ## cheurónIzquierda {#chevronleft}
 
-![cheurónIzquierda](/help/assets/icons/ChevronLeft.svg)
+![ChevronLeft](/help/assets/icons/ChevronLeft.svg)
 
 ## ChevronRight {#chevronright}
 
@@ -542,11 +542,11 @@ ht-degree: 6%
 
 ## ChevronUp {#chevronup}
 
-![ChevronUp](/help/assets/icons/ChevronUp.svg)
+![SubirChevron](/help/assets/icons/ChevronUp.svg)
 
 ## cheurónArribaAbajo {#chevronupdown}
 
-![cheurónArribaAbajo](/help/assets/icons/ChevronUpDown.svg)
+![ChevronUpDown](/help/assets/icons/ChevronUpDown.svg)
 
 ## Círculo {#circle}
 
@@ -554,7 +554,7 @@ ht-degree: 6%
 
 ## ClassicGridView {#classicgridview}
 
-![ClassicGridView](/help/assets/icons/ClassicGridView.svg)
+![VistaCuadrículaClásica](/help/assets/icons/ClassicGridView.svg)
 
 ## Reloj {#clock}
 
@@ -574,7 +574,7 @@ ht-degree: 6%
 
 ## CloseCaption {#closecaption}
 
-![CloseCaption](/help/assets/icons/CloseCaption.svg)
+![CerrarTítulo](/help/assets/icons/CloseCaption.svg)
 
 ## CerrarCírculo {#closecircle}
 
@@ -586,15 +586,15 @@ ht-degree: 6%
 
 ## CloudDisconnected {#clouddisconnected}
 
-![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
+![Desconectado de la nube](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
-![CloudError](/help/assets/icons/CloudError.svg)
+![ErrorDeNube](/help/assets/icons/CloudError.svg)
 
 ## CloudOutline {#cloudoutline}
 
-![CloudOutline](/help/assets/icons/CloudOutline.svg)
+![EsquemaDeNube](/help/assets/icons/CloudOutline.svg)
 
 ## Código {#code}
 
@@ -614,15 +614,15 @@ ht-degree: 6%
 
 ## CollectionCheck {#collectioncheck}
 
-![CollectionCheck](/help/assets/icons/CollectionCheck.svg)
+![Comprobación de colección](/help/assets/icons/CollectionCheck.svg)
 
 ## CollectionEdit {#collectionedit}
 
-![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
+![EdiciónDeColección](/help/assets/icons/CollectionEdit.svg)
 
 ## CollectionExclude {#collectionexclude}
 
-![CollectionExclude](/help/assets/icons/CollectionExclude.svg)
+![ExclusiónDeColección](/help/assets/icons/CollectionExclude.svg)
 
 ## CollectionLink {#collectionlink}
 
@@ -630,19 +630,19 @@ ht-degree: 6%
 
 ## ColorFill {#colorfill}
 
-![ColorFill](/help/assets/icons/ColorFill.svg)
+![RellenoDeColor](/help/assets/icons/ColorFill.svg)
 
 ## ColorPalette {#colorpalette}
 
-![ColorPalette](/help/assets/icons/ColorPalette.svg)
+![PaletaDeColor](/help/assets/icons/ColorPalette.svg)
 
 ## ColorWheel {#colorwheel}
 
-![ColorWheel](/help/assets/icons/ColorWheel.svg)
+![RuedaDeColor](/help/assets/icons/ColorWheel.svg)
 
 ## ColumnSetting {#columnsetting}
 
-![ColumnSetting](/help/assets/icons/ColumnSetting.svg)
+![ValorDeColumna](/help/assets/icons/ColumnSetting.svg)
 
 ## ColumnaDosA {#columntwoa}
 
@@ -674,11 +674,11 @@ ht-degree: 6%
 
 ## ConfidenceFour {#confidencefour}
 
-![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
+![ConfianzaCuatro](/help/assets/icons/ConfidenceFour.svg)
 
 ## ConfidenceOne {#confidenceone}
 
-![ConfidenceOne](/help/assets/icons/ConfidenceOne.svg)
+![ConfianzaUno](/help/assets/icons/ConfidenceOne.svg)
 
 ## ConfianzaTres {#confidencethree}
 
@@ -686,7 +686,7 @@ ht-degree: 6%
 
 ## ConfidenceTwo {#confidencetwo}
 
-![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
+![ConfianzaDos](/help/assets/icons/ConfidenceTwo.svg)
 
 ## Contraste {#contrast}
 
@@ -702,15 +702,15 @@ ht-degree: 6%
 
 ## CoverImage {#coverimage}
 
-![CoverImage](/help/assets/icons/CoverImage.svg)
+![ImagenPortada](/help/assets/icons/CoverImage.svg)
 
 ## CreditCard {#creditcard}
 
-![CreditCard](/help/assets/icons/CreditCard.svg)
+![Tarjeta de crédito](/help/assets/icons/CreditCard.svg)
 
 ## Recortar {#crop}
 
-![Recorte](/help/assets/icons/Crop.svg)
+![Recortar](/help/assets/icons/Crop.svg)
 
 ## CropLightning {#croplightning}
 
@@ -742,39 +742,39 @@ ht-degree: 6%
 
 ## DataAdd {#dataadd}
 
-![DataAdd](/help/assets/icons/DataAdd.svg)
+![Agregar datos](/help/assets/icons/DataAdd.svg)
 
 ## DataBook {#databook}
 
-![DataBook](/help/assets/icons/DataBook.svg)
+![Libro de datos](/help/assets/icons/DataBook.svg)
 
 ## DataCheck {#datacheck}
 
-![DataCheck](/help/assets/icons/DataCheck.svg)
+![Comprobación de datos](/help/assets/icons/DataCheck.svg)
 
 ## DataCorrelated {#datacorrelated}
 
-![DataCorrelated](/help/assets/icons/DataCorrelated.svg)
+![DatosCorrelacionados](/help/assets/icons/DataCorrelated.svg)
 
 ## DataDownload {#datadownload}
 
-![DataDownload](/help/assets/icons/DataDownload.svg)
+![Descarga de datos](/help/assets/icons/DataDownload.svg)
 
 ## DataEdit {#dataedit}
 
-![DataEdit](/help/assets/icons/DataEdit.svg)
+![EdiciónDeDatos](/help/assets/icons/DataEdit.svg)
 
 ## DataMapping {#datamapping}
 
-![DataMapping](/help/assets/icons/DataMapping.svg)
+![Asignación de datos](/help/assets/icons/DataMapping.svg)
 
 ## DataRefresh {#datarefresh}
 
-![DataRefresh](/help/assets/icons/DataRefresh.svg)
+![ActualizaciónDeDatos](/help/assets/icons/DataRefresh.svg)
 
 ## DataRemove {#dataremove}
 
-![DataRemove](/help/assets/icons/DataRemove.svg)
+![QuitarDatos](/help/assets/icons/DataRemove.svg)
 
 ## DataSetting {#datasetting}
 
@@ -782,15 +782,15 @@ ht-degree: 6%
 
 ## DataUnavailable {#dataunavailable}
 
-![DataUnavailable](/help/assets/icons/DataUnavailable.svg)
+![Datos no disponibles](/help/assets/icons/DataUnavailable.svg)
 
 ## DataUpload {#dataupload}
 
-![DataUpload](/help/assets/icons/DataUpload.svg)
+![Carga de datos](/help/assets/icons/DataUpload.svg)
 
 ## DataUser {#datauser}
 
-![DataUser](/help/assets/icons/DataUser.svg)
+![UsuarioDatos](/help/assets/icons/DataUser.svg)
 
 ## Fecha {#date}
 
@@ -798,11 +798,11 @@ ht-degree: 6%
 
 ## DateInput {#dateinput}
 
-![DateInput](/help/assets/icons/DateInput.svg)
+![EntradaFecha](/help/assets/icons/DateInput.svg)
 
 ## Anulación de duplicación {#deduplication}
 
-![Deduplicación](/help/assets/icons/Deduplication.svg)
+![Anulación de duplicación](/help/assets/icons/Deduplication.svg)
 
 ## Delegar {#delegate}
 
@@ -814,7 +814,7 @@ ht-degree: 6%
 
 ## DeleteOutline {#deleteoutline}
 
-![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
+![EliminarEsquema](/help/assets/icons/DeleteOutline.svg)
 
 ## Demográfico {#demographic}
 
@@ -822,15 +822,15 @@ ht-degree: 6%
 
 ## Anular selección {#deselect}
 
-![Anular selección](/help/assets/icons/Deselect.svg)
+![Anular la selección](/help/assets/icons/Deselect.svg)
 
 ## Anular selecciónCircular {#deselectcircular}
 
-![Anular selecciónCircular](/help/assets/icons/DeselectCircular.svg)
+![Anular selección de circular](/help/assets/icons/DeselectCircular.svg)
 
 ## Escritorio y móvil {#desktopandmobile}
 
-![Escritorio y móvil](/help/assets/icons/DesktopAndMobile.svg)
+![EscritorioYMóvil](/help/assets/icons/DesktopAndMobile.svg)
 
 ## Device {#device}
 
@@ -842,11 +842,11 @@ ht-degree: 6%
 
 ## DeviceLaptop {#devicelaptop}
 
-![DeviceLaptop](/help/assets/icons/DeviceLaptop.svg)
+![PortátilDispositivo](/help/assets/icons/DeviceLaptop.svg)
 
 ## DevicePhone {#devicephone}
 
-![DevicePhone](/help/assets/icons/DevicePhone.svg)
+![TeléfonoDispositivo](/help/assets/icons/DevicePhone.svg)
 
 ## DevicePhoneRefresh {#devicephonerefresh}
 
@@ -854,7 +854,7 @@ ht-degree: 6%
 
 ## DevicePreview {#devicepreview}
 
-![DevicePreview](/help/assets/icons/DevicePreview.svg)
+![Vista previa del dispositivo](/help/assets/icons/DevicePreview.svg)
 
 ## DeviceRotateLandscape {#devicerotatelandscape}
 
@@ -874,7 +874,7 @@ ht-degree: 6%
 
 ## Discover {#discover}
 
-![Discover](/help/assets/icons/Discover.svg)
+![Descubrir](/help/assets/icons/Discover.svg)
 
 ## DiscoverOutline {#discoveroutline}
 
@@ -886,11 +886,11 @@ ht-degree: 6%
 
 ## DistributeHorizontalCenter {#distributehorizontalcenter}
 
-![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistribuirCentroHorizontal](/help/assets/icons/DistributeHorizontalCenter.svg)
 
 ## Distribuir horizontalmente {#distributehorizontally}
 
-![Distribuir horizontalmente](/help/assets/icons/DistributeHorizontally.svg)
+![DistribuirHorizontalmente](/help/assets/icons/DistributeHorizontally.svg)
 
 ## DistribuirBordeIzquierdo {#distributeleftedge}
 
@@ -898,11 +898,11 @@ ht-degree: 6%
 
 ## DistributeRightEdge {#distributerightedge}
 
-![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
+![DistribuirPerimetralDerecho](/help/assets/icons/DistributeRightEdge.svg)
 
 ## DistributeSpaceHoriz {#distributespacehoriz}
 
-![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
+![DistribuirEspacioHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
 ## DistributeSpaceVert {#distributespacevert}
 
@@ -918,7 +918,7 @@ ht-degree: 6%
 
 ## Distribuir verticalmente {#distributevertically}
 
-![Distribuir verticalmente](/help/assets/icons/DistributeVertically.svg)
+![DistribuirVerticalmente](/help/assets/icons/DistributeVertically.svg)
 
 ## Dividir {#divide}
 
@@ -926,7 +926,7 @@ ht-degree: 6%
 
 ## DividirRuta {#dividepath}
 
-![DividirRuta](/help/assets/icons/DividePath.svg)
+![RutaDividir](/help/assets/icons/DividePath.svg)
 
 ## Documento {#document}
 
@@ -934,11 +934,11 @@ ht-degree: 6%
 
 ## DocumentFragment {#documentfragment}
 
-![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
+![Fragmento de documento](/help/assets/icons/DocumentFragment.svg)
 
 ## DocumentFragmentGroup {#documentfragmentgroup}
 
-![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
+![GrupoFragmentoDocumento](/help/assets/icons/DocumentFragmentGroup.svg)
 
 ## EsquemaDocumento {#documentoutline}
 
@@ -946,11 +946,11 @@ ht-degree: 6%
 
 ## DocumentRefresh {#documentrefresh}
 
-![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
+![ActualizarDocumento](/help/assets/icons/DocumentRefresh.svg)
 
 ## Muñeca {#dolly}
 
-![Muñeca](/help/assets/icons/Dolly.svg)
+![Dolly](/help/assets/icons/Dolly.svg)
 
 ## Descargar {#download}
 
@@ -958,11 +958,11 @@ ht-degree: 6%
 
 ## DownloadFromCloud {#downloadfromcloud}
 
-![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
+![DescargarDesdeLaNube](/help/assets/icons/DownloadFromCloud.svg)
 
 ## DownloadFromCloudOutline {#downloadfromcloudoutline}
 
-![DownloadFromCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
+![DescargarEsquemaDeNube](/help/assets/icons/DownloadFromCloudOutline.svg)
 
 ## Borrador {#draft}
 
@@ -974,15 +974,15 @@ ht-degree: 6%
 
 ## Draw {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![Dibujar](/help/assets/icons/Draw.svg)
 
 ## Desplegable {#dropdown}
 
-![Desplegable](/help/assets/icons/Dropdown.svg)
+![Menú Desplegable](/help/assets/icons/Dropdown.svg)
 
 ## Duplicar {#duplicate}
 
-![Duplicar](/help/assets/icons/Duplicate.svg)
+![Duplicado](/help/assets/icons/Duplicate.svg)
 
 ## Editar {#edit}
 
@@ -998,11 +998,11 @@ ht-degree: 6%
 
 ## EditIn {#editin}
 
-![EditIn](/help/assets/icons/EditIn.svg)
+![Editar entrada](/help/assets/icons/EditIn.svg)
 
 ## EditInLight {#editinlight}
 
-![EditInLight](/help/assets/icons/EditInLight.svg)
+![EditarEnLuz](/help/assets/icons/EditInLight.svg)
 
 ## Educación {#education}
 
@@ -1026,7 +1026,7 @@ ht-degree: 6%
 
 ## EmailCancel {#emailcancel}
 
-![EmailCancel](/help/assets/icons/EmailCancel.svg)
+![CancelarCorreoElectrónico](/help/assets/icons/EmailCancel.svg)
 
 ## EmailCheck {#emailcheck}
 
@@ -1062,11 +1062,11 @@ ht-degree: 6%
 
 ## EmailNotification {#emailnotification}
 
-![EmailNotification](/help/assets/icons/EmailNotification.svg)
+![NotificaciónCorreoElectrónico](/help/assets/icons/EmailNotification.svg)
 
 ## EmailOutline {#emailoutline}
 
-![EmailOutline](/help/assets/icons/EmailOutline.svg)
+![EsquemaDeCorreoElectrónico](/help/assets/icons/EmailOutline.svg)
 
 ## EmailRefresh {#emailrefresh}
 
@@ -1074,7 +1074,7 @@ ht-degree: 6%
 
 ## EmailSchedule {#emailschedule}
 
-![EmailSchedule](/help/assets/icons/EmailSchedule.svg)
+![Programación de correo electrónico](/help/assets/icons/EmailSchedule.svg)
 
 ## Participación {#engagement}
 
@@ -1102,11 +1102,11 @@ ht-degree: 6%
 
 ## EventShare {#eventshare}
 
-![EventShare](/help/assets/icons/EventShare.svg)
+![EventoCompartido](/help/assets/icons/EventShare.svg)
 
 ## ExcludeOverlap {#excludeoverlap}
 
-![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
+![ExcluirSuperposición](/help/assets/icons/ExcludeOverlap.svg)
 
 ## Experiencia {#experience}
 
@@ -1126,7 +1126,7 @@ ht-degree: 6%
 
 ## ExperienceImport {#experienceimport}
 
-![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
+![ImportaciónDeExperiencia](/help/assets/icons/ExperienceImport.svg)
 
 ## Exportar {#export}
 
@@ -1134,7 +1134,7 @@ ht-degree: 6%
 
 ## ExportOriginal {#exportoriginal}
 
-![ExportOriginal](/help/assets/icons/ExportOriginal.svg)
+![ExportarOriginal](/help/assets/icons/ExportOriginal.svg)
 
 ## Exposición {#exposure}
 
@@ -1150,7 +1150,7 @@ ht-degree: 6%
 
 ## FastForward {#fastforward}
 
-![FastForward](/help/assets/icons/FastForward.svg)
+![AvanceRápido](/help/assets/icons/FastForward.svg)
 
 ## FastForwardCircle {#fastforwardcircle}
 
@@ -1158,7 +1158,7 @@ ht-degree: 6%
 
 ## Función {#feature}
 
-![Función](/help/assets/icons/Feature.svg)
+![Característica](/help/assets/icons/Feature.svg)
 
 ## Fuente {#feed}
 
@@ -1178,7 +1178,7 @@ ht-degree: 6%
 
 ## FileAdd {#fileadd}
 
-![FileAdd](/help/assets/icons/FileAdd.svg)
+![AgregarArchivo](/help/assets/icons/FileAdd.svg)
 
 ## ArchivoCSV {#filecsv}
 
@@ -1186,7 +1186,7 @@ ht-degree: 6%
 
 ## FileCampaign {#filecampaign}
 
-![FileCampaign](/help/assets/icons/FileCampaign.svg)
+![CampañaDeArchivos](/help/assets/icons/FileCampaign.svg)
 
 ## GráficoDeArchivos {#filechart}
 
@@ -1198,31 +1198,31 @@ ht-degree: 6%
 
 ## FileCode {#filecode}
 
-![FileCode](/help/assets/icons/FileCode.svg)
+![CódigoDeArchivo](/help/assets/icons/FileCode.svg)
 
 ## FileData {#filedata}
 
-![FileData](/help/assets/icons/FileData.svg)
+![DatosDeArchivo](/help/assets/icons/FileData.svg)
 
 ## FileEmail {#fileemail}
 
-![FileEmail](/help/assets/icons/FileEmail.svg)
+![Correo electrónico de archivo](/help/assets/icons/FileEmail.svg)
 
 ## FileFolder {#filefolder}
 
-![FileFolder](/help/assets/icons/FileFolder.svg)
+![CarpetaDeArchivos](/help/assets/icons/FileFolder.svg)
 
 ## FileGear {#filegear}
 
-![FileGear](/help/assets/icons/FileGear.svg)
+![EngranajeDeArchivos](/help/assets/icons/FileGear.svg)
 
 ## FileGlobe {#fileglobe}
 
-![FileGlobe](/help/assets/icons/FileGlobe.svg)
+![GloboDeArchivos](/help/assets/icons/FileGlobe.svg)
 
 ## FileHTML {#filehtml}
 
-![FileHTML](/help/assets/icons/FileHTML.svg)
+![ArchivoHTML](/help/assets/icons/FileHTML.svg)
 
 ## ArchivoImportante {#fileimportant}
 
@@ -1230,19 +1230,19 @@ ht-degree: 6%
 
 ## FileJson {#filejson}
 
-![FileJson](/help/assets/icons/FileJson.svg)
+![ArchivoJson](/help/assets/icons/FileJson.svg)
 
 ## FileKey {#filekey}
 
-![FileKey](/help/assets/icons/FileKey.svg)
+![ClaveDeArchivo](/help/assets/icons/FileKey.svg)
 
 ## FileMobile {#filemobile}
 
-![FileMobile](/help/assets/icons/FileMobile.svg)
+![MóvilArchivos](/help/assets/icons/FileMobile.svg)
 
 ## FileShare {#fileshare}
 
-![FileShare](/help/assets/icons/FileShare.svg)
+![Recurso compartido de archivos](/help/assets/icons/FileShare.svg)
 
 ## ArchivoPáginaWebÚnica {#filesinglewebpage}
 
@@ -1250,39 +1250,39 @@ ht-degree: 6%
 
 ## FileSpace {#filespace}
 
-![FileSpace](/help/assets/icons/FileSpace.svg)
+![EspacioArchivo](/help/assets/icons/FileSpace.svg)
 
 ## FileTemplate {#filetemplate}
 
-![FileTemplate](/help/assets/icons/FileTemplate.svg)
+![PlantillaDeArchivo](/help/assets/icons/FileTemplate.svg)
 
 ## FileText {#filetxt}
 
-![FileText](/help/assets/icons/FileTxt.svg)
+![ArchivoTexto](/help/assets/icons/FileTxt.svg)
 
 ## FileUser {#fileuser}
 
-![FileUser](/help/assets/icons/FileUser.svg)
+![UsuarioArchivo](/help/assets/icons/FileUser.svg)
 
 ## FileWorkflow {#fileworkflow}
 
-![FileWorkflow](/help/assets/icons/FileWorkflow.svg)
+![FlujoDeTrabajoDeArchivo](/help/assets/icons/FileWorkflow.svg)
 
 ## FileXML {#filexml}
 
-![FileXML](/help/assets/icons/FileXML.svg)
+![ArchivoXML](/help/assets/icons/FileXML.svg)
 
 ## FileZip {#filezip}
 
-![FileZip](/help/assets/icons/FileZip.svg)
+![ArchivoZip](/help/assets/icons/FileZip.svg)
 
 ## Archivando archivador {#filingcabinet}
 
-![Archivando archivador](/help/assets/icons/FilingCabinet.svg)
+![Archivador](/help/assets/icons/FilingCabinet.svg)
 
 ## Filmroll {#filmroll}
 
-![Filmroll](/help/assets/icons/Filmroll.svg)
+![Carrera](/help/assets/icons/Filmroll.svg)
 
 ## FilmrollAutoAdd {#filmrollautoadd}
 
@@ -1298,27 +1298,27 @@ ht-degree: 6%
 
 ## FilterCheck {#filtercheck}
 
-![FilterCheck](/help/assets/icons/FilterCheck.svg)
+![FiltroComprobar](/help/assets/icons/FilterCheck.svg)
 
 ## FilterDelete {#filterdelete}
 
-![FilterDelete](/help/assets/icons/FilterDelete.svg)
+![FiltrarEliminar](/help/assets/icons/FilterDelete.svg)
 
 ## FilterEdit {#filteredit}
 
-![FilterEdit](/help/assets/icons/FilterEdit.svg)
+![ModificarFiltro](/help/assets/icons/FilterEdit.svg)
 
 ## FilterHeart {#filterheart}
 
-![FilterHeart](/help/assets/icons/FilterHeart.svg)
+![CorazónFiltro](/help/assets/icons/FilterHeart.svg)
 
 ## FiltrarQuitar {#filterremove}
 
-![FiltrarQuitar](/help/assets/icons/FilterRemove.svg)
+![QuitarFiltro](/help/assets/icons/FilterRemove.svg)
 
 ## FilterStar {#filterstar}
 
-![FilterStar](/help/assets/icons/FilterStar.svg)
+![EstrellaFiltro](/help/assets/icons/FilterStar.svg)
 
 ## BuscarYReemplazar {#findandreplace}
 
@@ -1330,7 +1330,7 @@ ht-degree: 6%
 
 ## FlagExclude {#flagexclude}
 
-![FlagExclude](/help/assets/icons/FlagExclude.svg)
+![IndicadorExcluir](/help/assets/icons/FlagExclude.svg)
 
 ## FlashAuto {#flashauto}
 
@@ -1350,11 +1350,11 @@ ht-degree: 6%
 
 ## FlashlightOff {#flashlightoff}
 
-![FlashlightOff](/help/assets/icons/FlashlightOff.svg)
+![Linterna apagada](/help/assets/icons/FlashlightOff.svg)
 
 ## Linterna encendida {#flashlighton}
 
-![Linterna encendida](/help/assets/icons/FlashlightOn.svg)
+![linterna encendida](/help/assets/icons/FlashlightOn.svg)
 
 ## VoltearHorizontal {#fliphorizontal}
 
@@ -1370,7 +1370,7 @@ ht-degree: 6%
 
 ## Folder2Color {#folder2color}
 
-![Folder2Color](/help/assets/icons/Folder2Color.svg)
+![Carpeta2Color](/help/assets/icons/Folder2Color.svg)
 
 ## FolderAdd {#folderadd}
 
@@ -1382,11 +1382,11 @@ ht-degree: 6%
 
 ## FolderArchive {#folderarchive}
 
-![FolderArchive](/help/assets/icons/FolderArchive.svg)
+![ArchivoCarpeta](/help/assets/icons/FolderArchive.svg)
 
 ## FolderDelete {#folderdelete}
 
-![FolderDelete](/help/assets/icons/FolderDelete.svg)
+![EliminarCarpeta](/help/assets/icons/FolderDelete.svg)
 
 ## FolderGear {#foldergear}
 
@@ -1394,31 +1394,31 @@ ht-degree: 6%
 
 ## FolderLocked {#folderlocked}
 
-![FolderLocked](/help/assets/icons/FolderLocked.svg)
+![BloqueadoCarpeta](/help/assets/icons/FolderLocked.svg)
 
 ## FolderOpen {#folderopen}
 
-![FolderOpen](/help/assets/icons/FolderOpen.svg)
+![Carpeta abierta](/help/assets/icons/FolderOpen.svg)
 
 ## CarpetaAbrirEsquema {#folderopenoutline}
 
-![CarpetaAbrirEsquema](/help/assets/icons/FolderOpenOutline.svg)
+![CarpetaEsquemaAbierto](/help/assets/icons/FolderOpenOutline.svg)
 
 ## FolderOutline {#folderoutline}
 
-![FolderOutline](/help/assets/icons/FolderOutline.svg)
+![EsquemaDeCarpeta](/help/assets/icons/FolderOutline.svg)
 
 ## FolderRemove {#folderremove}
 
-![FolderRemove](/help/assets/icons/FolderRemove.svg)
+![QuitarCarpeta](/help/assets/icons/FolderRemove.svg)
 
 ## FolderSearch {#foldersearch}
 
-![FolderSearch](/help/assets/icons/FolderSearch.svg)
+![BúsquedaDeCarpetas](/help/assets/icons/FolderSearch.svg)
 
 ## FolderUser {#folderuser}
 
-![FolderUser](/help/assets/icons/FolderUser.svg)
+![UsuarioCarpeta](/help/assets/icons/FolderUser.svg)
 
 ## Seguir {#follow}
 
@@ -1426,7 +1426,7 @@ ht-degree: 6%
 
 ## FollowOff {#followoff}
 
-![FollowOff](/help/assets/icons/FollowOff.svg)
+![Seguir](/help/assets/icons/FollowOff.svg)
 
 ## ForPlacementOnly {#forplacementonly}
 
@@ -1434,7 +1434,7 @@ ht-degree: 6%
 
 ## Pronóstico {#forecast}
 
-![Pronóstico](/help/assets/icons/Forecast.svg)
+![Previsión](/help/assets/icons/Forecast.svg)
 
 ## Form {#form}
 
@@ -1442,7 +1442,7 @@ ht-degree: 6%
 
 ## Avanzar {#forward}
 
-![Avanzar](/help/assets/icons/Forward.svg)
+![Reenviar](/help/assets/icons/Forward.svg)
 
 ## Pantalla completa {#fullscreen}
 
@@ -1450,7 +1450,7 @@ ht-degree: 6%
 
 ## FullScreenExit {#fullscreenexit}
 
-![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
+![SalidaDePantallaCompleta](/help/assets/icons/FullScreenExit.svg)
 
 ## Función {#function}
 
@@ -1486,23 +1486,23 @@ ht-degree: 6%
 
 ## GearsAdd {#gearsadd}
 
-![GearsAdd](/help/assets/icons/GearsAdd.svg)
+![engranajesAgregar](/help/assets/icons/GearsAdd.svg)
 
 ## GearsDelete {#gearsdelete}
 
-![GearsDelete](/help/assets/icons/GearsDelete.svg)
+![Eliminación de engranajes](/help/assets/icons/GearsDelete.svg)
 
 ## GearsEdit {#gearsedit}
 
-![GearsEdit](/help/assets/icons/GearsEdit.svg)
+![EdiciónEngranajes](/help/assets/icons/GearsEdit.svg)
 
 ## Sexo femenino {#genderfemale}
 
-![Sexo femenino](/help/assets/icons/GenderFemale.svg)
+![SexoFemenino](/help/assets/icons/GenderFemale.svg)
 
 ## GenderMale {#gendermale}
 
-![GenderMale](/help/assets/icons/GenderMale.svg)
+![HombreSexo](/help/assets/icons/GenderMale.svg)
 
 ## Regalo {#gift}
 
@@ -1518,7 +1518,7 @@ ht-degree: 6%
 
 ## GlobeClock {#globeclock}
 
-![GlobeClock](/help/assets/icons/GlobeClock.svg)
+![RelojGlobo](/help/assets/icons/GlobeClock.svg)
 
 ## GlobeEnter {#globeenter}
 
@@ -1534,7 +1534,7 @@ ht-degree: 6%
 
 ## GlobeOutline {#globeoutline}
 
-![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
+![EsquemaDelGlobo](/help/assets/icons/GlobeOutline.svg)
 
 ## GlobeRemove {#globeremove}
 
@@ -1558,7 +1558,7 @@ ht-degree: 6%
 
 ## Degradación {#gradient}
 
-![Degradación](/help/assets/icons/Gradient.svg)
+![Degradado](/help/assets/icons/Gradient.svg)
 
 ## GraphArea {#grapharea}
 
@@ -1606,7 +1606,7 @@ ht-degree: 6%
 
 ## GraphDonut {#graphdonut}
 
-![GraphDonut](/help/assets/icons/GraphDonut.svg)
+![AnilloGráfico](/help/assets/icons/GraphDonut.svg)
 
 ## GraphDonutAdd {#graphdonutadd}
 
@@ -1614,7 +1614,7 @@ ht-degree: 6%
 
 ## GraphGantt {#graphgantt}
 
-![GraphGantt](/help/assets/icons/GraphGantt.svg)
+![GanttGráfico](/help/assets/icons/GraphGantt.svg)
 
 ## GraphHistogram {#graphhistogram}
 
@@ -1622,15 +1622,15 @@ ht-degree: 6%
 
 ## GraphPathing {#graphpathing}
 
-![GraphPathing](/help/assets/icons/GraphPathing.svg)
+![Rutas de gráficos](/help/assets/icons/GraphPathing.svg)
 
 ## GraphPie {#graphpie}
 
-![GraphPie](/help/assets/icons/GraphPie.svg)
+![Gráfico circular](/help/assets/icons/GraphPie.svg)
 
 ## GraphProfitCurve {#graphprofitcurve}
 
-![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)
+![CurvaDeBeneficiosDeGráficos](/help/assets/icons/GraphProfitCurve.svg)
 
 ## GraphScatter {#graphscatter}
 
@@ -1654,7 +1654,7 @@ ht-degree: 6%
 
 ## GraphTree {#graphtree}
 
-![GraphTree](/help/assets/icons/GraphTree.svg)
+![ÁrbolGráfico](/help/assets/icons/GraphTree.svg)
 
 ## GraphTrend {#graphtrend}
 
@@ -1718,7 +1718,7 @@ ht-degree: 6%
 
 ## HelpOutline {#helpoutline}
 
-![HelpOutline](/help/assets/icons/HelpOutline.svg)
+![EsquemaDeAyuda](/help/assets/icons/HelpOutline.svg)
 
 ## Histograma {#histogram}
 
@@ -1734,11 +1734,11 @@ ht-degree: 6%
 
 ## Homepage {#homepage}
 
-![Homepage](/help/assets/icons/Homepage.svg)
+![Página principal](/help/assets/icons/Homepage.svg)
 
 ## Corrección rápida {#hotfixe}
 
-![Corrección rápida](/help/assets/icons/HotFixe.svg)
+![revisión](/help/assets/icons/HotFixe.svg)
 
 ## HotelBed {#hotelbed}
 
@@ -1746,7 +1746,7 @@ ht-degree: 6%
 
 ## IdentityService {#identityservice}
 
-![IdentityService](/help/assets/icons/IdentityService.svg)
+![ServicioDeIdentidad](/help/assets/icons/IdentityService.svg)
 
 ## Imágenes {#images}
 
@@ -1762,7 +1762,7 @@ ht-degree: 6%
 
 ## ImageAlbum {#imagealbum}
 
-![ImageAlbum](/help/assets/icons/ImageAlbum.svg)
+![Álbum de imágenes](/help/assets/icons/ImageAlbum.svg)
 
 ## ImageAutoMode {#imageautomode}
 
@@ -1770,7 +1770,7 @@ ht-degree: 6%
 
 ## ImageCarousel {#imagecarousel}
 
-![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
+![Carrusel de imágenes](/help/assets/icons/ImageCarousel.svg)
 
 ## ImageCheck {#imagecheck}
 
@@ -1790,7 +1790,7 @@ ht-degree: 6%
 
 ## ImageMapRectangle {#imagemaprectangle}
 
-![ImageMapRectangle](/help/assets/icons/ImageMapRectangle.svg)
+![RectánguloDeMapaDeImagen](/help/assets/icons/ImageMapRectangle.svg)
 
 ## ImageNext {#imagenext}
 
@@ -1798,7 +1798,7 @@ ht-degree: 6%
 
 ## ImageProfile {#imageprofile}
 
-![ImageProfile](/help/assets/icons/ImageProfile.svg)
+![Perfil de imagen](/help/assets/icons/ImageProfile.svg)
 
 ## ImageSearch {#imagesearch}
 
@@ -1806,7 +1806,7 @@ ht-degree: 6%
 
 ## ImageText {#imagetext}
 
-![ImageText](/help/assets/icons/ImageText.svg)
+![TextoDeImagen](/help/assets/icons/ImageText.svg)
 
 ## Importar {#import}
 
@@ -1818,7 +1818,7 @@ ht-degree: 6%
 
 ## Individual {#individual}
 
-![Individual](/help/assets/icons/Individual.svg)
+![Persona](/help/assets/icons/Individual.svg)
 
 ## Información {#info}
 
@@ -1826,11 +1826,11 @@ ht-degree: 6%
 
 ## InfoOutline {#infooutline}
 
-![InfoOutline](/help/assets/icons/InfoOutline.svg)
+![EsquemaDeInformación](/help/assets/icons/InfoOutline.svg)
 
 ## IntersectOverlap {#intersectoverlap}
 
-![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
+![SuperposiciónDeIntersección](/help/assets/icons/IntersectOverlap.svg)
 
 ## InvertAdj {#invertadj}
 
@@ -1854,7 +1854,7 @@ ht-degree: 6%
 
 ## JourneyEvent {#journeyevent}
 
-![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
+![EventoDeRecorrido](/help/assets/icons/JourneyEvent.svg)
 
 ## JourneyEvent2 {#journeyevent2}
 
@@ -1862,7 +1862,7 @@ ht-degree: 6%
 
 ## JourneyReport {#journeyreport}
 
-![JourneyReport](/help/assets/icons/JourneyReport.svg)
+![InformeDeRecorrido](/help/assets/icons/JourneyReport.svg)
 
 ## JourneyVoyager {#journeyvoyager}
 
@@ -1878,7 +1878,7 @@ ht-degree: 6%
 
 ## KeyClock {#keyclock}
 
-![KeyClock](/help/assets/icons/KeyClock.svg)
+![RelojTecla](/help/assets/icons/KeyClock.svg)
 
 ## KeyExclude {#keyexclude}
 
@@ -1914,7 +1914,7 @@ ht-degree: 6%
 
 ## LayersBackward {#layersbackward}
 
-![LayersBackward](/help/assets/icons/LayersBackward.svg)
+![capas hacia atrás](/help/assets/icons/LayersBackward.svg)
 
 ## CapasTraerAlFrente {#layersbringtofront}
 
@@ -1922,7 +1922,7 @@ ht-degree: 6%
 
 ## LayersForward {#layersforward}
 
-![LayersForward](/help/assets/icons/LayersForward.svg)
+![Reenviar capas](/help/assets/icons/LayersForward.svg)
 
 ## LayersSendToBack {#layerssendtoback}
 
@@ -1934,11 +1934,11 @@ ht-degree: 6%
 
 ## LeftRight {#leftright}
 
-![LeftRight](/help/assets/icons/LeftRight.svg)
+![IzquierdaDerecha](/help/assets/icons/LeftRight.svg)
 
 ## Ligero {#light}
 
-![Ligero](/help/assets/icons/Light.svg)
+![Claro](/help/assets/icons/Light.svg)
 
 ## Línea {#line}
 
@@ -1946,7 +1946,7 @@ ht-degree: 6%
 
 ## AlturaDeLínea {#lineheight}
 
-![AlturaDeLínea](/help/assets/icons/LineHeight.svg)
+![AltoDeLínea](/help/assets/icons/LineHeight.svg)
 
 ## Degradado lineal {#lineargradient}
 
@@ -1970,7 +1970,7 @@ ht-degree: 6%
 
 ## LinkOff {#linkoff}
 
-![LinkOff](/help/assets/icons/LinkOff.svg)
+![Vínculo desactivado](/help/assets/icons/LinkOff.svg)
 
 ## LinkOut {#linkout}
 
@@ -1982,11 +1982,11 @@ ht-degree: 6%
 
 ## LinkPage {#linkpage}
 
-![LinkPage](/help/assets/icons/LinkPage.svg)
+![PáginaVínculo](/help/assets/icons/LinkPage.svg)
 
 ## LinkUser {#linkuser}
 
-![LinkUser](/help/assets/icons/LinkUser.svg)
+![UsuarioVínculo](/help/assets/icons/LinkUser.svg)
 
 ## Ubicación {#location}
 
@@ -1998,7 +1998,7 @@ ht-degree: 6%
 
 ## LocationBasedEvent {#locationbasedevent}
 
-![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
+![EventoBasadoEnLaUbicación](/help/assets/icons/LocationBasedEvent.svg)
 
 ## LocationContribution {#locationcontribution}
 
@@ -2014,7 +2014,7 @@ ht-degree: 6%
 
 ## LogOut {#logout}
 
-![LogOut](/help/assets/icons/LogOut.svg)
+![Cerrar sesión](/help/assets/icons/LogOut.svg)
 
 ## Iniciar sesión {#login}
 
@@ -2022,7 +2022,7 @@ ht-degree: 6%
 
 ## Look {#look}
 
-![Look](/help/assets/icons/Look.svg)
+![Buscar](/help/assets/icons/Look.svg)
 
 ## LoupeView {#loupeview}
 
@@ -2034,7 +2034,7 @@ ht-degree: 6%
 
 ## MagicWand {#magicwand}
 
-![MagicWand](/help/assets/icons/MagicWand.svg)
+![VaritaMágica](/help/assets/icons/MagicWand.svg)
 
 ## Ampliar {#magnify}
 
@@ -2046,7 +2046,7 @@ ht-degree: 6%
 
 ## MapView {#mapview}
 
-![MapView](/help/assets/icons/MapView.svg)
+![VistaMapa](/help/assets/icons/MapView.svg)
 
 ## MarginBottom {#marginbottom}
 
@@ -2086,11 +2086,11 @@ ht-degree: 6%
 
 ## MergeLayer {#mergelayer}
 
-![MergeLayer](/help/assets/icons/MergeLayer.svg)
+![Combinar capa](/help/assets/icons/MergeLayer.svg)
 
 ## Messenger {#messenger}
 
-![Messenger](/help/assets/icons/Messenger.svg)
+![Mensajero](/help/assets/icons/Messenger.svg)
 
 ## Minimizar {#minimize}
 
@@ -2102,7 +2102,7 @@ ht-degree: 6%
 
 ## ModernGridView {#moderngridview}
 
-![ModernGridView](/help/assets/icons/ModernGridView.svg)
+![VistaDeCuadrículaModerna](/help/assets/icons/ModernGridView.svg)
 
 ## Dinero {#money}
 
@@ -2122,11 +2122,11 @@ ht-degree: 6%
 
 ## MoreCircle {#morecircle}
 
-![MoreCircle](/help/assets/icons/MoreCircle.svg)
+![MásCírculo](/help/assets/icons/MoreCircle.svg)
 
 ## MásPequeño {#moresmall}
 
-![MásPequeño](/help/assets/icons/MoreSmall.svg)
+![Más pequeño](/help/assets/icons/MoreSmall.svg)
 
 ## MásListaPequeña {#moresmalllist}
 
@@ -2138,7 +2138,7 @@ ht-degree: 6%
 
 ## MásVertical {#morevertical}
 
-![MásVertical](/help/assets/icons/MoreVertical.svg)
+![Más vertical](/help/assets/icons/MoreVertical.svg)
 
 ## Mover {#move}
 
@@ -2158,7 +2158,7 @@ ht-degree: 6%
 
 ## MovieCamera {#moviecamera}
 
-![MovieCamera](/help/assets/icons/MovieCamera.svg)
+![CámaraPelícula](/help/assets/icons/MovieCamera.svg)
 
 ## Múltiple {#multiple}
 
@@ -2170,15 +2170,15 @@ ht-degree: 6%
 
 ## MultipleCheck {#multiplecheck}
 
-![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
+![ComprobaciónMúltiple](/help/assets/icons/MultipleCheck.svg)
 
 ## MultipleExclude {#multipleexclude}
 
-![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
+![ExclusiónMúltiple](/help/assets/icons/MultipleExclude.svg)
 
 ## NamingOrder {#namingorder}
 
-![NamingOrder](/help/assets/icons/NamingOrder.svg)
+![OrdenDeNombres](/help/assets/icons/NamingOrder.svg)
 
 ## Nuevo {#new}
 
@@ -2206,7 +2206,7 @@ ht-degree: 6%
 
 ## NoteAdd {#noteadd}
 
-![NoteAdd](/help/assets/icons/NoteAdd.svg)
+![AgregarNota](/help/assets/icons/NoteAdd.svg)
 
 ## O {#o}
 
@@ -2234,19 +2234,19 @@ ht-degree: 6%
 
 ## OpenIn {#openin}
 
-![OpenIn](/help/assets/icons/OpenIn.svg)
+![AbrirEn](/help/assets/icons/OpenIn.svg)
 
 ## OpenInLight {#openinlight}
 
-![OpenInLight](/help/assets/icons/OpenInLight.svg)
+![AbrirEnLuz](/help/assets/icons/OpenInLight.svg)
 
 ## OpenRecent {#openrecent}
 
-![OpenRecent](/help/assets/icons/OpenRecent.svg)
+![AbrirReciente](/help/assets/icons/OpenRecent.svg)
 
 ## OpenRecentOutline {#openrecentoutline}
 
-![OpenRecentOutline](/help/assets/icons/OpenRecentOutline.svg)
+![AbrirEsquemaReciente](/help/assets/icons/OpenRecentOutline.svg)
 
 ## Órbita {#orbit}
 
@@ -2262,19 +2262,19 @@ ht-degree: 6%
 
 ## OutlinePath {#outlinepath}
 
-![OutlinePath](/help/assets/icons/OutlinePath.svg)
+![RutaDeEsquema](/help/assets/icons/OutlinePath.svg)
 
 ## PaddingBottom {#paddingbottom}
 
-![PaddingBottom](/help/assets/icons/PaddingBottom.svg)
+![Relleno inferior](/help/assets/icons/PaddingBottom.svg)
 
 ## PaddingLeft {#paddingleft}
 
-![PaddingLeft](/help/assets/icons/PaddingLeft.svg)
+![RellenoIzquierdo](/help/assets/icons/PaddingLeft.svg)
 
 ## PaddingRight {#paddingright}
 
-![PaddingRight](/help/assets/icons/PaddingRight.svg)
+![Relleno derecho](/help/assets/icons/PaddingRight.svg)
 
 ## Relleno superior {#paddingtop}
 
@@ -2286,27 +2286,27 @@ ht-degree: 6%
 
 ## PageExclude {#pageexclude}
 
-![PageExclude](/help/assets/icons/PageExclude.svg)
+![PáginaExcluir](/help/assets/icons/PageExclude.svg)
 
 ## PageGear {#pagegear}
 
-![PageGear](/help/assets/icons/PageGear.svg)
+![EngranajeDePágina](/help/assets/icons/PageGear.svg)
 
 ## PageRule {#pagerule}
 
-![PageRule](/help/assets/icons/PageRule.svg)
+![ReglaDePágina](/help/assets/icons/PageRule.svg)
 
 ## PageShare {#pageshare}
 
-![PageShare](/help/assets/icons/PageShare.svg)
+![Uso compartido de páginas](/help/assets/icons/PageShare.svg)
 
 ## PageTag {#pagetag}
 
-![PageTag](/help/assets/icons/PageTag.svg)
+![EtiquetaDePágina](/help/assets/icons/PageTag.svg)
 
 ## PagesExclude {#pagesexclude}
 
-![PagesExclude](/help/assets/icons/PagesExclude.svg)
+![Páginas excluidas](/help/assets/icons/PagesExclude.svg)
 
 ## Panorámica {#pan}
 
@@ -2326,7 +2326,7 @@ ht-degree: 6%
 
 ## PasteList {#pastelist}
 
-![PasteList](/help/assets/icons/PasteList.svg)
+![PegarLista](/help/assets/icons/PasteList.svg)
 
 ## PegarTexto {#pastetext}
 
@@ -2338,11 +2338,11 @@ ht-degree: 6%
 
 ## Pausar {#pause}
 
-![Pausar](/help/assets/icons/Pause.svg)
+![Pausa](/help/assets/icons/Pause.svg)
 
 ## PauseCircle {#pausecircle}
 
-![PauseCircle](/help/assets/icons/PauseCircle.svg)
+![CírculoPausa](/help/assets/icons/PauseCircle.svg)
 
 ## Peón {#pawn}
 
@@ -2354,11 +2354,11 @@ ht-degree: 6%
 
 ## PeopleGroup {#peoplegroup}
 
-![PeopleGroup](/help/assets/icons/PeopleGroup.svg)
+![GrupoPersonas](/help/assets/icons/PeopleGroup.svg)
 
 ## PersonalizationField {#personalizationfield}
 
-![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
+![Campo de personalización](/help/assets/icons/PersonalizationField.svg)
 
 ## Perspectiva {#perspective}
 
@@ -2374,15 +2374,15 @@ ht-degree: 6%
 
 ## Pivotar {#pivot}
 
-![Pivotar](/help/assets/icons/Pivot.svg)
+![Tabla dinámica](/help/assets/icons/Pivot.svg)
 
 ## Marcador {#placeholder}
 
-![Marcador](/help/assets/icons/Placeholder.svg)
+![Marcador de posición](/help/assets/icons/Placeholder.svg)
 
 ## PlatformDataMapping {#platformdatamapping}
 
-![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
+![AsignaciónDatosPlataforma](/help/assets/icons/PlatformDataMapping.svg)
 
 ## Reproducir {#play}
 
@@ -2394,7 +2394,7 @@ ht-degree: 6%
 
 ## Enchufe {#plug}
 
-![Enchufe](/help/assets/icons/Plug.svg)
+![Plug](/help/assets/icons/Plug.svg)
 
 ## Polígono {#polygon}
 
@@ -2414,7 +2414,7 @@ ht-degree: 6%
 
 ## Preestablecido {#preset}
 
-![Preestablecido](/help/assets/icons/Preset.svg)
+![Ajuste preestablecido](/help/assets/icons/Preset.svg)
 
 ## Vista previa {#preview}
 
@@ -2426,7 +2426,7 @@ ht-degree: 6%
 
 ## Imprimir vista previa {#printpreview}
 
-![Imprimir vista previa](/help/assets/icons/PrintPreview.svg)
+![Vista preliminar](/help/assets/icons/PrintPreview.svg)
 
 ## Proyecto {#project}
 
@@ -2434,7 +2434,7 @@ ht-degree: 6%
 
 ## ProjectAdd {#projectadd}
 
-![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
+![Agregar proyecto](/help/assets/icons/ProjectAdd.svg)
 
 ## EdiciónDeProyecto {#projectedit}
 
@@ -2454,7 +2454,7 @@ ht-degree: 6%
 
 ## PropertiesCopy {#propertiescopy}
 
-![PropertiesCopy](/help/assets/icons/PropertiesCopy.svg)
+![CopiaPropiedades](/help/assets/icons/PropertiesCopy.svg)
 
 ## PublishCheck {#publishcheck}
 
@@ -2478,7 +2478,7 @@ ht-degree: 6%
 
 ## PushNotification {#pushnotification}
 
-![PushNotification](/help/assets/icons/PushNotification.svg)
+![Notificación push](/help/assets/icons/PushNotification.svg)
 
 ## Pregunta {#question}
 
@@ -2526,15 +2526,15 @@ ht-degree: 6%
 
 ## RangeMask {#rangemask}
 
-![RangeMask](/help/assets/icons/RangeMask.svg)
+![MáscaraDeIntervalo](/help/assets/icons/RangeMask.svg)
 
 ## RealTimeCustomerProfile {#realtimecustomerprofile}
 
-![RealTimeCustomerProfile](/help/assets/icons/RealTimeCustomerProfile.svg)
+![PerfilClienteEnTiempoReal](/help/assets/icons/RealTimeCustomerProfile.svg)
 
 ## RectSelect {#rectselect}
 
-![RectSelect](/help/assets/icons/RectSelect.svg)
+![SeleccionarRecto](/help/assets/icons/RectSelect.svg)
 
 ## Rectángulo {#rectangle}
 
@@ -2550,7 +2550,7 @@ ht-degree: 6%
 
 ## RegionSelect {#regionselect}
 
-![RegionSelect](/help/assets/icons/RegionSelect.svg)
+![SelecciónRegión](/help/assets/icons/RegionSelect.svg)
 
 ## Relevancia {#relevance}
 
@@ -2558,11 +2558,11 @@ ht-degree: 6%
 
 ## Eliminar {#remove}
 
-![Eliminar](/help/assets/icons/Remove.svg)
+![Quitar](/help/assets/icons/Remove.svg)
 
 ## RemoveCircle {#removecircle}
 
-![RemoveCircle](/help/assets/icons/RemoveCircle.svg)
+![QuitarCírculo](/help/assets/icons/RemoveCircle.svg)
 
 ## Cambiar nombre {#rename}
 
@@ -2578,7 +2578,7 @@ ht-degree: 6%
 
 ## Réplica {#replie}
 
-![Réplica](/help/assets/icons/Replie.svg)
+![Respuesta](/help/assets/icons/Replie.svg)
 
 ## Responder {#reply}
 
@@ -2586,7 +2586,7 @@ ht-degree: 6%
 
 ## ReplyAll {#replyall}
 
-![ReplyAll](/help/assets/icons/ReplyAll.svg)
+![ResponderTodo](/help/assets/icons/ReplyAll.svg)
 
 ## Información general de la tienda de aplicaciones {#report}
 
@@ -2598,11 +2598,11 @@ ht-degree: 6%
 
 ## Redimensionar {#resize}
 
-![Redimensionar](/help/assets/icons/Resize.svg)
+![Cambiar tamaño](/help/assets/icons/Resize.svg)
 
 ## ResolvedComment {#resolvedcomment}
 
-![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
+![Comentario resuelto](/help/assets/icons/ResolvedComment.svg)
 
 ## Retweet {#retweet}
 
@@ -2650,15 +2650,15 @@ ht-degree: 6%
 
 ## RotateLeft {#rotateleft}
 
-![RotateLeft](/help/assets/icons/RotateLeft.svg)
+![GirarALaIzquierda](/help/assets/icons/RotateLeft.svg)
 
 ## RotarContornoIzquierdo {#rotateleftoutline}
 
-![RotarContornoIzquierdo](/help/assets/icons/RotateLeftOutline.svg)
+![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
 ## RotateRight {#rotateright}
 
-![RotateRight](/help/assets/icons/RotateRight.svg)
+![GirarDerecha](/help/assets/icons/RotateRight.svg)
 
 ## RotateRightOutline {#rotaterightoutline}
 
@@ -2690,15 +2690,15 @@ ht-degree: 6%
 
 ## Sandbox {#sandbox}
 
-![Sandbox](/help/assets/icons/Sandbox.svg)
+![espacio aislado](/help/assets/icons/Sandbox.svg)
 
 ## SaveAsFloppy {#saveasfloppy}
 
-![SaveAsFloppy](/help/assets/icons/SaveAsFloppy.svg)
+![GuardarComoDisquete](/help/assets/icons/SaveAsFloppy.svg)
 
 ## SaveFloppy {#savefloppy}
 
-![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
+![GuardarDisquete](/help/assets/icons/SaveFloppy.svg)
 
 ## Guardar en {#saveto}
 
@@ -2706,7 +2706,7 @@ ht-degree: 6%
 
 ## SaveToLight {#savetolight}
 
-![SaveToLight](/help/assets/icons/SaveToLight.svg)
+![GuardarComoLuz](/help/assets/icons/SaveToLight.svg)
 
 ## Esquemas {#schemas}
 
@@ -2722,7 +2722,7 @@ ht-degree: 6%
 
 ## Asiento {#seat}
 
-![Asiento](/help/assets/icons/Seat.svg)
+![Puesto](/help/assets/icons/Seat.svg)
 
 ## SeatAdd {#seatadd}
 
@@ -2742,23 +2742,23 @@ ht-degree: 6%
 
 ## SelectAdd {#selectadd}
 
-![SelectAdd](/help/assets/icons/SelectAdd.svg)
+![SeleccionarAgregar](/help/assets/icons/SelectAdd.svg)
 
 ## SelectBox {#selectbox}
 
-![SelectBox](/help/assets/icons/SelectBox.svg)
+![SeleccionarCuadro](/help/assets/icons/SelectBox.svg)
 
 ## SelectBoxAll {#selectboxall}
 
-![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
+![SeleccionarCuadroTodo](/help/assets/icons/SelectBoxAll.svg)
 
 ## SelectCircular {#selectcircular}
 
-![SelectCircular](/help/assets/icons/SelectCircular.svg)
+![SeleccionarCircular](/help/assets/icons/SelectCircular.svg)
 
 ## SelectContainer {#selectcontainer}
 
-![SelectContainer](/help/assets/icons/SelectContainer.svg)
+![SeleccionarContenedor](/help/assets/icons/SelectContainer.svg)
 
 ## SeleccionarEngranaje {#selectgear}
 
@@ -2778,11 +2778,11 @@ ht-degree: 6%
 
 ## SelectionChecked {#selectionchecked}
 
-![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
+![SelecciónComprobada](/help/assets/icons/SelectionChecked.svg)
 
 ## SelectionMove {#selectionmove}
 
-![SelectionMove](/help/assets/icons/SelectionMove.svg)
+![MoverSelección](/help/assets/icons/SelectionMove.svg)
 
 ## Enviar {#send}
 
@@ -2822,7 +2822,7 @@ ht-degree: 6%
 
 ## ShareAndroid {#shareandroid}
 
-![ShareAndroid](/help/assets/icons/ShareAndroid.svg)
+![Compartir Android](/help/assets/icons/ShareAndroid.svg)
 
 ## ShareCheck {#sharecheck}
 
@@ -2834,7 +2834,7 @@ ht-degree: 6%
 
 ## ShareWindow {#sharewindow}
 
-![ShareWindow](/help/assets/icons/ShareWindow.svg)
+![CompartirVentana](/help/assets/icons/ShareWindow.svg)
 
 ## Enfoque {#sharpen}
 
@@ -2850,27 +2850,27 @@ ht-degree: 6%
 
 ## Tienda {#shop}
 
-![Tienda](/help/assets/icons/Shop.svg)
+![Comprar](/help/assets/icons/Shop.svg)
 
 ## CarroDeCompras {#shoppingcart}
 
-![CarroDeCompras](/help/assets/icons/ShoppingCart.svg)
+![Carro de compras](/help/assets/icons/ShoppingCart.svg)
 
 ## ShowAllLayer {#showalllayer}
 
-![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
+![MostrarTodaCapa](/help/assets/icons/ShowAllLayer.svg)
 
 ## ShowMenu {#showmenu}
 
-![ShowMenu](/help/assets/icons/ShowMenu.svg)
+![MostrarMenú](/help/assets/icons/ShowMenu.svg)
 
 ## ShowOneLayer {#showonelayer}
 
-![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
+![MostrarUnaCapa](/help/assets/icons/ShowOneLayer.svg)
 
 ## Barajar {#shuffle}
 
-![Barajar](/help/assets/icons/Shuffle.svg)
+![Orden aleatorio](/help/assets/icons/Shuffle.svg)
 
 ## Sector {#slice}
 
@@ -2890,23 +2890,23 @@ ht-degree: 6%
 
 ## SocialNetwork {#socialnetwork}
 
-![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
+![RedSocial](/help/assets/icons/SocialNetwork.svg)
 
 ## SortOrderDown {#sortorderdown}
 
-![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
+![Orden descendente](/help/assets/icons/SortOrderDown.svg)
 
 ## SortOrderUp {#sortorderup}
 
-![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
+![Orden ascendente](/help/assets/icons/SortOrderUp.svg)
 
 ## Spam {#spam}
 
-![Spam](/help/assets/icons/Spam.svg)
+![Correo no deseado](/help/assets/icons/Spam.svg)
 
 ## Corrección ortográfica {#spellcheck}
 
-![Corrección ortográfica](/help/assets/icons/Spellcheck.svg)
+![Revisión ortográfica](/help/assets/icons/Spellcheck.svg)
 
 ## Giro {#spin}
 
@@ -2918,7 +2918,7 @@ ht-degree: 6%
 
 ## SpotHeal {#spotheal}
 
-![SpotHeal](/help/assets/icons/SpotHeal.svg)
+![Corrección puntual](/help/assets/icons/SpotHeal.svg)
 
 ## Estadio {#stadium}
 
@@ -2938,7 +2938,7 @@ ht-degree: 6%
 
 ## ContornoEstrella {#staroutline}
 
-![ContornoEstrella](/help/assets/icons/StarOutline.svg)
+![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg)
 
 ## Estallido {#starburst}
 
@@ -2946,7 +2946,7 @@ ht-degree: 6%
 
 ## PasoAtrás {#stepbackward}
 
-![PasoAtrás](/help/assets/icons/StepBackward.svg)
+![Retroceder](/help/assets/icons/StepBackward.svg)
 
 ## StepBackwardCircle {#stepbackwardcircle}
 
@@ -2954,7 +2954,7 @@ ht-degree: 6%
 
 ## StepForward {#stepforward}
 
-![StepForward](/help/assets/icons/StepForward.svg)
+![PasoAdelante](/help/assets/icons/StepForward.svg)
 
 ## StepForwardCircle {#stepforwardcircle}
 
@@ -2978,11 +2978,11 @@ ht-degree: 6%
 
 ## EnderezarContorno {#straightenoutline}
 
-![EnderezarContorno](/help/assets/icons/StraightenOutline.svg)
+![EnderezarEsquema](/help/assets/icons/StraightenOutline.svg)
 
 ## StrokeWidth {#strokewidth}
 
-![StrokeWidth](/help/assets/icons/StrokeWidth.svg)
+![AnchoDeTrazo](/help/assets/icons/StrokeWidth.svg)
 
 ## Suscribirse {#subscribe}
 
@@ -2990,7 +2990,7 @@ ht-degree: 6%
 
 ## SubtractBackPath {#subtractbackpath}
 
-![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
+![RutaDeAccesoPosteriorARestar](/help/assets/icons/SubtractBackPath.svg)
 
 ## SubtractFromSelection {#subtractfromselection}
 
@@ -2998,7 +2998,7 @@ ht-degree: 6%
 
 ## RestarTrayectoriaFrontal {#subtractfrontpath}
 
-![RestarTrayectoriaFrontal](/help/assets/icons/SubtractFrontPath.svg)
+![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
 ## Métrica de éxito {#successmetric}
 
@@ -3014,11 +3014,11 @@ ht-degree: 6%
 
 ## Cambiar {#switch}
 
-![Cambiar](/help/assets/icons/Switch.svg)
+![Conmutador](/help/assets/icons/Switch.svg)
 
 ## Sincronización {#sync}
 
-![Sincronización](/help/assets/icons/Sync.svg)
+![Sincronizar](/help/assets/icons/Sync.svg)
 
 ## SyncRemove {#syncremove}
 
@@ -3034,7 +3034,7 @@ ht-degree: 6%
 
 ## Tabla y gráfico {#tableandchart}
 
-![Tabla y gráfico](/help/assets/icons/TableAndChart.svg)
+![TablaYGráfico](/help/assets/icons/TableAndChart.svg)
 
 ## TableColumnAddLeft {#tablecolumnaddleft}
 
@@ -3046,19 +3046,19 @@ ht-degree: 6%
 
 ## CombinarColumnasTabla {#tablecolumnmerge}
 
-![CombinarColumnasTabla](/help/assets/icons/TableColumnMerge.svg)
+![CombinaciónColumnaTabla](/help/assets/icons/TableColumnMerge.svg)
 
 ## TablaColumnaQuitarCentro {#tablecolumnremovecenter}
 
-![TablaColumnaQuitarCentro](/help/assets/icons/TableColumnRemoveCenter.svg)
+![TableColumnRemoveCenter](/help/assets/icons/TableColumnRemoveCenter.svg)
 
 ## TablaDividirColumna {#tablecolumnsplit}
 
-![TablaDividirColumna](/help/assets/icons/TableColumnSplit.svg)
+![DivisiónColumnaTabla](/help/assets/icons/TableColumnSplit.svg)
 
 ## TableEdit {#tableedit}
 
-![TableEdit](/help/assets/icons/TableEdit.svg)
+![EdiciónDeTabla](/help/assets/icons/TableEdit.svg)
 
 ## HistogramaTabla {#tablehistogram}
 
@@ -3066,7 +3066,7 @@ ht-degree: 6%
 
 ## TablaCombinarCelda {#tablemergecell}
 
-![TablaCombinarCelda](/help/assets/icons/TableMergeCell.svg)
+![CombinarCelda](/help/assets/icons/TableMergeCell.svg)
 
 ## TableRowAddBottom {#tablerowaddbottom}
 
@@ -3074,11 +3074,11 @@ ht-degree: 6%
 
 ## TablaFilaAgregarSuperior {#tablerowaddtop}
 
-![TablaFilaAgregarSuperior](/help/assets/icons/TableRowAddTop.svg)
+![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
 ## TableRowMerge {#tablerowmerge}
 
-![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
+![CombinaciónFilaTabla](/help/assets/icons/TableRowMerge.svg)
 
 ## TableRowRemoveCenter {#tablerowremovecenter}
 
@@ -3086,7 +3086,7 @@ ht-degree: 6%
 
 ## TableRowSplit {#tablerowsplit}
 
-![TableRowSplit](/help/assets/icons/TableRowSplit.svg)
+![DivisiónFilaTabla](/help/assets/icons/TableRowSplit.svg)
 
 ## TablaSeleccionarColumna {#tableselectcolumn}
 
@@ -3102,15 +3102,15 @@ ht-degree: 6%
 
 ## TagBold {#tagbold}
 
-![TagBold](/help/assets/icons/TagBold.svg)
+![EtiquetaNegrita](/help/assets/icons/TagBold.svg)
 
 ## TagItalic {#tagitalic}
 
-![TagItalic](/help/assets/icons/TagItalic.svg)
+![EtiquetaCursiva](/help/assets/icons/TagItalic.svg)
 
 ## TagUnderline {#tagunderline}
 
-![TagUnderline](/help/assets/icons/TagUnderline.svg)
+![Subrayado de etiqueta](/help/assets/icons/TagUnderline.svg)
 
 ## Target {#target}
 
@@ -3118,11 +3118,11 @@ ht-degree: 6%
 
 ## Objetivos {#targeted}
 
-![Objetivos](/help/assets/icons/Targeted.svg)
+![Segmentado](/help/assets/icons/Targeted.svg)
 
 ## TaskList {#tasklist}
 
-![TaskList](/help/assets/icons/TaskList.svg)
+![ListaTareas](/help/assets/icons/TaskList.svg)
 
 ## Tetera {#teapot}
 
@@ -3150,7 +3150,7 @@ ht-degree: 6%
 
 ## TestProfile {#testprofile}
 
-![TestProfile](/help/assets/icons/TestProfile.svg)
+![Perfil de prueba](/help/assets/icons/TestProfile.svg)
 
 ## Texto {#text}
 
@@ -3162,7 +3162,7 @@ ht-degree: 6%
 
 ## AlinearTextoCentrar {#textaligncenter}
 
-![AlinearTextoCentrar](/help/assets/icons/TextAlignCenter.svg)
+![AlinearTexto](/help/assets/icons/TextAlignCenter.svg)
 
 ## TextAlignJustify {#textalignjustify}
 
@@ -3170,7 +3170,7 @@ ht-degree: 6%
 
 ## TextAlignLeft {#textalignleft}
 
-![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
+![AlineaciónDeTextoIzquierda](/help/assets/icons/TextAlignLeft.svg)
 
 ## AlineaciónDeTextoDerecha {#textalignright}
 
@@ -3182,11 +3182,11 @@ ht-degree: 6%
 
 ## TextBold {#textbold}
 
-![TextBold](/help/assets/icons/TextBold.svg)
+![NegritaTexto](/help/assets/icons/TextBold.svg)
 
 ## TextBulleted {#textbulleted}
 
-![TextBulleted](/help/assets/icons/TextBulleted.svg)
+![Texto con viñetas](/help/assets/icons/TextBulleted.svg)
 
 ## TextBulletedAttach {#textbulletedattach}
 
@@ -3194,7 +3194,7 @@ ht-degree: 6%
 
 ## TextBulletedHierarchy {#textbulletedhierarchy}
 
-![TextBulletedHierarchy](/help/assets/icons/TextBulletedHierarchy.svg)
+![Jerarquía con viñetas](/help/assets/icons/TextBulletedHierarchy.svg)
 
 ## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude}
 
@@ -3206,19 +3206,19 @@ ht-degree: 6%
 
 ## TextDecrease {#textdecrease}
 
-![TextDecrease](/help/assets/icons/TextDecrease.svg)
+![DisminuciónDeTexto](/help/assets/icons/TextDecrease.svg)
 
 ## TextEdit {#textedit}
 
-![TextEdit](/help/assets/icons/TextEdit.svg)
+![EdiciónDeTexto](/help/assets/icons/TextEdit.svg)
 
 ## TextExclude {#textexclude}
 
-![TextExclude](/help/assets/icons/TextExclude.svg)
+![ExcluirTexto](/help/assets/icons/TextExclude.svg)
 
 ## TextIncrease {#textincrease}
 
-![TextIncrease](/help/assets/icons/TextIncrease.svg)
+![AumentoDeTexto](/help/assets/icons/TextIncrease.svg)
 
 ## TextIndentDecrease {#textindentdecrease}
 
@@ -3226,15 +3226,15 @@ ht-degree: 6%
 
 ## TextIndentIncrease {#textindentincrease}
 
-![TextIndentIncrease](/help/assets/icons/TextIndentIncrease.svg)
+![AumentarSangríaTexto](/help/assets/icons/TextIndentIncrease.svg)
 
 ## TextItalic {#textitalic}
 
-![TextItalic](/help/assets/icons/TextItalic.svg)
+![CursivaTexto](/help/assets/icons/TextItalic.svg)
 
 ## TextKerning {#textkerning}
 
-![TextKerning](/help/assets/icons/TextKerning.svg)
+![InterletrajeTexto](/help/assets/icons/TextKerning.svg)
 
 ## TextLetteredLowerCase {#textletteredlowercase}
 
@@ -3246,11 +3246,11 @@ ht-degree: 6%
 
 ## TextNumbered {#textnumbered}
 
-![TextNumbered](/help/assets/icons/TextNumbered.svg)
+![NumeraciónDeTexto](/help/assets/icons/TextNumbered.svg)
 
 ## TextParagraph {#textparagraph}
 
-![TextParagraph](/help/assets/icons/TextParagraph.svg)
+![PárrafoTexto](/help/assets/icons/TextParagraph.svg)
 
 ## TextRomanLowercase {#textromanlowercase}
 
@@ -3262,7 +3262,7 @@ ht-degree: 6%
 
 ## TextSize {#textsize}
 
-![TextSize](/help/assets/icons/TextSize.svg)
+![TamañoDeTexto](/help/assets/icons/TextSize.svg)
 
 ## TextSizeAdd {#textsizeadd}
 
@@ -3278,47 +3278,47 @@ ht-degree: 6%
 
 ## TextStrikethrough {#textstrikethrough}
 
-![TextStrikethrough](/help/assets/icons/TextStrikethrough.svg)
+![Tachado de texto](/help/assets/icons/TextStrikethrough.svg)
 
 ## TextStroke {#textstroke}
 
-![TextStroke](/help/assets/icons/TextStroke.svg)
+![TrazoTexto](/help/assets/icons/TextStroke.svg)
 
 ## TextStyle {#textstyle}
 
-![TextStyle](/help/assets/icons/TextStyle.svg)
+![EstiloDeTexto](/help/assets/icons/TextStyle.svg)
 
 ## TextSubscript {#textsubscript}
 
-![TextSubscript](/help/assets/icons/TextSubscript.svg)
+![SubíndiceDeTexto](/help/assets/icons/TextSubscript.svg)
 
 ## TextSuperscript {#textsuperscript}
 
-![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
+![SuperíndiceTexto](/help/assets/icons/TextSuperscript.svg)
 
 ## TextTracking {#texttracking}
 
-![TextTracking](/help/assets/icons/TextTracking.svg)
+![SeguimientoDeTexto](/help/assets/icons/TextTracking.svg)
 
 ## TextUnderline {#textunderline}
 
-![TextUnderline](/help/assets/icons/TextUnderline.svg)
+![SubrayadoTexto](/help/assets/icons/TextUnderline.svg)
 
 ## ThumbDown {#thumbdown}
 
-![ThumbDown](/help/assets/icons/ThumbDown.svg)
+![Miniatura](/help/assets/icons/ThumbDown.svg)
 
 ## ThumbDownOutline {#thumbdownoutline}
 
-![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg)
+![ContornoDeMiniaturaDescendente](/help/assets/icons/ThumbDownOutline.svg)
 
 ## ThumbUp {#thumbup}
 
-![ThumbUp](/help/assets/icons/ThumbUp.svg)
+![Miniatura](/help/assets/icons/ThumbUp.svg)
 
 ## ThumbUpOutline {#thumbupoutline}
 
-![ThumbUpOutline](/help/assets/icons/ThumbUpOutline.svg)
+![ContornoDeMiniaturaArriba](/help/assets/icons/ThumbUpOutline.svg)
 
 ## Entrenar {#train}
 
@@ -3326,7 +3326,7 @@ ht-degree: 6%
 
 ## TransferToPlatform {#transfertoplatform}
 
-![TransferToPlatform](/help/assets/icons/TransferToPlatform.svg)
+![TransferirALaPlataforma](/help/assets/icons/TransferToPlatform.svg)
 
 ## Transparencia {#transparency}
 
@@ -3346,7 +3346,7 @@ ht-degree: 6%
 
 ## TreeExpand {#treeexpand}
 
-![TreeExpand](/help/assets/icons/TreeExpand.svg)
+![ExpandirÁrbol](/help/assets/icons/TreeExpand.svg)
 
 ## ÁrbolExpandirTodo {#treeexpandall}
 
@@ -3354,7 +3354,7 @@ ht-degree: 6%
 
 ## TreeView {#treeview}
 
-![TreeView](/help/assets/icons/TreeView.svg)
+![Vista de árbol](/help/assets/icons/TreeView.svg)
 
 ## TrendInspect {#trendinspect}
 
@@ -3362,7 +3362,7 @@ ht-degree: 6%
 
 ## TrimPath {#trimpath}
 
-![TrimPath](/help/assets/icons/TrimPath.svg)
+![RutaDeAccesoDeRecorte](/help/assets/icons/TrimPath.svg)
 
 ## Trofeo {#trophy}
 
@@ -3398,11 +3398,11 @@ ht-degree: 6%
 
 ## UnresolvedComment {#unresolvedcomment}
 
-![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
+![Comentario sin resolver](/help/assets/icons/UnresolvedComment.svg)
 
 ## UploadToCloud {#uploadtocloud}
 
-![UploadToCloud](/help/assets/icons/UploadToCloud.svg)
+![Cargar a la nube](/help/assets/icons/UploadToCloud.svg)
 
 ## UploadToCloudOutline {#uploadtocloudoutline}
 
@@ -3414,7 +3414,7 @@ ht-degree: 6%
 
 ## UserActivity {#useractivity}
 
-![UserActivity](/help/assets/icons/UserActivity.svg)
+![Actividad de usuario](/help/assets/icons/UserActivity.svg)
 
 ## UserAdd {#useradd}
 
@@ -3426,7 +3426,7 @@ ht-degree: 6%
 
 ## UserArrow {#userarrow}
 
-![UserArrow](/help/assets/icons/UserArrow.svg)
+![FlechaUsuario](/help/assets/icons/UserArrow.svg)
 
 ## UserCheckedOut {#usercheckedout}
 
@@ -3442,35 +3442,35 @@ ht-degree: 6%
 
 ## UserExclude {#userexclude}
 
-![UserExclude](/help/assets/icons/UserExclude.svg)
+![ExclusiónDeUsuario](/help/assets/icons/UserExclude.svg)
 
 ## UserGroup {#usergroup}
 
-![UserGroup](/help/assets/icons/UserGroup.svg)
+![grupoDeUsuarios](/help/assets/icons/UserGroup.svg)
 
 ## UserLock {#userlock}
 
-![UserLock](/help/assets/icons/UserLock.svg)
+![Bloqueo de usuario](/help/assets/icons/UserLock.svg)
 
 ## UserShare {#usershare}
 
-![UserShare](/help/assets/icons/UserShare.svg)
+![recurso compartido de usuarios](/help/assets/icons/UserShare.svg)
 
 ## UsersAdd {#usersadd}
 
-![UsersAdd](/help/assets/icons/UsersAdd.svg)
+![UsuariosAgregar](/help/assets/icons/UsersAdd.svg)
 
 ## UsersExclude {#usersexclude}
 
-![UsersExclude](/help/assets/icons/UsersExclude.svg)
+![UsuariosExcluir](/help/assets/icons/UsersExclude.svg)
 
 ## UsersLock {#userslock}
 
-![UsersLock](/help/assets/icons/UsersLock.svg)
+![Bloqueo de usuarios](/help/assets/icons/UsersLock.svg)
 
 ## UsersShare {#usersshare}
 
-![UsersShare](/help/assets/icons/UsersShare.svg)
+![UsuariosCompartidos](/help/assets/icons/UsersShare.svg)
 
 ## Variable {#variable}
 
@@ -3482,7 +3482,7 @@ ht-degree: 6%
 
 ## VerticalMasonryGridView {#verticalmasonrygridview}
 
-![VerticalMasonryGridView](/help/assets/icons/VerticalMasonryGridView.svg)
+![VistaDeCuadrículaDeMasoneríaVertical](/help/assets/icons/VerticalMasonryGridView.svg)
 
 ## VideoCheckedOut {#videocheckedout}
 
@@ -3490,11 +3490,11 @@ ht-degree: 6%
 
 ## VideoFilled {#videofilled}
 
-![VideoFilled](/help/assets/icons/VideoFilled.svg)
+![Rellenado de vídeo](/help/assets/icons/VideoFilled.svg)
 
 ## VideoOutline {#videooutline}
 
-![VideoOutline](/help/assets/icons/VideoOutline.svg)
+![EsquemaDeVídeo](/help/assets/icons/VideoOutline.svg)
 
 ## VerTodasLasEtiquetas {#viewalltag}
 
@@ -3514,15 +3514,15 @@ ht-degree: 6%
 
 ## Ver columna {#viewcolumn}
 
-![Ver columna](/help/assets/icons/ViewColumn.svg)
+![VerColumna](/help/assets/icons/ViewColumn.svg)
 
 ## ViewDay {#viewday}
 
-![ViewDay](/help/assets/icons/ViewDay.svg)
+![VerDía](/help/assets/icons/ViewDay.svg)
 
 ## VerDetalle {#viewdetail}
 
-![VerDetalle](/help/assets/icons/ViewDetail.svg)
+![VerDetalles](/help/assets/icons/ViewDetail.svg)
 
 ## VerCuadrícula {#viewgrid}
 
@@ -3530,7 +3530,7 @@ ht-degree: 6%
 
 ## ViewList {#viewlist}
 
-![ViewList](/help/assets/icons/ViewList.svg)
+![VerLista](/help/assets/icons/ViewList.svg)
 
 ## VerFila {#viewrow}
 
@@ -3554,7 +3554,7 @@ ht-degree: 6%
 
 ## ViewedMarkA {#viewedmarka}
 
-![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
+![MarcaVista](/help/assets/icons/ViewedMarkA.svg)
 
 ## Viñeta {#vignette}
 
@@ -3566,7 +3566,7 @@ ht-degree: 6%
 
 ## VisibilityOff {#visibilityoff}
 
-![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
+![Visibilidad desactivada](/help/assets/icons/VisibilityOff.svg)
 
 ## Visita {#visit}
 
@@ -3574,7 +3574,7 @@ ht-degree: 6%
 
 ## VisitShare {#visitshare}
 
-![VisitShare](/help/assets/icons/VisitShare.svg)
+![CompartirVisitas](/help/assets/icons/VisitShare.svg)
 
 ## VoiceOver {#voiceover}
 
@@ -3582,19 +3582,19 @@ ht-degree: 6%
 
 ## VolumeMute {#volumemute}
 
-![VolumeMute](/help/assets/icons/VolumeMute.svg)
+![SilenciarVolumen](/help/assets/icons/VolumeMute.svg)
 
 ## VolumeOne {#volumeone}
 
-![VolumeOne](/help/assets/icons/VolumeOne.svg)
+![Volumen Uno](/help/assets/icons/VolumeOne.svg)
 
 ## Volumen tres {#volumethree}
 
-![Volumen tres](/help/assets/icons/VolumeThree.svg)
+![VolumenTres](/help/assets/icons/VolumeThree.svg)
 
 ## VolumeTwo {#volumetwo}
 
-![VolumeTwo](/help/assets/icons/VolumeTwo.svg)
+![VolumenDos](/help/assets/icons/VolumeTwo.svg)
 
 ## Ver {#watch}
 
@@ -3602,11 +3602,11 @@ ht-degree: 6%
 
 ## WebPages {#webpages}
 
-![WebPages](/help/assets/icons/WebPages.svg)
+![Páginas web](/help/assets/icons/WebPages.svg)
 
 ## WebPage {#webpage}
 
-![WebPage](/help/assets/icons/WebPage.svg)
+![PáginaWeb](/help/assets/icons/WebPage.svg)
 
 ## Flujo de trabajo {#workflow}
 
@@ -3618,7 +3618,7 @@ ht-degree: 6%
 
 ## Llave {#wrench}
 
-![Llave](/help/assets/icons/Wrench.svg)
+![Llave inglesa](/help/assets/icons/Wrench.svg)
 
 ## Acercar {#zoomin}
 

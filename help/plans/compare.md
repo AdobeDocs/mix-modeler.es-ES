@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Para comparar planes en la interfaz de planes de Mix Modeler:
 
-* Seleccionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. En Comparar planes, seleccione un plan para cada **[!UICONTROL _Seleccionar plan_]**.
+* Seleccione ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. En Comparar planes, seleccione un plan para cada **[!UICONTROL _Seleccionar plan_]**.
 
-* También puede seleccionar dos planes en la tabla Planes y en la barra de acciones, seleccionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* También puede seleccionar dos planes en la tabla Planes y en la barra de acciones seleccionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 La interfaz Comparar planes muestra información y widgets sobre:
 
@@ -40,4 +40,4 @@ Mediante la cual:
 
 Puede situarse sobre elementos de gráfico individuales en cada widget para ver una ventana emergente con más detalles.
 
-Seleccionar **[!UICONTROL Close]** para volver a la información general de Planes.
+Seleccione **[!UICONTROL Close]** para regresar a la descripción general de Planes.

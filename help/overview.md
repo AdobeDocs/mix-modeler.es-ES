@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # guía del Adobe Mix Modeler
 
-Esta guía de documentación técnica proporciona instrucciones para el Adobe **Mix Modeler**. Mix Modeler es una aplicación de Adobe Experience Cloud que mide campañas y optimiza la planificación de forma integral en todos los canales: de pago, ganados y propios. Mix Modeler se basa en Adobe Experience Platform y funciona con Adobe Sensei.
+Esta guía de documentación técnica proporciona ayuda para el Adobe **Mix Modeler**. Mix Modeler es una aplicación de Adobe Experience Cloud que mide campañas y optimiza la planificación de forma integral en todos los canales: de pago, ganados y propios. Mix Modeler se basa en Adobe Experience Platform y funciona con Adobe Sensei.
 
 ## Empiece con lo básico
 
@@ -21,11 +21,11 @@ Esta guía de documentación técnica proporciona instrucciones para el Adobe **
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>Inicio rápido</strong><br/>Obtenga información general y detalles sobre el flujo de trabajo de Mix Modeler.</div>
+    <div><strong>Inicio rápido</strong><br/>Obtenga información general y detalles sobre el flujo de trabajo del Mix Modeler.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>Ingesta de datos</strong><br/>Obtenga información sobre cómo introducir datos de eventos y acumulados o resumidos en Mix Modeler.</div>
+    <div><strong>Ingesta de datos</strong><br/>Aprenda a ingerir datos de eventos y agregados o resumidos en el Mix Modeler.</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
@@ -34,7 +34,7 @@ Esta guía de documentación técnica proporciona instrucciones para el Adobe **
     </td>
     <td>
     <a href="/help/models/overview.md"><img src="assets/models-mm.png"></a>
-    <div><strong>Modelo y plan</strong><br/>Capacite y puntúe sus modelos y utilice las perspectivas para sus planes de marketing.</div>
+    <div><strong>Modelo y plan</strong><br/>Entrena y puntúa tus modelos y usa las perspectivas para tus planes de marketing.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -56,17 +56,17 @@ Esta guía de documentación técnica proporciona instrucciones para el Adobe **
     </td>
     <td>
       <img src="assets/DataCheck.svg" width="35px"><br/>
-      <strong>Armonizar datos</strong><br/><a href="/help/harmonize-data/overview.md">Información general</a> - <a href="/help/harmonize-data/fields.md">Campos</a>  - <a href="/help/harmonize-data/dataset-rules.md">Reglas de conjuntos de datos</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">Puntos de contacto de marketing</a> - <a href="/help/harmonize-data/conversions.md">Conversiones</a> - <a href="/help/harmonize-data/usage-report.md">Informe de uso</a>  
+      <strong>Armonizar datos</strong><br/><a href="/help/harmonize-data/overview.md">Información general</a> - <a href="/help/harmonize-data/fields.md">Campos</a> - <a href="/help/harmonize-data/dataset-rules.md">Reglas de conjuntos de datos</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">Puntos de contacto de marketing</a> - <a href="/help/harmonize-data/conversions.md">Conversiones</a> - <a href="/help/harmonize-data/usage-report.md">Informe de uso</a>  
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>Modelos</strong><br/><a href="/help/models/overview.md">Información general</a> - <a href="/help/models/create.md">Creación de un modelo</a> - <a href="/help/models/insights.md">Datos del modelo</a> - <a href="/help/models/scoring-data.md">Datos de puntuación</a>
+      <strong>Modelos</strong><br/><a href="/help/models/overview.md">Información general</a> - <a href="/help/models/create.md">Crear un modelo</a> - <a href="/help/models/insights.md">Información del modelo</a> - <a href="/help/models/scoring-data.md">Datos de puntuación</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Planes</strong><br/><a href="/help/plans/overview.md">Planes</a> - <a href="/help/plans/create.md">Creación de un plan</a> - <a href="/help/plans/compare.md">Comparar planes</a> - <a href="/help/plans/edit.md">Edición de un plan</a>
+      <strong>Planes</strong><br/><a href="/help/plans/overview.md">Planes</a> - <a href="/help/plans/create.md">Crear un plan</a> - <a href="/help/plans/compare.md">Comparar planes</a> - <a href="/help/plans/edit.md">Editar un plan</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
@@ -74,7 +74,7 @@ Esta guía de documentación técnica proporciona instrucciones para el Adobe **
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Información general</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Flujo de trabajo de usuario</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Recorrido de interfaz de usuario</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Información general</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Flujo de trabajo del usuario</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Recorrido de la interfaz de usuario</a>
     </td>
   </tr>
 </table>

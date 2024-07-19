@@ -35,7 +35,7 @@ El método basado en pasos para este caso de uso es:
 | Etapa | Detalles |
 |---|---|
 | Ingesta | Identificar e introducir fuentes de datos en esquemas comunes. <br/>Aplique las inversiones existentes en Adobe Analytics o Customer Journey Analytics para una implementación rápida. |
-| Configurar | Configure modelos flexibles mediante un marco de trabajo AI-as-a-Service para sus objetivos empresariales específicos<br/>Garantice automáticamente la coherencia entre el punto de contacto y el nivel de resumen con el aprendizaje de transferencia bidireccional. |
+| Configurar | Configure modelos flexibles usando un marco de trabajo AI-as-a-Service para sus objetivos empresariales específicos<br/>Garantice automáticamente la coherencia entre el punto de contacto y el nivel de resumen con aprendizaje de transferencia bidireccional. |
 | Analizar | Comprenda claramente el ROI del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
 
 {style="table-layout:auto"}
@@ -73,9 +73,9 @@ El método basado en pasos para este caso de uso es:
 
 | Etapa | Detalles |
 |---|---|
-| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina parámetros en unos pocos clics y sin codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retrasos, factores comerciales internos y externos, etc. |
+| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina parámetros en unos pocos clics, sin necesidad de codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retardos, factores comerciales internos y externos, etc. |
 | Entrenar | Capacite los modelos de IA/ML configurados en para obtener el mejor ajuste a los datos de entrada, lo que proporciona los resultados más precisos. |
-| Optimizar | Obtenga asignaciones presupuestarias optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics mediante una interfaz de usuario intuitiva. |
+| Optimizar | Obtenga asignaciones presupuestarias optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics usando una interfaz de usuario intuitiva. |
 
 {style="table-layout:auto"}
 
@@ -154,8 +154,8 @@ El método basado en pasos para este caso de uso es:
 | Etapa | Detalles |
 |---|---|
 | Modelo | Configure y entrene un modelo AI/ML para obtener puntuaciones de puntos de contacto de MTA coherentes y resultados acumulados de MMM. |
-| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de BI Customer Journey Analytics o externas.<br/>Realice análisis granulares y cree paneles avanzados con puntuaciones de punto de contacto. |
-| Acción | Cree y active similitudes con los segmentos de consumidores principales mediante Real-time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para futuras campañas. |
+| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de BI Customer Journey Analytics o externas.<br/>Realizar análisis granular y crear paneles avanzados mediante puntuaciones de punto de contacto. |
+| Acción | Cree y active similitudes con los segmentos de consumidores principales mediante Real-time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para campañas futuras. |
 
 {style="table-layout:auto"}
 

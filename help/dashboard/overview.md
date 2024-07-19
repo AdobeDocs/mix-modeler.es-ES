@@ -15,7 +15,7 @@ ht-degree: 1%
 
 El panel de información general en Mix Modeler le permite ver una descripción general de los datos armonizados y sus planes a través de varios widgets configurables.
 
-Para acceder a la descripción general, seleccione ![Inicio](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** desde el carril izquierdo de la interfaz del Mix Modeler.
+Para acceder a la descripción general, seleccione ![Inicio](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** en el carril izquierdo de la interfaz del Mix Modeler.
 
 Aquí puede obtener más información sobre lo siguiente:
 

@@ -14,9 +14,9 @@ ht-degree: 5%
 
 Como parte de la puntuación de un modelo, los datos de puntuación se conservan dentro de un conjunto de datos en Experience Platform. Este conjunto de datos se ajusta a un esquema creado para cada modelo en la instancia de Mix Modeler.
 
-El esquema para puntuar datos se denomina así `AMM AI Schema - <name of model> <id>`. Por ejemplo: `AMM AI Schema - Model for Online Conversion 10120`.
+El esquema para los datos de puntuación se denomina como `AMM AI Schema - <name of model> <id>`. Por ejemplo: `AMM AI Schema - Model for Online Conversion 10120`.
 
-El conjunto de datos, que persiste en los datos de puntuación de un modelo, se denomina como `AMM AI Aggregrate Scores - <id>`, por ejemplo `AMM AI Aggregrate Scores - 10120`.
+El conjunto de datos, que mantiene los datos de puntuación de un modelo, tiene el nombre `AMM AI Aggregrate Scores - <id>`, por ejemplo `AMM AI Aggregrate Scores - 10120`.
 
 
 ## Esquema

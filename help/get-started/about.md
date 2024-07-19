@@ -45,8 +45,8 @@ Mix Modeler ofrece las siguientes funciones:
 | Capacidad | Descripción |
 |---|---|
 | **Medir el rendimiento incremental** | Comprenda el retorno de la inversión incremental y el impacto del marketing en los objetivos empresariales o de campaña táctica. |
-| **Unificar resultados en MMM y MTA** | Tome decisiones más seguras a través de la unificación de los modelos de modelado de combinación de marketing (MMM) y atribución multitáctil (MTA) mediante el aprendizaje de transferencia. |
-| **Asignación óptima de presupuestos** | Identificar la asignación óptima del presupuesto en función del gasto de marketing y el impacto en los objetivos. |
+| **Unificar resultados entre MMM y MTA** | Tome decisiones más seguras a través de la unificación de los modelos de modelado de combinación de marketing (MMM) y atribución multitáctil (MTA) mediante el aprendizaje de transferencia. |
+| **Asignar presupuestos de forma óptima** | Identificar la asignación óptima del presupuesto en función del gasto de marketing y el impacto en los objetivos. |
 | **Crear y comparar escenarios de presupuesto** | Desarrolle varios planes de presupuesto y compare su impacto para tomar decisiones óptimas para su negocio. |
 
 {style="table-layout:auto"}
@@ -93,6 +93,6 @@ Puede utilizar la capacidad de atribución multitáctil de Mix Modeler en los si
 * Atribución a nivel de evento de canal completo: Comprenda el impacto del marketing en todo el recorrido del cliente. Por ejemplo, registro gratuito en la cuenta para la conversión de pago y más allá.
 * Evaluaciones de los asociados: Evaluar la eficacia de los organismos y los asociados, sobre la base de los resultados de atribución.
 
-Consulte [Datos del modelo: Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución de varios contactos en Mix Modeler.
+Consulte [Información del modelo - Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución multitáctil en Mix Modeler.
 
 
