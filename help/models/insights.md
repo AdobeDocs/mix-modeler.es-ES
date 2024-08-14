@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Para ver la información del modelo, en la interfaz de ![Modelos](/help/assets//
 
 ![Barra de fichas de información del modelo](/help/assets//model-insights-tabbar.png)
 
-Verá cuándo se actualizó por última vez el modelo especificado y se mostrarán los widgets mediante cuatro fichas: [Información del modelo](#model-insights), [Atribución](#attribution), [Diagnóstico](#diagnostics) y [Información general histórica](#historical-overview).
+Verá cuándo se actualizó por última vez el modelo especificado y se mostrarán los widgets mediante cuatro fichas: [Información del modelo](#model-insights), [Atribución](#attribution), [Factores](#factors), [Diagnósticos](#diagnostics) y [Información general histórica](#historical-overview).
 
 Puede cambiar el periodo de fecha en el que se basan los widgets de cada una de las pestañas. Escriba un período de fecha o seleccione ![Calendario](/help/assets//icons/Calendar.svg) para elegir un período de fecha.
 
@@ -34,7 +34,7 @@ La pestaña Información del modelo muestra los widgets de:
 
 * Resumen de rendimiento de marketing.
 
-* Curvas de respuesta marginales.
+* Curvas de respuesta marginales.  Tanto la curva como los valores correspondientes se calculan en función del rango de datos seleccionado. Además, este widget muestra el punto de equilibrio de salto marginal y el punto de retorno de disminución.
   <br/>Seleccione un canal de la lista desplegable **[!UICONTROL Channel]** para actualizar el widget para un canal específico.
 
 ![Modelo - Datos del modelo](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Para cada ruta de conversión, verá lo siguiente:
 * para cada canal, el porcentaje de contribución del modelo de atribución y
 * la suma de estos porcentajes de contribución del modelo de atribución de canal.
 
+## **[!UICONTROL Factors]**
+
+La pestaña Factores muestra perspectivas relacionadas con factores externos.
+
+![Factores](/help/assets/factors.png)
+
+Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](/help/assets//icons/Download.svg).
+
+Si no hay datos disponibles, verá un mensaje ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 

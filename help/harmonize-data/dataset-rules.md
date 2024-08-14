@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/hel
 
 ## Sincronizar datos
 
-Para sincronizar datos entre los datos armonizados y los conjuntos de datos de resumen o evento, siga toda la lógica de las reglas del conjunto de datos:
+Para sincronizar datos entre los datos armonizados y los conjuntos de datos de resumen o evento al aplicar la lógica en las reglas del conjunto de datos:
 
 1. Seleccione **[!UICONTROL Sync data]**.
 
@@ -159,7 +159,7 @@ Para garantizar predicciones de modelos precisas, puede definir las preferencias
 
    ![Preferencias de combinación de datos](/help/assets//data-merge-preferences.png)
 
-   * Seleccione un(a) **[!UICONTROL Default metric preference]**. La preferencia de métrica predeterminada seleccionada se aplica cuando, durante la armonización, varias fuentes de datos actualizan un campo de métrica para un canal determinado. La preferencia se aplica en el nivel de zona protegida, a menos que se anule para las preferencias específicas basadas en métricas. Puede seleccionar entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** y **[!UICONTROL Sum of summmary and event data]**.
+   * Seleccione un(a) **[!UICONTROL Default metric preference]**. La preferencia de métrica predeterminada seleccionada se aplica cuando, durante la armonización, varias fuentes de datos actualizan un campo de métrica para un canal determinado. La preferencia se aplica en el nivel de zona protegida, a menos que se anule para las preferencias específicas basadas en métricas. Puede seleccionar entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** y **[!UICONTROL Sum of summary and event data]**.
 
    * Para agregar preferencias basadas en métricas específicas:
 
@@ -181,11 +181,13 @@ Para garantizar predicciones de modelos precisas, puede definir las preferencias
 
 1. Seleccione **[!UICONTROL Save]** para guardar las preferencias de combinación de datos. Se inicia una resincronización de los datos. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar.
 
+## Eliminar un conjunto de datos de origen
 
-## Control de acceso de nivel de campo
+Al eliminar un conjunto de datos de origen que se utiliza en los datos armonizados, las entradas subyacentes de ese conjunto de datos de origen se eliminan de [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md). Sin embargo, la regla del conjunto de datos con el conjunto de datos de origen eliminado permanece en la lista de configuración de reglas del conjunto de datos con un icono ![DataRemove](/help/assets/icons/DataRemove.svg) que indica que el conjunto de datos de origen se ha eliminado. Para obtener más información:
 
-Al configurar reglas de conjuntos de datos para conjuntos de datos armonizados, el control de acceso [basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) de Experience Platform se aplica en el nivel de campo. Un campo está restringido cuando se adjunta una etiqueta a un campo de esquema y se habilita una directiva activa que deniega el acceso a ese campo. Como resultado:
+* Seleccione ![Más](/help/assets/icons/More.svg) y ![Vista previa](/help/assets/icons/Preview.svg) **[!UICONTROL View]** del menú contextual.
+El cuadro de diálogo **[!UICONTROL Dataset rule mapping - Fields]** muestra información sobre el conjunto de datos de origen eliminado y los campos utilizados en la configuración de reglas del conjunto de datos.
 
-* no ve los campos de esquema que están restringidos al crear una regla de conjunto de datos,
-* no puede ver ni editar la asignación de uno o varios campos de esquema que están restringidos. Cuando edita o ve una regla del conjunto de datos que contiene estos campos restringidos, verá la siguiente pantalla.
-  ![Acción no permitida](/help/assets//action-not-permitted.png)
+Cuando vuelva a la configuración de **[!UICONTROL Dataset rules]**, verá un cuadro de diálogo que explica que se han eliminado uno o más conjuntos de datos de origen. Los datos armonizados se ven afectados en una próxima sincronización ad hoc o programada. Revise la configuración de reglas del conjunto de datos.
+
+Los datos armonizados se actualizan sin los datos de origen eliminados en la siguiente sincronización ad hoc o programada. Sin embargo, sigue viendo cuadros de diálogo de alerta que le piden que elimine la regla del conjunto de datos basada en el conjunto de datos de origen eliminado. Esta alerta permite a los usuarios ver y evaluar los campos afectados en el conjunto de datos eliminado. Y para determinar el impacto en los puntos de contacto de marketing o en las conversiones que se pueden utilizar en cualquier modelo. Una vez revisado y mitigado este impacto, debe eliminar la regla del conjunto de datos de la lista de configuración de reglas del conjunto de datos.
