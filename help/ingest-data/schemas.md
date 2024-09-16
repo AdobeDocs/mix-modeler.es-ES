@@ -3,7 +3,7 @@ title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para introducir datos en Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Para administrar esquemas compatibles con los datos que desea introducir en Expe
 
 1. Vaya a la interfaz del Mix Modeler.
 
-1. Seleccione ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
+1. Seleccione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
 
 Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
 
@@ -38,7 +38,7 @@ Utilice la clase Métricas de resumen de XDM para:
 
 Un esquema que use la clase base **[!DNL XDM Summary Metrics]** puede ser sencillo, como se muestra en el **[!DNL ExternalFactorSummarySchema]** siguiente.
 
-![Esquema de factores externos](/help/assets//external-factors-schema.png)
+![Esquema de factores externos](/help/assets/external-factors-schema.png)
 
 Este esquema simple se puede utilizar para introducir conjuntos de datos que contengan datos para, por ejemplo:
 
@@ -65,7 +65,7 @@ Este esquema simple se puede utilizar para introducir conjuntos de datos que con
 
 Vea a continuación un ejemplo más completo de un(a) **[!DNL LumaPaidMarketingSchema]** que usa el(la) **[!DNL XDM Summary Metrics]** como clase base. El esquema utiliza grupos de campos dedicados (anotados con colores) para métricas (**[!DNL AMMMetrics]**), dimensiones (**[!DNL AMMDimensions]**) y otra información específica del cliente (**[!DNL CustomerSpecific]**).
 
-![Esquema de resumen](/help/assets//summary-schema.png)
+![Esquema de resumen](/help/assets/summary-schema.png)
 
 Dada la naturaleza asíncrona de la ingesta de perfiles, al recopilar datos acumulados o resumidos de fuentes externas, se recomienda utilizar el grupo de campos Detalles de auditoría del sistema de Source externo como parte de un esquema. Este grupo de campos define un conjunto de propiedades de auditoría para orígenes externos.
 

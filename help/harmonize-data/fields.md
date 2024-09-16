@@ -3,7 +3,7 @@ title: Campos armonizados
 description: Aprenda a definir campos que se utilizarán como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -55,9 +55,9 @@ Puede añadir, editar o eliminar sus propios campos armonizados sobre estos camp
 
 Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix Modeler:
 
-1. Seleccione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
+1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
-1. Seleccione **[!UICONTROL Fields]** de la barra superior. Verá una tabla de los campos armonizados. Si hay más páginas disponibles, usa ![Flecha izquierda](/help/assets//icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets//icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para moverte entre las páginas de la tabla.
+1. Seleccione **[!UICONTROL Fields]** de la barra superior. Verá una tabla de los campos armonizados. Si hay más páginas disponibles, usa ![Flecha izquierda](/help/assets/icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets/icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para moverte entre las páginas de la tabla.
 
    Las columnas de la tabla especifican detalles sobre los campos armonizados
 
@@ -74,14 +74,14 @@ Para ver una tabla de los campos armonizados disponibles, en la interfaz del Mix
 
    {style="table-layout:auto"}
 
-1. Para buscar un campo armonizado específico, use ![Buscar](/help/assets//icons/Search.svg) **[!UICONTROL *Buscar campo armonizado *]**.
+1. Para buscar un campo armonizado específico, use ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL *Buscar campo armonizado *]**.
 
 
 ### Añadir un campo armonizado
 
-Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
+Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
 
-1. Seleccione ![Agregar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. En el diálogo **[!UICONTROL Create]**:
 
@@ -98,14 +98,14 @@ Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets//ico
 
    1. Seleccione **[!UICONTROL Submit]** para agregar el campo armonizado. Seleccione **[!UICONTROL Close]** para cerrar el cuadro de diálogo sin agregar el campo armonizado.
 
-      ![Crear un campo](/help/assets//create-field.png)
+      ![Crear un campo](/help/assets/create-field.png)
 
 
 ### Editar un campo armonizado
 
 Solo puede editar campos armonizados creados anteriormente (el propietario es el cliente). No se puede editar un campo armonizado global.
 
-Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
+Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
 
 1. Seleccione el campo armonizado que desea editar. Por ejemplo, **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets//icon
 
 1. Seleccione **[!UICONTROL Submit]** para aplicar los cambios al campo armonizado.
 
-   ![Editar un campo](/help/assets//edit-field.png)
+   ![Editar un campo](/help/assets/edit-field.png)
 
 ### Eliminar un campo armonizado
 
 Solo puede eliminar los campos armonizados que haya creado anteriormente (el propietario es el cliente). No se puede eliminar un campo armonizado global.
 
-Para eliminar un campo armonizado, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
+Para eliminar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** del Mix Modeler:
 
 1. Seleccione el campo armonizado que desea eliminar, por ejemplo **[!UICONTROL Region]**.
 
-1. Seleccione ![Eliminar](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** del panel izquierdo **[!UICONTROL Edit harmonization values]**.
+1. Seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** del panel izquierdo **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >

@@ -3,7 +3,7 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con 
 
 Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interfaz del Mix Modeler:
 
-1. Seleccione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
+1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
 1. Seleccione **[!UICONTROL Dataset rules]** de la barra superior. Verá una tabla de las reglas del conjunto de datos.
 
@@ -32,7 +32,7 @@ Las columnas de la tabla especifican detalles sobre las reglas del conjunto de d
 | ---------------------- | ----------|
 | Conjunto de datos | Nombre del conjunto de datos. |
 | Fuente | El origen del conjunto de datos: Adobe Analytics, Eventos de experiencia, Resumen (agregado) o Eventos de experiencia del consumidor. |
-| Esquema | Esquema al que se ajusta el conjunto de datos. Puede seleccionar rápidamente el nombre del esquema para abrir el esquema en una nueva pestaña del editor de esquemas en ![Esquema](/help/assets//icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
+| Esquema | Esquema al que se ajusta el conjunto de datos. Puede seleccionar rápidamente el nombre del esquema para abrir el esquema en una nueva pestaña del editor de esquemas en ![Esquema](/help/assets/icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
 | Granularidad | La granularidad de los datos del conjunto de datos. Los valores posibles son Diario, Semanal, Mensual o Anual. |
 | Inicio de semana | Especifica qué día de la semana se considera el inicio de una nueva semana para el conjunto de datos específico. |
 | Estado | El estado del campo: <p><span style="color:gray">●</span> borrador o <p><span style="color:green">●</span> activo |
@@ -42,7 +42,7 @@ Las columnas de la tabla especifican detalles sobre las reglas del conjunto de d
 
 ### Crear una regla de conjunto de datos
 
-Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
+Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
 
 En la pantalla **[!UICONTROL Create]**,
 
@@ -62,7 +62,7 @@ En la pantalla **[!UICONTROL Create]**,
 
    1. Cuando finalice la asignación de todos los campos de la regla, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración de regla.
 
-      ![Crear reglas de conjuntos de datos](/help/assets//dataset-create-summary.png)
+      ![Crear reglas de conjuntos de datos](/help/assets/dataset-create-summary.png)
 
 1. Cuando haya seleccionado un conjunto de datos de categoría de evento (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), en el cuadro debajo de **[!UICONTROL Map to harmonized fields]**:
 
@@ -84,9 +84,9 @@ En la pantalla **[!UICONTROL Create]**,
 
          1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico de **[!UICONTROL *conjunto de datos de AEP *]**que sea **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valor introducido en**[!UICONTROL * Introducir valor de entrada *]**.
 
-         1. Para agregar otro caso, seleccione ![Agregar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+         1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Para eliminar un caso o condición, seleccione ![Cerrar](/help/assets//icons/Close.svg) en el contenedor correspondiente.
+         1. Para eliminar un caso o condición, seleccione ![Cerrar](/help/assets/icons/Close.svg) en el contenedor correspondiente.
 
          1. Para seleccionar si alguna o todas las condiciones deben aplicarse a un caso, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
 
@@ -101,27 +101,27 @@ En la pantalla **[!UICONTROL Create]**,
          * `Black Friday` cuando **[!UICONTROL marketing.campaignName]** es `_black_friday` o `BlackFriday`.
          * al valor de **[!UICONTROL marketing.campaignName]** en todos los demás casos.
 
-        ![Evento de regla de conjunto de datos](/help/assets//dataset-create-event.png)
+        ![Evento de regla de conjunto de datos](/help/assets/dataset-create-event.png)
 
-1. Seleccione ![Agregar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionales.
+1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionales.
 
 Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración de regla.
 
 
 ### Editar una regla de conjunto de datos
 
-Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
+Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
 
-1. Seleccione ![Más](/help/assets//icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee editar.
-1. En el menú contextual, seleccione ![Editar](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]** para comenzar a editar la regla del conjunto de datos. Consulte [Crear una regla de conjunto de datos](#create-a-dataset-rule) para obtener más información.
+1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee editar.
+1. En el menú contextual, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para comenzar a editar la regla del conjunto de datos. Consulte [Crear una regla de conjunto de datos](#create-a-dataset-rule) para obtener más información.
 
 
 ### Eliminar una regla del conjunto de datos
 
-Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
+Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
 
-1. Seleccione ![Más](/help/assets//icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee eliminar.
-1. En el menú contextual, seleccione ![Eliminar](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** para eliminar la regla del conjunto de datos. Se le pedirá confirmación. Seleccione **[!UICONTROL Delete]** para eliminar de forma permanente la regla del conjunto de datos seleccionado.
+1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee eliminar.
+1. En el menú contextual, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar la regla del conjunto de datos. Se le pedirá confirmación. Seleccione **[!UICONTROL Delete]** para eliminar de forma permanente la regla del conjunto de datos seleccionado.
 
 
 ## Sincronizar datos
@@ -137,7 +137,7 @@ Para sincronizar datos entre los datos armonizados y los conjuntos de datos de r
 
 1. Para iniciar la sincronización basada en las reglas del conjunto de datos definidas entre los datos armonizados y los datos de los conjuntos de datos, seleccione **[!UICONTROL Sync]**. Para cancelar la sincronización, seleccione **[!UICONTROL Cancel]**.
 
-   ![Sincronizar datos](/help/assets//sync-data.png)
+   ![Sincronizar datos](/help/assets/sync-data.png)
 
 
 ## Preferencias de combinación de datos
@@ -153,31 +153,31 @@ Las preferencias de combinación de datos ayudan a resolver conflictos cuando se
 
 Para garantizar predicciones de modelos precisas, puede definir las preferencias de combinación de datos:
 
-1. Seleccionar ![preferencias de combinación de datos](/help/assets//icons/Merge.svg) [!BADGE beta].
+1. Seleccionar ![preferencias de combinación de datos](/help/assets/icons/Merge.svg) [!BADGE beta].
 
 1. En la **[!UICONTROL Data merge preferences]** [!BADGE versión beta]{type=Informative}
 
-   ![Preferencias de combinación de datos](/help/assets//data-merge-preferences.png)
+   ![Preferencias de combinación de datos](/help/assets/data-merge-preferences.png)
 
    * Seleccione un(a) **[!UICONTROL Default metric preference]**. La preferencia de métrica predeterminada seleccionada se aplica cuando, durante la armonización, varias fuentes de datos actualizan un campo de métrica para un canal determinado. La preferencia se aplica en el nivel de zona protegida, a menos que se anule para las preferencias específicas basadas en métricas. Puede seleccionar entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** y **[!UICONTROL Sum of summary and event data]**.
 
    * Para agregar preferencias basadas en métricas específicas:
 
-      1. Seleccione ![Más](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+      1. Seleccione ![Más](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Seleccione una métrica de la lista **[!UICONTROL *Selección de métrica *]**.
          1. Seleccione **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. En la lista, seleccione **[!UICONTROL All]** o un canal o tipo de conversión específico.
          1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]** para especificar si se prefieren los datos de resumen o los datos de evento para la métrica (y todo o el canal seleccionado) al combinar datos.
 
          Para agregar uno o más canales adicionales o tipos de conversión:
 
-         1. Seleccione ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Seleccione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]**.
 
-         Para eliminar un canal o tipo de conversión, selecciona ![Cruzar](/help/assets//icons/Close.svg).
+         Para eliminar un canal o tipo de conversión, selecciona ![Cruzar](/help/assets/icons/Close.svg).
 
       1. Para agregar preferencias basadas en métricas más específicas, repita el paso anterior.
 
-   * Para eliminar una preferencia basada en una métrica específica existente, seleccione ![Eliminar](/help/assets//icons/Delete.svg).
+   * Para eliminar una preferencia basada en una métrica específica existente, seleccione ![Eliminar](/help/assets/icons/Delete.svg).
 
 1. Seleccione **[!UICONTROL Save]** para guardar las preferencias de combinación de datos. Se inicia una resincronización de los datos. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar.
 

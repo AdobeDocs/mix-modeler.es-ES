@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 8%
@@ -22,7 +22,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 | Función | Descripción | Disponibilidad general |
 |---|---|---|
 | **Perspectivas de contribución de factores** | En [!UICONTROL Model insights], la ficha [[!UICONTROL Factors]](/help/models/insights.md#factors) ofrece información relacionada con factores externos. | 20 de agosto de 2024 |
-| **Curvas de respuesta marginales** | El widget de [curvas de respuesta marginales](/help/models/insights.md#model-insights-1) en Información del modelo ahora actualiza la curva y los valores correspondientes en función de los cambios en el rango de datos seleccionado. Además, el widget muestra el punto de equilibrio de salto marginal y el punto de retorno de disminución. | 20 de agosto de 2024 |
+| **Curvas de respuesta marginales** | La visualización de [curvas de respuesta marginales](/help/models/insights.md#model-insights-1) en Información del modelo ahora actualiza la curva y los valores correspondientes en función de los cambios en el rango de datos seleccionado. Además, la visualización muestra el punto de equilibrio de salto marginal y el punto de retorno decreciente. | 20 de agosto de 2024 |
 | **Formación y puntuación ad hoc** | Puede iniciar un modelo [volver a entrenar](/help/models/overview.md#re-train), [puntuar (para nuevos datos de marketing) o volver a puntuar](/help/models/overview.md#score-or-re-score) desde la interfaz de modelos. | 13 de agosto de 2024 |
 | **Aplicación de directivas** | Las directivas de Experience Platform se aplican al configurar reglas de conjuntos de datos y al modificar etiquetas a los datos subyacentes utilizados en Mix Modeler. Consulte [Directivas](../data-governance/policies.md) para obtener más información. | 13 de agosto de 2024 |
 | **Higiene de los datos** | Las reglas de higiene de datos se respetan al eliminar los datos de origen. Ver [Eliminando un conjunto de datos de origen](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 de agosto de 2024 |
@@ -62,7 +62,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 | Función | Descripción | Disponibilidad general |
 |---|---|---|
 | **Descargas mejoradas** | Puede [descargar información completa del modelo](../models/insights.md) en formato Microsoft® Excel | 31 de enero de 2024 |
-| **Curvas de respuesta marginales** | [Datos del modelo](../models/insights.md) proporcionan un widget adicional para mostrar curvas de respuesta marginales. | 31 de enero de 2024 |
+| **Curvas de respuesta marginales** | [Datos del modelo](../models/insights.md) proporcionan una visualización adicional para mostrar curvas de respuesta marginales. | 31 de enero de 2024 |
 | **Preferencias de combinación de datos** | Puede definir [preferencias de combinación de datos](../harmonize-data/dataset-rules.md#data-merge-preferences) para reglas de conjuntos de datos para conjuntos de datos armonizados. | 31 de enero de 2024 |
 | **Informe de uso** | La interfaz de usuario de conjuntos de datos armonizados tiene una pestaña adicional [Informe de uso](../harmonize-data/usage-report.md) que proporciona información adicional sobre el uso de modelos y conversiones. | 31 de enero de 2024 |
 | **Se actualizó la IU de Perspectivas del plan** | La interfaz de usuario de Perspectivas del plan se actualiza, lo que le permite seleccionar sobre qué ROI y canales informar. | 31 de enero de 2024 |

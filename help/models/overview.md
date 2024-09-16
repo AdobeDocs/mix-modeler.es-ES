@@ -3,20 +3,20 @@ title: Modelos
 description: Aprenda a configurar y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 # Modelos
 
-La funcionalidad de modelo de Mix Modeler le permite configurar, entrenar y puntuar modelos de IA/ML específicos para sus objetivos comerciales. La formación y la puntuación admiten el aprendizaje de transferencia impulsado por IA entre la atribución multitáctil y el modelado de combinación de marketing.
+La funcionalidad de modelo de Mix Modeler le permite configurar, entrenar y puntuar modelos específicos de sus objetivos comerciales. La formación y la puntuación admiten el aprendizaje de transferencia impulsado por IA entre la atribución multitáctil y el modelado de combinación de marketing.
 
 Los modelos se basan en los datos armonizados que crea como parte del flujo de trabajo de la solicitud de Mix Modeler.
 
-Un modelo en Mix Modeler es un modelo de aprendizaje automático empleado para medir y/o predecir un resultado específico basado en las inversiones de un experto en marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Mix Modeler le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
+Un modelo en Mix Modeler es un modelo de aprendizaje automático empleado para medir y predecir un resultado especificado en función de las inversiones de un experto en marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Mix Modeler le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
 
 Un modelo requiere:
 
@@ -41,7 +41,7 @@ Para crear un modelo, use el flujo de configuración del modelo guiado paso a pa
 
 Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Verá una tabla de los modelos actuales.
 
@@ -58,7 +58,7 @@ Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
 
    {style="table-layout:auto"}
 
-1. Para cambiar las columnas mostradas en la lista, seleccione ![Configuración de columna](/help/assets//icons/ColumnSetting.svg) y active o desactive las columnas ![Comprobar](/help/assets//icons/Checkmark.svg).
+1. Para cambiar las columnas mostradas en la lista, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg) y active o desactive las columnas ![Comprobar](/help/assets/icons/Checkmark.svg).
 
 Puede realizar las siguientes acciones en un modelo específico.
 
@@ -66,9 +66,9 @@ Puede realizar las siguientes acciones en un modelo específico.
 
 Para ver más detalles de un modelo:
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
-1. Seleccione ![Información](/help/assets//icons/Info.svg) para que un modelo muestre una ventana emergente con detalles.
+1. Seleccione ![Información](/help/assets/icons/Info.svg) para que un modelo muestre una ventana emergente con detalles.
 
 
 
@@ -76,16 +76,18 @@ Para ver más detalles de un modelo:
 
 Puede duplicar rápidamente un modelo.
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
 
 ### Datos del modelo
 
-La funcionalidad de perspectivas del modelo solo está disponible en modelos entrenados y puntuados correctamente. Para ver las perspectivas de un modelo:
+La funcionalidad de perspectivas del modelo solo está disponible en modelos entrenados y puntuados correctamente.
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+Para ver las perspectivas de un modelo:
+
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Seleccione el nombre del modelo.
 
@@ -94,9 +96,16 @@ Se le redirigirá a [Información del modelo](insights.md).
 
 ### Volver a entrenar
 
-Volver a entrenar un modelo solo está disponible en modelos entrenados correctamente. Para volver a entrenar un modelo:
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+Volver a entrenar un modelo solo está disponible en modelos entrenados correctamente.
+
+Considere la posibilidad de volver a entrenar un modelo cuando desee:
+
+* Incluya nuevos datos de factor y marketing incremental. Por ejemplo: en el último trimestre, la dinámica del mercado ha cambiado o la distribución de datos de marketing ha cambiado significativamente.
+
+Para volver a entrenar un modelo:
+
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Train]**. También puede seleccionar ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** en la barra de acciones azul.
 
@@ -114,9 +123,16 @@ Especifique el intervalo de fecha. Puede usar el ![Calendario](/help/assets/icon
 ### Puntuación o repuntuación
 
 
-Puede puntuar gradualmente un modelo basado en nuevos datos de marketing o volver a puntuar un modelo para un intervalo de fechas específico. Para puntuar o volver a puntuar un modelo:
+Puede puntuar gradualmente un modelo basado en nuevos datos de marketing o volver a puntuar un modelo para un intervalo de fechas específico.
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+Considere la posibilidad de volver a puntuar un modelo cuando desee:
+
+* Corrija los datos de marketing incorrectos. Por ejemplo, los datos de búsqueda de pago recientes que ha incluido en la formación y puntuación del modelo omiten una semana de datos.
+* Utilice los nuevos datos de marketing incremental que están disponibles a través de las actualizaciones en los conjuntos de datos configurados como parte de los datos armonizados.
+
+Para puntuar o volver a puntuar un modelo:
+
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Score]**. También puede seleccionar ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** en la barra de acciones azul.
 
@@ -135,7 +151,7 @@ Especifique el intervalo de fecha. Puede usar el ![Calendario](/help/assets/icon
 
 Para eliminar un modelo:
 
-1. Seleccione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Delete]**. También puede seleccionar ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de la barra de acciones azul.
 

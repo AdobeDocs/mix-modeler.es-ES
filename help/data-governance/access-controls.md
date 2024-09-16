@@ -2,7 +2,8 @@
 title: Controles de acceso
 description: Obtenga información sobre cómo configurar los controles de acceso en Mix Modeler.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ Al configurar reglas de conjuntos de datos para conjuntos de datos armonizados, 
 
 * no ve los campos de esquema que están restringidos al crear una regla de conjunto de datos,
 * no puede ver ni editar la asignación de uno o varios campos de esquema que están restringidos. Cuando edita o ve una regla del conjunto de datos que contiene estos campos restringidos, verá la siguiente pantalla.
-  ![Acción no permitida](/help/assets//action-not-permitted.png)
-
+  ![Acción no permitida](/help/assets/action-not-permitted.png)
