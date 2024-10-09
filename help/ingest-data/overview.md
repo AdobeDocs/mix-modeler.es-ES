@@ -3,16 +3,16 @@ title: Ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Ingesta de datos
 
-El Mix Modeler trabaja con datos de nivel de evento, agrega un resumen de datos de esfuerzo de marketing de varios jardines amurallados y agrega o resume datos de cualquier otra fuente, como publicidad sin conexión, factores internos o factores externos.
+El Mix Modeler trabaja con datos de nivel de evento, datos de esfuerzo de marketing acumulados o resumidos de varios jardines amurallados, y datos acumulados o resumidos de cualquier otra fuente, como publicidad sin conexión, factores internos o factores externos.
 
 Los clientes pueden utilizar cualquier tipo de datos que se incorporen en Experience Platform como conjuntos de datos y que se basen en esquemas que utilicen las métricas de resumen de XDM ExperienceEvent o XDM como clase base.
 
