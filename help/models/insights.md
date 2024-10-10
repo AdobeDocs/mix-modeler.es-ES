@@ -3,7 +3,7 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -37,7 +37,7 @@ La pestaña Información del modelo muestra visualizaciones para [Contribución 
 * Para descargar datos completos de información del modelo en formato Microsoft® Excel, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contribución por fecha y medios base
+### Contribución por fecha y medios base.
 
 El gráfico apilado está ordenado: canales base en la parte inferior, canales de no gasto en el centro y canales de gasto en la parte superior.
 
@@ -45,11 +45,11 @@ El gráfico apilado está ordenado: canales base en la parte inferior, canales d
 
 La visualización de anillo muestra una distribución de la contribución por canal.
 
-### Resumen de rendimiento de marketing
+### Resumen de rendimiento de marketing.
 
 Gráfico de barras horizontales que muestra el rendimiento de la inversión por canal.
 
-### Curvas de respuesta marginal
+### Curvas de respuesta marginales.
 
 El gráfico de líneas visualiza y compara los retornos marginales generados por la inversión en sus canales de marketing.  E identifica el punto de equilibrio en el que el retorno incremental es menor que el gasto incremental. Como resultado, esta visualización le ayuda a comprender cuándo la inversión en marketing empieza a tener menos impacto.
 
@@ -60,31 +60,17 @@ Para cambiar el canal:
 * Seleccione un canal del menú desplegable **[!UICONTROL Channel]** para actualizar la visualización de un canal específico.
 
 
-### Desglose por punto de contacto
-
-La tabla de desglose de puntos de contacto muestra los desgloses de puntos de contacto para todos los canales o los seleccionados semanalmente.
-
-![Desglose de punto de contacto](../assets/touchpoint-breakdown.png)
-
-Las columnas disponibles son las siguientes:
-
-| Columna | Descripción |
-|---|---|
-| **[!UICONTROL Date range]** | La semana sobre la que se debe informar. |
-| **[!UICONTROL Touchpoint]** | El canal de punto de contacto específico. |
-| **[!UICONTROL ROI]** | El porcentaje de (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
-| **[!UICONTROL Revenue]** | Ingresos para el intervalo de fechas. |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | Las conversiones del intervalo de fechas. |
-| **[!UICONTROL Spend]** | Gasto para el rango de datos. |
-
-Para seleccionar un canal específico para todos los canales, seleccione en el menú desplegable **[!UICONTROL View]**.
-
-Para descargar el contenido de la tabla de desglose de puntos de contacto, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 ## [!UICONTROL Attribution]
 
-Con la ficha [!UICONTROL Attribution], puede comprender la eficacia de los puntos de contacto y las campañas de marketing que tienen datos de nivel de evento. Se admiten los siguientes modelos de atribución:
+>[!NOTE]
+>
+>La pestaña Atribución solo está disponible para modelos con MTA habilitado.
+
+
+Con la ficha [!UICONTROL Attribution], puede comprender la eficacia de los puntos de contacto y las campañas de marketing que tienen datos de nivel de evento.  Consulte [Crear un modelo](create.md).
+
+Se admiten los siguientes modelos de atribución:
 
 * En función del modelo seleccionado en Mix Modeler:
    * Algorítmico: influenciado

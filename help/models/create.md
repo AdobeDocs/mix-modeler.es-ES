@@ -3,9 +3,9 @@ title: Creación de un modelo
 description: Obtenga información sobre cómo crear un modelo en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
    1. En la sección **[!UICONTROL MTA enabled]**:
 
-      * Para habilitar las características de MTA para el modo creado, active **[!UICONTROL MTA enabled]**. Una vez habilitada, las perspectivas de atribución de múltiples contactos estarán disponibles una vez que hayas entrenado y puntuado a tu modelo a través de la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
+      * Para habilitar las características de MTA para el modelo, active **[!UICONTROL MTA enabled]**. Si ha habilitado el MTA, las perspectivas de atribución multitáctil están disponibles después de haber entrenado y puntuado al modelo. Consulte la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
 
    1. En la sección **[!UICONTROL Prior knowledge]**:
 
