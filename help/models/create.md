@@ -3,9 +3,9 @@ title: Creación de un modelo
 description: Obtenga información sobre cómo crear un modelo en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: d1de86d51b3e9914eb06b40aa2a26949a9b56cb0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,35 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
 1. En el paso **[!UICONTROL Configure]**:
 
-   1. En la sección **[!UICONTROL Conversion goal]**, dentro del contenedor:
+   1. En la sección **[!UICONTROL Conversion goal]**:
 
-      1. Escriba **[!UICONTROL Conversion name]** para la conversión, por ejemplo `Conversion`
+      ![Modelo: paso de conversión](/help/assets/model-conversion-step.png)
 
-      1. Seleccione una conversión de **[!UICONTROL *Seleccionar campo armonizado *]**que contenga las conversiones disponibles que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo,**[!UICONTROL Online Conversion]**.
+      1. Seleccione una conversión en el menú desplegable **[!UICONTROL Conversion]**. Las conversiones disponibles son las conversiones que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo, **[!UICONTROL Online Conversion]**.
 
-      1. Puede seleccionar ![Responder](/help/assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** para crear una conversión directamente desde la configuración del modelo.
+      1. Puede seleccionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para crear una conversión directamente desde la configuración del modelo.
 
-         ![Modelo: paso de conversión](/help/assets/model-conversion-step.png)
 
-   1. En la sección **[!UICONTROL Marketing touchpoints]**, verá una serie de contenedores de puntos de contacto de marketing, correspondientes a los puntos de contacto de marketing que definió como parte de [puntos de contacto de marketing](../harmonize-data/marketing-touchpoints.md) en [!UICONTROL Harmonized datasets].
 
-      * Para cada contenedor:
+   1. En la sección **[!UICONTROL Marketing touchpoints]**, puede seleccionar uno o más puntos de contacto de marketing, correspondientes a los puntos de contacto de marketing que definió como parte de [puntos de contacto de marketing](../harmonize-data/marketing-touchpoints.md) en [!UICONTROL Harmonized datasets].
 
-         1. Puede modificar **[!UICONTROL Marketing touchpoint name]**.
 
-         1. Seleccione un punto de contacto de marketing de **[!UICONTROL _Seleccione un punto de contacto de marketing_]**.
+      ![Modelo: paso de punto de contacto de marketing](/help/assets/model-marketing-touchpoint-step.png)
 
-         1. Puede seleccionar ![Responder](/help/assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** para crear un punto de contacto de marketing directamente desde la configuración del modelo.
+      1. Seleccione uno o más puntos de contacto de marketing en el menú desplegable **[!UICONTROL Touchpoint include]**.
 
-      * Para agregar un contenedor de punto de contacto de marketing, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+         * Puede usar ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un punto de contacto.
+         * Puede usar **[!UICONTROL Clear all]** para eliminar todos los puntos de contacto.
 
-      * Para quitar un contenedor de punto de contacto de marketing, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y **[!UICONTROL Remove container]** en el menú contextual.
+      1. Puede seleccionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]** para crear un punto de contacto de marketing directamente desde la configuración del modelo.
 
-        ![Modelo: puntos de contacto de marketing-step](/help/assets/model-marketing-touchpoint-step.png)
+      >[!NOTE]
+      >
+      >No puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con gasto.
 
    1. De forma predeterminada, se genera una puntuación para todos los datos de la vista armonizada. Para puntuar solo un subconjunto de la población, defina uno o más filtros usando contenedores en la sección **[!UICONTROL Eligible data population]**.
+
+      ![Modelo: población de datos elegible](/help/assets/model-eligible-data-population-step.png)
 
       * Para cada contenedor, defina uno o más eventos.
 
@@ -66,7 +68,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
          1. Para agregar un evento adicional en el contenedor, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-         1. Para quitar un evento del contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+         1. Para quitar un evento del contenedor, seleccione ![Cerrar](/help/assets/icons/CrossSize75.svg).
 
          1. Para filtrar usando todos o cualquiera de los múltiples eventos definidos en el contenedor, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**. La etiqueta cambia de **[!UICONTROL Include ... Or ...]** a **[!UICONTROL Include ... And ...]**.
 
@@ -74,36 +76,44 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para quitar un contenedor de población de datos apto, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y **[!UICONTROL Remove marketing touchpoint]** en el menú contextual.
 
-        ![Modelo: población de datos elegible](/help/assets/model-eligible-data-population-step.png)
 
-   1. Para agregar conjuntos de datos que contengan factores externos al modelo, utilice uno o más contenedores en la sección **[!UICONTROL External factors dataset]**.
+
+   1. Para agregar conjuntos de datos que contengan factores externos al modelo, utilice uno o más contenedores en la sección **[!UICONTROL External factors dataset]**. Un ejemplo de factores externos son los índices S&amp;P.
+
+      ![Modelo: conjunto de datos de factores externos](/help/assets/model-external-factors-dataset-step.png)
 
       * Para cada contenedor:
 
-         1. Escriba un **[!UICONTROL Factor name]** en **[!UICONTROL _Introducir factor_]**.
+         1. Escriba un **[!UICONTROL External factor name]**, por ejemplo `External Factors`.
 
-         1. Seleccione un conjunto de datos de **[!UICONTROL _Seleccione un conjunto de datos_]**. Puede seleccionar ![Datos](/help/assets/icons/Data.svg) para administrar conjuntos de datos. Consulte [Conjuntos de datos](../ingest-data/datasets.md) para obtener más información.
+         1. Seleccione un conjunto de datos del menú desplegable **[!UICONTROL Dataset]**. Puede seleccionar ![Datos](/help/assets/icons/Data.svg) para administrar conjuntos de datos. Consulte [Conjuntos de datos](../ingest-data/datasets.md) para obtener más información.
+
+         1. Seleccione una opción del menú desplegable **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**.
 
       * Para agregar un contenedor de conjunto de datos de factores externos adicional, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Para quitar un contenedor de conjunto de datos de factores externos, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y seleccione **[!UICONTROL Remove external factor]** en el menú contextual.
-
-        ![Modelo: conjunto de datos de factores externos](/help/assets/model-external-factors-dataset-step.png)
+      * Para quitar un contenedor de conjunto de datos de factores externos, seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
 
 
-   1. Para agregar conjuntos de datos que contengan factores internos al modelo, utilice uno o más contenedores en la sección **[!UICONTROL Internal factors dataset]**.
+
+
+   1. Para agregar conjuntos de datos que contengan factores internos al modelo, utilice uno o más contenedores en la sección **[!UICONTROL Internal factors dataset]**. Un ejemplo de factores internos son los datos de marketing por correo electrónico.
+
+      ![Modelo: conjunto de datos de factores internos](/help/assets/model-internal-factors-dataset-step.png)
 
       * Para cada contenedor:
 
-         1. Escriba un **[!UICONTROL Factor name]** en **[!UICONTROL _Introducir factor_]**.
+         1. Escriba un **[!UICONTROL Internal factor name]**, por ejemplo `Email Marketing Data`.
 
          1. Seleccione un conjunto de datos de **[!UICONTROL _Seleccione un conjunto de datos_]**. Puede seleccionar ![Datos](/help/assets/icons/Data.svg) para administrar conjuntos de datos. Consulte [Conjuntos de datos](../ingest-data/datasets.md) para obtener más información.
 
+         1. Seleccione una opción del menú desplegable **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**.
+
       * Para agregar un contenedor de conjunto de datos de factores internos adicional, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Para quitar un contenedor de conjunto de datos de factores internos adicional, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y **[!UICONTROL Remove internal factor]** del menú contextual.
+      * Para quitar un contenedor de conjunto de datos de factores internos, seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
 
-        ![Modelo: conjunto de datos de factores internos](/help/assets/model-internal-factors-dataset-step.png)
+
 
    1. Para definir la ventana retrospectiva del modelo, escriba un valor entre `1` y `52` en **[!UICONTROL Give contribution credit to touchpoints occurring within]**... **[!UICONTROL weeks prior to the conversion]**.
 
@@ -123,9 +133,15 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**.
 
+   1. En la sección **[!UICONTROL MTA enabled]**:
+
+      * Para habilitar las características de MTA para el modo creado, active **[!UICONTROL MTA enabled]**. Una vez activado,
+
    1. En la sección **[!UICONTROL Prior knowledge]**:
 
-      1. Seleccione el **[!UICONTROL Rule type]**.
+      ![Modelo - Conocimientos previos](/help/assets/model-prior-knowledge-step.png)
+
+      1. Seleccione **[!UICONTROL Rule type]**, que es de forma predeterminada **[!UICONTROL Absolute values]**.
 
       1. Especifique los porcentajes de contribución para cualquiera de los canales enumerados en **[!UICONTROL Name]**, utilizando la columna **[!UICONTROL Contribution proportion]**.
 
@@ -133,11 +149,11 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
       1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
-         ![Modelo - Conocimientos previos](/help/assets/model-prior-knowledge-step.png)
+
 
 1. Seleccione **[!UICONTROL Finish]** para finalizar la configuración del modelo.
 
-   * En el cuadro de diálogo **[!UICONTROL Create instance?]**, seleccione **[!UICONTROL Ok]** para almacenar en déclencheur el primer conjunto de entrenamientos y ejecuciones de puntuación inmediatamente. Su modelo aparece con el estado <span style="color:orange">●</span> **[!UICONTROL Awaiting training]**.
+   * En el cuadro de diálogo **[!UICONTROL Create instance?]**, seleccione **[!UICONTROL Ok]** para almacenar en déclencheur el primer conjunto de entrenamientos y ejecuciones de puntuación inmediatamente. Su modelo aparece con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
      Seleccione **[!UICONTROL Cancel]** para cancelar.
 
