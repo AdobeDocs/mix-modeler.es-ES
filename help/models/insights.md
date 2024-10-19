@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ Para cambiar el canal:
 
 * Seleccione un canal del menú desplegable **[!UICONTROL Channel]** para actualizar la visualización de un canal específico.
 
+
+### Desglose por punto de contacto
+
+La tabla de desglose de puntos de contacto muestra los desgloses de puntos de contacto para todos los canales o los seleccionados semanalmente.
+
+![Desglose de punto de contacto](../assets/touchpoint-breakdown.png)
+
+Las columnas disponibles son las siguientes:
+
+| Columna | Descripción |
+|---|---|
+| **[!UICONTROL Date range]** | La semana sobre la que se debe informar. |
+| **[!UICONTROL Touchpoint]** | El canal de punto de contacto específico. |
+| **[!UICONTROL ROI]** | El porcentaje de (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | Ingresos para el intervalo de fechas. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Las conversiones del intervalo de fechas. |
+| **[!UICONTROL Spend]** | Gasto para el rango de datos. |
+
+Para seleccionar un canal específico para todos los canales, seleccione en el menú desplegable **[!UICONTROL View]**.
+
+Para descargar el contenido de la tabla de desglose de puntos de contacto, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
 ## [!UICONTROL Attribution]
