@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 12%
+source-wordcount: '497'
+ht-degree: 11%
 
 ---
 
@@ -21,6 +21,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 | Función | Descripción | Disponibilidad general |
 |---|---|---|
+| **Programar entrenamiento y puntuación** | Puede programar el aprendizaje y la puntuación de un modelo al [crear un modelo](/help/models/create.md) y al editar un modelo desde [perspectiva del modelo](/help/models/insights.md#edit) o el [menú contextual de un modelo](/help/models/overview.md#edit) en la tabla Modelos. | martes, 21 de octubre de 2024 |
 | **Tabla de desglose de puntos de contacto** | En [!UICONTROL Models], la ficha [[!UICONTROL Model insights]](/help/models/insights.md#factors) ahora ofrece una tabla adicional de [desglose de puntos de contacto](../models/insights.md#touchpoint-breakdown). | miércoles, 01 de octubre de 2024 |
 
 ## Agosto de 2024
