@@ -3,10 +3,10 @@ title: Ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
+source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 8%
 
 ---
 
@@ -42,13 +42,13 @@ A continuación, se muestran algunos ejemplos de datos que generalmente se utili
 
 +++ Datos del esfuerzo de marketing agregado
 
-| Geo | Fecha | Tipo de fecha | Canal | Campaign | Haga clic | Obtenido | Participación | Impresión | Open | Propio | Enviado |
-|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 31-10-2021 | día | CORREO ELECTRÓNICO | | 12752 | | | | | | 1132945 |
-| AMER | 31-10-2021 | día | FB | | 148844 | | | | | | |
-| AMER | 31-10-2021 | día | YT | | | | 2314452 | | | | |
-| JPN | 21-10-2021 | día | CORREO ELECTRÓNICO | | 21089 | | | | | | 3283626 |
-| JPN | 21-10-2021 | día | SOCIAL | | | | 621 | | | | |
+| Geo | Fecha | Tipo de fecha | Canal | Campaign | Haga clic | Obtenido | Participación | Impresión | Open | Propio | Enviado | Gasto |
+|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
+| AMER | 31-10-2021 | día | CORREO ELECTRÓNICO | | 12752 | | | | | | 1132945 | |
+| AMER | 31-10-2021 | día | FB | | 148844 | | | | | | | 42111 |
+| AMER | 31-10-2021 | día | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 21-10-2021 | día | CORREO ELECTRÓNICO | | 21089 | | | | | | 3283626 | |
+| JPN | 21-10-2021 | día | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
