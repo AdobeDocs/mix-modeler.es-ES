@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ Para sincronizar datos entre los datos armonizados y los conjuntos de datos de r
 >
 >[!BADGE beta]{type=Informative}
 
-Las preferencias de combinación de datos ayudan a resolver conflictos cuando se combinan datos de fuentes de datos resumidas y de evento. Los casos de uso son:
+Para garantizar predicciones de modelos precisas, puede definir las preferencias de combinación de datos. Esta funcionalidad permite a los usuarios resolver cualquier conflicto después de combinar los datos de nivel de resumen y de nivel de evento.
+
+Puede configurar una preferencia de métrica predeterminada para que se aplique en casos de actualizaciones en conflicto. Esta métrica predeterminada puede ser una de las tres opciones:
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+Cuando, durante la armonización, varias fuentes de datos intentan actualizar un campo de métrica para un canal determinado, se aplica la preferencia predeterminada configurada por el usuario. Esta preferencia se aplica en el nivel de zona protegida a menos que se anule para determinadas preferencias basadas en métricas que se han configurado adicionalmente.
+
+En **[!UICONTROL Metric based preferences]**, el usuario puede configurar el origen específico (**[!UICONTROL Summary]** o **[!UICONTROL Event]**) para una métrica determinada y el tipo de conversión correspondiente para esa métrica.
+
+Los casos de uso habituales son:
 
 * la misma métrica publicitaria se mide y se comunica en varios conjuntos de datos, o
 * la medición de métricas puede estar incompleta en algunos conjuntos de datos, mientras que otro conjunto de datos puede ser un superconjunto de una métrica en particular, lo que resulta en un recuento doble.
 
-Para garantizar predicciones de modelos precisas, puede definir las preferencias de combinación de datos:
+### Configurar
+
+Para configurar las preferencias de combinación:
+
 
 1. Seleccionar ![preferencias de combinación de datos](/help/assets/icons/Merge.svg) [!BADGE beta].
 

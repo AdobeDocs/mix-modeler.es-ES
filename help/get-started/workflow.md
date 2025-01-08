@@ -3,10 +3,10 @@ title: flujo de trabajo del Mix Modeler
 description: Comprender el flujo de trabajo típico de Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: da92298bbd5b2fc14b54121f0c43dc3763f9a0a3
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Un flujo de trabajo típico de Mix Modeler consta de las siguientes actividades:
 
 |  | Actividad | Descripción |
 |---|---|---|
-| ![Datos](/help/assets/icons/Data.svg){width="100"} | [**Ingesta de datos**](../ingest-data/overview.md) | Ingesta de datos de evento del Experience Platform (por ejemplo, Adobe Analytics, SDK web, otras fuentes), datos agregados de canales de marketing (por ejemplo, TV, jardines empotrados, correo electrónico, actividades propias y operadas), datos de factores externos de clientes (por ejemplo, cambios de precios en el servicio de suscripción) y datos de factores internos (por ejemplo, planes de vacaciones). |
+| ![Datos](/help/assets/icons/Data.svg){width="100"} | [**Ingesta de datos**](../ingest-data/overview.md) | Ingesta de datos de evento del Experience Platform (por ejemplo, Adobe Analytics, Web SDK, otras fuentes), datos agregados de canales de marketing (por ejemplo, TV, jardines empotrados, correo electrónico, actividades propias y operadas), datos de factores externos de clientes (por ejemplo, cambios de precios en el servicio de suscripción) y datos de factores internos (por ejemplo, planes de vacaciones). |
 | ![Comprobación de datos](/help/assets/icons/DataCheck.svg){width="100"} | [**Armonizar datos**](../harmonize-data/overview.md) | Configure reglas de asignación y reglas de resolución de conflictos para combinar los distintos conjuntos de datos de marketing necesarios para medir y planificar el rendimiento de la campaña en Mix Modeler. |
 | ![ArchivoDeConfiguración](/help/assets/icons/FileGear.svg){width="100"} | [**Configurar modelos**](../models/create.md) | Configure instancias de modelo con puntos de contacto de marketing (por ejemplo, canales), definiciones de conversión y factores internos y externos. |
 | ![DatosDeArchivo](/help/assets/icons/FileData.svg){width="100"} | [**Modelos de entrenamiento y puntuación**](../models/overview.md) | Cree puntuaciones agregadas y de nivel de evento mediante la formación y la puntuación de aprendizaje automático. |
@@ -32,19 +32,22 @@ Un flujo de trabajo típico de Mix Modeler consta de las siguientes actividades:
 
 {style="table-layout:auto"}
 
-El diagrama de flujo detallado orientado a los datos que aparece a continuación ilustra cómo:
+<!---
+The detailed data-oriented flowchart below illustrates how:
 
-* los datos armonizados se basan en:
+* harmonized data is based on:
 
-   * datos de evento de experiencia (procedentes del conector de origen de Analytics, recopilados mediante SDK y API de Experience Platform, introducidos mediante conectores de origen o utilizando la introducción de flujo continuo),
-   * datos agregados o resumidos de los jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión, y
-   * definiciones de campos armonizados y reglas de conjuntos de datos.
+  * experience event data (originating from Analytics source connector, collected through Experience Platform SDKs and APIs, ingested through source connectors, or using streaming ingestion),
+  * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources, or offline advertising data, and 
+  * definitions of harmonized fields and dataset rules.
 
-* un modelo se basa en:
+* a model is based on:
 
-   * las definiciones de los puntos de contacto de conversión y marketing resultantes de los datos armonizados y
-   * datos acumulados o resumidos no relacionados con la comercialización que contengan factores internos o externos.
+  * the conversion and marketing touchpoint definitions resulting from the harmonized data and 
+  * non-marketing aggregate or summary data containing internal or external factors.
 
-* las puntuaciones de eventos de atribución de contacto múltiple se pueden devolver al lago de datos del Experience Platform para su uso en la configuración, el aprendizaje y la puntuación de modelos posteriores.
+* mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
-![Flujo de trabajo completo](/help/assets/comprehensive-workflow.svg)
+![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->
