@@ -3,9 +3,9 @@ title: Conversiones
 description: Aprenda a crear conversiones para utilizarlas en la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,28 @@ Para agregar una conversión, en la interfaz de ![DataSearch](/help/assets/icons
 1. Cuando se crea, la conversión se añade a la tabla de conversiones.
 
 
-## Ver una conversión
+## Ver detalles
 
-Para ver una conversión:
+Para ver los detalles de una conversión:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) al pasar el ratón sobre un nombre de conversión de la tabla.
 
-1. Seleccionar ![Vista](/help/assets/icons/ViewDetail.svg) **Vista**. Un cuadro de diálogo muestra los detalles de la conversión. Consulte [Agregar una conversión](#add-a-conversion) para obtener más información. Seleccione **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
+1. Seleccione ![Ver](/help/assets/icons/ViewDetail.svg) **Ver detalles**. Un cuadro de diálogo muestra los detalles de la conversión. Consulte [Agregar una conversión](#add-a-conversion) para obtener más información. Seleccione **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
 
+## Ver informe
+
+Para ver un informe de una conversión:
+
+1. Seleccione ![Más](/help/assets/icons/More.svg) al pasar el ratón sobre un nombre de conversión de la tabla.
+
+1. Seleccione ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Ver informe**. Un cuadro de diálogo muestra un informe de la conversión.
+
+   ![Informe de vista de conversión](../assets/conversion-view-report.png)
+
+   * Para cambiar la granularidad sobre la que generar el informe, seleccione un valor del menú desplegable **[!UICONTROL Weekly]**.
+   * Para cambiar el período del que se va a realizar el informe, escriba una fecha de inicio y otra de finalización o use ![Calendario](/help/assets/icons/Calendar.svg) para definir un período en la ventana emergente del calendario.
+
+1. Seleccione **[!UICONTROL Close]** para cerrar el cuadro de diálogo.
 
 ## Eliminar una conversión
 

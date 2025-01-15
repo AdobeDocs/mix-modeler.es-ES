@@ -3,9 +3,9 @@ title: Puntos de contacto de marketing
 description: Aprenda a crear puntos de contacto de marketing para utilizarlos en la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ Para agregar un punto de contacto de marketing, en la interfaz de ![DataSearch](
 1. Cuando se crea, el punto de contacto se añade a la tabla de puntos de contacto de marketing.
 
 
-## Ver un punto de contacto de marketing
+## Ver detalles
 
-Para ver un punto de contacto de marketing:
+Para ver los detalles de un punto de contacto de marketing:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) al pasar el ratón sobre un nombre de punto de contacto de marketing de la tabla.
 
 1. Seleccionar ![Vista](/help/assets/icons/ViewDetail.svg) **Vista**. Un cuadro de diálogo muestra detalles del punto de contacto de marketing. Consulte [Agregar un punto de contacto de marketing](#add-a-marketing-touchpoint) para obtener más información. Seleccione **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
 
+
+## Ver informe
+
+Para ver un informe de un punto de contacto de marketing:
+
+1. Seleccione ![Más](/help/assets/icons/More.svg) al pasar el ratón sobre un nombre de punto de contacto de marketing de la tabla.
+
+1. Seleccione ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Ver informe**. Un cuadro de diálogo muestra un informe del punto de contacto de marketing.
+
+   ![Informe de vista de punto de contacto de marketing](../assets/marketingtouchpoint-view-report.png)
+
+   * Para cambiar la granularidad sobre la que generar el informe, seleccione un valor del menú desplegable **[!UICONTROL Weekly]**.
+   * Para cambiar el período del que se va a realizar el informe, escriba una fecha de inicio y otra de finalización o use ![Calendario](/help/assets/icons/Calendar.svg) para definir un período en la ventana emergente del calendario.
+
+1. Seleccione **[!UICONTROL Close]** para cerrar el cuadro de diálogo.
 
 ## Eliminación de un punto de contacto de marketing
 
