@@ -3,7 +3,7 @@ title: Modelos
 description: Aprenda a configurar y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -187,5 +187,4 @@ Para eliminar varios modelos:
 1. Seleccione varios modelos.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
 1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
-
 
