@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Para cada ruta de conversión, verá lo siguiente:
 * para cada canal, el porcentaje de contribución del modelo de atribución y
 * la suma de estos porcentajes de contribución del modelo de atribución de canal.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-La pestaña Factores muestra perspectivas relacionadas con factores externos.
+La pestaña Factores [!BADGE beta] muestra información relacionada con factores externos.
 
 ![Factores](/help/assets/factors.png)
 
 Esta visualización le ayuda a comprender el efecto incremental que varios factores internos y externos tienen en la línea de base de las conversiones. Por ejemplo, condiciones económicas o actividades promocionales.
 
+Utilice el menú desplegable **[!UICONTROL Factors]** para seleccionar qué factores desea mostrar.
+
+<!-- need to update the image when we do have a proper example -->
 
 Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](/help/assets/icons/Download.svg).
 
@@ -205,7 +208,7 @@ La pestaña Diagnóstico muestra visualizaciones para:
 
 * Visualización [!UICONTROL Model Assessment], que puede desglosar en conversiones reales frente a previstas o residuales.
 
-  Para desglosar la visualización, seleccione **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** de la lista **[!UICONTROL Breakdown]**.
+Para desglosar la visualización, seleccione **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** de la lista **[!UICONTROL Breakdown]**.
 
 * [!UICONTROL Model fitting metrics] tabla, que muestra las siguientes columnas para cada métrica de conversión:
 
@@ -223,11 +226,11 @@ La pestaña Diagnóstico muestra visualizaciones para:
 
       * RMSE (Error Cuadrado Medio Raíz): que muestra el error medio, ponderado según el cuadrado del error.
 
-  Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](/help/assets/icons/Download.svg).
+Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](/help/assets/icons/Download.svg).
 
 * [!UICONTROL Touchpoint effectiveness], que representa el resultado del modelo algorítmico de Attribution AI. Los datos de esta tabla solo se generan para periodos de tiempo específicos. Seleccione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Información](/help/assets/icons/InfoOutline.svg) para obtener más información.
 
-  La visualización muestra, en orden descendente de [!UICONTROL Efficiency measure] ![Orden descendente](/help/assets/icons/SortOrderDown.svg), para cada punto de contacto:
+La visualización muestra, en orden descendente de [!UICONTROL Efficiency measure] ![Orden descendente](/help/assets/icons/SortOrderDown.svg), para cada punto de contacto:
 
    * [!UICONTROL Paths touched]: visualiza el porcentaje de rutas que consiguen conversión y el porcentaje de rutas que no logran conversión. Para un punto de contacto, verá conversiones atribuidas más cuando la proporción de conversión de atribución sea alta. Esta proporción compara el porcentaje de rutas que llevan a la conversión frente al porcentaje de rutas que llevan a la conversión *no*.
    * [!UICONTROL Efficiency measure]: generado por el modelo de atribución algorítmica, la medida de eficiencia indica la importancia relativa de un punto de contacto hacia la conversión, independientemente del volumen del punto de contacto. La eficiencia se mide en una escala de 1 a 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta.
@@ -246,11 +249,11 @@ La pestaña Información general histórica muestra visualizaciones para:
 
 * Gasto en Touchpoint.
 
-  Puede seleccionar un canal alternativo basado en el gasto para mostrar en esta visualización. Seleccionar un canal de **[!UICONTROL Channels]**.
+Puede seleccionar un canal alternativo basado en el gasto para mostrar en esta visualización. Seleccionar un canal de **[!UICONTROL Channels]**.
 
 * Volumen de Touchpoint.
 
-  Puede seleccionar un canal alternativo basado en volumen para mostrar en esta visualización. Seleccionar un canal de **[!UICONTROL Channels]**.
+Puede seleccionar un canal alternativo basado en volumen para mostrar en esta visualización. Seleccionar un canal de **[!UICONTROL Channels]**.
 
 ![Modelo: información general histórica](/help/assets/model-insights-historical-overview.png)
 
