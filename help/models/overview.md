@@ -3,9 +3,9 @@ title: Modelos
 description: Aprenda a configurar y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
+source-git-commit: c02d2019346932baaf481e373569e29df3d97713
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -179,17 +179,13 @@ Especifique el intervalo de fecha. Puede usar el ![Calendario](/help/assets/icon
 Para eliminar un modelo:
 
 1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
-
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Delete]**. También puede seleccionar ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de la barra de acciones azul.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación **[!UICONTROL Delete model]** para eliminar el modelo. Seleccione **[!UICONTROL Cancel]** para cancelar.
 
 Para eliminar varios modelos:
 
 1. Seleccione varios modelos.
-
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
-
-   >[!WARNING]
-   >
-   >El modelo se elimina inmediatamente.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
 
