@@ -3,9 +3,9 @@ title: Planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
    | Presupuesto | Presupuesto total de un plan. |
    | Retorno previsto | El rendimiento previsto de un plan |
    | ROI previsto | El ROI previsto de un plan. |
+   | Conversión prevista | La conversión prevista de un plan |
+   | CPA previsto | La CPA prevista para un plan |
    | Estado | El estado de un plan: <p>Error de <span style="color:red">●</span>, <p><span style="color:blue">●</span> Procesando o <p><span style="color:green">●</span> completado. |
 
    {style="table-layout:auto"}
+
+   Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para seleccionar ![Marca de verificación](/help/assets/icons/Checkmark.svg) las columnas que se mostrarán en la tabla.
 
 1. Use ![Buscar](/help/assets/icons/Search.svg) para buscar y filtrar la tabla de uno o más planes específicos.
 
