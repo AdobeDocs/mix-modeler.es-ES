@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 6eb0e0aa28aa965c17f002b9b08fcbc8ae993b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -30,7 +30,7 @@ No parecemos apoyar adecuadamente a los SVG en una caja sombreada. Ver las difer
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta el panel Atribución en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Vea [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de este artículo.*
+Este artículo documenta el panel Atribución en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Vea [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de este artículo.
 
 >[!ENDSHADEBOX]
 
