@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 7e39691cad69084b57d2b993a4eaf7b501d112d9
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '271'
+ht-degree: 5%
 
 ---
 
@@ -19,11 +19,17 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 ## Enero de 2025
 
-| Función | Descripción | Disponibilidad general |
-|---|---|---|
-| **Condiciones anidadas** | Puede crear condiciones anidadas mediante AND y OR cuando defina una población de datos elegible como parte de la [configuración de un modelo](/help/models/create.md#configure). | jueves, 15 de enero de 2025 |
-| **Ver informes** | Puede ver un informe sobre una [conversión](/help/harmonize-data/conversions.md#view-report) o un [punto de contacto de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que haya definido como parte de la armonización de datos. | jueves, 15 de enero de 2025 |
-| **Eliminar confirmación** | Se le pedirá que confirme la eliminación de un [plan](/help/plans/overview.md#delete-plans) o un [modelo](/help/models/overview.md#delete-models). | jueves, 15 de enero de 2025 |
-| **Mejora de la interfaz de usuario de factores** | Puede seleccionar los [factores](/help/models/insights.md#factors-beta) que desea mostrar en Información del modelo. | jueves, 15 de enero de 2025 |
+| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
+|---|---|---|---|
+| **Condiciones anidadas** | Puede crear condiciones anidadas mediante AND y OR cuando defina una población de datos elegible como parte de la [configuración de un modelo](/help/models/create.md#configure). | jueves, 15 de enero de 2025 | t.b.d. |
+| **Ver informes** | Puede ver un informe sobre una [conversión](/help/harmonize-data/conversions.md#view-report) o un [punto de contacto de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que haya definido como parte de la armonización de datos. | jueves, 15 de enero de 2025 | t.b.d. |
+| **Eliminar confirmación** | Se le pedirá que confirme la eliminación de un [plan](/help/plans/overview.md#delete-plans) o un [modelo](/help/models/overview.md#delete-models). | jueves, 15 de enero de 2025 | t.b.d. |
+| **Mejora de la interfaz de usuario de factores** | Puede seleccionar los [factores](/help/models/insights.md#factors-beta) que desea mostrar en Información del modelo. | jueves, 15 de enero de 2025 | t.b.d. |
 
+## Estrategia de lanzamiento
 
+[!UICONTROL Mixx Modeler] usa indicadores de características (también conocidos como &quot;alternadores&quot;) para controlar la visibilidad de las nuevas características, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
+
+* **Pruebas limitadas**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos del Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
+
+* **Inicio del despliegue**: El despliegue de una versión por fases comienza con la fase de prueba limitada. La versión se escalará de 0% a 100% de disponibilidad para los clientes en un par de meses. La implementación por fases se produce en el nivel de organización Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
