@@ -1,21 +1,21 @@
 ---
-title: Armonizar datos
+title: Información general sobre armonizar conjuntos de datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 7%
 
 ---
 
-# Armonizar datos
+# Información general sobre armonizar conjuntos de datos
 
 Los datos de Mix Modeler son de diferente naturaleza según la fuente de los datos. Los datos pueden ser:
 
 * datos agregados o resumidos, por ejemplo, recopilados a partir de fuentes de datos de walled garden o datos de publicidad sin conexión recopilados (como el gasto) al ejecutar una campaña de cartelera, un evento o una campaña de publicidad física,
-* datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics o a través de la web de Experience Platform, el SDK móvil o la API de Edge Network, o datos introducidos mediante conectores de origen.
+* datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics, o a través de la web de Experience Platform o el SDK móvil o la API de Edge Network, o datos introducidos mediante conectores de origen.
 
 El servicio de armonización de Mix Modeler asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos, combinada con datos de factores internos y externos, es la fuente de los modelos de Mix Modeler. El servicio utiliza la granularidad más alta en los diferentes conjuntos de datos. Por ejemplo, si un conjunto de datos tiene una granularidad mensual y los demás conjuntos de datos tienen granularidad semanal y diaria, el servicio de armonización crea una vista de datos con granularidad mensual.
 

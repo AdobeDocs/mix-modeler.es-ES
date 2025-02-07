@@ -4,10 +4,10 @@ description: Aprenda a medir campañas y a optimizar la planificación de forma 
 short-description: Aprenda a medir campañas y a optimizar la planificación de forma integral en todos los canales con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 18%
 
 ---
 
@@ -60,13 +60,13 @@ Esta guía de documentación técnica proporciona ayuda para el Adobe **Mix Mode
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>Modelos</strong><br/><a href="/help/models/overview.md">Información general</a> - <a href="/help/models/create.md">Crear un modelo</a> - <a href="/help/models/insights.md">Información del modelo</a> - <a href="/help/models/scoring-data.md">Datos de puntuación</a>
+      <strong>Modelos</strong><br/><a href="/help/models/overview.md">Información general</a> - <a href="/help/models/build.md">Modelos de compilación</a> - <a href="/help/models/insights.md">Información del modelo</a> - <a href="/help/models/scoring-data.md">Usar datos de puntuación</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Planes</strong><br/><a href="/help/plans/overview.md">Planes</a> - <a href="/help/plans/create.md">Crear un plan</a> - <a href="/help/plans/compare.md">Comparar planes</a> - <a href="/help/plans/edit.md">Editar un plan</a>
+      <strong>Planes</strong><br/><a href="/help/plans/overview.md">Planes</a> - <a href="/help/plans/build.md">Planes de compilación</a> - <a href="/help/plans/compare.md">Comparar planes</a> - <a href="/help/plans/build.md">Información del plan</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

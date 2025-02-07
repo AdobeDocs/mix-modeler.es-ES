@@ -1,18 +1,18 @@
 ---
-title: Panel de información general armonizado
+title: Panel de datos armonizado
 description: Aprenda a utilizar el tablero de información general de datos armonizado en Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Resumen de datos armonizados
+# Datos armonizados
 
-La pestaña Datos armonizados de Información general del Mix Modeler proporciona perspectivas de los datos armonizados que ha configurado para utilizarse como parte de los datos introducidos y de la configuración de datos armonizados.
+La ficha **[!UICONTROL Harmonized data]** del Mix Modeler ![Inicio](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona información sobre los datos armonizados que ha configurado para que se utilicen como parte de los datos ingeridos y de la configuración de datos armonizados.
 
 La descripción general muestra cuatro visualizaciones de la tarjeta de estado de KPI (fila superior) y otras seis visualizaciones configurables
 

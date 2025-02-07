@@ -1,16 +1,16 @@
 ---
-title: Datos de puntuación
+title: Datos de puntuación del sitio web
 description: Descubra cómo se mantienen los datos de puntuación de un modelo en Mix Modeler.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 6%
 
 ---
 
-# Datos de puntuación
+# Usar datos de puntuación
 
 Como parte de la puntuación de un modelo, los datos de puntuación se conservan dentro de un conjunto de datos en Experience Platform. Cuando se ha habilitado la atribución de múltiples contactos durante la creación del modelo, se conservan datos de puntuación de evento adicionales dentro de un conjunto de datos en Experience Platform.
 

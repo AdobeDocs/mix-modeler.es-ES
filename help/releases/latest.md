@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7e39691cad69084b57d2b993a4eaf7b501d112d9
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -21,10 +21,10 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
-| **Condiciones anidadas** | Puede crear condiciones anidadas mediante AND y OR cuando defina una población de datos elegible como parte de la [configuración de un modelo](/help/models/create.md#configure). | jueves, 15 de enero de 2025 | t.b.d. |
-| **Ver informes** | Puede ver un informe sobre una [conversión](/help/harmonize-data/conversions.md#view-report) o un [punto de contacto de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que haya definido como parte de la armonización de datos. | jueves, 15 de enero de 2025 | t.b.d. |
-| **Eliminar confirmación** | Se le pedirá que confirme la eliminación de un [plan](/help/plans/overview.md#delete-plans) o un [modelo](/help/models/overview.md#delete-models). | jueves, 15 de enero de 2025 | t.b.d. |
-| **Mejora de la interfaz de usuario de factores** | Puede seleccionar los [factores](/help/models/insights.md#factors-beta) que desea mostrar en Información del modelo. | jueves, 15 de enero de 2025 | t.b.d. |
+| **Condiciones anidadas** | Puede crear condiciones anidadas mediante AND y OR cuando defina una población de datos elegible como parte de la [configuración de un modelo](/help/models/build.md#configure). | 15 de enero de 2025 | t.b.d. |
+| **Ver informes** | Puede ver un informe sobre una [conversión](/help/harmonize-data/conversions.md#view-report) o un [punto de contacto de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que haya definido como parte de la armonización de datos. | 15 de enero de 2025 | t.b.d. |
+| **Eliminar confirmación** | Se le pedirá que confirme la eliminación de un [plan](/help/plans/overview.md#delete-plans) o un [modelo](/help/models/overview.md#delete-models). | 15 de enero de 2025 | t.b.d. |
+| **Mejora de la interfaz de usuario de factores** | Puede seleccionar los [factores](/help/models/insights.md#factors-beta) que desea mostrar en Información del modelo. | 15 de enero de 2025 | t.b.d. |
 
 ## Estrategia de lanzamiento
 
