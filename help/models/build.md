@@ -3,9 +3,9 @@ title: Modelos de compilación
 description: Aprenda a crear modelos en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Para crear sus modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelo guiado paso a paso.
 
-En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** del Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
+En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
 
 ## Configurar
 
@@ -93,7 +93,7 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
       1. Seleccione un conjunto de datos del menú desplegable **[!UICONTROL Dataset]**. Puede seleccionar ![Datos](/help/assets/icons/Data.svg) para administrar conjuntos de datos. Consulte [Conjuntos de datos](../ingest-data/datasets.md) para obtener más información.
 
-      1. Seleccione una opción del menú desplegable **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**.
+      1. Seleccione una opción del menú desplegable **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto select]**, que permite que el modelo determine el impacto. Puede anular el valor predeterminado.
 
    * Para agregar un contenedor de conjunto de datos de factores externos adicional, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 

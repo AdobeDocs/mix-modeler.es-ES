@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Un plan puede incluir de forma opcional:
 - varias fechas de vuelo, cada una con un presupuesto objetivo,
 - restricciones de presupuesto mínimas y máximas por canal y fecha de vuelo.
 
+Si un modelo que ha utilizado para su plan recibe una puntuación con los nuevos datos, debe crear un nuevo plan para tener en cuenta los datos que se han vuelto a puntuar.
+
 
 ## Planes de compilación
 
@@ -35,7 +37,7 @@ Para crear un plan, utilice el asistente de creación de planes de Mix Modeler. 
 
 ## Administrar planes
 
-Para ver una tabla de sus planes actuales, en la interfaz del Mix Modeler:
+Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
 
 1. Seleccione ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** en el carril izquierdo.
 
