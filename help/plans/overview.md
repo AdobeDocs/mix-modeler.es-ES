@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)]**, se agrega en la parte superior de la tabla.
+Se agrega un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**, en la parte superior de la tabla.
 
 ### Comparar planes
 

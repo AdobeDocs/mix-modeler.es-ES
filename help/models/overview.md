@@ -3,18 +3,18 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
 
 # Información general de modelos
 
-La funcionalidad de modelo de Mix Modeler le permite configurar, entrenar y puntuar modelos específicos de sus objetivos comerciales. La formación y la puntuación admiten el aprendizaje de transferencia impulsado por IA entre la atribución multitáctil y el modelado de combinación de marketing.
+La funcionalidad de modelo de Mix Modeler le permite configurar, entrenar y puntuar modelos específicos para sus objetivos comerciales. La formación y la puntuación admiten el aprendizaje de transferencia impulsado por IA entre la atribución multitáctil y el modelado de combinación de marketing.
 
-Los modelos se basan en los datos armonizados que crea como parte del flujo de trabajo de la solicitud de Mix Modeler.
+Los modelos se basan en los datos armonizados que crea como parte del flujo de trabajo de la aplicación Mix Modeler.
 
 Un modelo en Mix Modeler es un modelo de aprendizaje automático empleado para medir y predecir un resultado especificado en función de las inversiones de un experto en marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Mix Modeler le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
 
@@ -35,11 +35,11 @@ Un modelo puede incluir de forma opcional:
 
 ## Modelos de compilación
 
-Para generar un modelo, use el flujo de configuración del modelo guiado paso a paso del Mix Modeler disponible al seleccionar **[!UICONTROL Open model canvas]**. Consulte [Modelos de compilación](build.md) para obtener más información.
+Para generar un modelo, use el flujo de configuración del modelo guiado paso a paso de Mix Modeler disponible al seleccionar **[!UICONTROL Open model canvas]**. Consulte [Modelos de compilación](build.md) para obtener más información.
 
 ## Administrar modelos
 
-Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
+Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
 
 1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
 
@@ -54,9 +54,33 @@ Para ver una tabla de los modelos actuales, en la interfaz del Mix Modeler:
    | Evento de conversión | La conversión que ha seleccionado para el modelo. |
    | Frecuencia de ejecución | Frecuencia de ejecución del aprendizaje del modelo. |
    | Última ejecución | La fecha y hora de la última formación del modelo. |
-   | Estado | El estado de la última ejecución de la formación del modelo. <br/>![Estado verde](/help/assets/icons/StatusGreen.svg) Éxito<br/>![Estado naranja](/help/assets/icons/StatusOrange.svg) Problema de formación<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Esperando entrenamiento <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Error <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (cuando una última ejecución está en curso) |
+   | Estado | El estado del modelo. |
 
    {style="table-layout:auto"}
+
+   El estado del modelo del que se informa depende de dónde se encuentre un modelo dentro de su ciclo de vida. Por ejemplo, si un modelo se ha creado, si se ha vuelto a entrenar correctamente o no, o si se ha marcado o no correctamente.
+
+   En la tabla siguiente:
+
+   * ![Marca de verificación](/help/assets/icons/Checkmark.svg): indica una ejecución correcta de un paso en el ciclo de vida del modelo.
+   * ![Reloj](/help/assets/icons/Clock.svg): indica una ejecución en curso actual de un paso en el ciclo de vida del modelo.
+   * ![Cerrar](/help/assets/icons/Close.svg) - indica una ejecución fallida de un paso en el ciclo de vida del modelo.
+
+   | Estado | Crear | Entrenar | Puntuación | Volver a entrenar | Volver a puntuar |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | | | | |
+   | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Reloj](/help/assets/icons/Clock.svg) | | | |
+   | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Reloj](/help/assets/icons/Clock.svg) | | |
+   | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Reloj](/help/assets/icons/Clock.svg) | |
+   | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Reloj](/help/assets/icons/Clock.svg) |
+   | Error de formación | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Cerrar](/help/assets/icons/Close.svg) | | | |
+   | Error de formación | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Cerrar](/help/assets/icons/Close.svg) | |
+   | Formación completada correctamente | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | | | |
+   | Formación completada correctamente | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | |
+   | Error de puntuación | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Cerrar](/help/assets/icons/Close.svg) | | |
+   | Error de puntuación | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Cerrar](/help/assets/icons/Close.svg) |
+   | Puntuación correcta | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | | |
+   | Puntuación correcta | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Marca de verificación](/help/assets/icons/Checkmark.svg) |
 
 1. Para cambiar las columnas mostradas en la lista, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg) y active o desactive las columnas ![Comprobar](/help/assets/icons/Checkmark.svg).
 
@@ -92,6 +116,7 @@ Puede duplicar rápidamente un modelo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
+Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
