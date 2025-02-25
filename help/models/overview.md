@@ -3,9 +3,9 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
+source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Un modelo puede incluir de forma opcional:
 * Factores internos.
 * Conocimiento previo de las contribuciones de marketing de otras fuentes, como la experiencia previa de las partes interesadas, las pruebas graduales y otros modelos.
 * Porcentaje de gasto, que utiliza el porcentaje de gasto relativo como proxy cuando los datos de marketing son escasos.
+
+Cuando se crea un modelo por primera vez, la creación inicia inmediatamente el proceso de formación y puntuación. Una vez finalizada la formación inicial y la ejecución de puntuación, las perspectivas del modelo estarán disponibles para su revisión. Un modelo puede ser entrenado posteriormente. Además, se pueden agregar datos al modelo, lo que requiere que vuelva a puntuar el modelo manualmente. Volver a entrenar y a puntuar son un proceso iterativo a medida que surgen nuevos hallazgos e información, y se necesitan ajustes para obtener un modelo de ajuste que sea más apropiado para sus objetivos comerciales.
 
 
 ## Modelos de compilación
