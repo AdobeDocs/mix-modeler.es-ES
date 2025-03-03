@@ -3,7 +3,7 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
+source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 1%
