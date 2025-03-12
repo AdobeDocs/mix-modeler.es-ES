@@ -3,9 +3,9 @@ title: Planes de compilación
 description: Obtenga información sobre cómo crear planes en Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 En Mix Modeler, se crea un plan utilizando el lienzo de plan. En el lienzo del plan, puede configurar los detalles y presupuestos del plan y el modelo subyacente que se utilizará para el plan. Una vez que haya especificado los detalles, el presupuesto y el modelo, puede seguir adelante con un plan recomendado por IA o editar el gasto por canal.
 
-Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** del Mix Modeler, seleccione **[!UICONTROL Create plan]**.
+Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** de Mix Modeler, seleccione **[!UICONTROL Create plan]**.
 
-1. En la pantalla de creación del Plan:
+1. En la pantalla **[!UICONTROL Plan creation]**:
 
-   1. En la sección **[!UICONTROL Setup]**
+   1. En la sección **[!UICONTROL Setup]**:
 
       1. Escriba un **[!UICONTROL Plan name]**, por ejemplo `Demo plan`. Escriba un **[!UICONTROL Description]**, por ejemplo `Demo plan for Luma company`.
-      1. Seleccionar un(a) **[!UICONTROL Model]** de **[!UICONTROL _Seleccionar una opción.._.]**.
+      1. Seleccionar un(a) **[!UICONTROL Model]** de **[!UICONTROL _Seleccionar una opción.._.]**
       1. Puede seleccionar ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** para crear un modelo directamente desde la creación del plan. Se abrirá una nueva ficha en el explorador y se mostrará la interfaz de [Modelos](../models/overview.md).
 
          ![Configuración del plan](/help/assets/plan-setup.png)

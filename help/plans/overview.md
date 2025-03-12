@@ -3,10 +3,10 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Si un modelo que ha utilizado para su plan recibe una puntuación con los nuevos
 ## Planes de compilación
 
 Para crear un plan, utilice el asistente de creación de planes de Mix Modeler. Consulte [Planes de compilación](build.md) para obtener más información.
+
 
 ## Administrar planes
 
@@ -81,7 +82,15 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Se agrega un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**, en la parte superior de la tabla.
+Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
+
+- Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
+- Las restricciones presupuestarias del plan original se copian en el plan recién creado.
+- Tiene la opción de seleccionar otro modelo como base para el plan copiado.
+   - En el caso de los puntos de contacto o canales que no existen en el plan copiado pero que no existen en el modelo recién seleccionado, cualquier restricción para estos puntos de contacto o canales se elimina del plan.
+   - Para los puntos de contacto o canales que no existen en el plan copiado pero sí en el modelo recién seleccionado, las restricciones se establecen en un valor mínimo de `0` y un valor máximo en línea con el presupuesto del rango de vuelo del plan.
+
+
 
 ### Comparar planes
 
