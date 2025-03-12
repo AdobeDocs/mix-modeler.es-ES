@@ -1,11 +1,11 @@
 ---
 title: Perspectivas del plan
-description: Obtenga información sobre cómo ver los detalles de su plan y editar un plan en Mix Modeler.
+description: Obtenga información sobre cómo ver información sobre su plan y editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 - Visualización [!UICONTROL Forecasted paid channel ROI]
 - Visualización [!UICONTROL Forecasted revenue]
+- Visualización [!UICONTROL Forecasted conversion]
+- Visualización [!UICONTROL Marginal channel return]
 - [!UICONTROL Data range breakdown] tabla del plan, mostrando columnas para
 
    - Canal
@@ -28,11 +30,45 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
    - Meta de conversión
    - Gasto
 
-![Información general de un plan](/help/assets/overview-plan.png)
+Para cerrar la interfaz, seleccione **[!UICONTROL Close]**.
 
-1. Seleccione **[!UICONTROL Close]** para regresar a la interfaz de Planes.
+Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** en **[!UICONTROL View ROI]**.
 
-1. Seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** sobre cómo **[!UICONTROL View ROI]**.
+## Gasto previsto en el canal de pago y ROI
+
+Esta visualización muestra un diagrama de dispersión para el gasto previsto y el retorno de la inversión en los canales de pago, en función del modelo, el intervalo de fechas y el presupuesto.
+
+![Visualización del gasto y el retorno de la inversión del canal de pago previsto](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## Ingresos previstos
+
+Esta visualización de gráfico de barras muestra los ingresos previstos para sus canales en función del modelo, el intervalo de fechas y el presupuesto.
+
+![Visualización de ingresos previstos](../assets/overview-plan-forecasted-revenue.png)
+
+
+## Conversiones previstas
+
+Esta visualización de gráfico de barras muestra las conversiones previstas para los canales en función del modelo, el intervalo de fechas y el presupuesto.
+
+![Visualización de conversiones previstas](../assets/overview-plan-forecasted-conversions.png)
+
+
+## Retorno de canal marginal
+
+Esta visualización de gráfico de líneas muestra una curva de retorno marginal para el canal seleccionado con indicadores para **[!UICONTROL Marginal break-even]** y **[!UICONTROL Return point]**. Esta visualización le ayuda a comprender cómo se gasta un canal al alcanzar un punto de equilibrio marginal y si tiene espacio para aumentar el gasto en un canal o si debe gastar menos en un canal para mejorar la eficiencia de gasto del canal.
+
+![Visualización de retorno de canal marginal](../assets/overview-plan-marginal-channel-return.png)
+
+Para seleccionar un canal específico para la visualización, seleccione un canal del menú desplegable **[!UICONTROL View]**.
+
+
+## Desglose del intervalo de fechas
+
+La tabla [!UICONTROL Date range breakdown] muestra datos granulares detallados por canal para [!UICONTROL ROI], [!UICONTROL Revenue], [!UICONTROL CPA], [!UICONTROL Conversions] y [!UICONTROL Spend].
+
+![Tabla de desglose de intervalos de fechas](../assets/overview-plan-date-range-breakdown.png)
 
 1. Para descargar un archivo CSV que contenga los datos del desglose Intervalo de fechas, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. En el menú contextual:
 
@@ -42,6 +78,9 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
    Los datos detallados son datos granulares tecleados por semana. Los datos de resumen son datos introducidos por el intervalo de fechas proporcionado por el modelo.
 
 1. Para ver el desglose Intervalo de fecha por categoría de canales, seleccione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** o **[!UICONTROL Non-paid channels]** de la selección **[!UICONTROL View]**.
+
+
+## Editar plan
 
 1. Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
 
