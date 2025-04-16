@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los planes de Mix Modeler le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
 
-Un plan describe las inversiones discrecionales (por ejemplo, presupuestos) que una empresa tiene la intención de gastar en proyectos relacionados con el marketing a lo largo de un periodo de tiempo determinado en servicio de un KPI común (por ejemplo, pedidos, ingresos). Los planes pueden incluir gastos de canales como publicidad de pago, contenido web patrocinado, eventos.
+Un plan describe las inversiones discrecionales (por ejemplo, presupuestos) que una empresa tiene la intención de gastar en proyectos relacionados con el marketing durante un periodo de tiempo determinado. Estas inversiones están al servicio de KPI comunes (por ejemplo, pedidos, ingresos). Los planes pueden incluir gastos de canales como publicidad de pago, contenido web patrocinado, eventos.
 
 Un plan requiere:
 
@@ -52,10 +52,10 @@ Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
    | Modelo | El modelo utilizado como base para el plan. |
    | Intervalo de fechas | Intervalo de fechas completo de un plan. |
    | Presupuesto | Presupuesto total de un plan. |
-   | Retorno previsto | El rendimiento previsto de un plan |
-   | ROI previsto | El ROI previsto de un plan. |
-   | Conversión prevista | La conversión prevista de un plan |
-   | CPA previsto | La CPA prevista para un plan |
+   | Retorno previsto | [regreso previsto](/help/main-guide/glossary.md) para un plan |
+   | ROI previsto | El [ROI previsto](/help/main-guide/glossary.md) para un plan. |
+   | Conversión prevista | [conversión prevista](/help/main-guide/glossary.md) para un plan |
+   | CPA previsto | El [CPA previsto](/help/main-guide/glossary.md) para un plan |
    | Estado | El estado de un plan: <p>Error de <span style="color:red">●</span>, <p><span style="color:blue">●</span> Procesando o <p><span style="color:green">●</span> completado. |
 
    {style="table-layout:auto"}
@@ -87,8 +87,10 @@ Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original a
 - Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
 - Las restricciones presupuestarias del plan original se copian en el plan recién creado.
 - Tiene la opción de seleccionar otro modelo como base para el plan copiado.
-   - En el caso de los puntos de contacto o canales que no existen en el plan copiado pero que no existen en el modelo recién seleccionado, cualquier restricción para estos puntos de contacto o canales se elimina del plan.
-   - Para los puntos de contacto o canales que no existen en el plan copiado pero sí en el modelo recién seleccionado, las restricciones se establecen en un valor mínimo de `0` y un valor máximo en línea con el presupuesto del rango de vuelo del plan.
+   - En el caso de los puntos de contacto o canales que no existen en el plan copiado, pero que no existen en el modelo recién seleccionado, cualquier restricción para estos puntos de contacto o canales se elimina del plan.
+   - Para los puntos de contacto o canales que no existen en el plan copiado, pero sí en el modelo recién seleccionado, las restricciones se definen como:
+      - un valor mínimo de `0`,
+      - un valor máximo en línea con el presupuesto del intervalo de vuelo del plan.
 
 
 
