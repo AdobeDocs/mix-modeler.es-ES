@@ -1,9 +1,9 @@
 ---
 title: Registros de auditoría
-description: Obtenga información sobre cómo acceder a los registros de auditoría desde el Mix Modeler.
+description: Obtenga información sobre cómo acceder a los registros de auditoría desde Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Registros de auditoría
 
-Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, la actividad del usuario dentro del flujo de trabajo del Mix Modeler se captura en los registros de auditoría del Experience Platform para comprender cualquier cambio impulsado por el usuario en las categorías del Mix Modeler. Estos registros forman una pista de auditoría que puede ayudar con la resolución de problemas y pueden ayudar a su empresa a cumplir de forma eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios.
+Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, la actividad del usuario dentro del flujo de trabajo de Mix Modeler se captura en los registros de auditoría de Experience Platform para comprender cualquier cambio impulsado por el usuario en las categorías de Mix Modeler. Estos registros forman una pista de auditoría que puede ayudar con la resolución de problemas y pueden ayudar a su empresa a cumplir de forma eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios.
 
 <!-- DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
@@ -20,17 +20,17 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 Un registro de auditoría informa de quién realizó qué acción y cuándo lo hizo. Cada acción registrada contiene metadatos que indican el tipo de acción, la fecha y la hora, el ID de correo electrónico del usuario que realizó la acción y los atributos adicionales relevantes de ese tipo de acción. Rastrea las acciones de creación, actualización y eliminación realizadas por los usuarios en Mix Modeler.
 
-Para inspeccionar el registro de auditoría, en la interfaz del Mix Modeler:
+Para inspeccionar el registro de auditoría, en la interfaz de Mix Modeler:
 
 1. Seleccione ![Lista de tareas](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** de **[!UICONTROL PRIVACY]**.
 
-1. En **[!UICONTROL Audits]**, puede encontrar **[!UICONTROL Activity log]**. El registro de actividad muestra las entradas de las siguientes categorías de Mix Modeler, acciones y estado.
+1. En **[!UICONTROL Audits]**, puede encontrar **[!UICONTROL Activity log]**. El registro de actividad muestra las entradas de las siguientes categorías, acciones y estados de Mix Modeler.
 
    | Categoría | Acción | Estado |
    |---|---|---|
-   | Regla de conjunto de datos de Mix Modeler | Crear | Permitir o denegar |
-   | Regla de conjunto de datos de Mix Modeler | Actualización | Permitir o denegar |
-   | Regla de conjunto de datos de Mix Modeler | Eliminar | Permitir o denegar |
+   | Regla de conjunto de datos Mix Modeler | Crear | Permitir o denegar |
+   | Regla de conjunto de datos Mix Modeler | Actualización | Permitir o denegar |
+   | Regla de conjunto de datos Mix Modeler | Eliminar | Permitir o denegar |
    | Campo de Mix Modeler | Crear | Permitir o denegar |
    | Campo de Mix Modeler | Actualización | Permitir o denegar |
    | Campo de Mix Modeler | Eliminar | Permitir o denegar |
@@ -40,16 +40,16 @@ Para inspeccionar el registro de auditoría, en la interfaz del Mix Modeler:
    | Conversión de Mix Modeler | Crear | Permitir o denegar |
    | Conversión de Mix Modeler | Actualización | Permitir o denegar |
    | Conversión de Mix Modeler | Eliminar | Permitir o denegar |
-   | Modelo de Mix Modeler | Crear | Permitir o denegar |
-   | Modelo de Mix Modeler | Actualización | Permitir o denegar |
-   | Modelo de Mix Modeler | Eliminar | Permitir o denegar |
-   | Modelo de Mix Modeler | Volver a puntuar | Permitir o denegar |
-   | Modelo de Mix Modeler | Clonar | Permitir o denegar |
-   | Modelo de Mix Modeler | Entrenar/volver a entrenar | Permitir o denegar |
-   | Modelo de Mix Modeler | Descargar o guardar metadatos | Permitir o denegar |
-   | Plan del Mix Modeler | Crear | Permitir o denegar |
-   | Plan del Mix Modeler | Actualización | Permitir o denegar |
-   | Plan del Mix Modeler | Cambiar modelo asociado | Permitir o denegar |
+   | Modelo Mix Modeler | Crear | Permitir o denegar |
+   | Modelo Mix Modeler | Actualización | Permitir o denegar |
+   | Modelo Mix Modeler | Eliminar | Permitir o denegar |
+   | Modelo Mix Modeler | Rescore | Permitir o denegar |
+   | Modelo Mix Modeler | Clonar | Permitir o denegar |
+   | Modelo Mix Modeler | Tren/reciclaje | Permitir o denegar |
+   | Modelo Mix Modeler | Descargar o guardar metadatos | Permitir o denegar |
+   | Plan de Mix Modeler | Crear | Permitir o denegar |
+   | Plan de Mix Modeler | Actualización | Permitir o denegar |
+   | Plan de Mix Modeler | Cambiar modelo asociado | Permitir o denegar |
    | Armonización de datos de Mix Modeler | Sincronización de déclencheur | Permitir o denegar |
 
 
@@ -67,4 +67,4 @@ Para inspeccionar el registro de auditoría, en la interfaz del Mix Modeler:
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros de auditoría.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar los permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

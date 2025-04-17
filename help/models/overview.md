@@ -3,7 +3,7 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Un modelo puede incluir de forma opcional:
 * Conocimiento previo de las contribuciones de marketing de otras fuentes, como la experiencia previa de las partes interesadas, las pruebas graduales y otros modelos.
 * Porcentaje de gasto, que utiliza el porcentaje de gasto relativo como proxy cuando los datos de marketing son escasos.
 
-Cuando se crea un modelo por primera vez, la creación inicia inmediatamente el proceso de formación y puntuación. Una vez finalizada la formación inicial y la ejecución de puntuación, las perspectivas del modelo están disponibles para su revisión. Un modelo puede ser entrenado posteriormente. Además, se pueden agregar datos al modelo, lo que requiere que vuelva a puntuar el modelo manualmente. Volver a entrenar y a puntuar son un proceso iterativo a medida que surgen nuevos hallazgos e información, y se necesitan ajustes para obtener un modelo de ajuste que sea más apropiado para sus objetivos comerciales.
+Cuando se crea un modelo por primera vez, la creación inicia inmediatamente el proceso de formación y puntuación. Una vez finalizada la formación inicial y la ejecución de puntuación, las perspectivas del modelo están disponibles para su revisión. Un modelo puede ser entrenado posteriormente. Además, se pueden añadir datos al modelo, lo que requiere que vuelva a puntuar el modelo manualmente. Volver a entrenar y a puntuar son un proceso iterativo a medida que surgen nuevos hallazgos e información, y se necesitan ajustes para obtener un modelo de ajuste que sea más apropiado para sus objetivos comerciales.
 
 
 ## Modelos de compilación
@@ -68,7 +68,7 @@ Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
    * ![Reloj](/help/assets/icons/Clock.svg): indica una ejecución en curso actual de un paso en el ciclo de vida del modelo.
    * ![Cerrar](/help/assets/icons/Close.svg) - indica una ejecución fallida de un paso en el ciclo de vida del modelo.
 
-   | Estado | Crear | Entrenar | Puntuación | Volver a entrenar | Volver a puntuar |
+   | Estado | Crear | Entrenar | Puntuación | Reentrenar | Rescore |
    |---|:---:|:---:|:---:|:---:|:---:|
    | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | | | | |
    | En curso | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | ![Reloj](/help/assets/icons/Clock.svg) | | | |
@@ -150,10 +150,9 @@ Puede editar el nombre, la descripción y la programación de la formación y la
 
 
 
-### Volver a entrenar
+### Reentrenar
 
-
-Volver a entrenar un modelo solo está disponible en modelos entrenados correctamente.
+La opción Volver a entrenar un modelo sólo está disponible en modelos que se hayan entrenado correctamente.
 
 Considere la posibilidad de volver a entrenar un modelo cuando desee:
 
@@ -171,17 +170,17 @@ Para volver a entrenar un modelo:
    * **[!UICONTROL Train model using specific date range of data]**.
 Especifique el intervalo de fecha. Puede usar el ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar un intervalo de fechas. Debe seleccionar un rango de datos con un mínimo de un año.
 
-   ![Volver a entrenar un modelo](../assets/re-train-model.png)
+   ![Volver a entrenar un modelo](../assets/retrain-model.png)
 
 1. Seleccione **[!UICONTROL Train]** para volver a entrenar el modelo.
 
 
-### Puntuación o repuntuación
+### Puntuación o rescore
 
 
 Puede puntuar gradualmente un modelo basado en nuevos datos de marketing o volver a puntuar un modelo para un intervalo de fechas específico.
 
-Considere la posibilidad de volver a puntuar un modelo cuando desee:
+Considere volver a marcar un modelo cuando desee:
 
 * Corrija los datos de marketing incorrectos. Por ejemplo, los datos de búsqueda de pago recientes que ha incluido en la formación y puntuación del modelo omiten una semana de datos.
 * Utilice los nuevos datos de marketing incremental que están disponibles a través de las actualizaciones en los conjuntos de datos configurados como parte de los datos armonizados.
@@ -195,10 +194,10 @@ Para puntuar o volver a puntuar un modelo:
    En el cuadro de diálogo **[!UICONTROL Score marketing data]**, seleccione la opción para:
 
    * **[!UICONTROL Score new marketing data from *mm/dd/aaaa *]**, para puntuar el modelo gradualmente con nuevos datos de marketing, o
-   * **[!UICONTROL Score specific date range of marketing data]** para volver a puntuar para un intervalo de fechas específico.
+   * **[!UICONTROL Score specific date range of marketing data]** para volver a anotar para un intervalo de fechas específico.
 Especifique el intervalo de fecha. Puede usar el ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar un intervalo de fechas.
 
-   ![Volver a entrenar un modelo](../assets/re-score-model.png)
+   ![Volver a calificar un modelo](../assets/rescore-model.png)
 
 1. Seleccione **[!UICONTROL Score]**. Al volver a calificar un modelo con un intervalo de datos específico, verá un cuadro de diálogo de **[!UICONTROL Existing model is replaced]** que le pedirá que confirme que desea reemplazar el modelo con nuevas puntuaciones para el intervalo de fechas seleccionado. Seleccione **[!UICONTROL Replace model]** para confirmar.
 

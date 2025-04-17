@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ Para ver la información del modelo, en la interfaz de ![Modelos](/help/assets/i
 Verá cuándo se actualizó por última vez el modelo especificado y cuándo se muestran las visualizaciones mediante cuatro fichas: [Información del modelo](#model-insights), [Atribución](#attribution), [Factores](#factors), [Diagnósticos](#diagnostics) y [Información general histórica](#historical-overview).
 
 Puede cambiar el periodo de fecha en el que se basan las visualizaciones de cada una de las pestañas. Escriba un período de fecha o seleccione ![Calendario](/help/assets/icons/Calendar.svg) para elegir un período de fecha.
+
+## Deriva de modelo
+
+{{release-limited-testing-section}}
+
+Si se detecta una deriva del modelo en el modelo, verá un cuadro de diálogo **[!UICONTROL Model drift detected]** con opciones que se le recordarán más adelante o para [**[!UICONTROL Retrain]**](overview.md#retrain) inmediatamente el modelo. Si selecciona **[!UICONTROL Remind me later]**, se le avisará al día siguiente o al iniciar sesión más tarde.
+
+![Cuadro de diálogo detectado de deriva de modelo](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -251,6 +259,19 @@ La pestaña Diagnóstico muestra visualizaciones para:
    * [!UICONTROL Total volume]: el número agregado de veces que un usuario toca un punto de contacto. El número incluye los puntos de contacto que aparecen en una ruta que logra la conversión, así como las rutas *no* que resultan en conversión.
 
 ![Diagnóstico](/help/assets/model-insights-diagnostics.png)
+
+### Detección de deriva del modelo
+
+>[!AVAILABILITY]
+>
+>La funcionalidad descrita en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Mix Modeler, consulte [lanzamientos de características de Mix Modeler](/help/releases/latest.md).
+>
+
+Si se detecta una desviación de modelo, verá una notificación **[!UICONTROL Model drift detected]** en la parte superior.
+
+![Notificación de deriva del modelo](/help/assets/model-drift-notification.png)
+
+Seleccione **[!UICONTROL Hide]** para ocultar la notificación. La notificación volverá a aparecer al día siguiente o al inicio de sesión siguiente.
 
 
 ## [!UICONTROL Historical overview]
