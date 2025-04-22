@@ -3,9 +3,9 @@ title: Modelos de compilación
 description: Aprenda a crear modelos en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]*
 
 1. En la sección **[!UICONTROL Spend share]**:
 
-   * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**.
+   * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**. Se recomienda esta configuración, especialmente en los siguientes casos:
+      * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
+      * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
+
+     >[!NOTE]
+     >
+     >Para inversiones puntuales (por ejemplo, un anuncio de la Super Bowl), considere la posibilidad de incorporar esos datos como un factor en lugar de depender de la cuota de gasto.
+     >
+
 
 1. En la sección **[!UICONTROL MTA enabled]**:
 
