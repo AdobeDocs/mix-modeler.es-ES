@@ -1,21 +1,17 @@
 ---
-title: Introducción al Mix Modeler
+title: Información general de Mix Modeler
 description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 short-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
-# Introducción al Mix Modeler
-
-Consulte este vídeo para obtener una descripción general rápida de las funciones del Mix Modeler.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
+# Información general de Mix Modeler
 
 Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
 
@@ -27,7 +23,7 @@ Mix Modeler proporciona los siguientes tipos de perspectivas optimizadas y proce
 * niveles de inversión recomendados para lograr futuros objetivos empresariales.
 
 
-Para lograr esta funcionalidad, Mix Modeler combina:
+Para lograr esta funcionalidad, Mix Modeler combina lo siguiente:
 
 * datos ascendentes (nivel de evento) y datos descendentes (nivel de agregado),
 * factores del mercado exterior y factores internos, y
@@ -53,7 +49,7 @@ Mix Modeler ofrece las siguientes funciones:
 
 >[!MORELIKETHIS]
 >
->[Comprender el flujo de trabajo del Mix Modeler](workflow.md)
+>[Comprender el flujo de trabajo de Mix Modeler](workflow.md)
 
 
 ### Modelado de combinación de marketing (MMM)
@@ -66,7 +62,7 @@ El modelado de combinación de marketing en Mix Modeler es un análisis de apren
 
 Este análisis completo permite a las empresas asignar los presupuestos de marketing de forma estratégica entre diversas líneas de negocio, regiones, canales y campañas, a la vez que proporciona perspectivas predictivas sobre el impacto comercial de eventos futuros.
 
-Las funciones de modelado de combinaciones de marketing de Mix Modeler son fundamentales para resolver los siguientes casos de uso:
+Las funciones de modelado de combinación de marketing de Mix Modeler son fundamentales para resolver los siguientes casos de uso:
 
 * Informes ejecutivos: Permita que los ejecutivos comprendan el verdadero impacto incremental del marketing, tanto en su conjunto como por canal, región, SKU, etc.
 * Planificación estratégica: informar estrategias de marketing a largo plazo y establecer objetivos y puntos de referencia realistas para futuras campañas.
