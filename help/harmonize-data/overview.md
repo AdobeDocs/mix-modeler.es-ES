@@ -3,9 +3,9 @@ title: Información general sobre armonizar conjuntos de datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1013'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Para ver los datos armonizados, en la interfaz de Mix Modeler:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** en el carril izquierdo.
 
-1. Seleccione **[!UICONTROL Harmonized Data]** de la barra superior. Se muestra un resumen de los datos armonizados en función de los campos, las reglas del conjunto de datos, los puntos de contacto de marketing y las conversiones que haya definido.
+1. Seleccione **[!UICONTROL Harmonized data]** de la barra superior. Se muestra un resumen de los datos armonizados en función de los campos, las reglas del conjunto de datos, los puntos de contacto de marketing y las conversiones que haya definido.
 
    1. Para redefinir el período en el que se basa la recapitulación de datos armonizados, escriba un intervalo de fechas para **[!UICONTROL Date range]** o use ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar un intervalo de datos.
 
@@ -145,3 +145,13 @@ Para ver los datos armonizados, en la interfaz de Mix Modeler:
    1. Seleccione **[!UICONTROL Submit]** para enviar los cambios de configuración de columna. Seleccione **[!UICONTROL Close]** para cancelar los cambios que haya hecho.
 
 1. Si hay más páginas disponibles, usa ![Flecha izquierda](/help/assets/icons/ChevronLeft.svg) o ![Flecha derecha](/help/assets/icons/ChevronRight.svg) en **[!UICONTROL Page _x _de_x_]** para moverte de una página a otra.
+
+1. Si lo desea, puede descargar los datos armonizados.
+
+   1. Seleccione ![Descargar](/help/assets/icons/Download.svg) [!BADGE beta].
+   1. En la ventana emergente, seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
+   1. Escriba un **[!UICONTROL Report name]**, por ejemplo `Test Report`.
+   1. Seleccione ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
+
+   Se descargará un informe CSV con un título basado en el nombre del informe proporcionado y en la fecha y hora actuales (por ejemplo, `Test Report_2025_04_23_9-5-18.csv`) en la carpeta de descarga predeterminada.
+

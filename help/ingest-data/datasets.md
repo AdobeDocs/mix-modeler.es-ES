@@ -1,11 +1,11 @@
 ---
 title: Conjuntos de datos
-description: Obtenga información sobre cómo administrar los conjuntos de datos necesarios para introducir datos en Mix Modeler.
+description: Obtenga información sobre cómo administrar los conjuntos de datos necesarios para la ingesta de datos en Mix Modeler.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 Para administrar conjuntos de datos que contengan los datos que desea introducir en Experience Platform y utilizar en Mix Modeler:
 
-1. Vaya a la interfaz del Mix Modeler.
+1. Vaya a la interfaz de Mix Modeler.
 
 1. Seleccione ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, debajo de **[!UICONTROL SETUP]**.
 
@@ -22,5 +22,5 @@ Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://expe
 
 >[!MORELIKETHIS]
 >
->* [Ingesta de datos](overview.md)
+>* [Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
 >* [Esquemas](schemas.md)
