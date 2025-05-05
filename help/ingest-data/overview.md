@@ -90,7 +90,7 @@ Para validar si los datos están disponibles correctamente en Mix Modeler, puede
 * Usar visualizaciones en [Información general](/help/overview.md).
 * Descargue e inspeccione datos de [datos armonizados](/help/harmonize-data/overview.md) en conjuntos de datos armonizados.
 
-Para comprobar si los datos se han introducido correctamente en Experience Platform, puede [escribir y ejecutar consultas SQL mediante el servicio de consultas de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Para comprobar si los datos se han introducido correctamente en Experience Platform, puede [escribir y ejecutar consultas SQL mediante el servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

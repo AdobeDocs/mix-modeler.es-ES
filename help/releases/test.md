@@ -30,7 +30,7 @@ No parecemos apoyar adecuadamente a los SVG en una caja sombreada. Ver las difer
 
 >[!BEGINSHADEBOX]
 
-Este artículo documenta el panel Atribución en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Vea [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de este artículo.
+Este artículo documenta el panel Atribución en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Vea [Panel de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de este artículo.
 
 >[!ENDSHADEBOX]
 

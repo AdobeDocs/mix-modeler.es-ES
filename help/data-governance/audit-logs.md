@@ -67,4 +67,4 @@ Para inspeccionar el registro de auditoría, en la interfaz de Mix Modeler:
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros de auditoría.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar los permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar los permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
