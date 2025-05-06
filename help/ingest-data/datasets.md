@@ -18,11 +18,11 @@ Para administrar conjuntos de datos que contengan los datos que desea introducir
 
 1. Seleccione ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obtener más información.
+Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener más información.
 
 >[!MORELIKETHIS]
 >
->* [Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home)
 >* [Esquemas](schemas.md)
->* [Resumen de ingesta de datos (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
->* [Conectores Source (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+>* [Resumen de ingesta de datos (Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home)
+>* [Conectores Source (Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
