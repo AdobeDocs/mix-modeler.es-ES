@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 4%
+source-wordcount: '365'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,8 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
-| **Detección de deriva del modelo** | Al abrir un modelo, se [le pedirá que vuelva a entrenar el modelo cuando se detecte la deriva del modelo](/help/models/insights.md#model-drift). | viernes, 03 de abril de 2025 | t.b.d. |
+| **Detección de deriva del modelo** | Cuando abra un modelo, se le pedirá [que vuelva a entrenar el modelo cuando se detecte la deriva del modelo](/help/models/insights.md#model-drift). | 3 de abril de 2025 | 7 de mayo de 2025 |
+| **Retorno de canal marginal en las perspectivas del plan** | Se ha agregado una visualización de [retorno de canal marginal](/help/plans/insights.md#marginal-channel-return) a las perspectivas del plan, la cual muestra el evento de salto marginal y el retorno del plan para todos los canales o los seleccionados. | 3 de abril de 2025 | 24 de abril de 2025 |
 
 
 ## Enero-febrero de 2025
