@@ -32,7 +32,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 Para cerrar la interfaz, seleccione **[!UICONTROL Close]**.
 
-Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** en **[!UICONTROL View ROI]**.
+Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** en **[!UICONTROL View ROI]**.
 
 ## Gasto previsto en el canal de pago y ROI
 
