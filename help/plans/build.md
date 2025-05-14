@@ -3,7 +3,7 @@ title: Planes de compilación
 description: Obtenga información sobre cómo crear planes en Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -84,10 +84,10 @@ Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[
    1. Para alternar entre la entrada de moneda o porcentaje, seleccione **[!UICONTROL $]** o **[!UICONTROL %]** para **[!UICONTROL View spend by]**.
 
    1. Cuando termine, seleccione **[!UICONTROL Create]**.
-
       ![Selección de gastos](/help/assets/plan-spend-selection.png)
 
    1. Seleccione **[!UICONTROL Next]**.
+
 
 
 1. En la sección **[!UICONTROL Advanced configurations]**, puede especificar configuraciones avanzadas opcionales.
