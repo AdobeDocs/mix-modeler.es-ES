@@ -1,20 +1,20 @@
 ---
-title: flujo de trabajo del Mix Modeler
-description: Comprender el flujo de trabajo típico de Mix Modeler.
+title: Flujo de trabajo de Mix Modeler
+description: Descubra el flujo de trabajo típico de Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '236'
+ht-degree: 0%
 
 ---
 
-# flujo de trabajo del Mix Modeler
+# Flujo de trabajo de Mix Modeler
 
 Consulte este vídeo para ver una introducción al flujo de trabajo del usuario en Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3440206/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Un flujo de trabajo típico de Mix Modeler consta de las siguientes actividades:
@@ -23,7 +23,7 @@ Un flujo de trabajo típico de Mix Modeler consta de las siguientes actividades:
 
 |  | Actividad | Descripción |
 |---|---|---|
-| ![Datos](/help/assets/icons/Data.svg){width="100"} | [**Ingesta de datos**](../ingest-data/overview.md) | Ingesta de datos de evento del Experience Platform (por ejemplo, Adobe Analytics, Web SDK, otras fuentes), datos agregados de canales de marketing (por ejemplo, TV, jardines empotrados, correo electrónico, actividades propias y operadas), datos de factores externos de clientes (por ejemplo, cambios de precios en el servicio de suscripción) y datos de factores internos (por ejemplo, planes de vacaciones). |
+| ![Datos](/help/assets/icons/Data.svg){width="100"} | [**Ingesta de datos**](../ingest-data/overview.md) | Ingesta de datos de evento de Experience Platform (por ejemplo, Adobe Analytics, Web SDK, otras fuentes), datos agregados de canales de marketing (por ejemplo, TV, jardines empotrados, correo electrónico, actividades de propiedad y operadas), datos de factores externos de clientes (por ejemplo, cambios de precios en el servicio de suscripción) y datos de factores internos (por ejemplo, planes de vacaciones). |
 | ![Comprobación de datos](/help/assets/icons/DataCheck.svg){width="100"} | [**Armonizar datos**](../harmonize-data/overview.md) | Configure reglas de asignación y reglas de resolución de conflictos para combinar los distintos conjuntos de datos de marketing necesarios para medir y planificar el rendimiento de la campaña en Mix Modeler. |
 | ![ArchivoDeConfiguración](/help/assets/icons/FileGear.svg){width="100"} | [**Modelos de compilación**](../models/overview.md) | Cree instancias de modelo con puntos de contacto de marketing (por ejemplo, canales), definiciones de conversión y factores internos y externos. |
 | ![DatosDeArchivo](/help/assets/icons/FileData.svg){width="100"} | [**Modelos de entrenamiento y puntuación**](../models/overview.md) | Cree puntuaciones agregadas y de nivel de evento mediante la formación y la puntuación de aprendizaje automático. |
@@ -32,6 +32,9 @@ Un flujo de trabajo típico de Mix Modeler consta de las siguientes actividades:
 
 {style="table-layout:auto"}
 
+A continuación se muestra una descripción general de cómo los datos de entrada pueden fluir a Mix Modeler y cómo Mix Modeler puede producir datos de salida para su propia interfaz, pero también para otras soluciones, como Customer Journey Analytics.
+
+![Flujo de datos de salida de entrada de Mix Modeler](../assets/mm-input-output.png)
 <!---
 The detailed data-oriented flowchart below illustrates how:
 
