@@ -3,10 +3,10 @@ title: Información general sobre armonizar conjuntos de datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1192'
+ht-degree: 5%
 
 ---
 
@@ -79,7 +79,7 @@ Un conjunto de datos de conversión, con una granularidad de los datos agregados
 
 Un conjunto de datos de evento de experiencia de ejemplo (eventos de SDK web) del cliente.
 
-| Marca de tiempo | Área de nombres de identidad | Id De Identidad | Canal | Clics |
+| Marca de tiempo | Espacio de nombres de identidad | Id De Identidad | Canal | Clics |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -154,4 +154,28 @@ Para ver los datos armonizados, en la interfaz de Mix Modeler:
    1. Seleccione ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
 
    Se descargará un informe CSV con un título basado en el nombre del informe proporcionado y en la fecha y hora actuales (por ejemplo, `Test Report_2025_04_23_9-5-18.csv`) en la carpeta de descarga predeterminada.
+
+
+## Prácticas recomendadas
+
+Cuando cree su conjunto de datos armonizado, aplique las siguientes prácticas recomendadas.
+
+### Esquema
+
+* Evite las discrepancias de tipos de datos. Las discrepancias se producen cuando el tipo de datos de un campo en los registros de los conjuntos de datos introducidos no se ajusta al tipo de datos configurado para ese campo en el esquema subyacente.
+* Evite tipos de esquema incorrectos. Se producen tipos de esquema incorrectos cuando intenta introducir un tipo de datos específico mediante un conjunto de datos que no coincide con el esquema de esos datos. Por ejemplo, intenta introducir datos de resumen mediante un conjunto de datos de factor externo.
+
+### Asignación de datos
+
+* Asegúrese de haber configurado las identidades correctamente para cada uno de los conjuntos de datos de evento.
+
+### Calidad de datos
+
+* Asegúrese de utilizar el formato de fecha y hora de forma coherente para todos los registros de conjuntos de datos que requieran datos con marca de hora.
+* Asegúrese de utilizar la misma granularidad (día o semana) para los registros de conjuntos de datos agregados o de resumen.
+
+### Cálculo de datos
+
+* Evite filas duplicadas en un conjunto de datos.
+* Asegúrese de que cada conjunto de datos que cargue sea específico para un canal y tipo de conversión únicos. Los puntos de contacto o las conversiones duplicados en varios conjuntos de datos afectan a la salida y la calidad del modelo.
 
