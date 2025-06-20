@@ -3,9 +3,9 @@ title: Perspectivas del plan
 description: Obtenga información sobre cómo ver información sobre su plan y editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,24 @@ ht-degree: 0%
 # Perspectivas del plan
 
 
-En [!UICONTROL Plan insights], se crean las perspectivas del plan, que muestran [!UICONTROL Model], [!UICONTROL Data range] y [!UICONTROL Total budget] en los que se basa el plan.
+En [!UICONTROL Plan insights], se crean las perspectivas del plan, que muestran [!UICONTROL Model], [!UICONTROL Data range] y [!UICONTROL Plan target] en los que se basa el plan.
 
-Cuando termine de recuperar, verá una descripción general del plan, que consta de:
 
-- Visualización [!UICONTROL Forecasted paid channel ROI]
-- Visualización [!UICONTROL Forecasted revenue]
-- Visualización [!UICONTROL Forecasted conversion]
-- Visualización [!UICONTROL Marginal channel return]
-- [!UICONTROL Data range breakdown] tabla del plan, mostrando columnas para
+Cuando se crean las perspectivas, verá una descripción general de su plan, que consta de:
+
+- Encabezado que muestra [!UICONTROL Model], [!UICONTROL Data range] y [!UICONTROL Plan target] en los que se basa el plan.
+   - Si ha definido un plan basado en objetivos, un distintivo indica el estado del objetivo. Las opciones posibles son:
+
+      - [!BADGE Objetivo alcanzable]{type=Positive}
+      - [!BADGE Destino inalcanzable]{type=Negative}
+
+   - Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** para mostrar más detalles.
+
+- [Visualización [!UICONTROL Forecasted paid channel ROI]](#forecasted-paid-channel-spend-and-roi)
+- [Visualización [!UICONTROL Forecasted revenue]](#forecasted-revenue)
+- [Visualización [!UICONTROL Forecasted conversion]](#forecasted-conversions)
+- [Visualización [!UICONTROL Marginal channel return]](#marginal-channel-return)
+- [[!UICONTROL Data range breakdown] tabla del plan](#date-range-breakdown), mostrando columnas para
 
    - Canal
    - ROI
@@ -32,7 +41,7 @@ Cuando termine de recuperar, verá una descripción general del plan, que consta
 
 Para cerrar la interfaz, seleccione **[!UICONTROL Close]**.
 
-Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** en **[!UICONTROL View ROI]**.
+Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** en **[!UICONTROL View ROI]**.
 
 ## Gasto previsto en el canal de pago y ROI
 
@@ -57,7 +66,7 @@ Esta visualización de gráfico de barras muestra las conversiones previstas par
 
 ## Retorno de canal marginal
 
-Esta visualización de gráfico de líneas muestra una curva de retorno marginal para el canal seleccionado con indicadores para **[!UICONTROL Marginal break-even]** y **[!UICONTROL Return point]**. Esta visualización le ayuda a comprender cómo se gasta un canal al alcanzar un punto de equilibrio marginal y si tiene espacio para aumentar el gasto en un canal o si debe gastar menos en un canal para mejorar la eficiencia de gasto del canal.
+Esta visualización de gráfico de líneas muestra una curva de retorno marginal para el canal seleccionado con indicadores para **[!UICONTROL Marginal break-even]** y **[!UICONTROL Return point]**. Esta visualización le ayuda a comprender cómo se gasta un canal al alcanzar un punto de equilibrio marginal. Y si tiene espacio para aumentar el gasto en un canal o si debe gastar menos en un canal para mejorar la eficiencia del gasto en el canal.
 
 ![Visualización de retorno de canal marginal](../assets/overview-plan-marginal-channel-return.png)
 
@@ -82,11 +91,11 @@ La tabla [!UICONTROL Date range breakdown] muestra datos granulares detallados p
 
 ## Editar plan
 
-1. Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
+Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**.
 
-   En la sección **[!UICONTROL Spend selection]**, para cada intervalo de fechas del presupuesto, use ![cheurón](/help/assets/icons/ChevronRight.svg) para abrir la vista de distribución de canal para ese intervalo de datos.
+1. En la sección **[!UICONTROL Spend selection]**, para cada intervalo de fechas del presupuesto, use ![cheurón](/help/assets/icons/ChevronRight.svg) para abrir la vista de distribución de canal para ese intervalo de datos.
 
-   Puede utilizar datos de referencia históricos si desea utilizar datos y perspectivas de gasto de marketing anteriores. Debe tener en cuenta los datos de referencia históricos en:
+   Puede utilizar datos de referencia históricos si desea utilizar datos y perspectivas de gasto de marketing anteriores. Considere los datos de referencia históricos en:
 
    - Mejore la asignación del presupuesto resaltando los canales de alto rendimiento y los canales con mal rendimiento.
    - Análisis de tendencias de soporte.
@@ -98,7 +107,7 @@ La tabla [!UICONTROL Date range breakdown] muestra datos granulares detallados p
 
    1. Seleccione el **[!UICONTROL Spend pattern]**.
 
-      - De manera predeterminada es **[!UICONTROL Automatic]**.
+      - La opción predeterminada es **[!UICONTROL Automatic]**.
       - Seleccione **[!UICONTROL Historical reference]** e introduzca un **[!UICONTROL Start date]** para hacer referencia a los datos de gastos de marketing anteriores que ya están disponibles para Mix Modeler. **[!UICONTROL End date]** se determina automáticamente en función del intervalo de datos seleccionado. La fecha de inicio propuesta es la primera vez que hay datos disponibles sobre el gasto en marketing anterior. Para indicar que ha seleccionado un período de referencia histórico no existente, verá ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 
@@ -108,65 +117,87 @@ La tabla [!UICONTROL Date range breakdown] muestra datos granulares detallados p
 
    1. Para editar los detalles de su plan, seleccione **[!UICONTROL Edit details]**:
 
-      1. En la sección **[!UICONTROL Setup]**, si corresponde, modifique **[!UICONTROL Plan name]** y **[!UICONTROL Description]**.
+      1. En la sección **[!UICONTROL Setup]**:
 
-      1. En la sección **[!UICONTROL Budget]**:
+         1. Escriba un **[!UICONTROL Plan name]**, por ejemplo `Demo plan`. Escriba un **[!UICONTROL Description]**, por ejemplo `Demo plan for Luma company`.
+         1. Seleccionar un(a) **[!UICONTROL Model]** de **[!UICONTROL _Seleccionar una opción.._.]**
 
-         1. Modifique **[!UICONTROL Date range]** para uno o más intervalos de fechas del plan, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
+            ![Configuración del plan](/help/assets/plan-setup.png)
 
-         1. Modifique **[!UICONTROL Budget]** para uno o más de los intervalos de fechas de su plan.
+      1. En la sección **[!UICONTROL Goal]**, seleccione el objetivo hacia el cual desea optimizar su plan. Puede seleccionar entre
+         - **[!UICONTROL I have a budget to spend]**
 
-         Para agregar intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+           ![Presupuesto del plan](../assets/plan-budget.png)
 
-         Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+           Esta opción le permite introducir presupuestos para uno o más intervalos de fechas.
 
-         Para definir un presupuesto máximo:
-
-         1. Activar **[!UICONTROL Maximize budget]**.
-         1. Especifique la cantidad de presupuesto máximo. La cantidad debe ser igual o superior a la cantidad total de presupuestos especificados para los intervalos de fechas.
-
-      1. Seleccione **[!UICONTROL Next]** para volver a la sección **[!UICONTROL Spend]**. Seleccione **[!UICONTROL Cancel]** para regresar a la descripción general de sus planes.
-
-         ![Detalles del plan](/help/assets/plan-details.png)
-
-   1. Si ha definido configuraciones avanzadas para su plan, seleccione **[!UICONTROL Next]**.
-
-      ![Editar configuración avanzada](../assets/edit-plan-advanced-configuration.png)
-
-      - Se resumen el nombre del plan, el modelo, el intervalo de fechas y el presupuesto total.
-
-      - De forma predeterminada, Mix Modeler calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
-
-         1. Para cada intervalo de fechas del presupuesto:
-            1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
-            1. Escriba un valor **[!UICONTROL Average revenue]**.
-
-         1. Seleccione ![Agregar círculo](/help/assets/icons/AddCircle.svg) Agregar ingresos promedio personalizados por unidad de conversión para agregar un intervalo de fechas.
-         1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
-
-        >[!NOTE]
-        >
-        >Si el modelo no incluye datos de ingresos históricos, debe definir un promedio de ingresos por conversión para cada intervalo de fechas especificado para el presupuesto.
-        >
-
-      - De forma predeterminada, Mix Modeler calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
-
-         1. Para cada canal del modelo, defina el coste de canal personalizado.
-            1. Seleccione un canal del menú desplegable **[!UICONTROL Channel]**.
-            1. Para cada intervalo de fechas del presupuesto:
-               1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
-               1. Escriba un valor **[!UICONTROL Average revenue]**.
-            1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** para agregar un intervalo de fechas.
-            1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
-
-         1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** para agregar un canal.
-         1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para quitar un canal personalizado.
+            1. En el contenedor **[!UICONTROL Optimize]**:
+               1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
+               1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
+            1. Especifique un **[!UICONTROL Date range]**, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
+            1. Escriba un **[!UICONTROL Budget]**.
+Para agregar intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+            1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
+               1. Activar **[!UICONTROL Maximize budget]**.
+               1. Especifique la cantidad del presupuesto máximo. El importe debe ser igual o superior al importe total de los presupuestos especificados para los intervalos de fechas.
 
 
-1. Cuando termine de editar su plan, seleccione **[!UICONTROL Edit]**.
+         - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
+
+           ![Destino del plan](../assets/plan-target.png)
+
+            1. En el contenedor **[!UICONTROL Optimize]**
+               1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
+               1. Seleccione una métrica de destino en el menú desplegable **[!UICONTROL Select target metric]**. Puede seleccionar entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
+               1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
+            1. Especifique un Intervalo de fechas, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
+            1. Introduzca un valor para la métrica de destino seleccionada. Por ejemplo, un número para **[!UICONTROL Conversion]**, un porcentaje para **[!UICONTROL ROI]** o valores de moneda para **[!UICONTROL CPA]** y **[!UICONTROL Revenue]**.
+Para agregar intervalos de fechas adicionales, cada uno con su métrica de destino, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+Para eliminar un intervalo de fechas y la métrica de destino asociada, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+            1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
+               1. Activar **[!UICONTROL Maximize budget]**.
+               1. Especifique la cantidad del presupuesto máximo.
+
+         1. Seleccione **[!UICONTROL Next]** para volver a la sección **[!UICONTROL Spend selection]**.
+
+1. En la sección **[!UICONTROL Advanced configuration]**:
+
+   ![Editar configuración avanzada](../assets/edit-plan-advanced-configuration.png)
+
+   - Se resumen el nombre del plan, el modelo, el intervalo de fechas y el presupuesto total.
+
+   - De forma predeterminada, Mix Modeler calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
+
+   1. Para cada intervalo de fechas del presupuesto:
+      1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
+      1. Escriba un valor **[!UICONTROL Average revenue]**.
+   1. Seleccione ![Agregar círculo](/help/assets/icons/AddCircle.svg) Agregar ingresos promedio personalizados por unidad de conversión para agregar un intervalo de fechas.
+   1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
+
+   >[!NOTE]
+   >
+   >Si el modelo no incluye datos de ingresos históricos, debe definir un promedio de ingresos por conversión para cada intervalo de fechas especificado para el presupuesto.
+   >
+
+   - De forma predeterminada, Mix Modeler calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
+
+   1. Para cada canal del modelo, defina el coste de canal personalizado.
+      1. Seleccione un canal del menú desplegable **[!UICONTROL Channel]**.
+      1. Para cada intervalo de fechas del presupuesto:
+         1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
+         1. Escriba un valor **[!UICONTROL Average revenue]**.
+      1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** para agregar un intervalo de fechas.
+      1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
+
+   1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** para agregar un canal.
+   1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para quitar un canal personalizado.
+
+
+1. Cuando haya terminado de editar su plan, seleccione **[!UICONTROL Edit]**.
 
    En el cuadro de diálogo **[!UICONTROL All changes are final]**, seleccione **[!UICONTROL OK]** para actualizar la asignación de gasto y las previsiones de retorno de la inversión e ingresos actuales del plan. Seleccione **[!UICONTROL Cancel]** para cancelar la actualización de su plan.
 
-1. Para cancelar las actualizaciones de su plan, seleccione **[!UICONTROL Cancel]**.
 
-   En el cuadro de diálogo **[!UICONTROL No work will be saved]**, seleccione **[!UICONTROL Cancel]** para continuar trabajando en su plan o seleccione **[!UICONTROL OK]** para regresar a la interfaz de Planes.
+- Para cancelar las actualizaciones de tu plan en cualquier momento, selecciona **[!UICONTROL Cancel]**. En el cuadro de diálogo **[!UICONTROL No work will be saved]**, seleccione **[!UICONTROL Cancel]** para continuar trabajando en su plan o seleccione **[!UICONTROL OK]** para regresar a la interfaz de Planes.
+- Para volver al asistente, seleccione **[!UICONTROL Back]**.

@@ -3,7 +3,7 @@ title: Panel de datos armonizado
 description: Aprenda a utilizar el tablero de información general de datos armonizado en Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Datos armonizados
 
-La ficha **[!UICONTROL Harmonized data]** del Mix Modeler ![Inicio](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona información sobre los datos armonizados que ha configurado para que se utilicen como parte de los datos ingeridos y de la configuración de datos armonizados.
+La ficha **[!UICONTROL Harmonized data]** de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona información sobre los datos armonizados que ha configurado para que se utilicen como parte de los datos ingeridos y de la configuración de datos armonizados.
 
 La descripción general muestra cuatro visualizaciones de la tarjeta de estado de KPI (fila superior) y otras seis visualizaciones configurables
 
@@ -22,7 +22,7 @@ Para cambiar el período de fecha de los datos que se mostrarán en las visualiz
 
 Puede filtrar los datos mostrados para todas las visualizaciones mediante el panel ![Filtrar](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]**.
 
-Seleccione uno o más filtros para cada categoría (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** y **[!UICONTROL Traffic Source]**).
+Seleccione uno o más filtros para cada categoría (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** y **[!UICONTROL Traffic Source]**).
 
 Los filtros seleccionados se muestran sobre las visualizaciones en **[!UICONTROL FILTERING BY:]**.
 

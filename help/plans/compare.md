@@ -3,16 +3,16 @@ title: Comparar planes
 description: Aprenda a comparar planes en Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
 # Comparar planes
 
-Para comparar planes en la interfaz de planes de Mix Modeler:
+Para comparar planes en la interfaz de Mix Modeler Plans:
 
 * Seleccione ![Comparar](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. En Comparar planes, seleccione un plan para cada **[!UICONTROL _Seleccionar plan_]**.
 
@@ -20,15 +20,15 @@ Para comparar planes en la interfaz de planes de Mix Modeler:
 
 La interfaz Comparar planes muestra información y visualizaciones sobre:
 
-* Plan
-* Intervalo de fechas
-* Modelo
-* Presupuesto total
-* Presupuestación de canal: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
-* Gasto planificado
-* ROI previsto (retorno de la inversión) o CPA (coste por acción)
-* Desglose del retorno de la inversión o del CPA (coste por acción)
-* Retorno previsto
+* **[!UICONTROL Plan]**. Si el plan es un plan basado en objetivos, verá un distintivo que muestra el estado del objetivo.
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** (retorno de la inversión) o **[!UICONTROL CPA]** (costo por acción)
+* Desglose de **[!UICONTROL ROI]** (retorno de la inversión) o **[!UICONTROL CPA]** (costo por acción)
+* **[!UICONTROL Forecasted return]**
 
 Mediante la cual:
 
