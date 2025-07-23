@@ -237,8 +237,8 @@ Para cada ruta de conversión, verá lo siguiente:
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de evaluación de modelo"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las predichas o residuales."
->additional-url="https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?learn=on&amp;enablevpops&captions=spa" text="Demostración de Mix Modeler"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Información general de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
