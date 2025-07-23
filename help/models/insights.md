@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Para cada ruta de conversión, verá lo siguiente:
 * la suma de estos porcentajes de contribución del modelo de atribución de canal.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-La pestaña Diagnóstico muestra visualizaciones para:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Gráficos de evaluación de modelo"
+>abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las predichas o residuales."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Información general de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demostración de Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Rutas tocadas"
+>abstract="Rutas tocadas es el porcentaje de rutas que consiguen conversión y el porcentaje de rutas que no consiguen conversión para cada punto de contacto."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Fecha del modelo a partir de"
+>abstract="Los datos de esta tabla solo se generan para periodos de tiempo específicos.  La fecha **[!UICONTROL As of]** indica cuándo se generaron los datos y se basa en los datos de startDate a endDate."
+
+
+La ficha **[!UICONTROL Diagnostics]** muestra visualizaciones para:
 
 * **[!UICONTROL Model Assessment]** visualizaciones, que constan de:
 
@@ -271,7 +292,7 @@ Para desglosar la visualización, seleccione una de las siguientes opciones en l
 
   ![Tabla de efectividad del punto de contacto](../assets/touchpoint-effectiveness.png)
 
-  Los datos de esta tabla solo se generan para periodos de tiempo específicos. Seleccione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Información](/help/assets/icons/InfoOutline.svg) para obtener más información.
+  Los datos de esta tabla solo se generan para periodos de tiempo específicos. Seleccione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obtener más información.
 
   La visualización muestra, en orden descendente de [!UICONTROL Efficiency measure] ![Orden descendente](/help/assets/icons/SortOrderDown.svg), para cada punto de contacto:
 
