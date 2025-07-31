@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Las pestañas disponibles son las siguientes:
 * [Datos del modelo](#model-insights)
 * [Factores](#factors-beta) [!BADGE beta]
 * [Atribución](#attribution) (solo para modelos con MTA habilitado)
-* [Diagnóstico](#diagnostics)
+* [Diagnósticos](#diagnostics)
 * [Información general histórica](#historical-overview).
 
 Puede cambiar el periodo de fecha en el que se basan las visualizaciones de cada una de las pestañas. Escriba un período de fecha o seleccione ![Calendario](/help/assets/icons/Calendar.svg) para elegir un período de fecha.
@@ -235,16 +235,16 @@ Para cada ruta de conversión, verá lo siguiente:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
->title="Gráficos de evaluación de modelo"
->abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las predichas o residuales."
->additional-url="https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?learn=on&enablevpops&captions=spa" text="Demostración de Mix Modeler"
+>title="Gráficos de evaluación de modelos"
+>abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
+>additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
->title="Rutas tocadas"
->abstract="Rutas tocadas es el porcentaje de rutas que consiguen conversión y el porcentaje de rutas que no consiguen conversión para cada punto de contacto."
+>title="Rutas contactadas"
+>abstract="Rutas contactadas es el porcentaje de rutas que consiguen la conversión y el porcentaje de rutas que no consiguen la conversión para cada punto de contacto."
 
 
 >[!CONTEXTUALHELP]

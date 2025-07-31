@@ -6,7 +6,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
 >title="Punto de contacto de marketing"
->abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individual o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos."
+>abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individuales o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos."
 
 
-Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individual o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.
+Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individuales o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.
 
 Puede definir puntos de contacto de marketing para ayudarle en el análisis de atribución.
 
@@ -58,7 +58,7 @@ Para agregar un punto de contacto de marketing, en la interfaz ![DataSearch](/he
 
       1. Seleccione un valor para el operador ![Chevron](/help/assets/icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
 
-      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**&#x200B;o escriba un valor, por ejemplo **[!DNL Luma]**.
+      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o escriba un valor, por ejemplo **[!DNL Luma]**.
 
    1. Seleccione un campo armonizado de **[!UICONTROL Touchpoint volume]**, por ejemplo **[!UICONTROL Impressions]**.
 
