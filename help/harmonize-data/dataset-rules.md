@@ -3,16 +3,16 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
 
 # Reglas de conjuntos de datos
 
-Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con campos de los datos introducidos en Mix Modeler.
+Las reglas del conjunto de datos le ayudan a asignar los campos armonizados con los campos de los datos introducidos en Mix Modeler.
 
 * Para los datos agregados que ha introducido en Adobe Experience Platform, asigne uno o más de los campos de conjunto de datos disponibles a los campos armonizados correspondientes.
 * Para los datos de evento, puede asignar individualmente uno o más campos armonizados a campos del conjunto de datos, directamente o mediante condiciones.
@@ -20,7 +20,7 @@ Las reglas de conjuntos de datos le ayudan a asignar los campos armonizados con 
 
 ## Administrar reglas de conjuntos de datos
 
-Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interfaz del Mix Modeler:
+Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interfaz de Mix Modeler:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
@@ -42,7 +42,7 @@ Las columnas de la tabla especifican detalles sobre las reglas del conjunto de d
 
 ### Crear una regla de conjunto de datos
 
-Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
+Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
 
 En la pantalla **[!UICONTROL Create]**,
 
@@ -52,19 +52,7 @@ En la pantalla **[!UICONTROL Create]**,
 
 1. Seleccione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
-1. Cuando haya seleccionado un conjunto de datos de la categoría **[!UICONTROL Summary]**:
-
-   1. Para definir si los datos del conjunto de datos agregan o reemplazan datos existentes, seleccione **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
-
-   1. Asigne cada uno de los(as) **[!UICONTROL Available dataset fields]** a los(as) **[!UICONTROL Standard harmonized fields]** correspondientes en **[!UICONTROL Map to harmonized fields]**. Si no desea asignar un campo de conjunto de datos a un campo armonizado, seleccione explícitamente **[!UICONTROL -- None --]**.
-
-   1. Si necesita un nuevo campo armonizado, no disponible en la lista, seleccione **[!UICONTROL Create New]** para crear un nuevo campo armonizado. Verá el cuadro de diálogo como se describe en [Agregar un nuevo campo armonizado](fields.md#add-a-harmonized-field).
-
-   1. Cuando finalice la asignación de todos los campos de la regla, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración de regla.
-
-      ![Crear reglas de conjuntos de datos](/help/assets/dataset-create-summary.png)
-
-1. Cuando haya seleccionado un conjunto de datos de categoría de evento (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), en el cuadro debajo de **[!UICONTROL Map to harmonized fields]**:
+1. En la sección **[!UICONTROL Map to harmonized fields]**:
 
    1. Seleccionar un campo armonizado de **[!UICONTROL Standard harmonized field]**.
 
@@ -72,17 +60,17 @@ En la pantalla **[!UICONTROL Create]**,
 
       1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee asignar el campo armonizado de forma predeterminada.
+      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**al que desee que se asigne el campo armonizado de forma predeterminada.
 
    1. Cuando el campo seleccionado es de tipo dimensión:
 
       1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**, y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico de **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
+         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**que sea **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valor introducido en**[!UICONTROL * Introducir valor de entrada *]**.
 
          1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -103,14 +91,29 @@ En la pantalla **[!UICONTROL Create]**,
 
         ![Evento de regla de conjunto de datos](/help/assets/dataset-create-event.png)
 
+      Al asignar un campo armonizado estándar desde un conjunto de datos de resumen, Mix Modeler intenta deducir el campo del conjunto de datos de Experience Platform correspondiente. Si se realiza correctamente:
+
+      * Si el campo es de tipo dimensión, **[!UICONTROL Map into]** está seleccionado como **[!UICONTROL Mapping type]**.
+      * Si el campo es del tipo métrica, **[!UICONTROL Sum]** está seleccionado como **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** está seleccionado como tipo de asignación **[!UICONTROL Default]**.
+      * El campo del conjunto de datos de Experience Platform correspondiente se inserta automáticamente para *Campo del conjunto de datos de AEP*.
+
+      Puede cambiar cualquiera de los valores propuestos si estos son incorrectos o no admiten su caso de uso específico.
+
 1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionales.
 
 Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versión de borrador de la regla o **[!UICONTROL Save]** para guardar y activar la regla. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración de regla.
 
+>[!NOTE]
+>
+>La experiencia **[!UICONTROL Map to harmonized fields]** dedicada para las reglas de conjuntos de datos de resumen está en desuso. Todos los conjuntos de datos utilizan ahora la misma experiencia **[!UICONTROL Map to harmonized fields]** genérica. Para los conjuntos de datos de resumen para los que ha definido reglas utilizando la experiencia **[!UICONTROL Map to harmonized fields]** obsoleta, es posible que desee comprobar estas reglas con la experiencia **[!UICONTROL Map to harmonized field]** genérica.
+>
+
+
 
 ### Editar una regla de conjunto de datos
 
-Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
+Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee editar.
 1. En el menú contextual, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para comenzar a editar la regla del conjunto de datos. Consulte [Crear una regla de conjunto de datos](#create-a-dataset-rule) para obtener más información.
@@ -118,10 +121,11 @@ Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/
 
 ### Eliminar una regla del conjunto de datos
 
-Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** del Mix Modeler:
+Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee eliminar.
 1. En el menú contextual, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar la regla del conjunto de datos. Se le pedirá confirmación. Seleccione **[!UICONTROL Delete]** para eliminar de forma permanente la regla del conjunto de datos seleccionado.
+
 
 
 ## Sincronizar datos
@@ -144,7 +148,7 @@ Para sincronizar datos entre los datos armonizados y los conjuntos de datos de r
 
 >[!NOTE]
 >
->[!BADGE beta]{type=Informative}
+>[!BADGE beta]{type=Informative} Las preferencias de combinación de datos son una característica beta y su funcionalidad está sujeta a cambios.
 
 Para garantizar predicciones de modelos precisas, puede definir las preferencias de combinación de datos. Esta funcionalidad permite a los usuarios resolver cualquier conflicto después de combinar los datos de nivel de resumen y de nivel de evento.
 
@@ -170,7 +174,7 @@ Para configurar las preferencias de combinación:
 
 1. Seleccionar ![preferencias de combinación de datos](/help/assets/icons/Merge.svg) [!BADGE beta].
 
-1. En la **[!UICONTROL Data merge preferences]** [!BADGE versión beta]{type=Informative}
+1. En el diálogo **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}:
 
    ![Preferencias de combinación de datos](/help/assets/data-merge-preferences.png)
 
