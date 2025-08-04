@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,14 @@ En la pantalla **[!UICONTROL Create]**,
 
 1. Seleccione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
+1. Cuando haya seleccionado un conjunto de datos de la categoría **[!UICONTROL Summary]**, seleccione **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
+
+   Los datos de informes de los editores son muy importantes para los analistas de marketing, ya que trabajar con editores suele implicar un gasto significativo y los cambios en los datos de informes pueden dar como resultado perspectivas y planes de inversión muy diferentes. Además, los analistas de marketing necesitan datos precisos para obtener las perspectivas correctas y presentar propuestas convincentes para ganar la confianza de los interesados. Sin embargo, estos editores, como Google y Facebook, suelen reiterar o eliminar los datos de los informes a medida que concilian sus datos. El lapso de tiempo para la mayoría de los cambios es de 7 días desde el rendimiento de los medios informado. Es posible realizar cambios adicionales en los datos en un plazo de 30 días. En general, después de 30 días, los libros se consideran cerrados y los datos completos.
+
+   Mix Modeler admite la reafirmación de datos. Garantizar que los datos utilizados para la creación de informes, el modelado y la planificación sean precisos. Y que los datos puedan satisfacer las expectativas y necesidades de los analistas de marketing y de marca.
+
+   Puede enviar filas restauradas de datos de resumen como filas incrementales en un conjunto de datos de Experience Platform y el servicio de armonización actualiza el conjunto de datos armonizado con esos datos restaurados. Del mismo modo, también puede eliminar filas de datos de resumen que deban reflejarse en el servicio de armonización.
+
 1. En la sección **[!UICONTROL Map to harmonized fields]**:
 
    1. Seleccionar un campo armonizado de **[!UICONTROL Standard harmonized field]**.
@@ -60,17 +68,17 @@ En la pantalla **[!UICONTROL Create]**,
 
       1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee que se asigne el campo armonizado de forma predeterminada.
+      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**al que desee que se asigne el campo armonizado de forma predeterminada.
 
    1. Cuando el campo seleccionado es de tipo dimensión:
 
       1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
+         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**que sea **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valor introducido en**[!UICONTROL * Introducir valor de entrada *]**.
 
          1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
