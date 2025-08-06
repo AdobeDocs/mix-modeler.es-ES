@@ -3,9 +3,9 @@ title: Reglas de conjuntos de datos
 description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -68,17 +68,17 @@ En la pantalla **[!UICONTROL Create]**,
 
       1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee que se asigne el campo armonizado de forma predeterminada.
+      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**al que desee que se asigne el campo armonizado de forma predeterminada.
 
    1. Cuando el campo seleccionado es de tipo dimensión:
 
       1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
+         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**que sea **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valor introducido en**[!UICONTROL * Introducir valor de entrada *]**.
 
          1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -114,7 +114,7 @@ Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versi
 
 >[!NOTE]
 >
->La experiencia **[!UICONTROL Map to harmonized fields]** dedicada para las reglas de conjuntos de datos de resumen está en desuso. Todos los conjuntos de datos utilizan ahora la misma experiencia **[!UICONTROL Map to harmonized fields]** genérica. Para los conjuntos de datos de resumen para los que ha definido reglas utilizando la experiencia **[!UICONTROL Map to harmonized fields]** obsoleta, es posible que desee comprobar estas reglas con la experiencia **[!UICONTROL Map to harmonized field]** genérica.
+>La experiencia **[!UICONTROL Map to harmonized fields]** dedicada para las reglas de conjuntos de datos de resumen está en desuso. Todas las reglas del conjunto de datos ahora utilizan una experiencia **[!UICONTROL Map to harmonized fields]** similar, independientemente del tipo de conjunto de datos. Para los conjuntos de datos de resumen para los que ha definido reglas utilizando la experiencia **[!UICONTROL Map to harmonized fields]** obsoleta, es posible que desee comprobar estas reglas con la experiencia **[!UICONTROL Map to harmonized field]** genérica.
 >
 
 
