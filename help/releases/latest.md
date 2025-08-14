@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 5%
@@ -56,7 +56,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 ## Estrategia de lanzamiento
 
-[!UICONTROL Mixx Modeler] usa indicadores de características (también conocidos como &quot;alternadores&quot;) para controlar la visibilidad de las nuevas características, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
+[!UICONTROL Mix Modeler] usa indicadores de características (también conocidos como &quot;alternadores&quot;) para controlar la visibilidad de las nuevas características, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
 * **Pruebas limitadas**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
 
