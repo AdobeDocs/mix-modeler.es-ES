@@ -3,9 +3,9 @@ title: Comparar planes
 description: Aprenda a comparar planes en Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ La interfaz Comparar planes muestra información y visualizaciones sobre:
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (retorno de la inversión) o **[!UICONTROL CPA]** (costo por acción)
+   * El ROI previsto es el ROI general del plan (incluido los ingresos incrementales de los canales base y de los canales que no son de gasto).
+   * El CPA previsto es el CPA general del plan.
 * **[!UICONTROL Paid marketing ROI]** (retorno de la inversión) o **[!UICONTROL CPA]** (costo por acción)
+   * El ROI de marketing de pago es el ROI solo de los canales de pago del plan.
+   * La CPA de marketing de pago es la CPA de solo los canales de pago del plan.
 * **[!UICONTROL ROI]** (retorno de la inversión) o **[!UICONTROL CPA]** (costo por acción) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ Mediante la cual:
 
 * El retorno de la inversión se define como (ingresos incrementales - gasto) / Gasto.
 * CPA se define como Gasto/Conversión incremental.
-* La previsión se define como la inclusión de canales base y no de gasto.
-* El marketing de pago se define como solo específico para canales de marketing de pago.
 
 
 ![Comparar planes](/help/assets/compare-plans.png)
