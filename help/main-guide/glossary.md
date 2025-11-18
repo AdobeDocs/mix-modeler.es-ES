@@ -3,7 +3,7 @@ title: Glosario de Mix Modeler
 description: Glosario de Mix Modeler.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 exl-id: e002a0c0-71a4-418e-90c4-819649433a7d
-source-git-commit: e47c1948b9c07ee73cfb82efa0b94a62ebc9d3f5
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%

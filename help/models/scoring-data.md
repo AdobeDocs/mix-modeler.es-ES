@@ -3,7 +3,7 @@ title: Usar datos de puntuación
 description: Descubra cómo se mantienen los datos de puntuación de un modelo en Mix Modeler.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 6%

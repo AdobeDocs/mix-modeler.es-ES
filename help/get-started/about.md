@@ -1,17 +1,17 @@
 ---
-title: Información general de Mix Modeler
+title: Información general sobre Mix Modeler
 description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 short-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Información general de Mix Modeler
+# Información general sobre Mix Modeler
 
 Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
 
@@ -86,7 +86,7 @@ Puede utilizar la capacidad de atribución multitáctil de Mix Modeler en los si
 
 * Asignación de presupuesto de campaña: informa las decisiones de asignación de presupuesto en los canales de marketing.
 * Optimización de campañas: dentro de cada canal, es necesario comprender qué campañas, creativos y palabras clave funcionan mejor para qué SKU o geos. Esta comprensión le permite ver cada canal para que el equipo de marketing pueda optimizar sus tácticas.
-* Atribución a nivel de evento de canal completo: Comprenda el impacto del marketing en todo el recorrido del cliente. Por ejemplo, registro gratuito en la cuenta para la conversión de pago y más allá.
+* Atribución a nivel de evento de funnel completo: Comprenda el impacto del marketing en todo el recorrido del cliente. Por ejemplo, registro gratuito en la cuenta para la conversión de pago y más allá.
 * Evaluaciones de los asociados: Evaluar la eficacia de los organismos y los asociados, sobre la base de los resultados de atribución.
 
 Consulte [Información del modelo - Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución multitáctil en Mix Modeler.

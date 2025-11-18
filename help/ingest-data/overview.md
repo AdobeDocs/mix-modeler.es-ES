@@ -3,7 +3,7 @@ title: Resumen de ingesta de datos
 description: Obtenga información sobre cómo introducir datos en Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Por ejemplo:
 * Datos agregados o resumidos de jardines amurallados (como Facebook, YouTube), fuentes de tráfico o datos de publicidad sin conexión.
 * Datos acumulados o resumidos no relacionados con el marketing que contienen factores internos o externos que son útiles para la creación de modelos.
 
-Puede utilizar cualquier tipo de mecanismo, compatible con Experience Platform, para introducir datos de esfuerzo de marketing agregado, nivel de evento de experiencia y datos de otras fuentes. Como los SDK de Experience Platform, las API, los conectores de origen y la transmisión y la ingesta por lotes. Para obtener más información sobre cómo ingerir los datos en Experience Platform para usarlos en Adobe Mix Modeler, consulte la [descripción general de la ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home).
+Puede utilizar cualquier tipo de mecanismo, compatible con Experience Platform, para introducir datos de esfuerzo de marketing agregado, nivel de evento de experiencia y datos de otras fuentes. Como los SDK de Experience Platform, las API, los conectores de origen y la transmisión y la ingesta por lotes. Para obtener más información sobre cómo ingerir los datos en Experience Platform para usarlos en Adobe Mix Modeler, consulte la [descripción general de la ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Directrices
 
@@ -89,7 +89,7 @@ Para validar si los datos están disponibles correctamente en Mix Modeler, puede
 * Use visualizaciones en [Información general](/help/overview.md).
 * Descargue e inspeccione datos de [datos armonizados](/help/harmonize-data/overview.md) en conjuntos de datos armonizados.
 
-Para comprobar si los datos se han introducido correctamente en Experience Platform, puede [escribir y ejecutar consultas SQL mediante el servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/home).
+Para comprobar si los datos se han introducido correctamente en Experience Platform, puede [escribir y ejecutar consultas SQL mediante el servicio de consultas de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

@@ -1,16 +1,16 @@
 ---
-title: Casos de uso del Mix Modeler
-description: Casos de uso del Mix Modeler.
+title: Casos de uso de Mix Modeler
+description: Casos de uso de Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Casos de uso del Mix Modeler
+# Casos de uso de Mix Modeler
 
 Mix Modeler habilita los siguientes casos de uso clave.
 
@@ -34,7 +34,7 @@ El método basado en pasos para este caso de uso es:
 
 | Etapa | Detalles |
 |---|---|
-| Ingesta | Identificar e introducir fuentes de datos en esquemas comunes. <br/>Aplique las inversiones existentes en Adobe Analytics o Customer Journey Analytics para una implementación rápida. |
+| Ingesta | Identificar e introducir fuentes de datos en esquemas comunes. <br/>Aplique las inversiones existentes en Adobe Analytics o Customer Journey Analytics para acelerar la implementación. |
 | Configurar | Configure modelos flexibles usando un marco de trabajo AI-as-a-Service para sus objetivos empresariales específicos<br/>Garantice automáticamente la coherencia entre el punto de contacto y el nivel de resumen con aprendizaje de transferencia bidireccional. |
 | Analizar | Comprenda claramente el ROI del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## Activar perspectivas tácticas en aplicaciones de Adobe
+## Activación de perspectivas tácticas en aplicaciones de Adobe
 
 Este caso de uso le ayuda a obtener perspectivas incrementales estratégicas sobre los segmentos y recorridos de los clientes mediante el acceso a las puntuaciones de puntos de contacto.
 
@@ -154,8 +154,8 @@ El método basado en pasos para este caso de uso es:
 | Etapa | Detalles |
 |---|---|
 | Modelo | Configure y entrene un modelo AI/ML para obtener puntuaciones de puntos de contacto de MTA coherentes y resultados acumulados de MMM. |
-| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de BI Customer Journey Analytics o externas.<br/>Realizar análisis granular y crear paneles avanzados mediante puntuaciones de punto de contacto. |
-| Acción | Cree y active similitudes con los segmentos de consumidores principales mediante Real-time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para campañas futuras. |
+| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de Customer Journey Analytics o BI externas.<br/>Realizar análisis granular y crear paneles avanzados mediante puntuaciones de punto de contacto. |
+| Acción | Cree y active similitudes con los segmentos de consumidores principales mediante Real-Time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para campañas futuras. |
 
 {style="table-layout:auto"}
 
