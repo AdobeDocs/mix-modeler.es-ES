@@ -3,9 +3,9 @@ title: Perspectivas del plan
 description: Obtenga información sobre cómo ver información sobre su plan y editar un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Cuando se crean las perspectivas, verá una descripción general de su plan, que
 
 Para cerrar la interfaz, seleccione **[!UICONTROL Close]**.
 
-Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** en **[!UICONTROL View ROI]**.
+Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** en **[!UICONTROL View ROI]**.
 
 ## Gasto previsto en el canal de pago y ROI
 
@@ -72,6 +72,13 @@ Esta visualización de gráfico de líneas muestra una curva de retorno marginal
 
 Para seleccionar un canal específico para la visualización, seleccione un canal del menú desplegable **[!UICONTROL View]**.
 
+## Sinergias de canal
+
+La matriz de sinergias de canal le ayuda a identificar cómo interactúan los canales de marketing para crear efectos multiplicativos, más allá de sus contribuciones individuales.
+
+![Planificar sinergias de canales](/help/assets/plan-channel-synergies.png)
+
+Para descargar un archivo CSV que represente la matriz, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Desglose del intervalo de fechas
 
