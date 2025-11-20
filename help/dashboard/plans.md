@@ -3,7 +3,7 @@ title: Rendimiento para planificar
 description: Aprenda a utilizar la información general Rendimiento para planificar en Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La ficha **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** es una característica beta y su funcionalidad está sujeta a cambios. La función está disponible para un número limitado de clientes.
+>La ficha **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** es una característica beta y su funcionalidad está sujeta a cambios. La función está disponible para un número limitado de clientes.
 
 La ficha **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona un panel de seguimiento para supervisar el rendimiento de su marketing con respecto al plan. Puede realizar un seguimiento del rendimiento real en comparación con el rendimiento planificado mediante tarjetas de estado y visualizaciones.
 
