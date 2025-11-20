@@ -41,7 +41,7 @@ Cuando se crean las perspectivas, verá una descripción general de su plan, que
 
 Para cerrar la interfaz, seleccione **[!UICONTROL Close]**.
 
-Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL  %]** en **[!UICONTROL View ROI]**.
+Para cambiar la forma de ver el ROI de su plan, seleccione **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** en **[!UICONTROL View ROI]**.
 
 ## Gasto previsto en el canal de pago y ROI
 
