@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
+source-git-commit: cfdab6820423f1c5a01ecac52796414cde9a9935
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 6%
@@ -43,7 +43,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | La interfaz de usuario de [Comparar planes](/help/plans/compare.md) ahora muestra detalles adicionales para el marketing de pago: ROI o CPA, e ingresos. | 20 de agosto de 2025 | 20 de agosto de 2025 |
 | **Actualizaciones de armonización** | Todas las reglas de conjuntos de datos ahora usan un mapa [genérico similar a la experiencia de campos armonizados](/help/harmonize-data/dataset-rules.md), independientemente del tipo de conjunto de datos. Al asignar un campo armonizado estándar desde un conjunto de datos de resumen, Mix Modeler intenta deducir automáticamente el campo del conjunto de datos de Experience Platform correspondiente. | miércoles, 29 de julio de 2025 | miércoles, 29 de julio de 2025 |
-| **Optimización de CPA/ROI marginal de panel mejorado** | Permite mejorar la forma en que se distribuyen los presupuestos de marketing a lo largo del tiempo. En lugar de converger el ROI/CPA marginal en todo el período de planificación, puedes [optimizar en todos los meses](/help/plans/build.md) al tiempo que preservas los patrones de gasto mensual. | miércoles, 08 de julio de 2025 | miércoles, 08 de julio de 2025 |
+| **Optimización marginal del ROI/CPA del plan mejorado** | Permite mejorar la forma en que se distribuyen los presupuestos de marketing a lo largo del tiempo. En lugar de converger el ROI/CPA marginal en todo el período de planificación, puedes [optimizar en todos los meses](/help/plans/build.md) al tiempo que preservas los patrones de gasto mensual. | miércoles, 08 de julio de 2025 | miércoles, 08 de julio de 2025 |
 
 
 ## Mayo a junio de 2025
