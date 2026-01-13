@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para crear un plan, utilice el asistente de creación de planes de Mix Modeler. 
 
 Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
 
-1. Seleccione ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** en el carril izquierdo.
+1. Seleccione ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** en el carril izquierdo.
 
 1. Verá una tabla de los planes actuales y su estado.
 
@@ -63,6 +63,10 @@ Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
 
    Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para seleccionar ![Marca de verificación](/help/assets/icons/Checkmark.svg) las columnas que se mostrarán en la tabla.
 
+   Para ordenar la tabla en cualquier columna en orden ascendente ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) o descendente ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, seleccione el título de la columna.
+
+   Para ordenar o cambiar el tamaño de la columna **[!UICONTROL Name]**, **[!UICONTROL Model]** o **[!UICONTROL Date range]**, seleccione **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg), **[!UICONTROL Model]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) o **[!UICONTROL Date range]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). En el menú contextual, seleccione **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. Como alternativa, puede situarse sobre el separador de columnas de estas columnas para cambiar el tamaño de una columna.
+
 1. Use ![Buscar](/help/assets/icons/Search.svg) para buscar y filtrar la tabla de uno o más planes específicos.
 
 ### Perspectivas del plan
@@ -83,7 +87,7 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)] (_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
+Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
 
 - Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
 - Las restricciones presupuestarias del plan original se copian en el plan recién creado.
@@ -114,6 +118,6 @@ Para eliminar varios planes:
 
 1. Seleccione varios planes.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los planes.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**&#x200B;para eliminar los planes. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**para eliminar los planes. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
 

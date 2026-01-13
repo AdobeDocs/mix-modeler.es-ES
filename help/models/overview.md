@@ -3,9 +3,9 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
+source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Para generar un modelo, use el flujo de configuración del modelo guiado paso a 
 
 Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
 
-1. Seleccione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en el carril izquierdo.
+1. Seleccione ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** del carril izquierdo.
 
 1. Verá una tabla de los modelos actuales.
 
@@ -54,10 +54,13 @@ Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
    | **[!UICONTROL Name]** | Nombre del modelo |
    | **[!UICONTROL Description]** | Descripción del modelo |
    | **[!UICONTROL Conversion event]** | La conversión que ha seleccionado para el modelo. |
-   | **[!UICONTROL Run frequency]** | Frecuencia de ejecución del aprendizaje del modelo. |
+   | Frecuencia **[!UICONTROL Run]** | Frecuencia de ejecución del aprendizaje del modelo. |
    | **[!UICONTROL Last run]** | La fecha y hora de la última formación del modelo. |
    | **[!UICONTROL Status]** | El estado del modelo. |
 
+   Para ordenar la tabla en cualquier columna en orden ascendente ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) o descendente ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, seleccione el título de la columna.
+
+   Para ordenar o cambiar el tamaño de la columna **[!UICONTROL Name]**, seleccione **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). En el menú contextual, seleccione **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. También puede situarse sobre el separador de columnas para cambiar el tamaño de la columna **[!UICONTROL Name]**.
 
    El estado del modelo del que se informa depende de dónde se encuentre un modelo dentro de su ciclo de vida. Por ejemplo, si un modelo se ha creado, si se ha vuelto a entrenar correctamente o no, o si se ha marcado o no correctamente.
 
@@ -119,7 +122,7 @@ Puede duplicar rápidamente un modelo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
-Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)] (_n_)**.
+Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -171,5 +174,5 @@ Para eliminar varios modelos:
 
 1. Seleccione varios modelos.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**&#x200B;para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
