@@ -3,10 +3,10 @@ title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para la ingesta de datos en Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
+source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Para administrar esquemas compatibles con los datos que desea introducir en Expe
 
 1. Seleccione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) para obtener más información.
+Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
 
 ## Datos agregados o resumidos
 
@@ -69,10 +69,26 @@ Vea a continuación un ejemplo más completo de un(a) **[!DNL LumaPaidMarketingS
 
 Dada la naturaleza asíncrona de la ingesta de perfiles, al recopilar datos acumulados o resumidos de fuentes externas, se recomienda utilizar el grupo de campos Detalles de auditoría del sistema de Source externo como parte de un esquema. Este grupo de campos define un conjunto de propiedades de auditoría para orígenes externos.
 
+## Grupo de campos Campos estándar de factor
+
+Para su comodidad, Experience Platform admite un grupo de campos Campos de estándar de factores específico para datos de factores internos y externos que a menudo forman parte de datos de factores resumidos, internos o externos. Este grupo de campos define los campos siguientes:
+
+| Nombre para mostrar del campo | Nombre de campo | Tipo de campo | Tipo de datos | Requerido | Descripción |
+|---|---|---|---|:-:|---|
+| Nombre de factor | factorName | Dimensión | Cadena | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | El nombre del factor |
+| Valor de factor | factorValue | Métrica | Doble | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | El valor del factor |
+| Tipo de factor | factorType | Dimensión | Cadena (Enumeración) | | El tipo de factor.<br/>Los valores posibles son: <ul><li>Interno (factor interno)</li><li>Externo (factor externo)</li></ul> |
+| Tipo de valor | valueType | Dimensión | Cadena (Enumeración) | | Los valores posibles son:<ul><li>Real (valor real)</li><li>Previsto (valor previsto)</li></ul>Si no hay ningún valor, Real es el valor predeterminado. |
+| Granularidad | granularidad | Dimensión | Cadena (Enumeración) | | Los valores posibles son:<ul><li>Diario</li><li>Semanalmente</li><li>Mensual</li></ul> |
+
+Un resumen, un factor interno o un conjunto de datos de factor externo puede basarse en:
+
+- Esquema que **utiliza** el grupo Campos estándar de factor. Este conjunto de datos se muestra como un conjunto de datos **[!UICONTROL Factors]** al configurar las reglas del conjunto de datos. Y los campos armonizados que defina, como parte de las reglas del conjunto de datos para el conjunto de datos, están disponibles como factores al crear un modelo.
+- Esquema que **no usa** el grupo Campos estándar de factor. Este conjunto de datos se muestra como un conjunto de datos **[!UICONTROL Summary]** al configurar las reglas del conjunto de datos. El conjunto de datos está configurado como datos de resumen y no influye en los datos armonizados.
 
 ## Tipos de datos admitidos
 
-Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#data-type):
+Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Cadena
 - Entero

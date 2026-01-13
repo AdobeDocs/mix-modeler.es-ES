@@ -3,9 +3,9 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -51,14 +51,13 @@ Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
 
    | Nombre de columna | Detalles |
    |---|---|
-   | Nombre | Nombre del modelo |
-   | Descripción | Descripción del modelo |
-   | Evento de conversión | La conversión que ha seleccionado para el modelo. |
-   | Frecuencia de ejecución | Frecuencia de ejecución del aprendizaje del modelo. |
-   | Última ejecución | La fecha y hora de la última formación del modelo. |
-   | Estado | El estado del modelo. |
+   | **[!UICONTROL Name]** | Nombre del modelo |
+   | **[!UICONTROL Description]** | Descripción del modelo |
+   | **[!UICONTROL Conversion event]** | La conversión que ha seleccionado para el modelo. |
+   | **[!UICONTROL Run frequency]** | Frecuencia de ejecución del aprendizaje del modelo. |
+   | **[!UICONTROL Last run]** | La fecha y hora de la última formación del modelo. |
+   | **[!UICONTROL Status]** | El estado del modelo. |
 
-   {style="table-layout:auto"}
 
    El estado del modelo del que se informa depende de dónde se encuentre un modelo dentro de su ciclo de vida. Por ejemplo, si un modelo se ha creado, si se ha vuelto a entrenar correctamente o no, o si se ha marcado o no correctamente.
 
@@ -120,7 +119,7 @@ Puede duplicar rápidamente un modelo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
-Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)] (_n_)**.
+Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -172,5 +171,5 @@ Para eliminar varios modelos:
 
 1. Seleccione varios modelos.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**&#x200B;para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
