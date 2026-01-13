@@ -18,7 +18,7 @@ Para administrar esquemas compatibles con los datos que desea introducir en Expe
 
 1. Seleccione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
+Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) para obtener más información.
 
 ## Datos agregados o resumidos
 
@@ -88,7 +88,7 @@ Un resumen, un factor interno o un conjunto de datos de factor externo puede bas
 
 ## Tipos de datos admitidos
 
-Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
+Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#data-type):
 
 - Cadena
 - Entero
