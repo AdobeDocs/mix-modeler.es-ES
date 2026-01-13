@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2499'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ A continuación, estas perspectivas le ayudan a admitir la priorización y asign
 
 Para ver la información del modelo, en la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler:
 
-1. En la tabla **[!UICONTROL Models]**, seleccione el nombre de un modelo que tenga **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. En la tabla **[!UICONTROL Models]**, seleccione el nombre de un modelo que tenga **[!UICONTROL Last run status]** de ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. En el menú contextual, seleccione **[!UICONTROL Model Insights]**.
 
@@ -60,7 +60,7 @@ La pestaña Información del modelo muestra visualizaciones para [Contribución 
 * Para descargar datos completos de información del modelo en formato Microsoft® Excel, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contribución por fecha y medios base.
+### Contribución por fecha y medios base
 
 Esta visualización de gráficos apilados se ordena de la siguiente manera:
 
@@ -74,11 +74,11 @@ Esta visualización representa la proporción de contribución conseguida por ba
 
 Una visualización de anillo que muestra una distribución de la contribución por varios canales. Esta visualización muestra la incrementalidad a través del lente de los tres canales con mejor rendimiento (excluyendo las categorías base y *All other*). La visualización ayuda a admitir la priorización y la asignación de presupuesto.
 
-### Resumen de rendimiento de marketing.
+### Resumen de rendimiento de marketing
 
 Una visualización de gráfico de barras horizontales que muestra el rendimiento de la inversión o de la CPA de cada uno de los canales. Esta visualización resalta el ROI/CPA de sus inversiones de marketing. Los canales se clasifican en orden descendente según el ROI/CPA. La visualización ayuda a identificar qué canales son los más efectivos y cuáles podrían necesitar optimización.
 
-### Curvas de respuesta marginales.
+### Curvas de respuesta marginal
 
 El gráfico de líneas visualiza y compara los retornos marginales generados por la inversión en sus canales de marketing.  E identifica el punto de gasto actual y el punto de equilibrio marginal (donde el retorno incremental es menor que el gasto incremental). Como resultado, esta visualización le ayuda a comprender cuándo la inversión en marketing empieza a tener menos impacto.
 
@@ -258,7 +258,7 @@ Para cada ruta de conversión, verá lo siguiente:
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]

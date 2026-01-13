@@ -4,74 +4,29 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cfdab6820423f1c5a01ecac52796414cde9a9935
+source-git-commit: f4755b5b83c50c1a0c63839854954154d0b141c1
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 6%
+source-wordcount: '281'
+ht-degree: 4%
 
 ---
 
 # Notas de la versión actuales de Mix Modeler
 
-**Última actualización**: 12 de noviembre de 2025.
+**Última actualización**: 13 de enero de 2026.
 
 Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
 
 
 
-## Noviembre de 2025
+## Enero de 2026
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Plans tracking]** | Permita que los usuarios entiendan cómo se ejecuta los planes de marketing en función de lo que se ha planificado. Así que puede sentirse seguro del rendimiento del marketing. O identifique las oportunidades y los riesgos antes para corregir el curso y lograr los objetivos comerciales. Se ha actualizado [Rendimiento para planificar las visualizaciones](/help/dashboard/plans.md#performance-to-plan) y permite la configuración de las métricas y la granularidad. | 12 de noviembre de 2025 | 12 de noviembre de 2025 |
-| **[!UICONTROL Channel synergy insights]** | Descubra cómo los canales de marketing trabajan juntos para crear un mayor impacto. Con estas perspectivas, puede explicar con confianza el rendimiento de marketing anterior y ajustar el gasto de marketing en consecuencia para maximizar el retorno general de su cartera de marketing. Hay disponible una matriz de sinergia de canal en [Datos del modelo](/help/models/insights.md#channel-synergy) y [Datos del plan](/help/plans/insights.md#channel-synergies). | 12 de noviembre de 2025 | 12 de noviembre de 2025 |
-| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-2920: Planea el flujo de creación y la migración.</li><li>AMM-3282: Notación científica para variar números pequeños en cuadrículas grandes.</li></ul> | 12 de noviembre de 2025 | 12 de noviembre de 2025 |
-
-
-## Septiembre de 2025
-
-| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
-|---|---|---|---|
-| **[!UICONTROL Dataset mapping validations]** | Se han añadido validaciones a las asignaciones de conjuntos de datos de Experience Platform para campos armonizados. | miércoles, 09 de septiembre de 2025 | miércoles, 09 de septiembre de 2025 |
-| **[!UICONTROL Context menu on links to model and plans]** | Se habilitó el menú contextual del navegador en vínculos a modelos y planes. Ahora puede utilizar ese menú contextual del explorador para abrir un plan o modelo específico en una nueva pestaña o ventana. | miércoles, 09 de septiembre de 2025 | miércoles, 09 de septiembre de 2025 |
-| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-3101: Se corrigió la creación incorrecta de asignaciones para las reglas: `event_date` se pasó como nombre de campo en lugar de `timestamp`.</li><li>AMM-3092: se ha corregido el error al no poder cambiar el valor de restricción máximo de canal en un plan basado en presupuesto duplicado.</li><li>AM3130: Se ha corregido información incorrecta de **[!UICONTROL Run frequency]** en una ventana emergente de detalles de un modelo.</li><li>AMM3158: Se han actualizado las etiquetas de las opciones **[!UICONTROL Select target metric]** como parte del panel **[!UICONTROL Optimize]** en la interfaz [Planes crear](/help/plans/build.md).</li><li>AMM 3176: se ha corregido el error de visualización [Desglose por canal](/help/models/insights.md#breakdown) en la pestaña **[!UICONTROL Attribution]** de **[!UICONTROL Model Insights]**.</li></ul> | miércoles, 09 de septiembre de 2025 | miércoles, 09 de septiembre de 2025 |
-| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-3174: experiencia mejorada cuando no hay planes disponibles.</li><li>AMM-3216: validación mejorada para intervalos de fechas personalizados.</li><li>AMM-3240: visualización de frecuencia del modelo de ejecución fija.</ul> | 23 de septiembre de 2025 | 23 de septiembre de 2025 |
-
-## De julio a agosto de 2025
-
-| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
-|---|---|---|---|
-| **[!UICONTROL Compare plans update]** | La interfaz de usuario de [Comparar planes](/help/plans/compare.md) ahora muestra detalles adicionales para el marketing de pago: ROI o CPA, e ingresos. | 20 de agosto de 2025 | 20 de agosto de 2025 |
-| **Actualizaciones de armonización** | Todas las reglas de conjuntos de datos ahora usan un mapa [genérico similar a la experiencia de campos armonizados](/help/harmonize-data/dataset-rules.md), independientemente del tipo de conjunto de datos. Al asignar un campo armonizado estándar desde un conjunto de datos de resumen, Mix Modeler intenta deducir automáticamente el campo del conjunto de datos de Experience Platform correspondiente. | miércoles, 29 de julio de 2025 | miércoles, 29 de julio de 2025 |
-| **Optimización marginal del ROI/CPA del plan mejorado** | Permite mejorar la forma en que se distribuyen los presupuestos de marketing a lo largo del tiempo. En lugar de converger el ROI/CPA marginal en todo el período de planificación, puedes [optimizar en todos los meses](/help/plans/build.md) al tiempo que preservas los patrones de gasto mensual. | miércoles, 08 de julio de 2025 | miércoles, 08 de julio de 2025 |
-
-
-## Mayo a junio de 2025
-
-| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
-|---|---|---|---|
-| **Planes basados en objetivos** | Junto a los presupuestos, puedes definir un objetivo (objetivo) al [crear](/help/plans/build.md) o [editar](/help/plans/insights.md#edit-plan) un plan. Algunos ejemplos de métricas de destino son ingresos, conversión, CPA o ROI. | 18 de junio de 2025 | miércoles, 08 de julio de 2025 |
-| **Configuración del patrón de gasto** | Cuando crea un plan, ahora tiene la opción de usar los datos de [referencia histórica](/help/plans/build.md) (como datos y perspectivas de gasto de marketing anteriores) al definir el patrón de gasto para cada intervalo de fechas del presupuesto. | 14 de mayo de 2025 | 14 de mayo de 2025 |
-| **Configuraciones de plan avanzadas** | Puede definir [configuraciones avanzadas](/help/plans/build.md) para su plan, como el promedio de ingresos por conversión y los costos de canal. | 14 de mayo de 2025 | 14 de mayo de 2025 |
-
-## De marzo a abril de 2025
-
-| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
-|---|---|---|---|
-| **Detección de deriva del modelo** | Cuando abra un modelo, se le pedirá [que vuelva a entrenar el modelo cuando se detecte la deriva del modelo](/help/models/insights.md#model-drift). | 3 de abril de 2025 | 7 de mayo de 2025 |
-| **Retorno de canal marginal en las perspectivas del plan** | Se ha agregado una visualización de [retorno de canal marginal](/help/plans/insights.md#marginal-channel-return) a las perspectivas del plan, la cual muestra el evento de salto marginal y el retorno del plan para todos los canales o los seleccionados. | 3 de abril de 2025 | 24 de abril de 2025 |
-
-
-## Enero-febrero de 2025
-
-| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
-|---|---|---|---|
-| **Condiciones anidadas** | Puede crear condiciones anidadas mediante AND y OR cuando defina una población de datos elegible como parte de la [configuración de un modelo](/help/models/build.md#configure). | 15 de enero de 2025 | 18 de febrero de 2025 |
-| **Ver informes** | Puede ver un informe sobre una [conversión](/help/harmonize-data/conversions.md#view-report) o un [punto de contacto de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que haya definido como parte de la armonización de datos. | 15 de enero de 2025 | 18 de febrero de 2025 |
-| **Eliminar confirmaciones** | Se le pedirá que confirme la eliminación de un [plan](/help/plans/overview.md#delete-plans) o un [modelo](/help/models/overview.md#delete-models). | 15 de enero de 2025 | 18 de febrero de 2025 |
-| **Mejora de la interfaz de usuario de factores** | Puede seleccionar los [factores](/help/models/insights.md#factors-beta) que desea mostrar en Información del modelo. | 15 de enero de 2025 | 18 de febrero de 2025 |
-| **Tratamiento de errores** | Mensajes de error fáciles de usar y experiencia del usuario mejorada para escenarios de error en la armonización y los planes de datos. | 18 de febrero de 2025 | 18 de febrero de 2025 |
-| **Estado del modelo** | Redefinición de [estados de modelo](/help/models/overview.md#manage-models) en el ciclo de vida del modelo. | 18 de febrero de 2025 | 18 de febrero de 2025 |
+| **[!UICONTROL Dataset rules]** | Se ha actualizado la tabla de reglas del conjunto de datos. Puede buscar una o más reglas de conjuntos de datos y ver, editar o eliminar una regla de conjuntos de datos directamente desde la tabla. | 13 de enero de 2026 | 13 de enero de 2026 |
+| **[!UICONTROL Current spend]** | Agregue un punto de gasto actual en la [visualización de la curva de respuesta marginal](/help/models/insights.md#marginal-response-curves) en Información del modelo. | 13 de enero de 2026 | 13 de enero de 2026 |
+| **[!UICONTROL Sort and resize columns]** | Se ha agregado la ordenación y el cambio de tamaño de las columnas en las tablas [Modelos](/help/models/overview.md) y [Planes](/help/plans/overview.md). | 13 de enero de 2026 | 13 de enero de 2026 |
+| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-3328: entrada de campo deshabilitada para los nuevos operadores por factores</li><li>AMM-3359: Bloqueo del selector de fechas y del cuadro combinado.</li><li>AMM-3441: La duplicación de un plan no rellena automáticamente el intervalo de fechas y el presupuesto.</li></ul> | 13 de enero de 2026 | 13 de enero de 2026 |
 
 
 ## Estrategia de lanzamiento

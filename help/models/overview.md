@@ -3,9 +3,9 @@ title: Información general de modelos
 description: Aprenda a crear y utilizar modelos en Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Para ver una tabla de los modelos actuales, en la interfaz de Mix Modeler:
    | **[!UICONTROL Name]** | Nombre del modelo |
    | **[!UICONTROL Description]** | Descripción del modelo |
    | **[!UICONTROL Conversion event]** | La conversión que ha seleccionado para el modelo. |
-   | Frecuencia **[!UICONTROL Run]** | Frecuencia de ejecución del aprendizaje del modelo. |
+   | **[!UICONTROL Run frequency]** | Frecuencia de ejecución del aprendizaje del modelo. |
    | **[!UICONTROL Last run]** | La fecha y hora de la última formación del modelo. |
    | **[!UICONTROL Status]** | El estado del modelo. |
 
@@ -122,7 +122,7 @@ Puede duplicar rápidamente un modelo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
-Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)] (_n_)**.
+Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -174,5 +174,5 @@ Para eliminar varios modelos:
 
 1. Seleccione varios modelos.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**&#x200B;para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
 

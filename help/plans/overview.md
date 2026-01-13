@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,16 @@ Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
 
    | Nombre de columna | Detalles |
    |---|---|
-   | Nombre | Nombre del plan |
-   | Modelo | El modelo utilizado como base para el plan. |
-   | Intervalo de fechas | Intervalo de fechas completo de un plan. |
-   | Presupuesto | Presupuesto total de un plan. |
-   | Destino del plan | La métrica de destino definida para un plan basado en destino. |
-   | Retorno previsto | [regreso previsto](/help/main-guide/glossary.md) para un plan |
-   | ROI previsto | El [ROI previsto](/help/main-guide/glossary.md) para un plan. |
-   | Conversión prevista | [conversión prevista](/help/main-guide/glossary.md) para un plan |
-   | CPA previsto | El [CPA previsto](/help/main-guide/glossary.md) para un plan |
-   | Estado | El estado de un plan: <p><span style="color:red">●</span> con error, <p><span style="color:blue">●</span> Procesando, o <p><span style="color:green">●</span> completado. |
-
-   {style="table-layout:auto"}
+   | **[!UICONTROL Name]** | Nombre del plan |
+   | **[!UICONTROL Model]** | El modelo utilizado como base para el plan. |
+   | **[!UICONTROL Date range]** | Intervalo de fechas completo de un plan. |
+   | **[!UICONTROL Budget]** | Presupuesto total de un plan. |
+   | **[!UICONTROL Plan target]** | La métrica de destino definida para un plan basado en destino. |
+   | **[!UICONTROL Forecasted return]** | [regreso previsto](/help/main-guide/glossary.md) para un plan |
+   | **[!UICONTROL Forecasted ROI]** | El [ROI previsto](/help/main-guide/glossary.md) para un plan. |
+   | **[!UICONTROL Forecasted conversion]** | [conversión prevista](/help/main-guide/glossary.md) para un plan |
+   | **[!UICONTROL Forecasted CPA]** | El [CPA previsto](/help/main-guide/glossary.md) para un plan |
+   | **[!UICONTROL Status]** | El estado de un plan:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]** o<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
 
    Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para seleccionar ![Marca de verificación](/help/assets/icons/Checkmark.svg) las columnas que se mostrarán en la tabla.
 
@@ -87,7 +85,7 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)] (_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
+Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
 
 - Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
 - Las restricciones presupuestarias del plan original se copian en el plan recién creado.
@@ -118,6 +116,6 @@ Para eliminar varios planes:
 
 1. Seleccione varios planes.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los planes.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**&#x200B;para eliminar los planes. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**para eliminar los planes. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
 
