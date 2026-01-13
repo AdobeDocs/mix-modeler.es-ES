@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
+source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2498'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,9 @@ Una visualización de gráfico de barras horizontales que muestra el rendimiento
 
 ### Curvas de respuesta marginales.
 
-El gráfico de líneas visualiza y compara los retornos marginales generados por la inversión en sus canales de marketing.  E identifica el punto de equilibrio en el que el retorno incremental es menor que el gasto incremental. Como resultado, esta visualización le ayuda a comprender cuándo la inversión en marketing empieza a tener menos impacto.
+El gráfico de líneas visualiza y compara los retornos marginales generados por la inversión en sus canales de marketing.  E identifica el punto de gasto actual y el punto de equilibrio marginal (donde el retorno incremental es menor que el gasto incremental). Como resultado, esta visualización le ayuda a comprender cuándo la inversión en marketing empieza a tener menos impacto.
 
-La curva, el punto de equilibrio y los valores correspondientes se calculan en función del rango de datos seleccionado y del canal seleccionado.
+La curva, el punto de gasto actual, el punto de equilibrio marginal y los valores correspondientes se calculan en función del intervalo de datos seleccionado y del canal seleccionado.
 
 Para cambiar el canal:
 
@@ -258,7 +258,7 @@ Para cada ruta de conversión, verá lo siguiente:
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
