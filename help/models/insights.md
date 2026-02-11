@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,13 @@ Para descargar un archivo CSV que represente la matriz, seleccione ![Descargar](
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta]
+## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="Desglose por contribución de factores"
+>abstract="El desglose de la contribución de factores muestra la proporción de las conversiones de base que puede atribuirse a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que ocurren independientemente de los puntos de contacto y factores de marketing incluidos en el modelo. Incluye conversiones impulsadas por el valor de la marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
+
 
 La pestaña Factores [!BADGE beta] muestra información relacionada con factores externos.
 
@@ -146,7 +152,21 @@ Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![D
 
 Si no hay datos disponibles, verá un mensaje ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="Desglose por canal"
+>abstract="**[!UICONTROL Breakdown by channel]** es un desglose por tipo de canal para los puntos de contacto definidos, según el esquema de evento de experiencia del cliente. Seleccione ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) y **[!UICONTROL Breakdown by touchpoint]** para mostrar un desglose por punto de contacto."
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="Desglose por posición de punto de contacto"
+>abstract="Esta visualización muestra un desglose de las conversiones atribuidas por posición del punto de contacto y del punto de contacto en todas las rutas de conversión. La visualización compara si un punto de contacto contribuye mejor en una posición que las posiciones restantes y otros puntos de contacto en cualquier posición. Tenga en cuenta que la suma de la contribución porcentual para un modelo de atribución en todos los puntos de contacto y posiciones sería igual a 100. Las posiciones principiante, influenciador y finalizador se definen de la siguiente manera:<ul><li>**Iniciador**: indica si el punto de contacto es el primer contacto en una ruta de conversión.</li><li>**Reproductor**: indica si el punto de contacto no es ni el primer ni el último contacto que provocó la conversión.</li><li>**Más cerca**: indica si el punto de contacto es el último contacto antes de la conversión.</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -252,19 +272,36 @@ Para cada ruta de conversión, verá lo siguiente:
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="Métricas de ajuste de modelo"
+>abstract="Muestra información general sobre las métricas de ajuste de formación de varios modelos."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="Rutas contactadas"
 >abstract="Rutas contactadas es el porcentaje de rutas que consiguen la conversión y el porcentaje de rutas que no consiguen la conversión para cada punto de contacto."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="Medida de eficiencia"
+>abstract="La medida de eficiencia generada por el modelo de atribución algorítmica indica la importancia relativa de un punto de contacto hacia la conversión independientemente del volumen del punto de contacto. Esto se mide en una escala de 1 a 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="Volumen total"
+>abstract="El volumen total es el número agregado de veces que un usuario ha tocado un punto de contacto y es inclusivo de puntos de contacto que aparecen en una ruta que logra la conversión, así como rutas que no resultan en conversión."
 
 
 >[!CONTEXTUALHELP]

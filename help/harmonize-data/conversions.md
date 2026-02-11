@@ -3,14 +3,21 @@ title: Conversiones
 description: Aprenda a crear conversiones para utilizarlas en la armonización de los datos en Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
 
-# Conversiones
+# Conversiones {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Conversión"
+>abstract="Los eventos de conversión son objetivos empresariales que identifican el impacto de las actividades de marketing. Ejemplos: pedidos de comercio electrónico, compras en tienda, visitas a sitios web y mucho más."
+
 
 Los eventos de conversión son objetivos empresariales que identifican el impacto de las actividades de marketing. Ejemplos: pedidos de comercio electrónico, compras en tienda, visitas a sitios web, etc.
 
@@ -18,7 +25,7 @@ Las conversiones de marketing se definen para el análisis de atribución.
 
 ## Administración de conversiones
 
-Para ver una tabla de las conversiones disponibles, en la interfaz del Mix Modeler:
+Para ver una tabla de las conversiones disponibles, en la interfaz de Mix Modeler:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
@@ -38,7 +45,7 @@ Las columnas de la tabla especifican detalles sobre la conversión:
 
 ## Añadir una conversión
 
-Para agregar una conversión, en la interfaz de ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** del Mix Modeler:
+Para agregar una conversión, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Mix Modeler:
 
 1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -52,7 +59,7 @@ Para agregar una conversión, en la interfaz de ![DataSearch](/help/assets/icons
 
       1. Seleccione un valor para el operador ![Chevron](/help/assets/icons/ChevronDown.svg), por ejemplo **[!UICONTROL is]**.
 
-      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**&#x200B;o escriba un valor, por ejemplo **[!UICONTROL Store]**.
+      1. Seleccione un valor de **[!UICONTROL *Seleccionar valor *]**o escriba un valor, por ejemplo **[!UICONTROL Store]**.
 
    1. Seleccione un campo armonizado de **[!UICONTROL Conversion metric for analysis]**, por ejemplo **[!UICONTROL Orders]**.
 
