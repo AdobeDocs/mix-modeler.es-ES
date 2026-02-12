@@ -3,10 +3,10 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Si se detecta una deriva del modelo en el modelo, verá un cuadro de diálogo **
 
 ![Cuadro de diálogo detectado de deriva de modelo](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## Datos del modelo
 
 La pestaña Información del modelo muestra visualizaciones para [Contribución por fecha y medios base](#contribution-by-date-and-base-media), [Contribución por canal](#contribution-by-channel), [Resumen de rendimiento de marketing](#marketing-performance-summary) y [Curvas de respuesta marginales](#marginal-response-curves). La pestaña también proporciona una tabla [Desglose de puntos de contacto](#touchppint-breakdown).
 
@@ -140,7 +140,7 @@ Para descargar un archivo CSV que represente la matriz, seleccione ![Descargar](
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## Factores {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![D
 
 Si no hay datos disponibles, verá un mensaje ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution] {#attribution}
+## Atribución {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ Las puntuaciones de evento granulares de atribución de múltiples contactos de 
 
 La pestaña Atribución consta de las siguientes visualizaciones:
 
-### [!UICONTROL Overview]
+### Información general
 
 La visualización [!UICONTROL Overview] muestra, para los modelos de atribución seleccionados, las conversiones totales y porcentajes. Al seleccionar más modelos, se añaden círculos adicionales a la visualización, cada uno con su propio color correspondiente a la leyenda.
 
 Para ver una ventana emergente con detalles para un modelo de atribución, pase el ratón sobre cualquiera de los círculos de la visualización.
 
-### [!UICONTROL Trends]
+### Tendencias
 
 La visualización [!UICONTROL Daily trends], [!UICONTROL Weekly trends] o [!UICONTROL Monthly trends] muestra, para los modelos de atribución seleccionados, las tendencias de conversión diarias, semanales o mensuales.
 
@@ -221,7 +221,7 @@ Para elegir el período, seleccione **[!UICONTROL Daily trends]**, **[!UICONTROL
 
 Para ver los detalles, pase el ratón sobre la línea de datos de un modelo de atribución específico para mostrar una ventana emergente que muestre el número total de conversiones para esos datos.
 
-### [!UICONTROL Breakdown]
+### Desglose
 
 La visualización [!UICONTROL Breakdown] es un desglose por canal o punto de contacto de las conversiones de cada uno de los modelos de atribución seleccionados. Esta visualización puede resultar útil para tomar decisiones sobre la eficacia de cada canal o punto de contacto.
 
@@ -229,7 +229,7 @@ Para elegir el tipo de desglose, seleccione **[!UICONTROL Breakdown by channel]*
 
 Para ver los detalles, pase el ratón sobre cualquiera de los elementos del gráfico.
 
-### [!UICONTROL Top campaigns]
+### Campañas principales
 
 La visualización Campañas principales muestra una tabla de las campañas principales con columnas para Nombre de campaña, Canal, Tipo de medio y Conversiones incrementales. Esta visualización puede ayudar a informar a su equipo de la eficacia de una campaña específica para un canal determinado y proporcionar perspectivas sobre las campañas en las que debe invertir más.
 
@@ -249,7 +249,7 @@ El cuadro de diálogo Campañas principales expandido muestra la misma tabla con
 Para cerrar el cuadro de diálogo Campañas principales expandido, seleccione **[!UICONTROL Close]**.
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### Desglose por posición de punto de contacto
 
 La visualización [!UICONTROL Breakdown by touchpoint position] es un desglose de conversiones atribuidas por posición del punto de contacto y del punto de contacto en todas las rutas de conversión. Este gráfico le ayuda a comparar si un punto de contacto contribuye mejor en una posición que las posiciones restantes y otros puntos de contacto en cualquier posición.
 
@@ -267,7 +267,7 @@ Las posiciones [!UICONTROL Starter], [!UICONTROL Player] y [!UICONTROL Closer] s
 | [!UICONTROL Closer] | Esta posición indica si el punto de contacto es el último contacto antes de la conversión. |
 
 
-### [!UICONTROL Top conversion paths]
+### Rutas de conversión principales
 
 La visualización [!UICONTROL Top conversion paths] muestra las 5 rutas de conversión principales en función de los modelos de atribución seleccionados.
 
@@ -280,14 +280,14 @@ Para cada ruta de conversión, verá lo siguiente:
 * la suma de estos porcentajes de contribución del modelo de atribución de canal.
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## Diagnóstico {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +417,7 @@ Para seleccionar un canal alternativo basado en volumen para mostrar en esta vis
 * Seleccionar un canal de **[!UICONTROL Channels]**.
 
 
-## **[!UICONTROL Edit]**
+## Editar
 
 Puede editar el nombre, la descripción y la programación de la formación y la puntuación del modelo.
 
