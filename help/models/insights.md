@@ -3,7 +3,7 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
+source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Una visualización de anillo que muestra una distribución de la contribución p
 
 
 >[!CONTEXTUALHELP]
->id="models_insights_marketingperformancesummary"
+>id="models_insights_undefinedchannels"
 >title="Canales no definidos"
 >abstract="Se incluyen los canales no definidos, pero no tienen conversiones atribuidas."
 
@@ -287,7 +287,7 @@ Para cada ruta de conversión, verá lo siguiente:
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
