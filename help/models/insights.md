@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
+source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2827'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,19 @@ Esta visualización representa la proporción de contribución conseguida por ba
 
 Una visualización de anillo que muestra una distribución de la contribución por varios canales. Esta visualización muestra la incrementalidad a través del lente de los tres canales con mejor rendimiento (excluyendo las categorías base y *All other*). La visualización ayuda a admitir la priorización y la asignación de presupuesto.
 
-### Resumen de rendimiento de marketing
+### Resumen de rendimiento de marketing {#marketing-performance-summary}
+
+
+>[!CONTEXTUALHELP]
+>id="models_insights_marketingperformancesummary"
+>title="Canales no definidos"
+>abstract="Se incluyen los canales no definidos, pero no tienen conversiones atribuidas."
+
 
 Una visualización de gráfico de barras horizontales que muestra el rendimiento de la inversión o de la CPA de cada uno de los canales. Esta visualización resalta el ROI/CPA de sus inversiones de marketing. Los canales se clasifican en orden descendente según el ROI/CPA. La visualización ayuda a identificar qué canales son los más efectivos y cuáles podrían necesitar optimización.
+
+Los canales no definidos se incluyen en la visualización, pero no tienen conversiones atribuidas.
+
 
 ### Curvas de respuesta marginal
 
@@ -277,7 +287,7 @@ Para cada ruta de conversión, verá lo siguiente:
 >title="Gráficos de evaluación de modelos"
 >abstract="Las visualizaciones de evaluación de modelos desglosan las conversiones reales frente a las previstas o residuales."
 >additional-url=" https://experienceleague.adobe.com/es/docs/mix-modeler/using/overview" text="Información general sobre Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440797/?captions=spa&learn=on&enablevpops" text="Demostración de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demostración de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
