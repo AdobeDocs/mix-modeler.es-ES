@@ -3,10 +3,10 @@ title: Modelos de compilación
 description: Aprenda a crear modelos en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ Para crear sus modelos personalizados con tecnología de IA, la interfaz proporc
 
 En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
 
-## Configurar
+## Configuración
 
 El nombre y la descripción se definen en el paso **[!UICONTROL Setup]**:
 
@@ -26,7 +26,12 @@ El nombre y la descripción se definen en el paso **[!UICONTROL Setup]**:
 
 1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
-## Configurar
+## Configurar{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="Puntos de contacto de marketing"
+>abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individuales o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.<br/><br/>No puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con gasto."
 
 El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración implica la definición de los objetivos de conversión, los puntos de contacto de marketing, la población de datos apta, los factores externos e internos, etc.
 
