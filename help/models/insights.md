@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Si no hay datos disponibles, verá un mensaje ![TableAndChart](/help/assets/icon
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Desglose por posición de punto de contacto"
->abstract="Esta visualización muestra un desglose de las conversiones atribuidas por posición del punto de contacto y del punto de contacto en todas las rutas de conversión. La visualización compara si un punto de contacto contribuye mejor en una posición que las posiciones restantes y otros puntos de contacto en cualquier posición. Tenga en cuenta que la suma de la contribución porcentual para un modelo de atribución en todos los puntos de contacto y posiciones sería igual a 100. Las posiciones principiante, influenciador y finalizador se definen de la siguiente manera:<ul><li>**Iniciador**: indica si el punto de contacto es el primer contacto en una ruta de conversión.</li><li>**Reproductor**: indica si el punto de contacto no es ni el primer ni el último contacto que provocó la conversión.</li><li>**Más cerca**: indica si el punto de contacto es el último contacto antes de la conversión.</li></ul>"
+>abstract="Esta visualización muestra un desglose de las conversiones atribuidas por posición del punto de contacto y del punto de contacto en todas las rutas de conversión. La visualización compara si un punto de contacto contribuye mejor en una posición que las posiciones restantes y otros puntos de contacto en cualquier posición."
 
 
 
@@ -312,7 +312,7 @@ Para cada ruta de conversión, verá lo siguiente:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Fecha del modelo a partir de"
->abstract="Los datos de esta tabla solo se generan para periodos de tiempo específicos.  La fecha **[!UICONTROL As of]** indica cuándo se generaron los datos y se basa en los datos de startDate a endDate."
+>abstract="Los datos de esta tabla solo se generan para periodos de tiempo específicos.  La fecha **[!UICONTROL As of]** indica cuándo se generaron los datos y se basa en los datos de la fecha especificada hasta un año atrás."
 
 
 La ficha **[!UICONTROL Diagnostics]** muestra visualizaciones para:
