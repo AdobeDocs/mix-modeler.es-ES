@@ -1,12 +1,13 @@
 ---
-title: Modelos de compilación
-description: Aprenda a crear modelos en Mix Modeler.
+title: Creación de modelos en Mix Modeler
+description: Obtenga información sobre cómo crear modelos en Mix Modeler, incluido cómo configurar y especificar opciones avanzadas para el modelo.
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +19,9 @@ En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Mode
 
 ## Configuración
 
-El nombre y la descripción se definen en el paso **[!UICONTROL Setup]**:
+Usted define un nombre y una descripción en el paso **[!UICONTROL Setup]**:
 
-1. Escriba el modelo **[!UICONTROL Name]**, por ejemplo `Demo model`. Escriba un **[!UICONTROL Description]**, por ejemplo `Demo model to explore AI featues of Mix Modeler`.
+1. Escriba el modelo **[!UICONTROL Name]**, por ejemplo `Demo model`. Escriba un **[!UICONTROL Description]**, por ejemplo `Demo model to explore AI features of Mix Modeler`.
 
    ![Nombre y descripción del modelo](/help/assets/model-name-description.png)
 
@@ -83,7 +84,7 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
    * Para agregar un contenedor de población de datos apto, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-   * Para quitar un contenedor de población de datos apto, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y **[!UICONTROL Remove marketing touchpoint]** en el menú contextual.
+   * Para quitar un contenedor de población de datos apto, dentro del contenedor, seleccione ![Más](/help/assets/icons/More.svg) y **[!UICONTROL Remove container]** en el menú contextual.
 
    * Seleccione **And** y **Or** entre contenedores para generar definiciones más complejas para la población de datos elegible.
 
@@ -132,7 +133,7 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
 ## Avanzadas
 
-Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso puede habilitar el modelo para atribución multitáctil (MTA).
+Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede habilitar el modelo para atribución multitáctil (MTA).
 
 1. En la sección **[!UICONTROL Spend share]**:
 
@@ -163,35 +164,62 @@ Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]*
    1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
 
-## Programación
+## Definir opciones
 
-Puede programar la formación y la puntuación del modelo en el paso **[!UICONTROL Schedule]**.
-
-1. En la sección **[!UICONTROL Schedule]** puede programar la formación y la puntuación del modelo.
-
-   ![Modelo de horario](../assets/model-schedule.png)
-
-   Para programar la puntuación y la formación del modelo:
-
-   1. Activar **[!UICONTROL Enable scheduled model scoring and training]**.
-   1. Seleccionar un **[!UICONTROL Scoring frequency]**:
-
-      * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Monthly]**: selecciona un día del mes en el menú desplegable Ejecutar en cada e introduce una hora válida (por ejemplo, `05:22 pm`) o usa ![Reloj](/help/assets/icons/Clock.svg).
-
-   1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
-
-1. En la sección **[!UICONTROL Define training window]**, seleccione entre:
-
-   ![Modelo - Definir ventana de formación](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** y
-
-   * **[!UICONTROL Manually input a training window]**. Cuando esté seleccionado, defina el número de años en **[!UICONTROL Include events the following years prior to a conversion]**.
+Puede [programar entrenamiento y puntuación](#schedule), [definir la ventana de entrenamiento](#training-window) y especificar [campos granulares de informe de perspectivas](#granular-insights-reporting-fields) para su modelo en el paso **[!UICONTROL Set options]**.
 
 
-1. Seleccione **[!UICONTROL Finish]** para finalizar la configuración del modelo.
+### Programación
+
+En la sección **[!UICONTROL Schedule]**, puede programar la formación y la puntuación del modelo.
+
+![Modelo de horario](../assets/model-schedule.png)
+
+Para programar la puntuación y la formación del modelo:
+
+1. Activar **[!UICONTROL Enable scheduled model scoring and training]**.
+1. Seleccionar un **[!UICONTROL Scoring frequency]**:
+
+   * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: selecciona un día del mes en el menú desplegable Ejecutar en cada e introduce una hora válida (por ejemplo, `05:22 pm`) o usa ![Reloj](/help/assets/icons/Clock.svg).
+
+1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
+
+
+### Ventana de formación
+
+En la sección **[!UICONTROL Define training window]**, seleccione entre:
+
+![Modelo - Definir ventana de formación](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** y
+
+* **[!UICONTROL Manually input a training window]**. Cuando esté seleccionado, defina el número de años en **[!UICONTROL Include events the following years prior to a conversion]**.
+
+
+### Campos de informes de perspectivas granulares
+
+La sección **[!UICONTROL Granular insights reporting fields]** utiliza la funcionalidad de informes de incrementalidad granular. Esta funcionalidad le permite seleccionar campos armonizados para desglosar las puntuaciones de conversión e incrementalidad de punto de contacto.
+
+![Definir campos granulares de informes de perspectivas](/help/assets/granular-insights-reporting-fields.png)
+
+Estos campos armonizados se definen de modo que se pueda explorar en profundidad el sistema de informes del modelo mediante columnas de informes granulares en lugar de tener que crear modelos separados.
+
+Por ejemplo, crea un modelo centrado en los ingresos, pero también le interesa el rendimiento de las campañas, los tipos de medios, las regiones y las fuentes de tráfico. Sin la funcionalidad de creación de informes de incrementalidad granular, tendría que crear cuatro modelos independientes. Con la funcionalidad de creación de informes de incrementalidad granular, puede desglosar el modelo de ingresos en campañas, tipos de medios, regiones y fuentes de tráfico.
+
+1. Seleccione uno o más campos armonizados de **[!UICONTROL _Seleccionar campos armonizados_]** debajo de **[!UICONTROL Includes]**. Los campos armonizados seleccionados se añaden al panel.
+1. Seleccione **[!UICONTROL *Campo armonizado *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar un campo armonizado del contenedor con los campos armonizados seleccionados.
+1. Seleccione **[!UICONTROL Clear all]** para eliminar todos los campos armonizados seleccionados.
+
+Los campos armonizados seleccionados para los informes de incrementalidad granular están disponibles como parte de los conjuntos de datos [schema](/help/ingest-data/schemas.md) y [dataset](/help/ingest-data/datasets.md) de Experience Platform que resultan de la puntuación del modelo. Los campos de informes de datos detallados se pueden encontrar dentro de los objetos **[!UICONTROL conversionPassthrough]** y **[!UICONTROL touchpointPassthrough]**.
+
+![Captura de pantalla de los objetos conversionPassthrough y touchpointPassthrough en un esquema para un modelo habilitado para la creación de informes de incrementalidad granular](/help/assets/schema-granular-insights-reporting.png)
+
+
+## Finalizar
+
+* Seleccione **[!UICONTROL Finish]** para finalizar la configuración del modelo.
 
    * En el cuadro de diálogo **[!UICONTROL Create instance?]**, seleccione **[!UICONTROL Ok]** para almacenar en déclencheur el primer conjunto de entrenamientos y ejecuciones de puntuación inmediatamente. Su modelo aparece con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
@@ -199,6 +227,7 @@ Puede programar la formación y la puntuación del modelo en el paso **[!UICONTR
 
    * Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere.
 
-   Seleccione **[!UICONTROL Back]** para volver al paso anterior.
+* Seleccione **[!UICONTROL Back]** para volver al paso anterior.
 
-   Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
+* Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
+
