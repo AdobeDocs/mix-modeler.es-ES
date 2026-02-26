@@ -4,16 +4,16 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '361'
 ht-degree: 8%
 
 ---
 
 # Notas de la versión actuales de Mix Modeler
 
-**Última actualización**: 13 de enero de 2026.
+**Última actualización**: 26 de febrero de 2026.
 
 Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
 
@@ -22,6 +22,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
+| **Flujo de trabajo de factores armonizados** | Los factores ahora se administran como parte de un [flujo de trabajo de factores armonizados](/help/harmonize-data/overview.md#factors). Esto simplifica cómo [definir datos de factor](/help/ingest-data/schemas.md#factor-standard-fields-field-group), cómo [administrar factores internos y externos como parte de las reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#factor-datasets) y cómo usar datos de factor en [modelos](/help/models/build.md#configure). | jueves, 25 de febrero de 2026 | jueves, 25 de febrero de 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Defina campos armonizados para que pueda explorar en profundidad los informes de su modelo usando [campos de informes de perspectivas granulares](/help/models/build.md#granular-insights-reporting-fields), en lugar de tener que crear modelos separados. | jueves, 18 de febrero de 2026 | jueves, 18 de febrero de 2026 |
 
 ## Enero de 2026
