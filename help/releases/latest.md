@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 3%
@@ -41,3 +41,4 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 * **Pruebas limitadas**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
 
 * **Inicio del despliegue**: El despliegue de una versión por fases comienza con la fase de prueba limitada. La versión se escalará de 0% a 100% de disponibilidad para los clientes en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+
