@@ -4,10 +4,10 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
+source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '387'
+ht-degree: 3%
 
 ---
 
@@ -17,22 +17,21 @@ ht-degree: 8%
 
 Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
 
-
 ## Febrero de 2026
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
-| **Flujo de trabajo de factores armonizados** | Los factores ahora se administran como parte de un [flujo de trabajo de factores armonizados](/help/harmonize-data/overview.md#factors). Esto simplifica cómo [definir datos de factor](/help/ingest-data/schemas.md#factor-standard-fields-field-group), cómo [administrar factores internos y externos como parte de las reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#factor-datasets) y cómo usar datos de factor en [modelos](/help/models/build.md#configure). | jueves, 25 de febrero de 2026 | jueves, 25 de febrero de 2026 |
-| **[!UICONTROL Granular incrementality reporting]** | Defina campos armonizados para que pueda explorar en profundidad los informes de su modelo usando [campos de informes de perspectivas granulares](/help/models/build.md#granular-insights-reporting-fields), en lugar de tener que crear modelos separados. | jueves, 18 de febrero de 2026 | jueves, 18 de febrero de 2026 |
+| **Flujo de trabajo de factores armonizados** | Los factores ahora se administran como parte de un [flujo de trabajo de factores armonizados](/help/harmonize-data/overview.md#factors). Esto simplifica cómo [definir datos de factor](/help/ingest-data/schemas.md#factor-standard-fields-field-group), cómo [administrar factores internos y externos como parte de las reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#factor-datasets) y cómo usar datos de factor en [modelos](/help/models/build.md#configure). | 25 de febrero de 2026 | 25 de febrero de 2026 |
+| **[!UICONTROL Granular incrementality reporting]** | Defina campos armonizados para que pueda explorar en profundidad los informes de su modelo usando [campos de informes de perspectivas granulares](/help/models/build.md#granular-insights-reporting-fields), en lugar de tener que crear modelos separados. | 18 de febrero de 2026 | 18 de febrero de 2026 |
 
 ## Enero de 2026
 
 | Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | [Se actualizó la tabla de reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md). Puede buscar una o más reglas de conjuntos de datos y ver, editar o eliminar una regla de conjuntos de datos directamente desde la tabla. | miércoles, 13 de enero de 2026 | miércoles, 13 de enero de 2026 |
-| **[!UICONTROL Current spend]** | Agregue un punto de gasto actual en la [visualización de la curva de respuesta marginal](/help/models/insights.md#marginal-response-curves) en Información del modelo. | miércoles, 13 de enero de 2026 | miércoles, 13 de enero de 2026 |
-| **[!UICONTROL Sort and resize columns]** | Se ha agregado la ordenación y el cambio de tamaño de las columnas en las tablas [Modelos](/help/models/overview.md) y [Planes](/help/plans/overview.md). | miércoles, 13 de enero de 2026 | miércoles, 13 de enero de 2026 |
-| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-3328: entrada de campo deshabilitada para los nuevos operadores por factores</li><li>AMM-3359: Bloqueo del selector de fechas y del cuadro combinado.</li><li>AMM-3441: La duplicación de un plan no rellena automáticamente el intervalo de fechas y el presupuesto.</li></ul> | miércoles, 13 de enero de 2026 | miércoles, 13 de enero de 2026 |
+| **[!UICONTROL Dataset rules]** | [Se actualizó la tabla de reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md). Puede buscar una o más reglas de conjuntos de datos y ver, editar o eliminar una regla de conjuntos de datos directamente desde la tabla. | 13 de enero de 2026 | 13 de enero de 2026 |
+| **[!UICONTROL Current spend]** | Agregue un punto de gasto actual en la [visualización de la curva de respuesta marginal](/help/models/insights.md#marginal-response-curves) en Información del modelo. | 13 de enero de 2026 | 13 de enero de 2026 |
+| **[!UICONTROL Sort and resize columns]** | Se ha agregado la ordenación y el cambio de tamaño de las columnas en las tablas [Modelos](/help/models/overview.md) y [Planes](/help/plans/overview.md). | 13 de enero de 2026 | 13 de enero de 2026 |
+| **Correcciones** | Correcciones para los siguientes tickets: <ul><li>AMM-3328: entrada de campo deshabilitada para los nuevos operadores por factores</li><li>AMM-3359: Bloqueo del selector de fechas y del cuadro combinado.</li><li>AMM-3441: La duplicación de un plan no rellena automáticamente el intervalo de fechas y el presupuesto.</li></ul> | 13 de enero de 2026 | 13 de enero de 2026 |
 
 
 ## Estrategia de lanzamiento
