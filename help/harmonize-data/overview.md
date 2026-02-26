@@ -3,10 +3,10 @@ title: Información general sobre armonizar conjuntos de datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1369'
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Imagine que tiene los siguientes conjuntos de datos disponibles para Mix Modeler
 
 Contiene el conjunto de datos de esfuerzo de marketing de YouTube, con una granularidad de los datos agregados establecidos en diarios.
 
-| Fecha | Tipo de fecha | Canal | Campaign | Marca | Geo | Clics | Gasto |
+| Fecha | Tipo de fecha | Canal | Campaign | Marca | Geografía | Clics | Gasto |
 |---|:--:|---|---|---|---|---:|---:|
 | 31-12-2021 | día | YouTube | Y_Otoño_02 | BrandX | EE. UU. | 10000 | 100 |
 | 01-01-2022 | día | YouTube | Y_Otoño_02 | BrandX | EE. UU. | 1000 | 10 |
@@ -66,7 +66,7 @@ Contiene el conjunto de datos de esfuerzo de marketing de YouTube, con una granu
 
 Contiene el conjunto de datos de esfuerzo de marketing de Facebook, con una granularidad de los datos agregados establecidos en semanal.
 
-| Fecha | Tipo de fecha | Canal | Campaign | Geo | Clics | Gasto |
+| Fecha | Tipo de fecha | Canal | Campaign | Geografía | Clics | Gasto |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | EE. UU. | 8000 | 100 |
 | 08-01-2022 | semana | Facebook | FB_Fall_02 | EE. UU. | 1000 | 10 |
@@ -80,7 +80,7 @@ Contiene el conjunto de datos de esfuerzo de marketing de Facebook, con una gran
 
 Un conjunto de datos de conversión, con una granularidad de los datos agregados establecidos en diarios.
 
-| Fecha | Tipo de fecha | Geo | Meta | Ingresos |
+| Fecha | Tipo de fecha | Geografía | Objetivo | Ingresos |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | día | EE. UU. | Moda | 200 |
 | 08-01-2022 | día | EE. UU. | Moda | 10 |
@@ -108,7 +108,7 @@ Desea crear un conjunto de datos armonizado con una granularidad establecida en 
 
 **Conjunto de datos armonizado**
 
-| Fecha | Tipo de fecha | Canal | Campaign | Marca | Geo | Meta | Clics | Gasto | Ingresos |
+| Fecha | Tipo de fecha | Canal | Campaign | Marca | Geografía | Objetivo | Clics | Gasto | Ingresos |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 27-12-2021 | semana | YouTube | Y_Otoño_02 | BrandX | EE. UU. | Nulo | 11000 | 110 | Nulo |
 | 03-01-2022 | semana | YouTube | Y_Otoño_01 | MarcaY | CA | Nulo | 10000 | 100 | Nulo |
@@ -132,7 +132,7 @@ Desea crear un conjunto de datos armonizado con una granularidad establecida en 
 Para generar un conjunto de datos armonizado, como en el [ejemplo](#an-example-of-harmonized-data) simplificado, debe seguir estos pasos:
 
 1. Defina [campos armonizados](fields.md) adicionales que desee usar más allá de los campos armonizados globales ya disponibles.
-1. Configure [reglas de conjuntos de datos](dataset-rules.md) para asignar campos de sus conjuntos de datos de eventos de experiencias o agregados a campos armonizados.
+1. Configure [reglas de conjuntos de datos](dataset-rules.md) para asignar campos de su agregado (factor o resumen) o conjuntos de datos de eventos de experiencia a campos armonizados.
 1. Defina [puntos de contacto de marketing](marketing-touchpoints.md) utilizando los campos armonizados estándar y adicionales que definió.
 1. Defina [conversiones](conversions.md) utilizando los campos armonizados estándar y adicionales que definió.
 
@@ -149,7 +149,7 @@ Para ver los datos armonizados, en la interfaz de Mix Modeler:
 
    1. Para modificar las columnas de campos armonizados mostradas para la tabla de datos armonizados, use ![Configuración](/help/assets/icons/Setting.svg) para abrir el cuadro de diálogo **[!UICONTROL Column settings]**.
 
-      1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) una o más columnas de **[!UICONTROL AVAILABLE COLUMNS]** y use ![Chevron right](/help/assets/icons/ChevronRight.svg) para agregar estas columnas a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) una o más columnas de **[!UICONTROL AVAILABLE COLUMNS]** y use ![Chevron right](/help/assets/icons/ChevronRight.svg) para agregar estas columnas a **[!UICONTROL SELECTED COLUMNS]**. Están disponibles todos los campos armonizados estándar que ha definido (incluidos los campos relacionados con conjuntos de datos de factores, como **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** y **[!UICONTROL Factor Value Type]**).
 
       1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) una o más columnas de **[!UICONTROL SELECTED COLUMNS]** y use ![Chevron left](/help/assets/icons/ChevronLeft.svg) para quitar las columnas seleccionadas y devolver estas columnas a **[!UICONTROL AVAILABLE COLUMNS]**.
 
