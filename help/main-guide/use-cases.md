@@ -3,9 +3,9 @@ title: Casos de uso de Mix Modeler
 description: Casos de uso de Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
@@ -28,15 +28,15 @@ Los desafíos a los que se enfrentan estas direcciones de casos de uso son:
 * Incoherencia en las perspectivas de metodologías MMM y MTA separadas, lo que reduce la confianza en los resultados.
 * Una comprensión limitada de qué canales y tácticas de marketing impulsan el éxito.
 
-### Aproximación
+### Enfoque
 
 El método basado en pasos para este caso de uso es:
 
-| Etapa | Detalles |
+| Paso | Detalles |
 |---|---|
 | Ingesta | Identificar e introducir fuentes de datos en esquemas comunes. <br/>Aplique las inversiones existentes en Adobe Analytics o Customer Journey Analytics para acelerar la implementación. |
 | Configurar | Configure modelos flexibles usando un marco de trabajo AI-as-a-Service para sus objetivos empresariales específicos<br/>Garantice automáticamente la coherencia entre el punto de contacto y el nivel de resumen con aprendizaje de transferencia bidireccional. |
-| Analizar | Comprenda claramente el ROI del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
+| Analizar | Comprenda claramente el retorno de la inversión del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
 
 {style="table-layout:auto"}
 
@@ -67,15 +67,15 @@ Los desafíos a los que se enfrentan estas direcciones de casos de uso son:
 * Ciclos de iteración largos para crear y comparar varios escenarios de presupuesto con un gran esfuerzo manual requerido.
 
 
-### Aproximación
+### Enfoque
 
 El método basado en pasos para este caso de uso es:
 
-| Etapa | Detalles |
+| Paso | Detalles |
 |---|---|
-| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina parámetros en unos pocos clics, sin necesidad de codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retardos, factores comerciales internos y externos, etc. |
+| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina los parámetros en unos pocos clics, sin necesidad de codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retrasos, factores empresariales internos y externos, etc. |
 | Entrenar | Capacite los modelos de IA/ML configurados en para obtener el mejor ajuste a los datos de entrada, lo que proporciona los resultados más precisos. |
-| Optimizar | Obtenga asignaciones presupuestarias optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics usando una interfaz de usuario intuitiva. |
+| Optimizar | Obtenga asignaciones de presupuesto optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics con una interfaz de usuario intuitiva. |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,8 @@ Una implementación correcta de este uso puede tener el siguiente impacto:
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -147,15 +148,15 @@ Los desafíos a los que se enfrentan estas direcciones de casos de uso son:
 * No se pueden realizar análisis específicos para obtener perspectivas porque los modelos no son transparentes y las puntuaciones granulares no están disponibles.
 
 
-### Aproximación
+### Enfoque
 
 El método basado en pasos para este caso de uso es:
 
-| Etapa | Detalles |
+| Paso | Detalles |
 |---|---|
 | Modelo | Configure y entrene un modelo AI/ML para obtener puntuaciones de puntos de contacto de MTA coherentes y resultados acumulados de MMM. |
-| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de Customer Journey Analytics o BI externas.<br/>Realizar análisis granular y crear paneles avanzados mediante puntuaciones de punto de contacto. |
-| Acción | Cree y active similitudes con los segmentos de consumidores principales mediante Real-Time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para campañas futuras. |
+| Analizar | Exporte puntuaciones de puntos de contacto incrementales a herramientas de Customer Journey Analytics o BI externas.<br/>Realice análisis granulares y genere paneles avanzados con puntuaciones de puntos de contacto. |
+| Acción | Cree y active vínculos de similitud para los segmentos de consumidores principales con Real-Time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para futuras campañas. |
 
 {style="table-layout:auto"}
 

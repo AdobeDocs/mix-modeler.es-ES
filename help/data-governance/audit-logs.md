@@ -3,10 +3,10 @@ title: Registros de auditoría
 description: Obtenga información sobre cómo acceder a los registros de auditoría desde Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '488'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 5%
 
 Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, la actividad del usuario dentro del flujo de trabajo de Mix Modeler se captura en los registros de auditoría de Experience Platform para comprender cualquier cambio impulsado por el usuario en las categorías de Mix Modeler. Estos registros forman una pista de auditoría que puede ayudar con la resolución de problemas y pueden ayudar a su empresa a cumplir de forma eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios.
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -67,4 +68,4 @@ Para inspeccionar el registro de auditoría, en la interfaz de Mix Modeler:
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros de auditoría.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar los permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control Acceso a registros de auditoría. Para obtener información sobre cómo administrar los permisos individuales para las características de Mix Modeler, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
