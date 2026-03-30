@@ -1,21 +1,21 @@
 ---
-title: Crear modelos en Mix Modeler
-description: Aprenda a crear modelos en Mix Modeler, incluyendo cómo configurar y especificar opciones avanzadas para el modelo.
+title: Creación de modelos en Mix Modeler
+description: Obtenga información sobre cómo crear modelos en Mix Modeler, incluido cómo configurar y especificar opciones avanzadas para el modelo.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
+source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 2%
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
-# Crear modelos
+# Modelos de compilación
 
-Para crear modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelos guiado paso a paso.
+Para crear sus modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelo guiado paso a paso.
 
-En la interfaz ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** del Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
+En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
 
 ## Configuración
 
@@ -32,15 +32,16 @@ Usted define un nombre y una descripción en el paso **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Puntos de contacto de marketing"
->abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individuales o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.<br/><br/>No puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con el gasto."
+>abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individual o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.<br/><br/>No se puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con gasto."
 
-Puede configurar su modelo en el paso **[!UICONTROL Configure]**. La configuración implica la definición de objetivos de conversión, puntos de contacto de marketing, la población de datos elegible, factores externos e internos, y más.
+
+El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración implica la definición de los objetivos de conversión, los puntos de contacto de marketing, la población de datos apta, los factores externos e internos, etc.
 
 1. En la sección **[!UICONTROL Conversion goal]**:
 
    ![Modelo: paso de conversión](/help/assets/model-conversion-step.png)
 
-   1. Seleccione una conversión en el menú desplegable **[!UICONTROL Conversion]**. Las conversiones disponibles son la conversión que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo, **[!UICONTROL Online Conversion]**.
+   1. Seleccione una conversión en el menú desplegable **[!UICONTROL Conversion]**. Las conversiones disponibles son las conversiones que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo, **[!UICONTROL Online Conversion]**.
 
    1. Puede seleccionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para crear una conversión directamente desde la configuración del modelo.
 
@@ -90,14 +91,14 @@ Puede configurar su modelo en el paso **[!UICONTROL Configure]**. La configuraci
 
 1. Puede administrar conjuntos de datos que contengan factores internos o externos en la sección **[!UICONTROL Factor dataset]**.
 
-   ![Modelo: paso de conjunto de datos de factor](../assets/model-factors-dataset-step.png)
+   ![Modelo: paso del conjunto de datos de factor](../assets/model-factors-dataset-step.png)
 
-   * Para agregar un conjunto de datos de factor, seleccione **[!UICONTROL Add Factor]**. Puede añadir un máximo de 30 factores a un modelo.
+   * Para agregar un conjunto de datos de factor, seleccione **[!UICONTROL Add Factor]**. Puede agregar un máximo de 30 factores a un modelo.
 
-      1. Seleccione un **[!UICONTROL Factor dataset]** en el menú desplegable. Los factores disponibles son los factores para los que ha definido un campo armonizado en [reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-Según el conjunto de datos seleccionado, el **[!UICONTROL Factor type**] es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
+      1. Seleccione un(a) **[!UICONTROL Factor dataset]** del menú desplegable. Los factores disponibles son los factores para los que ha definido un campo armonizado en [reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+En función del conjunto de datos seleccionado, el **[!UICONTROL Factor type**] es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
 
-      1. Seleccione **[!UICONTROL Impact on conversion]** en el menú desplegable. Las opciones disponibles son: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto]**, que permite al modelo determinar el impacto del conjunto de datos de factor.
+      1. Seleccione **[!UICONTROL Impact on conversion]** del menú desplegable. Las opciones disponibles son: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto]**, que permite al modelo determinar el impacto del conjunto de datos de factor.
 
    * Para eliminar un conjunto de datos de factor, seleccione ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
@@ -106,10 +107,15 @@ Según el conjunto de datos seleccionado, el **[!UICONTROL Factor type**] es **[
 
 1. Para definir la ventana retrospectiva del modelo, escriba un valor entre `1` y `52` en **[!UICONTROL Give contribution credit to touchpoints occurring within]**... **[!UICONTROL weeks prior to the conversion]** en la sección **[!UICONTROL Define lookback window]**.
 
-1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere. <br/>Seleccione **[!UICONTROL Back]** para regresar al paso anterior. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
+1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere. <br/>Seleccione **[!UICONTROL Back]** para volver al paso anterior. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
 
 ## Avanzadas
+
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="Anuncio de canal"
+>abstract="Incorpore experiencia de dominio, resultados de experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración de Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos de las existencias de publicidad."
 
 Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede habilitar el modelo para atribución multitáctil (MTA).
 
@@ -117,17 +123,17 @@ Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]*
 
    * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**. Se recomienda esta configuración, especialmente en los siguientes casos:
       * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
-      * Estás modelando medios llamativos pero regulares y potencialmente muy gastados (como la televisión para algunas marcas), donde los datos pueden ser escasos.
+      * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
 
      >[!NOTE]
      >
-     >En el caso de inversiones puntuales (por ejemplo, un anuncio de la Super Bowl), considere la posibilidad de incorporar esos datos como un factor, en lugar de depender de la participación en el gasto.
+     >Para inversiones puntuales (por ejemplo, un anuncio de la Super Bowl), considere la posibilidad de incorporar esos datos como un factor en lugar de depender de la cuota de gasto.
      >
 
 
 1. En la sección **[!UICONTROL MTA enabled]**:
 
-   * Para habilitar las características de MTA para el modelo, active **[!UICONTROL MTA enabled]**. Si ha habilitado el MTA, los conocimientos de atribución multitáctil estarán disponibles una vez que haya formado y marcado a su modelo. Consulte la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
+   * Para habilitar las características de MTA para el modelo, active **[!UICONTROL MTA enabled]**. Si ha habilitado el MTA, las perspectivas de atribución multitáctil están disponibles después de haber entrenado y puntuado al modelo. Consulte la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
 
 1. En la sección **[!UICONTROL Prior knowledge]**:
 
@@ -139,28 +145,28 @@ Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]*
 
    1. Si corresponde, puede agregar para cada canal un porcentaje de **[!UICONTROL Level of confidence]**.
 
-   1. Cuando sea necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
+   1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
 
-## Establecer opciones
+## Definir opciones
 
-Puede [programar entrenamiento y puntuación](#schedule), [definir ventana de entrenamiento](#training-window) y especificar [campos de informes de conocimientos detallados](#granular-insights-reporting-fields) para su modelo en el paso **[!UICONTROL Set options]**.
+Puede [programar entrenamiento y puntuación](#schedule), [definir la ventana de entrenamiento](#training-window) y especificar [campos granulares de informe de perspectivas](#granular-insights-reporting-fields) para su modelo en el paso **[!UICONTROL Set options]**.
 
 
 ### Programación
 
-En la sección **[!UICONTROL Schedule]**, puede programar entrenamiento y puntuación de modelos.
+En la sección **[!UICONTROL Schedule]**, puede programar la formación y la puntuación del modelo.
 
-![Modelo de programación](../assets/model-schedule.png)
+![Modelo de horario](../assets/model-schedule.png)
 
-Para programar la puntuación y el entrenamiento del modelo:
+Para programar la puntuación y la formación del modelo:
 
 1. Activar **[!UICONTROL Enable scheduled model scoring and training]**.
-1. Seleccione un **[!UICONTROL Scoring frequency]**:
+1. Seleccionar un **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: Introduzca una hora válida (por ejemplo, `05:22 pm`) o utilice ![Reloj](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Seleccione un día de la semana y escriba una hora válida (por ejemplo, `05:22 pm`) o utilice ![Reloj](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Seleccione un día del mes en el menú desplegable Ejecutar y escriba una hora válida (por ejemplo, `05:22 pm`) o utilice ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: selecciona un día del mes en el menú desplegable Ejecutar en cada e introduce una hora válida (por ejemplo, `05:22 pm`) o usa ![Reloj](/help/assets/icons/Clock.svg).
 
 1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 
