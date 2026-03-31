@@ -1,12 +1,12 @@
 ---
-title: Creación de modelos en Mix Modeler
-description: Obtenga información sobre cómo crear modelos en Mix Modeler, incluido cómo configurar y especificar opciones avanzadas para el modelo.
+title: Modelos De Compilación En Mix Modeler
+description: Obtenga información sobre cómo crear modelos en Mix Modeler, incluido cómo configurar y especificar opciones avanzadas para el modelo. Como objetivos de conversión, puntos de contacto, stock de anuncios y programación.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Para crear sus modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelo guiado paso a paso.
 
-En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler, seleccione **[!UICONTROL Open model canvas]**.
+En la interfaz de ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en [!DNL Mix Modeler], seleccione **[!UICONTROL Open model canvas]**.
 
 ## Configuración
 
@@ -27,7 +27,7 @@ Usted define un nombre y una descripción en el paso **[!UICONTROL Setup]**:
 
 1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
-## Configurar{#configure}
+## Configurar {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -41,7 +41,7 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
    ![Modelo: paso de conversión](/help/assets/model-conversion-step.png)
 
-   1. Seleccione una conversión en el menú desplegable **[!UICONTROL Conversion]**. Las conversiones disponibles son las conversiones que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo, **[!UICONTROL Online Conversion]**.
+   1. Seleccione una conversión en el menú desplegable **[!UICONTROL Conversion]**. Las conversiones disponibles son las que definió como parte de [Conversiones](../harmonize-data/conversions.md) en [!UICONTROL Harmonized datasets]. Por ejemplo, **[!UICONTROL Online Conversion]**.
 
    1. Puede seleccionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para crear una conversión directamente desde la configuración del modelo.
 
@@ -96,61 +96,96 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
    * Para agregar un conjunto de datos de factor, seleccione **[!UICONTROL Add Factor]**. Puede agregar un máximo de 30 factores a un modelo.
 
       1. Seleccione un(a) **[!UICONTROL Factor dataset]** del menú desplegable. Los factores disponibles son los factores para los que ha definido un campo armonizado en [reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-En función del conjunto de datos seleccionado, el **[!UICONTROL Factor type**] es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
+En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
 
       1. Seleccione **[!UICONTROL Impact on conversion]** del menú desplegable. Las opciones disponibles son: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto]**, que permite al modelo determinar el impacto del conjunto de datos de factor.
 
    * Para eliminar un conjunto de datos de factor, seleccione ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. Para definir la ventana retrospectiva del modelo, escriba un valor entre `1` y `52` en **[!UICONTROL Give contribution credit to touchpoints occurring within]**... **[!UICONTROL weeks prior to the conversion]** en la sección **[!UICONTROL Define lookback window]**.
+
+1. Para definir la ventana de formación de un modelo, en **[!UICONTROL Define training window]**, seleccione dónde desea que se inicien las conversiones de puntuación.
+
+   ![Modelo - Definir ventana de formación](/help/assets/model-define-training-window.png)
+
+   Puede seleccionar entre:
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** y
+
+   * **[!UICONTROL Manually input a training window]**. Cuando esté seleccionado, defina el número de años en **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   Esta entrada es necesaria para un modelo. La cantidad de años determina cómo se limita el canal y el stock, que puede configurar en el paso **[!UICONTROL Advanced]**.
 
 1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere. <br/>Seleccione **[!UICONTROL Back]** para volver al paso anterior. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
 
-## Avanzadas
+## Avanzadas {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Anuncio de canal"
->abstract="Incorpore experiencia de dominio, resultados de experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración de Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos de las existencias de publicidad."
+>abstract="Incorpore experiencia de dominio, resultados de experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración de Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario."
 
-Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede habilitar el modelo para atribución multitáctil (MTA).
+Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede definir [gasto compartido](#spend-share), habilitar el modelo para [atribución multitáctil (MTA)](#mta), definir [conocimiento previo](#prior-knowledge) y definir [canal y stock](#channel-adstock).
 
-1. En la sección **[!UICONTROL Spend share]**:
+### Gasto compartido
 
-   * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**. Se recomienda esta configuración, especialmente en los siguientes casos:
-      * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
-      * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
+En la sección **[!UICONTROL Spend share]**:
 
-     >[!NOTE]
-     >
-     >Para inversiones puntuales (por ejemplo, un anuncio de la Super Bowl), considere la posibilidad de incorporar esos datos como un factor en lugar de depender de la cuota de gasto.
-     >
+* Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**. Se recomienda esta configuración, especialmente en los siguientes casos:
+   * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
+   * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
+
+  >[!NOTE]
+  >
+  >Para inversiones puntuales (por ejemplo, un anuncio de la Super Bowl), incorpore esos datos como un factor en lugar de depender de la cuota de gasto.
+  >
+
+### MTA
+
+En la sección **[!UICONTROL MTA enabled]**:
+
+* Para habilitar las características de MTA para el modelo, active **[!UICONTROL MTA enabled]**. Si ha habilitado el MTA, las perspectivas de atribución multitáctil están disponibles después de haber entrenado y puntuado al modelo. Consulte la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
 
 
-1. En la sección **[!UICONTROL MTA enabled]**:
+### Conocimientos previos
 
-   * Para habilitar las características de MTA para el modelo, active **[!UICONTROL MTA enabled]**. Si ha habilitado el MTA, las perspectivas de atribución multitáctil están disponibles después de haber entrenado y puntuado al modelo. Consulte la pestaña [Atribución](insights.md#attribution) en [Información del modelo](insights.md).
+En la sección **[!UICONTROL Prior knowledge]**:
 
-1. En la sección **[!UICONTROL Prior knowledge]**:
+![Modelo - Conocimientos previos](/help/assets/model-prior-knowledge-step.png)
 
-   ![Modelo - Conocimientos previos](/help/assets/model-prior-knowledge-step.png)
+1. Seleccione **[!UICONTROL Rule type]**, que es de forma predeterminada **[!UICONTROL Absolute values]**.
 
-   1. Seleccione **[!UICONTROL Rule type]**, que es de forma predeterminada **[!UICONTROL Absolute values]**.
+1. Especifique los porcentajes de contribución para cualquiera de los canales enumerados en **[!UICONTROL Name]**, utilizando la columna **[!UICONTROL Contribution proportion]**.
 
-   1. Especifique los porcentajes de contribución para cualquiera de los canales enumerados en **[!UICONTROL Name]**, utilizando la columna **[!UICONTROL Contribution proportion]**.
+1. Si corresponde, puede agregar para cada canal un porcentaje de **[!UICONTROL Level of confidence]**.
 
-   1. Si corresponde, puede agregar para cada canal un porcentaje de **[!UICONTROL Level of confidence]**.
+1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
-   1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
+
+### Anuncio de canal
+
+En la sección **[!UICONTROL Channel adstock]** puede definir retrospectivas de stock individuales (efectos de arrastre o deterioro) y un retardo (tiempo de respuesta demorado) para cada canal (canal de marketing) que haya definido en su modelo.
+
+Esta configuración de stock de anuncios de canal permite un control detallado sobre cómo los distintos canales de marketing afectan a los resultados empresariales a lo largo del tiempo. Como alternativa, puede utilizar los valores predeterminados del sistema y una configuración única para todos.
+
+La configuración de canal de anuncios le ayuda a capturar matices específicos del canal. Por ejemplo, el impacto a largo plazo de las campañas de TV, el impacto a corto plazo de la búsqueda de pago o el desfase entre el gasto de los influenciadores y las conversiones observables. Experimente con los parámetros de retardo y retrospectiva de AdStock para generar perspectivas más precisas, personalizadas y fiables. En última instancia, la configuración de un canal y un stock puede dar lugar a asignaciones presupuestarias más precisas y mejores decisiones empresariales.
+
+![Adstock de canal](/help/assets/channel-ad-stock.png)
+
+Para configurar un archivo de canal:
+
+* Para cada canal (**[!UICONTROL Name]**), defina un valor **[!UICONTROL Lag (weeks)]**, un valor **[!UICONTROL Min Lookback (weeks)]** y **[!UICONTROL Max Lookback (weeks)]**. Para cada valor:
+
+   * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
+
+  El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
 
 
 ## Definir opciones
 
-Puede [programar entrenamiento y puntuación](#schedule), [definir la ventana de entrenamiento](#training-window) y especificar [campos granulares de informe de perspectivas](#granular-insights-reporting-fields) para su modelo en el paso **[!UICONTROL Set options]**.
+Puede [programar entrenamiento y puntuación](#schedule), y especificar [campos granulares de informe de perspectivas](#granular-insights-reporting-fields) para su modelo en el paso **[!UICONTROL Set options]**.
 
 
 ### Programación
@@ -171,20 +206,9 @@ Para programar la puntuación y la formación del modelo:
 1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 
 
-### Ventana de formación
-
-En la sección **[!UICONTROL Define training window]**, seleccione entre:
-
-![Modelo - Definir ventana de formación](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** y
-
-* **[!UICONTROL Manually input a training window]**. Cuando esté seleccionado, defina el número de años en **[!UICONTROL Include events the following years prior to a conversion]**.
-
-
 ### Campos de informes de perspectivas granulares
 
-La sección **[!UICONTROL Granular insights reporting fields]** utiliza la funcionalidad de informes de incrementalidad granular. Esta funcionalidad le permite seleccionar campos armonizados para desglosar las puntuaciones de conversión e incrementalidad de punto de contacto.
+La sección **[!UICONTROL Granular insights reporting fields]** utiliza la funcionalidad de informes de incrementalidad granular. Esta funcionalidad le permite seleccionar campos armonizados para desglosar las puntuaciones de incrementalidad de conversión y puntos de contacto.
 
 ![Definir campos granulares de informes de perspectivas](/help/assets/granular-insights-reporting-fields.png)
 
