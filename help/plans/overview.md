@@ -3,9 +3,9 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Un plan puede incluir de forma opcional:
 - varias fechas de vuelo, cada una con un presupuesto objetivo,
 - restricciones de presupuesto mínimas y máximas por canal y fecha de vuelo.
 
-Si un modelo que ha utilizado para su plan recibe una puntuación con los nuevos datos, debe crear un nuevo plan para tener en cuenta los datos que se han vuelto a puntuar.
+Si un modelo que ha utilizado para su plan se puntúa en los nuevos datos, debe crear un nuevo plan para tener en cuenta los datos puntuados.
 
 
 ## Planes de compilación
@@ -85,7 +85,7 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)] (_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
+Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
 
 - Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
 - Las restricciones presupuestarias del plan original se copian en el plan recién creado.
@@ -116,6 +116,6 @@ Para eliminar varios planes:
 
 1. Seleccione varios planes.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los planes.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**&#x200B;para eliminar los planes. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**para eliminar los planes. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear modelos en Mix Modeler, incl
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 0%
+source-wordcount: '1570'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Usted define un nombre y una descripción en el paso **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Puntos de contacto de marketing"
->abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individual o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.<br/><br/>No se puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con gasto."
+>abstract="Los puntos de contacto de marketing son eventos de marketing a nivel de destinatario, individuales o de cookie que se utilizan para evaluar el impacto de las inversiones de marketing en las conversiones numéricas o basadas en ingresos.<br/><br/>No puede configurar el modelo con puntos de contacto que tengan datos superpuestos y debe haber al menos un punto de contacto con gasto."
 
 
 El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración implica la definición de los objetivos de conversión, los puntos de contacto de marketing, la población de datos apta, los factores externos e internos, etc.
@@ -117,7 +117,7 @@ En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es 
 
    Esta entrada es necesaria para un modelo. La cantidad de años determina cómo se limita el canal y el stock, que puede configurar en el paso **[!UICONTROL Advanced]**.
 
-1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere. <br/>Seleccione **[!UICONTROL Back]** para volver al paso anterior. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
+1. Seleccione **[!UICONTROL Next]** para continuar con el paso siguiente. Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere. <br/>Seleccione **[!UICONTROL Back]** para regresar al paso anterior. <br/>Seleccione **[!UICONTROL Cancel]** para cancelar la configuración del modelo.
 
 
 ## Avanzadas {#advanced}
@@ -199,9 +199,9 @@ Para programar la puntuación y la formación del modelo:
 1. Activar **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Seleccionar un **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: selecciona un día del mes en el menú desplegable Ejecutar en cada e introduce una hora válida (por ejemplo, `05:22 pm`) o usa ![Reloj](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg) para definir la hora.
+   * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg) para definir la hora.
+   * **[!UICONTROL Monthly]**: seleccione un día del mes en el menú desplegable Ejecutar en cada e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg) para definir la hora.
 
 1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 

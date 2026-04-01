@@ -3,9 +3,9 @@ title: Datos del modelo
 description: Obtenga información sobre cómo obtener detalles acerca del modelo, como información general histórica, perspectivas del modelo y calidad del modelo en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ Los canales con curvas de desintegración más lentas (colas más largas) indica
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Desglose por contribución de factores"
->abstract="El desglose de contribución de factores muestra la proporción de las conversiones base que se pueden atribuir a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que se producen independientemente de los puntos de contacto de marketing y los factores incluidos en el modelo. Incluye conversiones impulsadas por el valor de la marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
+>abstract="El desglose de la contribución de factores muestra la proporción de las conversiones de base que puede atribuirse a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que ocurren independientemente de los puntos de contacto y factores de marketing incluidos en el modelo. Incluye conversiones impulsadas por el valor de la marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
 
 
 La pestaña Factores [!BADGE beta] muestra información relacionada con factores externos.
@@ -456,27 +456,3 @@ Para mostrar un canal alternativo basado en volúmenes para esta visualización:
 
 * Seleccionar un canal de **[!UICONTROL Channels]**.
 
-
-## Editar
-
-Puede editar el nombre, la descripción y la programación de la formación y la puntuación del modelo.
-
-1. Seleccionar ![Editar](/help/assets/icons/Edit.svg) Editar
-
-1. En el diálogo **[!UICONTROL Edit model]**:
-
-   * Escriba un nuevo(a) **[!UICONTROL Name]** y **[!UICONTROL Description]**.
-
-   * Para habilitar la programación, habilite **[!UICONTROL Status]**. Solo se puede activar la programación de modelos que se hayan entrenado y clasificado.
-
-      1. Seleccionar un **[!UICONTROL Scoring frequency]**:
-
-         * **[!UICONTROL Daily]**: escriba una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: seleccione un día de la semana e introduzca una hora válida (por ejemplo, `05:22 pm`) o use ![Reloj](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: selecciona un día del mes en el menú desplegable Ejecutar en cada e introduce una hora válida (por ejemplo, `05:22 pm`) o usa ![Reloj](/help/assets/icons/Clock.svg).
-
-      1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
-
-     ![Editar un modelo](../assets/model-edit.png)
-
-1. Seleccione **[!UICONTROL Save]**.
