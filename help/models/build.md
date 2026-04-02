@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear modelos en Mix Modeler, incl
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1578'
 ht-degree: 2%
 
 ---
@@ -181,6 +181,10 @@ Para configurar un archivo de canal:
    * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
 
   El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
+
+* Para restablecer todos los valores predeterminados de los anuncios de canal:
+
+   * Seleccione **[!UICONTROL Reset to defaults]**.
 
 
 ## Definir opciones
