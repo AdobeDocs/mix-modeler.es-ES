@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 6115ec9f26dbc02377dc69190fc990d6355165d5
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 5%
