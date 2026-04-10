@@ -2,7 +2,7 @@
 user-guide-title: Guía de Mix Modeler
 breadcrumb-title: Guía de Mix Modeler
 user-guide-description: Aprenda a utilizar Mix Modeler.
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 54%
@@ -63,7 +63,7 @@ ht-degree: 54%
    + [Versiones de 2025](/help/releases/2025.md)
    + [Versiones de 2024](/help/releases/2024.md)
    + [Versiones de 2023](/help/releases/2023.md)
-   + [Prueba](../releases/test.md)
+   + {hide-from-toc}[Prueba](../releases/test.md)
 
 + [Glosario](/help/main-guide/glossary.md)
 
