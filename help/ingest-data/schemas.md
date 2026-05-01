@@ -3,10 +3,19 @@ title: Esquemas
 description: Aprenda a administrar los esquemas necesarios para la ingesta de datos en Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: 613
+ht-degree: 7%
 
 ---
 
@@ -44,22 +53,22 @@ Este esquema simple se puede utilizar para introducir conjuntos de datos que con
 
 - Datos del índice del competidor
 
-  | timestamp | date_type | factor | valor |
+  | timestamp | date_type | factor | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semana | competitor_index | 289,8 |
-  | 2020-12-05T00:00:00.000Z | semana | competitor_index | 291,2 |
-  | 2020-12-12T00:00:00.000Z | semana | competitor_index | 280,07 |
+  | 2020-11-28T00:00:00.000Z | semana | competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | semana | competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | semana | competitor_index | 280.07 |
   | ... | ... | ... | ... |
 
 - Datos de festivos públicos
 
-  | timestamp | date_type | factor | valor |
+  | timestamp | date_type | factor | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
-  | 2020-12-05T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
-  | 2020-12-12T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
-  | 2020-12-19T00:00:00.000Z | semana | all_holiday_flag | 0,0 |
-  | 2020-12-26T00:00:00.000Z | semana | all_holiday_flag | 1,0 |
+  | 2020-11-28T00:00:00.000Z | semana | all_holiday_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | semana | all_holiday_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | semana | all_holiday_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | semana | all_holiday_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | semana | all_holiday_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
@@ -73,13 +82,13 @@ Dada la naturaleza asíncrona de la ingesta de perfiles, al recopilar datos acum
 
 Para su comodidad, Experience Platform admite un grupo de campos Campos de estándar de factores específico para datos de factores internos y externos que a menudo forman parte de datos de factores resumidos, internos o externos. Este grupo de campos define los campos siguientes:
 
-| Nombre para mostrar del campo | Nombre de campo | Tipo de campo | Tipo de datos | Requerido | Descripción |
+| Nombre para mostrar del campo | Nombre del campo | Tipo de campo | Tipo de datos | Requerido | Descripción |
 |---|---|---|---|:-:|---|
 | Nombre de factor | factorName | Dimensión | Cadena | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | El nombre del factor |
-| Valor de factor | factorValue | Métrica | Doble | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | El valor del factor |
+| Valor de factor | factorValue | Métrica | Duplicada | ![Marca de verificación](/help/assets/icons/Checkmark.svg) | El valor del factor |
 | Tipo de factor | factorType | Dimensión | Cadena (Enumeración) | | El tipo de factor.<br/>Los valores posibles son: <ul><li>Interno (factor interno)</li><li>Externo (factor externo)</li></ul> |
 | Tipo de valor | valueType | Dimensión | Cadena (Enumeración) | | Los valores posibles son:<ul><li>Real (valor real)</li><li>Previsto (valor previsto)</li></ul>Si no hay ningún valor, Real es el valor predeterminado. |
-| Granularidad | granularidad | Dimensión | Cadena (Enumeración) | | Los valores posibles son:<ul><li>Diario</li><li>Semanalmente</li><li>Mensual</li></ul> |
+| Granularidad | granularidad | Dimensión | Cadena (Enumeración) | | Los valores posibles son:<ul><li>Diaria</li><li>Semanal</li><li>Mensual</li></ul> |
 
 Un resumen, un factor interno o un conjunto de datos de factor externo puede basarse en:
 
@@ -91,8 +100,8 @@ Un resumen, un factor interno o un conjunto de datos de factor externo puede bas
 Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#data-type):
 
 - Cadena
-- Entero
-- Doble
+- Número entero
+- Duplicada
 - Booleano
 - Largo
 - Corto

@@ -3,10 +3,27 @@ title: Información general sobre armonizar conjuntos de datos
 description: Aprenda a armonizar los datos en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 7%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -54,10 +71,10 @@ Contiene el conjunto de datos de esfuerzo de marketing de YouTube, con una granu
 
 | Fecha | Tipo de fecha | Canal | Campaign | Marca | Geografía | Clics | Gasto |
 |---|:--:|---|---|---|---|---:|---:|
-| 31-12-2021 | día | YouTube | Y_Otoño_02 | BrandX | EE. UU. | 10000 | 100 |
+| 12-31-2021 | día | YouTube | Y_Otoño_02 | BrandX | EE. UU. | 10000 | 100 |
 | 01-01-2022 | día | YouTube | Y_Otoño_02 | BrandX | EE. UU. | 1000 | 10 |
-| 03-01-2022 | día | YouTube | Y_Otoño_01 | MarcaY | CA | 10000 | 100 |
-| 04-01-2022 | día | YouTube | Y_Summer_01 | Nulo | CA | 9000 | 80 |
+| 01-03-2022 | día | YouTube | Y_Otoño_01 | MarcaY | CA | 10000 | 100 |
+| 01-04-2022 | día | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -69,9 +86,9 @@ Contiene el conjunto de datos de esfuerzo de marketing de Facebook, con una gran
 | Fecha | Tipo de fecha | Canal | Campaign | Geografía | Clics | Gasto |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | EE. UU. | 8000 | 100 |
-| 08-01-2022 | semana | Facebook | FB_Fall_02 | EE. UU. | 1000 | 10 |
-| 08-01-2022 | semana | Facebook | FB_Fall_01 | EE. UU. | 7000 | 100 |
-| 16-01-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-08-2022 | semana | Facebook | FB_Fall_02 | EE. UU. | 1000 | 10 |
+| 01-08-2022 | semana | Facebook | FB_Fall_01 | EE. UU. | 7000 | 100 |
+| 01-16-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -83,9 +100,9 @@ Un conjunto de datos de conversión, con una granularidad de los datos agregados
 | Fecha | Tipo de fecha | Geografía | Objetivo | Ingresos |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | día | EE. UU. | Moda | 200 |
-| 08-01-2022 | día | EE. UU. | Moda | 10 |
-| 08-01-2022 | día | EE. UU. | Joyería | 1100 |
-| 16-01-2022 | día | CA | Joyería | 80 |
+| 01-08-2022 | día | EE. UU. | Moda | 10 |
+| 01-08-2022 | día | EE. UU. | Joyería | 1100 |
+| 01-16-2022 | día | CA | Joyería | 80 |
 
 {style="table-layout:auto"}
 
@@ -96,10 +113,10 @@ Un conjunto de datos de evento de experiencia de ejemplo (eventos de SDK web) de
 
 | Marca de tiempo | Espacio de nombres de identidad | Id De Identidad | Canal | Clics |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -110,19 +127,19 @@ Desea crear un conjunto de datos armonizado con una granularidad establecida en 
 
 | Fecha | Tipo de fecha | Canal | Campaign | Marca | Geografía | Objetivo | Clics | Gasto | Ingresos |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 27-12-2021 | semana | YouTube | Y_Otoño_02 | BrandX | EE. UU. | Nulo | 11000 | 110 | Nulo |
-| 03-01-2022 | semana | YouTube | Y_Otoño_01 | MarcaY | CA | Nulo | 10000 | 100 | Nulo |
-| 03-01-2022 | semana | YouTube | Y_Summer_01 | Nulo | CA | Nulo | 9000 | 80 | Nulo |
-| 01-01-2022 | semana | Facebook | FB_Fall_01 | Nulo | EE. UU. | Nulo | 8000 | 100 | Nulo |
-| 08-01-2022 | semana | Facebook | FB_Fall_02 | Nulo | EE. UU. | Nulo | 1000 | 10 | Nulo |
-| 08-01-2022 | semana | Facebook | FB_Fall_01 | Nulo | EE. UU. | Nulo | 7000 | 100 | Nulo |
-| 16-01-2022 | semana | Facebook | FB_Summer_01 | Nulo | CA | Nulo | 10000 | 80 | Nulo |
-| 27-12-2021 | semana | Nulo | Nulo | Nulo | EE. UU. | Moda | Nulo | Nulo | 200 |
-| 03-01-2022 | semana | Nulo | Nulo | Nulo | EE. UU. | Moda | Nulo | Nulo | 10 |
-| 03-01-2022 | semana | Nulo | Nulo | Nulo | EE. UU. | Joyería | Nulo | Nulo | 1100 |
-| 10-01-2022 | semana | Nulo | Nulo | Nulo | CA | Joyería | Nulo | Nulo | 80 |
-| 01-01-2022 | semana | CSE | Nulo | Nulo | Nulo | Nulo | 2 | Nulo | Nulo |
-| 08-01-2022 | semana | CSE | Nulo | Nulo | Nulo | Nulo | 2 | Nulo | Nulo |
+| 12-27-2021 | semana | YouTube | Y_Otoño_02 | BrandX | EE. UU. | Null | 11000 | 110 | Null |
+| 01-03-2022 | semana | YouTube | Y_Otoño_01 | MarcaY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | semana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | semana | Facebook | FB_Fall_01 | Null | EE. UU. | Null | 8000 | 100 | Null |
+| 01-08-2022 | semana | Facebook | FB_Fall_02 | Null | EE. UU. | Null | 1000 | 10 | Null |
+| 01-08-2022 | semana | Facebook | FB_Fall_01 | Null | EE. UU. | Null | 7000 | 100 | Null |
+| 01-16-2022 | semana | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | semana | Null | Null | Null | EE. UU. | Moda | Null | Null | 200 |
+| 01-03-2022 | semana | Null | Null | Null | EE. UU. | Moda | Null | Null | 10 |
+| 01-03-2022 | semana | Null | Null | Null | EE. UU. | Joyería | Null | Null | 1100 |
+| 01-10-2022 | semana | Null | Null | Null | CA | Joyería | Null | Null | 80 |
+| 01-01-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 

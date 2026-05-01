@@ -3,9 +3,22 @@ title: Rendimiento para planificar
 description: Aprenda a utilizar la información general Rendimiento para planificar en Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:20:18.412Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -36,12 +49,12 @@ La ficha **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} muestra:
    * [KPI](#kpi)
 
 * [Visualizaciones](#visualizations):
-   * [*Métrica*](#metric-actual-vs-planned)
-   * [*Métrica*](#metric-actual-vs-planned-by-granularity)
-   * [Canal &#x200B;](#channel-metric-by-granularity)
-   * [*Métrica*](#metric-vs-metric-by-channel)
-   * [*Métrica*](#metric-by-granularity)
-   * [*Métrica*](#metric-by-channel)
+   * [*Métrica*: real frente a planificada](#metric-actual-vs-planned)
+   * [*Métrica*: real frente a planeada por *granularidad*](#metric-actual-vs-planned-by-granularity)
+   * [Canal *métrica* por *granularidad*](#channel-metric-by-granularity)
+   * [*Métrica* frente a *Métrica* por canal](#metric-vs-metric-by-channel)
+   * [*Métrica* por *granularidad*](#metric-by-granularity)
+   * [*Métrica* por canal](#metric-by-channel)
 
 ## Tarjetas de estado de KPI
 

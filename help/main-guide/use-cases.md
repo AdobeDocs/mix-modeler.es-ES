@@ -3,9 +3,24 @@ title: Casos de uso de Mix Modeler
 description: Casos de uso de Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -36,7 +51,7 @@ El método basado en pasos para este caso de uso es:
 |---|---|
 | Ingesta | Identificar e introducir fuentes de datos en esquemas comunes. <br/>Aplique las inversiones existentes en Adobe Analytics o Customer Journey Analytics para acelerar la implementación. |
 | Configurar | Configure modelos flexibles usando un marco de trabajo AI-as-a-Service para sus objetivos empresariales específicos<br/>Garantice automáticamente la coherencia entre el punto de contacto y el nivel de resumen con aprendizaje de transferencia bidireccional. |
-| Analizar | Comprenda claramente el retorno de la inversión del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
+| Analizar | Comprenda claramente el ROI del marketing general y de los canales/subcanales individuales.<br/>Comprenda claramente qué puntos de contacto impulsan mejor las conversiones incrementales. |
 
 {style="table-layout:auto"}
 
@@ -73,9 +88,9 @@ El método basado en pasos para este caso de uso es:
 
 | Paso | Detalles |
 |---|---|
-| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina los parámetros en unos pocos clics, sin necesidad de codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retrasos, factores empresariales internos y externos, etc. |
+| Configurar | Personalice fácilmente los modelos de medición según sus objetivos empresariales.<br/>Defina parámetros en unos pocos clics, sin necesidad de codificación: por ejemplo, canales, regiones geográficas, ciclos de ventas, retardos, factores comerciales internos y externos, etc. |
 | Entrenar | Capacite los modelos de IA/ML configurados en para obtener el mejor ajuste a los datos de entrada, lo que proporciona los resultados más precisos. |
-| Optimizar | Obtenga asignaciones de presupuesto optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics con una interfaz de usuario intuitiva. |
+| Optimizar | Obtenga asignaciones presupuestarias optimizadas y automatizadas basadas en previsiones de modelos.<br/>Desarrolle y compare varios escenarios de presupuesto en unos pocos clics usando una interfaz de usuario intuitiva. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +170,7 @@ El método basado en pasos para este caso de uso es:
 | Paso | Detalles |
 |---|---|
 | Modelo | Configure y entrene un modelo AI/ML para obtener puntuaciones de puntos de contacto de MTA coherentes y resultados acumulados de MMM. |
-| Analizar | Exporte puntuaciones de puntos de contacto incrementales a herramientas de Customer Journey Analytics o BI externas.<br/>Realice análisis granulares y genere paneles avanzados con puntuaciones de puntos de contacto. |
+| Analizar | Exportar puntuaciones de puntos de contacto incrementales en herramientas de Customer Journey Analytics o BI externas.<br/>Realizar análisis granular y crear paneles avanzados mediante puntuaciones de punto de contacto. |
 | Acción | Cree y active vínculos de similitud para los segmentos de consumidores principales con Real-Time Customer Data Platform.<br/>Desarrolle estrategias de marketing basadas en datos mediante segmentos de clientes para futuras campañas. |
 
 {style="table-layout:auto"}

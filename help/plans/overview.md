@@ -3,9 +3,24 @@ title: Resumen de planes
 description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
+autotag-review: '2026-05-01T09:05:53.776Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: 679
 ht-degree: 0%
 
 ---
