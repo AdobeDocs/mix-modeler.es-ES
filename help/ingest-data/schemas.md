@@ -4,9 +4,13 @@ description: Aprenda a administrar los esquemas necesarios para la ingesta de da
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
 TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T08:56:54.552Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt

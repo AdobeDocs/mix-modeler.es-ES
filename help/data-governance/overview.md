@@ -4,11 +4,22 @@ description: Aprenda a utilizar los servicios y las herramientas de Experience P
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
 TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
-subfeature_v2: id: bf7ac0fc-effb-4f0c-b93f-658412718d3cid: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2:
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+  - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-05-01T09:16:50.195Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
