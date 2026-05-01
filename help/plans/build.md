@@ -3,13 +3,16 @@ title: Planes de compilación
 description: Obtenga información sobre cómo crear planes en Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
+TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 952
 ht-degree: 0%
 
 ---
-
 
 # Planes de compilación
 

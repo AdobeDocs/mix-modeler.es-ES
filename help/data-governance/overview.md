@@ -1,16 +1,23 @@
 ---
-title: Información general de gobernanza de datos
+title: Información general sobre gobernanza de datos
 description: Aprenda a utilizar los servicios y las herramientas de Experience Platform que le permiten controlar los datos de experiencia que recopila. Por lo tanto, usted cumple con sus prácticas comerciales, obligaciones legales y proceso de desarrollo.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
+TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2: id: bf7ac0fc-effb-4f0c-b93f-658412718d3cid: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:16:50.195Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
-# Información general de gobernanza de datos
+# Información general sobre gobernanza de datos
 
 La integración entre Mix Modeler y Experience Platform proporciona a Mix Modeler las funciones para aprovechar las funciones intrínsecas de control de datos de Experience Platform. Esta sección de la documentación detalla los detalles específicos de las funciones de control de datos disponibles en Mix Modeler.
 
@@ -18,7 +25,7 @@ Administración de datos de Experience Platform le permite controlar y comprende
 
 Las etiquetas y políticas de uso de datos que se crean en conjuntos de datos consumidos por Experience Platform aparecen en Mix Modeler donde corresponde. Por ejemplo, estas etiquetas detienen o advierten a los usuarios cuando eliminan conjuntos de datos que forman parte de una regla de conjunto de datos en los datos armonizados. También puede ocultar los campos de esquema restringidos para los usuarios al crear una regla de conjunto de datos.
 
-La integración de la gobernanza de datos le permite administrar el cumplimiento de normas de forma más eficiente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, puede utilizar datos que cumplan con las directivas definidas por los administradores de datos. Lea la documentación de [Etiquetas y directivas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-governance) para obtener más información.
+La integración de la gobernanza de datos le permite administrar el cumplimiento de normas de forma más eficiente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, puede utilizar datos que cumplan con las directivas definidas por los administradores de datos. Lea la documentación de [Etiquetas y directivas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance) para obtener más información.
 
 Las siguientes funciones de control de datos están disponibles:
 

@@ -4,9 +4,16 @@ description: Aprenda a medir campañas y a optimizar la planificación de forma 
 short-description: Aprenda a medir campañas y a optimizar la planificación de forma integral en todos los canales con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 51e259410b5d6af8cc9d17b051a7d7ca9ed59d2a
+TQID: https://experienceleague.adobe.com/XGSUhG3iwdjNowmk8AM87eCKv-JZF1DDAYzW0uktpes
+autotag-review: '2026-05-01T09:02:01.855Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ffid: a567f0f7-0057-4079-8ded-5b24cc25af15id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134id: a234aebd-3855-4376-a64d-29b38411e0c5id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999id: cb40363e-1205-4921-971c-9ee6bdb18329id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980bid: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49id: d4b8ba18-64c1-4413-be54-74405ec7f558id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 236
 ht-degree: 14%
 
 ---
@@ -74,7 +81,7 @@ Esta guía de documentación técnica proporciona ayuda para Adobe **Mix Modeler
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutoriales</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=es">Información general</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=es">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=es">Flujo de trabajo del usuario</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=es">Recorrido de la interfaz de usuario</a>
+      <strong>Tutoriales</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Información general</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Flujo de trabajo del usuario</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Recorrido de la interfaz de usuario</a>
     </td>
   </tr>
 </table>
