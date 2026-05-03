@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -202,7 +202,7 @@ Los canales con curvas de desintegración más lentas (colas más largas) indica
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Desglose por contribución de factores"
->abstract="El desglose de la contribución de factores muestra la proporción de las conversiones de base que puede atribuirse a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que ocurren independientemente de los puntos de contacto y factores de marketing incluidos en el modelo. Incluye conversiones impulsadas por el valor de la marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
+>abstract="El desglose de la contribución de factores muestra la proporción de las conversiones de base que puede atribuirse a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que ocurren independientemente de los puntos de contacto y factores de marketing incluidos en el modelo. Incluye conversiones impulsadas por el valor de marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
 
 
 La pestaña Factores [!BADGE beta] muestra información relacionada con factores externos.
