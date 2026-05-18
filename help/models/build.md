@@ -5,26 +5,15 @@ feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-  - id: c89e26b6-808d-4500-8b01-450a63466999
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 2%
+source-wordcount: 1565
+ht-degree: 8%
 
 ---
 
@@ -141,8 +130,8 @@ En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es 
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Anuncio de canal"
->abstract="Incorpore experiencia de dominio, resultados de experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración de Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario."
+>title="Adstock del canal"
+>abstract="Incorpore experiencia del dominio, resultados de la experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración del Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock."
 
 Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede definir [gasto compartido](#spend-share), habilitar el modelo para [atribución multitáctil (MTA)](#mta), definir [conocimiento previo](#prior-knowledge) y definir [canal y stock](#channel-adstock).
 
@@ -181,7 +170,7 @@ En la sección **[!UICONTROL Prior knowledge]**:
 1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
 
-### Anuncio de canal
+### Adstock del canal
 
 En la sección **[!UICONTROL Channel adstock]** puede definir retrospectivas de stock individuales (efectos de arrastre o deterioro) y un retardo (tiempo de respuesta demorado) para cada canal (canal de marketing) que haya definido en su modelo.
 
@@ -197,7 +186,7 @@ Para configurar un archivo de canal:
 
    * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
 
-  El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
+  El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
 
 * Para restablecer todos los valores predeterminados de los anuncios de canal:
 
