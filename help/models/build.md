@@ -23,8 +23,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 2%
+source-wordcount: 1565
+ht-degree: 8%
 
 ---
 
@@ -141,8 +141,8 @@ En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es 
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Anuncio de canal"
->abstract="Incorpore experiencia de dominio, resultados de experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración de Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario."
+>title="Adstock del canal"
+>abstract="Incorpore experiencia del dominio, resultados de la experimentación o análisis de canal anteriores directamente en la configuración del modelo. La configuración del Adstock ayuda a guiar el modelo para que se ajuste a las expectativas del mundo real y mejora la interpretabilidad y la confianza en el resultado. El total de semanas de retrospectiva más semanas de retardo por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock."
 
 Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]**. En este paso, puede definir [gasto compartido](#spend-share), habilitar el modelo para [atribución multitáctil (MTA)](#mta), definir [conocimiento previo](#prior-knowledge) y definir [canal y stock](#channel-adstock).
 
@@ -181,7 +181,7 @@ En la sección **[!UICONTROL Prior knowledge]**:
 1. Si es necesario, use **[!UICONTROL Clear all]** para borrar todos los valores de entrada de las columnas **[!UICONTROL Contribution proportion]** y **[!UICONTROL Level of confidence]**.
 
 
-### Anuncio de canal
+### Adstock del canal
 
 En la sección **[!UICONTROL Channel adstock]** puede definir retrospectivas de stock individuales (efectos de arrastre o deterioro) y un retardo (tiempo de respuesta demorado) para cada canal (canal de marketing) que haya definido en su modelo.
 
@@ -197,7 +197,7 @@ Para configurar un archivo de canal:
 
    * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
 
-  El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del material publicitario. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
+  El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
 
 * Para restablecer todos los valores predeterminados de los anuncios de canal:
 

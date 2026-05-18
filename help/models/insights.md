@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -174,7 +174,7 @@ Este marco para el próximo dólar ofrece una medida realista de la fuerza de si
 >Si la pestaña **[!UICONTROL Channel synergy]** no está visible para un modelo existente, asegúrese de volver a entrenar el modelo para habilitar la funcionalidad y la visualización.
 
 
-### Anuncio de canal
+### Adstock del canal
 
 Las visualizaciones de stock de anuncios de canal se muestran para cada canal configurado y almacenan una visualización. Las visualizaciones le ayudan a comprender de qué manera el impacto del gasto en marketing de cada canal persiste y se deteriora con el tiempo y más allá de la exposición inicial. La visualización proporciona una visión realista de la transferencia de canales a través de la incorporación de dinámicas temporales que se aprenden del modelo.
 
@@ -202,7 +202,7 @@ Los canales con curvas de desintegración más lentas (colas más largas) indica
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Desglose por contribución de factores"
->abstract="El desglose de la contribución de factores muestra la proporción de las conversiones de base que puede atribuirse a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que ocurren independientemente de los puntos de contacto y factores de marketing incluidos en el modelo. Incluye conversiones impulsadas por el valor de marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
+>abstract="El desglose por contribución de factores muestra la proporción de las conversiones base que se pueden atribuir a los distintos factores incluidos en el modelo.<br/><br/>Base pura representa las conversiones subyacentes que se producen independientemente de los puntos de contacto de marketing y los factores incluidos en el modelo. Incluye conversiones impulsadas por el valor de marca, las compras repetidas, la demanda orgánica y las tendencias del mercado a largo plazo y la estacionalidad."
 
 
 La pestaña Factores [!BADGE beta] muestra información relacionada con factores externos.
@@ -358,13 +358,13 @@ Para cada ruta de conversión, verá lo siguiente:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Medida de eficiencia"
->abstract="La medida de eficiencia generada por el modelo de atribución algorítmica indica la importancia relativa de un punto de contacto hacia la conversión independientemente del volumen del punto de contacto. Esta medida se encuentra en una escala del 1 al 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta."
+>abstract="La medida de eficiencia generada por el modelo de atribución algorítmica indica la importancia relativa de un punto de contacto hacia la conversión independientemente del volumen del punto de contacto. Esta medida está a una escala de 1 a 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volumen total"
->abstract="El volumen total es el número agregado de veces que un usuario toca un punto de contacto. Además, incluye los puntos de contacto que aparecen en una ruta que logra, así como las rutas que no resultan en conversión."
+>abstract="El volumen total es el número agregado de veces que un usuario toca un punto de contacto. Y es inclusivo de puntos de contacto que aparecen en una ruta que logra la conversión, así como rutas que no resultan en conversión."
 
 
 >[!CONTEXTUALHELP]
