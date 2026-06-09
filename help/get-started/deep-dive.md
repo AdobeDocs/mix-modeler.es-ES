@@ -3,9 +3,13 @@ title: Mix Modeler Deep Dive
 description: Explore la metodología técnica subyacente a Adobe Mix Modeler, incluida la atribución multitáctil, el modelado de la combinación de marketing, el aprendizaje de transferencia y la optimización del presupuesto.
 feature: Administration
 hide: true
-feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
 workflow-type: tm+mt
 source-wordcount: 2747
@@ -126,9 +130,9 @@ Los conceptos clave detrás del modelado de combinaciones de marketing son:
 * **Modelo multiplicativo**: las ventas o las conversiones son el producto de una línea de base y de multiplicadores de medios.
 
   Por lo tanto, en lugar de utilizar un modelo aditivo:
-  *Conversiones semanales = Demanda de línea de base **+**Multiplicador de búsqueda **+**Multiplicador de pantalla **+**....*
+  *Conversiones semanales = Demanda de línea de base **+**&#x200B;Multiplicador de búsqueda **+**&#x200B;Multiplicador de pantalla **+**....*
 utilizar un modelo multiplicativo:
-  *Conversiones semanales = Demanda de línea de base **x**Multiplicador de búsqueda **x**Multiplicador de pantalla **x**....*
+  *Conversiones semanales = Demanda de línea de base **x**&#x200B;Multiplicador de búsqueda **x**&#x200B;Multiplicador de pantalla **x**....*
 
   O en una fórmula: ** Y = ⨍<sub>BL</sub>(X<sub>factores</sub>;<sub>factores</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>;<sub>D</sub>)*
 
