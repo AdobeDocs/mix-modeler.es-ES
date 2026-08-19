@@ -5,21 +5,14 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2896
+source-wordcount: 2957
 ht-degree: 11%
 
 ---
@@ -86,7 +79,13 @@ Esta visualización representa la proporción de contribución conseguida por ba
 
 ### Contribución por canal
 
-Una visualización de anillo que muestra una distribución de la contribución por varios canales. Esta visualización muestra la incrementalidad a través del lente de los tres canales con mejor rendimiento (excluyendo las categorías base y *All other*). La visualización ayuda a admitir la priorización y la asignación de presupuesto.
+Una visualización de anillo que muestra una distribución de la contribución por varios canales. Esta visualización muestra la incrementalidad a través de la perspectiva de los canales de mayor rendimiento. La visualización ayuda a admitir la priorización y la asignación de presupuesto.
+
+Puede seleccionar qué canales de medios se mostrarán en la visualización:
+
+* Para centrarse únicamente en la contribución de los canales de medios de pago, seleccione **[!UICONTROL Paid media]**.
+* Para ver la contribución de todos los canales, seleccione **[!UICONTROL All media]**.
+
 
 ### Resumen de rendimiento de marketing {#marketing-performance-summary}
 
@@ -96,6 +95,11 @@ Una visualización de anillo que muestra una distribución de la contribución p
 >abstract="Se incluyen los canales no definidos, pero no tienen conversiones atribuidas."
 
 Una visualización de gráfico de barras horizontales que muestra el rendimiento de la inversión o de la CPA de cada uno de los canales. Esta visualización resalta el ROI/CPA de sus inversiones de marketing. Los canales se clasifican en orden descendente según el ROI/CPA. La visualización ayuda a identificar qué canales son los más efectivos y cuáles podrían necesitar optimización.
+
+Solo para modelos basados en ingresos:
+
+* Para configurar el(la) **[!UICONTROL Metric]** deseado(s) para la visualización, seleccione entre **[!UICONTROL ROI]** (ingresos - gastos) o **[!UICONTROL ROAS]** (ingresos / gastos).
+* Para configurar cómo se muestra la métrica seleccionada, seleccione entre **[!UICONTROL %]** o **[!UICONTROL $]** para **[!UICONTROL Show as]**.
 
 Los canales no definidos se incluyen en la visualización, pero no tienen conversiones atribuidas.
 
@@ -243,14 +247,14 @@ Con la ficha [!UICONTROL Attribution], puede comprender la eficacia de los punto
 Se admiten los siguientes modelos de atribución:
 
 * Según el modelo seleccionado en [!DNL Mix Modeler]:
-   * Algorítmico: influenciado
-   * Algorítmico: incremental
+  * Algorítmico: influenciado
+  * Algorítmico: incremental
 * Basado en reglas:
-   * Unidades de deterioro
-   * Primer contacto
-   * Último contacto
-   * Lineal
-   * Ushape
+  * Unidades de deterioro
+  * Primer contacto
+  * Último contacto
+  * Lineal
+  * Ushape
 
 Consulte [Atribución multitáctil](../get-started/about.md#multi-touch-attribution) para obtener una introducción sobre la capacidad de atribución multitáctil en [!DNL Mix Modeler].
 
@@ -379,21 +383,21 @@ La ficha **[!UICONTROL Diagnostics]** muestra visualizaciones para:
 
   ![Evaluación de modelo](../assets/model-assessment.png)
 
-   * Gráfico que puede desglosar las conversiones reales frente a las previstas o residuales.
-Para desglosar la visualización, seleccione una de las siguientes opciones en la lista **[!UICONTROL Breakdown]**.
+  * Gráfico que puede desglosar las conversiones reales frente a las previstas o residuales.
+    Para desglosar la visualización, seleccione una de las siguientes opciones en la lista **[!UICONTROL Breakdown]**.
 
-      * **[!UICONTROL Actual vs Predicted]**: esta opción compara valores reales con predicciones de modelos. Lo ideal es que los valores predichos se alineen estrechamente con los valores reales, aunque se espera alguna desviación. Las desviaciones o patrones grandes o sistemáticos pueden indicar la falta de relaciones y datos o sesgos potenciales.
+    * **[!UICONTROL Actual vs Predicted]**: esta opción compara valores reales con predicciones de modelos. Lo ideal es que los valores predichos se alineen estrechamente con los valores reales, aunque se espera alguna desviación. Las desviaciones o patrones grandes o sistemáticos pueden indicar la falta de relaciones y datos o sesgos potenciales.
 
-      * **[!UICONTROL Residuals]**: esta opción muestra la diferencia entre los valores reales y los predichos. Un modelo de buen rendimiento tiene residuos que se distribuyen aleatoriamente, sin patrones claros o con una propagación creciente. Las tendencias estructuradas o los residuales de ampliación pueden indicar relaciones faltantes y problemas de datos o varianza.
+    * **[!UICONTROL Residuals]**: esta opción muestra la diferencia entre los valores reales y los predichos. Un modelo de buen rendimiento tiene residuos que se distribuyen aleatoriamente, sin patrones claros o con una propagación creciente. Las tendencias estructuradas o los residuales de ampliación pueden indicar relaciones faltantes y problemas de datos o varianza.
 
-   * Una tabla que muestra las siguientes columnas para cada métrica de conversión:
+  * Una tabla que muestra las siguientes columnas para cada métrica de conversión:
 
-      * **[!UICONTROL Actual Conversion]**
-      * **[!UICONTROL Predicted Conversion]**
-      * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**, una puntuación que indica cómo se ajustan los datos al modelo de regresión (la bondad de ajuste).
-      * **[!UICONTROL MAPE]** (Error de porcentaje absoluto medio), que es uno de los KPI más utilizados para medir la precisión de la previsión y expresa el error de la previsión como un porcentaje del valor real.
-      * **[!UICONTROL RMSE]** (Error cuadrático medio raíz): que muestra el error promedio, ponderado según el cuadrado del error.
+    * **[!UICONTROL Actual Conversion]**
+    * **[!UICONTROL Predicted Conversion]**
+    * **[!UICONTROL Residual Conversion]**
+    * **[!UICONTROL R<sup>2</sup>]**, una puntuación que indica cómo se ajustan los datos al modelo de regresión (la bondad de ajuste).
+    * **[!UICONTROL MAPE]** (Error de porcentaje absoluto medio), que es uno de los KPI más utilizados para medir la precisión de la previsión y expresa el error de la previsión como un porcentaje del valor real.
+    * **[!UICONTROL RMSE]** (Error cuadrático medio raíz): que muestra el error promedio, ponderado según el cuadrado del error.
 
   Para descargar un archivo CSV que contenga los datos de la tabla, seleccione ![Descargar](/help/assets/icons/Download.svg).
 
@@ -401,11 +405,11 @@ Para desglosar la visualización, seleccione una de las siguientes opciones en l
 
   ![Tabla de métricas de ajuste de formación del modelo](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: indica la proporción de varianza en los valores reales explicados por las predicciones del modelo, que van de 0 a 1.
-   * **[!UICONTROL Training sMAPE]** (error de porcentaje absoluto medio simétrico): mide el porcentaje de error promedio en los datos de formación. Los valores más bajos indican una mejor precisión.
-   * **[!UICONTROL Training RMSE]** (error al cuadrado medio raíz): mide el porcentaje medio de error en los datos de formación. Penaliza los errores más grandes más que MAPE. Un menor RMSE sugiere una mejor precisión predictiva, pero es sensible a periféricos.
-   * **[!UICONTROL Out-of-sample sMAPE]**: evalúa el porcentaje de error en datos no vistos, equilibrando las predicciones de exceso y de defecto. Ayuda a evaluar la generalización. Actualmente, Mix Modeler evalúa el porcentaje de error utilizando los datos del último trimestre de formación como un conjunto de no participación.
-   * **[!UICONTROL Out-of-sample RMSE]**: evalúa el porcentaje de error en datos no vistos, equilibrando las predicciones de exceso y de defecto. Ayuda a evaluar la generalización. Actualmente, [!DNL Mix Modeler] evalúa el porcentaje de error utilizando los datos del último trimestre de formación como un conjunto de no participación. RMSE penaliza los errores más grandes más que MAPE.
+  * **[!UICONTROL Training R<sup>2</sup>]**: indica la proporción de varianza en los valores reales explicados por las predicciones del modelo, que van de 0 a 1.
+  * **[!UICONTROL Training sMAPE]** (error de porcentaje absoluto medio simétrico): mide el porcentaje de error promedio en los datos de formación. Los valores más bajos indican una mejor precisión.
+  * **[!UICONTROL Training RMSE]** (error al cuadrado medio raíz): mide el porcentaje medio de error en los datos de formación. Penaliza los errores más grandes más que MAPE. Un menor RMSE sugiere una mejor precisión predictiva, pero es sensible a periféricos.
+  * **[!UICONTROL Out-of-sample sMAPE]**: evalúa el porcentaje de error en datos no vistos, equilibrando las predicciones de exceso y de defecto. Ayuda a evaluar la generalización. Actualmente, Mix Modeler evalúa el porcentaje de error utilizando los datos del último trimestre de formación como un conjunto de no participación.
+  * **[!UICONTROL Out-of-sample RMSE]**: evalúa el porcentaje de error en datos no vistos, equilibrando las predicciones de exceso y de defecto. Ayuda a evaluar la generalización. Actualmente, [!DNL Mix Modeler] evalúa el porcentaje de error utilizando los datos del último trimestre de formación como un conjunto de no participación. RMSE penaliza los errores más grandes más que MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]**, que representa el resultado del modelo algorítmico de inteligencia artificial aplicada a la atribución.
@@ -416,9 +420,9 @@ Para desglosar la visualización, seleccione una de las siguientes opciones en l
 
   La visualización muestra, en orden descendente de [!UICONTROL Efficiency measure] ![Orden descendente](/help/assets/icons/SortOrderDown.svg), para cada punto de contacto:
 
-   * **[!UICONTROL Paths touched]**: visualiza el porcentaje de rutas que consiguen conversión y el porcentaje de rutas que no logran conversión. Para un punto de contacto, verá conversiones atribuidas más cuando la proporción de conversión de atribución sea alta. Esta proporción compara el porcentaje de rutas que llevan a la conversión frente al porcentaje de rutas que llevan a la conversión *no*.
-   * **[!UICONTROL Efficiency measure]**: generado por el modelo de atribución algorítmica, la medida de eficiencia indica la importancia relativa de un punto de contacto hacia la conversión, independientemente del volumen del punto de contacto. La eficiencia se mide en una escala de 1 a 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta.
-   * **[!UICONTROL Total volume]**: el número agregado de veces que un usuario toca un punto de contacto. El número incluye los puntos de contacto que aparecen en una ruta que logra la conversión, así como las rutas *no* que resultan en conversión.
+  * **[!UICONTROL Paths touched]**: visualiza el porcentaje de rutas que consiguen conversión y el porcentaje de rutas que no logran conversión. Para un punto de contacto, verá conversiones atribuidas más cuando la proporción de conversión de atribución sea alta. Esta proporción compara el porcentaje de rutas que llevan a la conversión frente al porcentaje de rutas que llevan a la conversión *no*.
+  * **[!UICONTROL Efficiency measure]**: generado por el modelo de atribución algorítmica, la medida de eficiencia indica la importancia relativa de un punto de contacto hacia la conversión, independientemente del volumen del punto de contacto. La eficiencia se mide en una escala de 1 a 5. Tenga en cuenta que un volumen de punto de contacto más alto no garantiza una medida de eficiencia más alta.
+  * **[!UICONTROL Total volume]**: el número agregado de veces que un usuario toca un punto de contacto. El número incluye los puntos de contacto que aparecen en una ruta que logra la conversión, así como las rutas *no* que resultan en conversión.
 
 
 ### Detección de deriva del modelo
