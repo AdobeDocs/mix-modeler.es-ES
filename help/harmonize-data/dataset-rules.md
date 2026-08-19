@@ -19,10 +19,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 0%
+source-wordcount: 2161
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,7 @@ Las reglas del conjunto de datos le ayudan a asignar los campos armonizados con 
 * Para los datos agregados que ha introducido en Adobe Experience Platform, asigne uno o más de los campos de conjunto de datos disponibles a los campos armonizados correspondientes.
 * Para los datos de evento, puede asignar individualmente uno o más campos armonizados a campos del conjunto de datos, directamente o mediante condiciones.
 
+![Lista de reglas de conjuntos de datos](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Administrar reglas de conjuntos de datos
 
@@ -42,7 +43,15 @@ Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interf
 
 1. Seleccione **[!UICONTROL Dataset rules]** de la barra superior. Verá una tabla de las reglas del conjunto de datos.
 
-Puede buscar un conjunto de datos rápidamente usando ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL _Escriba un nombre de conjunto de datos_]**.
+Puede buscar y filtrar conjuntos de datos:
+
+* Busque un conjunto de datos rápidamente usando ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL _Escriba un nombre de conjunto de datos_]**.
+* Filtrar por conjuntos de datos mediante:
+  * **[!UICONTROL Source]**: seleccione entre **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** o **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]**: seleccione entre **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]**: seleccione todo o un posible día de la semana (**[!UICONTROL Monday]** a **[!UICONTROL Sunday]**).
+
+Use ![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]** para borrar todos los filtros y campos de búsqueda.
 
 Las columnas de la tabla especifican detalles sobre las reglas del conjunto de datos:
 
@@ -82,38 +91,38 @@ En la pantalla **[!UICONTROL Create]**,
 
    * Cuando el campo armonizado seleccionado es del tipo métrica:
 
-      1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
+     1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee que se asigne el campo armonizado de forma predeterminada.
+     1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee que se asigne el campo armonizado de forma predeterminada.
 
    * Cuando el campo seleccionado es de tipo dimensión:
 
-      1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
+     1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+     1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-      1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+     1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-         1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
+        1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
 
-         1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+        1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Para eliminar un caso o condición, seleccione ![Cerrar](/help/assets/icons/Close.svg) en el contenedor correspondiente.
+        1. Para eliminar un caso o condición, seleccione ![Cerrar](/help/assets/icons/Close.svg) en el contenedor correspondiente.
 
-         1. Para seleccionar si alguna o todas las condiciones deben aplicarse a un caso, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
+        1. Para seleccionar si alguna o todas las condiciones deben aplicarse a un caso, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
 
-         1. Para establecer el valor de resultado de un caso, escriba el valor en **[!UICONTROL Then]**.
+        1. Para establecer el valor de resultado de un caso, escriba el valor en **[!UICONTROL Then]**.
 
      El ejemplo siguiente:
 
-      * usa un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** para asignar el campo armonizado **[!UICONTROL Channel Type At Source]** al campo **[!UICONTROL channel_type]** desde el conjunto de datos **[!DNL Luma Transactions]**.
+     * usa un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** para asignar el campo armonizado **[!UICONTROL Channel Type At Source]** al campo **[!UICONTROL channel_type]** desde el conjunto de datos **[!DNL Luma Transactions]**.
 
-      * usa un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** para asignar de forma condicional el valor del campo **[!UICONTROL marketing.campaignName]** del conjunto de datos **[!DNL Luma Transactions]** al campo armonizado **[!UICONTROL Campaign]**. El campo Campaña armonizada se establece en:
+     * usa un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** para asignar de forma condicional el valor del campo **[!UICONTROL marketing.campaignName]** del conjunto de datos **[!DNL Luma Transactions]** al campo armonizado **[!UICONTROL Campaign]**. El campo Campaña armonizada se establece en:
 
-         * `Black Friday` cuando **[!UICONTROL marketing.campaignName]** es `_black_friday` o `BlackFriday`.
-         * al valor de **[!UICONTROL marketing.campaignName]** en todos los demás casos.
+       * `Black Friday` cuando **[!UICONTROL marketing.campaignName]** es `_black_friday` o `BlackFriday`.
+       * al valor de **[!UICONTROL marketing.campaignName]** en todos los demás casos.
 
-        ![Evento de regla de conjunto de datos](/help/assets/dataset-create-event.png)
+       ![Evento de regla de conjunto de datos](/help/assets/dataset-create-event.png)
 
 1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionales.
 
@@ -279,19 +288,19 @@ Para configurar las preferencias de combinación:
 
    * Para agregar preferencias basadas en métricas específicas:
 
-      1. Seleccione ![Más](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
-         1. Seleccione una métrica de la lista **[!UICONTROL *Selección de métrica *]**.
-         1. Seleccione **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. En la lista, seleccione **[!UICONTROL All]** o un canal o tipo de conversión específico.
-         1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]** para especificar si se prefieren los datos de resumen o los datos de evento para la métrica (y todo o el canal seleccionado) al combinar datos.
+     1. Seleccione ![Más](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+        1. Seleccione una métrica de la lista **[!UICONTROL *Selección de métrica *]**.
+        1. Seleccione **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. En la lista, seleccione **[!UICONTROL All]** o un canal o tipo de conversión específico.
+        1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]** para especificar si se prefieren los datos de resumen o los datos de evento para la métrica (y todo o el canal seleccionado) al combinar datos.
 
-         Para agregar uno o más canales adicionales o tipos de conversión:
+        Para agregar uno o más canales adicionales o tipos de conversión:
 
-         1. Seleccione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
-         1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]**.
+        1. Seleccione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+        1. Seleccione **[!UICONTROL Summary]** o **[!UICONTROL Event]**.
 
-         Para eliminar un canal o tipo de conversión, selecciona ![Cruzar](/help/assets/icons/Close.svg).
+        Para eliminar un canal o tipo de conversión, selecciona ![Cruzar](/help/assets/icons/Close.svg).
 
-      1. Para agregar preferencias basadas en métricas más específicas, repita el paso anterior.
+     1. Para agregar preferencias basadas en métricas más específicas, repita el paso anterior.
 
    * Para eliminar una preferencia basada en una métrica específica existente, seleccione ![Eliminar](/help/assets/icons/Delete.svg).
 
